@@ -309,16 +309,23 @@ namespace NavisworksMCP.Core
 
             if (!categorySet.Any())
             {
+                // 只掃描前兩層 Children，避免大模型超時
                 foreach (Model model in _doc.Models)
                 {
                     if (model.RootItem != null)
                     {
-                        foreach (ModelItem item in model.RootItem.Descendants.Take(50))
+                        int scanned = 0;
+                        foreach (ModelItem child in model.RootItem.Children)
                         {
-                            foreach (PropertyCategory cat in item.PropertyCategories)
-                            {
+                            foreach (PropertyCategory cat in child.PropertyCategories)
                                 categorySet.Add(cat.DisplayName);
+                            foreach (ModelItem grandchild in child.Children)
+                            {
+                                foreach (PropertyCategory cat in grandchild.PropertyCategories)
+                                    categorySet.Add(cat.DisplayName);
+                                if (++scanned >= 30) break;
                             }
+                            if (scanned >= 30) break;
                         }
                         break;
                     }
@@ -792,7 +799,7 @@ namespace NavisworksMCP.Core
             IEnumerable<ModelItem> sourceItems;
             if (scope == "all")
             {
-                sourceItems = _doc.Models.RootItemDescendants;
+                sourceItems = SafeDescendants(5000);
             }
             else
             {
@@ -860,7 +867,7 @@ namespace NavisworksMCP.Core
             }
             else
             {
-                source = _doc.Models.RootItemDescendants;
+                source = SafeDescendants(5000);
             }
 
             int count = 0;
@@ -905,7 +912,7 @@ namespace NavisworksMCP.Core
             int totalFrozen = 0;
             int count = 0;
 
-            foreach (ModelItem item in _doc.Models.RootItemDescendants)
+            foreach (ModelItem item in SafeDescendants(5000))
             {
                 if (item.IsFrozen)
                 {
@@ -1068,7 +1075,7 @@ namespace NavisworksMCP.Core
             int totalWithGeometry = 0;
             int totalHidden = 0;
 
-            foreach (ModelItem item in _doc.Models.RootItemDescendants)
+            foreach (ModelItem item in SafeDescendants(10000))
             {
                 totalItems++;
                 if (item.HasGeometry) totalWithGeometry++;
@@ -1155,6 +1162,24 @@ namespace NavisworksMCP.Core
                 instanceGuid = item.InstanceGuid.ToString(),
                 ancestorPath = GetItemPath(item)
             };
+        }
+
+        /// <summary>
+        /// 安全遍歷模型項目，限制最大數量避免大模型卡死
+        /// </summary>
+        private IEnumerable<ModelItem> SafeDescendants(int maxItems)
+        {
+            int count = 0;
+            foreach (Model model in _doc.Models)
+            {
+                if (model.RootItem == null) continue;
+                foreach (ModelItem item in model.RootItem.Descendants)
+                {
+                    if (count >= maxItems) yield break;
+                    count++;
+                    yield return item;
+                }
+            }
         }
 
         private string GetItemPath(ModelItem item)
