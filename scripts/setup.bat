@@ -49,6 +49,6 @@ echo   3. 編譯 C# 專案 (DLL 會自動複製到 Plugins 資料夾)
 echo   4. 開啟 Navisworks，點擊 "MCP 服務 (開/關)" 啟動服務
 echo   5. AI 平台即可透過 MCP Server 控制 Navisworks
 echo.
-echo WebSocket 端口: 2233
+echo WebSocket 端口: 5150
 echo.
 pause

@@ -5,7 +5,7 @@ AI 驅動的 Navisworks 自動化控制系統，透過 Model Context Protocol (M
 ## 架構
 
 ```
-AI 平台 (Claude/Gemini) ←→ MCP Server (Node.js, stdio) ←→ WebSocket (port 2233) ←→ Navisworks Add-in (C#)
+AI 平台 (Claude/Gemini) ←→ MCP Server (Node.js, stdio) ←→ WebSocket (port 5150) ←→ Navisworks Add-in (C#)
 ```
 
 ### 三層通訊
@@ -15,7 +15,7 @@ AI 平台 (Claude/Gemini) ←→ MCP Server (Node.js, stdio) ←→ WebSocket (p
 
 ## 開發規則
 
-- WebSocket 端口固定為 **2233**
+- WebSocket 端口固定為 **5150**
 - C# 專案目標 .NET Framework 4.8
 - Navisworks API 引用的 Copy Local 必須設為 False
 - 命令在 Navisworks 主執行緒中透過 Idle 事件執行
@@ -27,7 +27,7 @@ AI 平台 (Claude/Gemini) ←→ MCP Server (Node.js, stdio) ←→ WebSocket (p
 MCP/                    # C# Navisworks Add-in
 ├── Application.cs      # Plugin 入口 (AddInPlugin + EventWatcher)
 ├── Core/
-│   ├── SocketService.cs      # WebSocket 服務 (port 2233)
+│   ├── SocketService.cs      # WebSocket 服務 (port 5150)
 │   ├── CommandExecutor.cs    # 命令執行器
 │   ├── IdleEventManager.cs   # 主執行緒排程
 │   └── Logger.cs             # 日誌
