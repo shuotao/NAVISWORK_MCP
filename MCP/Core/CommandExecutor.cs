@@ -271,11 +271,15 @@ namespace NavisworksMCP.Core
                 var props = new List<object>();
                 foreach (DataProperty prop in cat.Properties)
                 {
+                    string val = null;
+                    try { val = prop.Value?.IsDisplayString == true ? prop.Value.ToDisplayString() : prop.Value?.ToString(); }
+                    catch { try { val = prop.Value?.ToString(); } catch { val = "(unreadable)"; } }
+
                     props.Add(new
                     {
                         name = prop.DisplayName,
                         internalName = prop.Name,
-                        value = prop.Value?.ToDisplayString(),
+                        value = val,
                         dataType = prop.Value?.DataType.ToString()
                     });
                 }
@@ -1021,7 +1025,8 @@ namespace NavisworksMCP.Core
                             {
                                 if (prop.DisplayName == propName)
                                 {
-                                    val = prop.Value?.ToDisplayString();
+                                    try { val = prop.Value?.IsDisplayString == true ? prop.Value.ToDisplayString() : prop.Value?.ToString(); }
+                                    catch { try { val = prop.Value?.ToString(); } catch { } }
                                     break;
                                 }
                             }
@@ -1038,7 +1043,10 @@ namespace NavisworksMCP.Core
                         foreach (DataProperty prop in cat.Properties)
                         {
                             var key = $"{cat.DisplayName}.{prop.DisplayName}";
-                            row[key] = prop.Value?.ToDisplayString();
+                            string pv = null;
+                            try { pv = prop.Value?.IsDisplayString == true ? prop.Value.ToDisplayString() : prop.Value?.ToString(); }
+                            catch { try { pv = prop.Value?.ToString(); } catch { } }
+                            row[key] = pv;
                         }
                     }
                 }
