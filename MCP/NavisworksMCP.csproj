@@ -37,6 +37,10 @@
       <HintPath>$(NavisworksPath)\Autodesk.Navisworks.Interop.ComApi.dll</HintPath>
       <Private>false</Private>
     </Reference>
+    <Reference Include="Autodesk.Navisworks.Takeoff">
+      <HintPath>$(NavisworksPath)\Autodesk.Navisworks.Takeoff.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Net.Http" />
   </ItemGroup>

@@ -1,0 +1,6302 @@
+[
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "1.1.1",
+    "desc": "Providing, carrying out, and completing demolition of existing reinforced cement concrete (RCC) work",
+    "unit": "Cum",
+    "qty": 125
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "2.1",
+    "desc": "Upto 1.5m",
+    "unit": "Cum",
+    "qty": 286
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "2.2",
+    "desc": "Upto 1.5m to 3.0m",
+    "unit": "Cum",
+    "qty": 240
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "2.3",
+    "desc": "Upto 3.0m to 4.5m",
+    "unit": "Cum",
+    "qty": 222
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "3.1",
+    "desc": "Filling with excavated earth",
+    "unit": "Cum",
+    "qty": 272
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "4.1",
+    "desc": "Disposal of soil, building rubbish, and similar unserviceable, dismantled, or waste material by mech",
+    "unit": "Cum",
+    "qty": 473
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "5.1",
+    "desc": "Providing, laying, spreading, watering, and consolidation of Mechanically Stabilized Macadam (MSM), ",
+    "unit": "Cum",
+    "qty": 1427
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "6.1",
+    "desc": "Providing, laying, and placing in position Ready Mixed Plain Cement Concrete (PCC) of grade M15, sup",
+    "unit": "Cum",
+    "qty": 307
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "7.1",
+    "desc": "Providing, laying, and placing in position Ready Mixed Reinforced Cement Concrete (RCC) of grade M40",
+    "unit": "Cum",
+    "qty": 1673
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "8.1",
+    "desc": "Providing, fixing, and placing in position Thermo-Mechanically Treated (TMT) reinforcement steel bar",
+    "unit": "Kgs",
+    "qty": 123559
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "9.1",
+    "desc": "Providing, fabricating, erecting, maintaining, and dismantling formwork using waterproof phenolic fi",
+    "unit": "Sqm",
+    "qty": 1997
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "10.1",
+    "desc": "Providing and executing non-shrink 50mm thick grouting below base plates / shoe plates, including sl",
+    "unit": "Cum",
+    "qty": 4
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "11.1.1",
+    "desc": "20 mm dia anchor bolts, Grade 8.8, indicative length 0.75 m",
+    "unit": "Nos",
+    "qty": 72
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "11.1.2",
+    "desc": "24 mm dia anchor bolts, Grade 8.8, indicative length 1.10 m",
+    "unit": "Nos",
+    "qty": 24
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "11.1.3",
+    "desc": "36 mm dia anchor bolts, Grade 4.6, indicative length 0.85 m",
+    "unit": "Nos",
+    "qty": 624
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "11.1.4",
+    "desc": "42 mm dia anchor bolts, Grade 4.6, indicative length 0.85 m",
+    "unit": "Nos",
+    "qty": 36
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "12.1",
+    "desc": "10 mm dia bars inserted in 14 mm dia drill hole, indicative embedment 200 mm, indicative projection ",
+    "unit": "Nos",
+    "qty": 750
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "12.2",
+    "desc": "12 mm dia bars inserted in 16 mm dia drill hole, indicative embedment 200 mm, indicative projection ",
+    "unit": "Nos",
+    "qty": 5950
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "12.3",
+    "desc": "16 mm dia bars inserted in 20 mm dia drill hole, indicative embedment 200 mm, indicative projection ",
+    "unit": "Nos",
+    "qty": 140
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "12.4",
+    "desc": "20 mm dia bars inserted in 25 mm dia drill hole, indicative embedment 200 mm, indicative projection ",
+    "unit": "Nos",
+    "qty": 1332
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "13.1.1",
+    "desc": "For RCC Raft and Walls",
+    "unit": "Sqm",
+    "qty": 277
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "13.2.1",
+    "desc": "For top slab",
+    "unit": "Sqm",
+    "qty": 62
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "14.1",
+    "desc": "Providing, fabricating, supplying and fixing hot-dip galvanized M.S. grating, minimum 25 mm thick, c",
+    "unit": "KG",
+    "qty": 72
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "15.1.1",
+    "desc": "Supply & installation of moulded FRP gratings made out of vinyl ester with E-glass fibre reinforceme",
+    "unit": "Sqm",
+    "qty": 143
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "15.2.1",
+    "desc": "Supply & installation of moulded FRP gratings made out of vinyl ester with E-glass fibre reinforceme",
+    "unit": "Sqm",
+    "qty": 22
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "16.1",
+    "desc": "Providing Isolation joint by high performance joint filler board which shall be pre-moulded in concr",
+    "unit": "Rmt",
+    "qty": 329
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "17.1",
+    "desc": "Supply, laying, jointing, testing and commissioning of HDPE pipes PN-16, manufactured from PE-100 ma",
+    "unit": "Rmt",
+    "qty": 85
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "18.1",
+    "desc": "Making a core cutting hole of 100 mm diameter in 400 mm thick RCC wall using power-driven equipment ",
+    "unit": "Nos",
+    "qty": 5
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "19.1",
+    "desc": "Supplying and fixing precast RCC manhole cover of size 850 × 850 mm and 100 mm thickness, cast in M4",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "20.1",
+    "desc": "Providing and installation of  PVC water stopper of 150mm width and 8mm thick in linear meter (expan",
+    "unit": "Rmt",
+    "qty": 51
+  },
+  {
+    "sheet": "2.1 Civil Works",
+    "sno": "21.1",
+    "desc": "Supply and Installation of Acrylic Firestop Sealant in gaps around non combustible penetrants like d",
+    "unit": "Cum",
+    "qty": 10
+  },
+  {
+    "sheet": "2.2 Infra Works",
+    "sno": "1.1",
+    "desc": "Pole-mounted signages (no left turn) demounting and storage",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "2.2 Infra Works",
+    "sno": "1.2",
+    "desc": "Informatory sign boards shifting",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "2.2 Infra Works",
+    "sno": "1.3",
+    "desc": "Removal of Bollards",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "2.2 Infra Works",
+    "sno": "1.4",
+    "desc": "NTL PC ( No left turn Pedestrian crossing) signage  removal",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "2.2 Infra Works",
+    "sno": "1.5",
+    "desc": "Existing kerb removal",
+    "unit": "Nos",
+    "qty": 28
+  },
+  {
+    "sheet": "2.2 Infra Works",
+    "sno": "1.6",
+    "desc": "Removal of Handrail at the loading platform",
+    "unit": "Rmt",
+    "qty": 5
+  },
+  {
+    "sheet": "2.2 Infra Works",
+    "sno": "2.1",
+    "desc": "Providing, Supplying & fixing Single sided Sign Board of size 600mm X 900mm, 1.5mm thick Aluminum sh",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "2.2 Infra Works",
+    "sno": "3.1",
+    "desc": "Providing, Supplying & fixing Single sided Sign Board of circular in shape of 900mm dia with words h",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "2.2 Infra Works",
+    "sno": "4,1",
+    "desc": "Providing and laying hot-applied thermoplastic road marking material of minimum 2.5 mm thickness (ex",
+    "unit": "Sqm",
+    "qty": 101
+  },
+  {
+    "sheet": "2.2 Infra Works",
+    "sno": "5.1.1",
+    "desc": "Providing and fixing of Plastic Road studs of size 130x10 mm made of heavy-duty body shall be moulde",
+    "unit": "Nos",
+    "qty": 10
+  },
+  {
+    "sheet": "2.2 Infra Works",
+    "sno": "5.2.1",
+    "desc": "Supply & installation of tubular cones of height 500 mm and 300mm in diameter. They shall be of bril",
+    "unit": "Nos",
+    "qty": 17
+  },
+  {
+    "sheet": "2.2 Infra Works",
+    "sno": "5.3.1",
+    "desc": "Supply, Installation, Testing & Commissioning of 40mm PE100 PN10 HDPE pipe for Potable water service",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "2.2 Infra Works",
+    "sno": "5.4.1",
+    "desc": "Supplying and fixing column protector for warehouse area, fabricated from MS structural steel sectio",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "2.2 Infra Works",
+    "sno": "6.1",
+    "desc": "Cutting and trimming of potholes/damaged areas to a rectangular shape with vertical edges using a ja",
+    "unit": "Sqm",
+    "qty": 75
+  },
+  {
+    "sheet": "2.2 Infra Works",
+    "sno": "8.1",
+    "desc": "Reinstallation & fixing of available precast cement concrete kerbs stone of grade M-20, size 600 × 3",
+    "unit": "Rmt",
+    "qty": 6
+  },
+  {
+    "sheet": "2.2 Infra Works",
+    "sno": "18.1",
+    "desc": "Making a core cutting hole of 100 mm diameter in 400 mm thick RCC wall using power-driven equipment ",
+    "unit": "Nos",
+    "qty": 5
+  },
+  {
+    "sheet": "2.3 PHE Works",
+    "sno": "2.1",
+    "desc": "a) 40 mm O. D",
+    "unit": "Nos",
+    "qty": 24
+  },
+  {
+    "sheet": "2.3 PHE Works",
+    "sno": "3.1",
+    "desc": "a)  40 mm O. D",
+    "unit": "Nos",
+    "qty": 22
+  },
+  {
+    "sheet": "2.3 PHE Works",
+    "sno": "4.1",
+    "desc": "a)  40 mm O. D",
+    "unit": "Nos",
+    "qty": 22
+  },
+  {
+    "sheet": "2.3 PHE Works",
+    "sno": "5.1",
+    "desc": "a) 40mm dia",
+    "unit": "Rmt",
+    "qty": 485
+  },
+  {
+    "sheet": "2.3 PHE Works",
+    "sno": "6.1",
+    "desc": "a) 75 mm dia PVC pipe for drainage / discharge line",
+    "unit": "Rmt",
+    "qty": 206
+  },
+  {
+    "sheet": "2.3 PHE Works",
+    "sno": "6.2",
+    "desc": "b) 110 mm dia PVC pipe for drainage / discharge line",
+    "unit": "Rmt",
+    "qty": 150
+  },
+  {
+    "sheet": "2.3 PHE Works",
+    "sno": "7",
+    "desc": "Optional :",
+    "unit": "Lot",
+    "qty": 2
+  },
+  {
+    "sheet": "3. Structure",
+    "sno": "1.1",
+    "desc": "CUB Mezzanine & Canopy",
+    "unit": "Kgs",
+    "qty": 275000
+  },
+  {
+    "sheet": "3. Structure",
+    "sno": "1.2",
+    "desc": "Internal & Outer Staircase",
+    "unit": "Kgs",
+    "qty": 6000
+  },
+  {
+    "sheet": "3. Structure",
+    "sno": "1.3",
+    "desc": "CUB Internal Pipe Rack cum duct support structure",
+    "unit": "Kgs",
+    "qty": 1000
+  },
+  {
+    "sheet": "3. Structure",
+    "sno": "1.4",
+    "desc": "Utility Bridge",
+    "unit": "Kgs",
+    "qty": 21000
+  },
+  {
+    "sheet": "3. Structure",
+    "sno": "2.1",
+    "desc": "CUB Mezzanine & Canopy",
+    "unit": "Kgs",
+    "qty": 15000
+  },
+  {
+    "sheet": "3. Structure",
+    "sno": "2.2",
+    "desc": "Internal (1 No.) & Outer (1 No.) Staircase",
+    "unit": "Kgs",
+    "qty": 10000
+  },
+  {
+    "sheet": "3. Structure",
+    "sno": "2.3",
+    "desc": "CUB Internal Pipe Rack cum duct support structure",
+    "unit": "Kgs",
+    "qty": 42000
+  },
+  {
+    "sheet": "3. Structure",
+    "sno": "2.4",
+    "desc": "Utility Bridge",
+    "unit": "Kgs",
+    "qty": 11000
+  },
+  {
+    "sheet": "3. Structure",
+    "sno": "3.1",
+    "desc": "CUB Mezzanine & Canopy",
+    "unit": "Kgs",
+    "qty": 8000
+  },
+  {
+    "sheet": "3. Structure",
+    "sno": "3.2",
+    "desc": "CUB Internal Pipe Rack cum duct support structure",
+    "unit": "Kgs",
+    "qty": 16000
+  },
+  {
+    "sheet": "3. Structure",
+    "sno": "4.1",
+    "desc": "Tread & Rise",
+    "unit": "Kgs",
+    "qty": 11000
+  },
+  {
+    "sheet": "3. Structure",
+    "sno": "4.2",
+    "desc": "Walkway + Drainage",
+    "unit": "Kgs",
+    "qty": 5000
+  },
+  {
+    "sheet": "3. Structure",
+    "sno": "5.1",
+    "desc": "Supply, fabrication, erection and installation of  structural steel decking (Bondek) panels with min",
+    "unit": "Sqm",
+    "qty": 1317.999646
+  },
+  {
+    "sheet": "3. Structure",
+    "sno": "6.1",
+    "desc": "Design, Supply and installation of standing seam site profiled wide roofing/cladding panels with sui",
+    "unit": "Sqm",
+    "qty": 325
+  },
+  {
+    "sheet": "3. Structure",
+    "sno": "7.1.1",
+    "desc": "Supply, fabrication, erection, and installation for strengthening of existing CUB structures using T",
+    "unit": "Kg",
+    "qty": 5000
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "1.1.1",
+    "desc": "4 hour Fire Rated Metal door with vision Panel - FD4E - (2400 X 3000 mm)",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "1.1.2",
+    "desc": "4 hour Fire Rated Metal door with vision Panel - FD4F - (2400 X 2100 mm)",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "1.1.3",
+    "desc": "2 hour fire rated metal door with vision panel - FD1B - (1200 X 2500 mm)",
+    "unit": "Nos",
+    "qty": 12
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "1.1.4",
+    "desc": "2 hour fire rated metal door with vision panel - FD2M - (2000 X 2500 mm)",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "1.1.5",
+    "desc": "Metal door with vision panel - MD5 - (750 X 2200 mm)",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "1.1.6",
+    "desc": "4 hour fire rated metal door with vision panel - FD4D - (2400 X 2500 mm)",
+    "unit": "Nos",
+    "qty": 3
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "1.1.7",
+    "desc": "2 hour fire rated metal door with vision panel - FD2B - (2000 X 2500 mm)",
+    "unit": "Nos",
+    "qty": 9
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "1.2.1",
+    "desc": "4 hour Fire Rated blast proof Metal door with vision Panel - FD4C - (1200 X 2500 mm)",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "1.2.2",
+    "desc": "4 hour Fire Rated blast proof Metal door with vision Panel - FD4N - (2000 X 2500 mm)",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "1.3.1",
+    "desc": "2 hour fire rated Rolling shutter- RS2A  - (4000 X 4200 mm)",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "1.3.3",
+    "desc": "2 hour fire rated Rolling shutter- RS3  - (6000 X 6500 mm)",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "1.4.1",
+    "desc": "Providing, fabricating, supplying, installing, testing, and handing over fixed horizontal aluminium ",
+    "unit": "Sqm",
+    "qty": 112
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "2.1.1",
+    "desc": "Providing and constructing 200 mm thick solid block masonry walls in cement mortar 1:4, built truly ",
+    "unit": "Cum",
+    "qty": 451
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "3.1.1",
+    "desc": "Supply and installation of 2HR fire rated 200mm thick Dry wall partition. The drywall system shall c",
+    "unit": "Sqm",
+    "qty": 1090
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "3.2.1",
+    "desc": "Supply and installation of 200 mm thick 4-hour fire-rated drywall system. The drywall system shall c",
+    "unit": "Sqm",
+    "qty": 280
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "3.3.1",
+    "desc": "Providing and installation of temporary partition which shall be formed using anti-static sheets sec",
+    "unit": "Sqm",
+    "qty": 420
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "3.4.1",
+    "desc": "“Design, engineering, manufacture, supply, testing, delivery, installation, and commissioning of bla",
+    "unit": "Sqm",
+    "qty": 25
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "4.1.1.1",
+    "desc": "Preparing the surface, providing & applying Sponge finish Plastering for external walls  in two laye",
+    "unit": "Sqm",
+    "qty": 345
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "4.1.2.1",
+    "desc": "Preparing surface and plastering on all surfaces & wherever mentioned as per specifications with app",
+    "unit": "Sqm",
+    "qty": 2363
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "4.2.1",
+    "desc": "Supply and application of Dust proof /abrasion resistant epoxy coating system to the RCC wall / Maso",
+    "unit": "Sqm",
+    "qty": 1510
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "4.3.1",
+    "desc": "Supply and application of high solid Chemical / Mechanical resistant epoxy coating system to the RCC",
+    "unit": "Sqm",
+    "qty": 5431
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "4.4.1",
+    "desc": "Providing and applying skim coat and exterior-grade paint system on walls , of approved make, colour",
+    "unit": "Sqm",
+    "qty": 35
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "4.5.1",
+    "desc": "Providing and applying interior water-borne acrylic emulsion paint of approved make, colour and shad",
+    "unit": "Sqm",
+    "qty": 763
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "5.1.1",
+    "desc": "Providing and laying the High Solids, Chemical/Mechanical Resistant Epoxy Coating of total thickness",
+    "unit": "Sqm",
+    "qty": 4190
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "5.2.1",
+    "desc": "Providing and applying 4–5 mm thick heavy-duty, dust-proof and abrasion-resistant epoxy flooring sys",
+    "unit": "Sqm",
+    "qty": 128
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "5.3.1",
+    "desc": "Providing and applying 3 mm thick conductive, chemical-resistant epoxy flooring system over prepared",
+    "unit": "Sqm",
+    "qty": 106
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "6.1.1",
+    "desc": "Providing and applying 0.5 –1mm thick ( total DFT ) chemical-resistant epoxy coating system over pre",
+    "unit": "Sqm",
+    "qty": 1771
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "6.2.1",
+    "desc": "Providing and applying water-based epoxy coating system on underside of metal deck slab / profiled s",
+    "unit": "Sqm",
+    "qty": 2350
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "6.3.1",
+    "desc": "Providing and applying skim coat and exterior-grade paint system on the underside of metal deck slab",
+    "unit": "Sqm",
+    "qty": 315
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "7.1.1",
+    "desc": "Providing, fabricating, supplying and fixing stainless steel railing of grade SS-304, up to 1200 mm ",
+    "unit": "Rmt",
+    "qty": 163
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "7.2.1",
+    "desc": "Providing, fabricating, supplying and fixing removable stainless steel railing of grade SS-304, up t",
+    "unit": "Rmt",
+    "qty": 10
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "8.1.1",
+    "desc": "Providing, supplying and fixing factory-fabricated insulated sandwich façade wall panels, complete w",
+    "unit": "Sqm",
+    "qty": 1765
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "8.2.1",
+    "desc": "Providing, supplying and fixing factory-fabricated insulated sandwich façade wall panels, complete w",
+    "unit": "Sqm",
+    "qty": 83
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "9.1.1",
+    "desc": "Providing, supplying, fabricating, installing, testing, and commissioning heavy-duty FRP trench cove",
+    "unit": "Sqm",
+    "qty": 60
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "9.2.1",
+    "desc": "Providing, fabricating, supplying, installing, testing, and commissioning hot-dip galvanized (HDG) s",
+    "unit": "Sqm",
+    "qty": 29
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "9.3.1",
+    "desc": "Providing, supplying, applying, testing, and handing over chemical-resistant epoxy coating to trench",
+    "unit": "Sqm",
+    "qty": 200
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "10.1.1.1",
+    "desc": "Providing, fabricating, supplying and fixing stainless steel name plate of size 300 × 100 mm, made f",
+    "unit": "Nos.",
+    "qty": 28
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "10.1.2.1",
+    "desc": "Supply and fixing Photoluminescent vinyl sticker signage mounted on 3.0 mm thick clear / white acryl",
+    "unit": "Nos.",
+    "qty": 13
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "10.1.3.1",
+    "desc": "Providing, fabricating, supplying and fixing photoluminescent vinyl sticker signage mounted on 3.0 m",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "11.1.1",
+    "desc": "Providing, supplying, assembling, and fixing modular cabin office table of overall size 1350 (L) × 6",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "11.2.1",
+    "desc": "Staff Chair (Cabin Chair) Type: High-back / medium-back ergonomic modular office chair",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "4.1 Non-CR Architecture",
+    "sno": "11.3.1",
+    "desc": "Modular visitor chair, armless / with armrests as approved. Seat & Back: Moulded plywood / polymer s",
+    "unit": "Nos.",
+    "qty": 2
+  },
+  {
+    "sheet": "4.2 CR Architecture",
+    "sno": "1.2",
+    "desc": "Aluminium Cleanroom Coving – Wall to Floor & Wall to Ceiling (Radius 25 / 38 mm)",
+    "unit": "Rmt",
+    "qty": 1283
+  },
+  {
+    "sheet": "4.2 CR Architecture",
+    "sno": "1.3",
+    "desc": "Aluminium Cleanroom Coving – Wall to Wall Internal (Concave, Radius 25 / 38 mm)",
+    "unit": "Rmt",
+    "qty": 200
+  },
+  {
+    "sheet": "4.2 CR Architecture",
+    "sno": "1.4",
+    "desc": "Aluminium Cleanroom Coving – Wall to Wall External (Convex, Radius 25 / 38 mm)",
+    "unit": "Rmt",
+    "qty": 130
+  },
+  {
+    "sheet": "4.2 CR Architecture",
+    "sno": "6.2.2",
+    "desc": "Solid floor tiles including PVC – covering",
+    "unit": "Sqm",
+    "qty": 1288
+  },
+  {
+    "sheet": "4.2 CR Architecture",
+    "sno": "6.2.3",
+    "desc": "Perforated floor tiles including PVC – covering",
+    "unit": "Sqm",
+    "qty": 1239
+  },
+  {
+    "sheet": "4.2 CR Architecture",
+    "sno": "7.1.1",
+    "desc": "Clean room Blank panel ceiling",
+    "unit": "Sqm",
+    "qty": 1021
+  },
+  {
+    "sheet": "4.2 CR Architecture",
+    "sno": "8.1.1",
+    "desc": "HALF GLAZED CLEANROOM DOUBLE LEAF DOOR - CD1 (900x2200mm)",
+    "unit": "Nos",
+    "qty": 7
+  },
+  {
+    "sheet": "4.2 CR Architecture",
+    "sno": "8.1.2",
+    "desc": "HALF GLAZED CLEANROOM DOUBLE LEAF DOOR - CD2C (2400 X 3200 mm)",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "4.2 CR Architecture",
+    "sno": "8.1.3",
+    "desc": "HALF GLAZED CLEANROOM SINGLE LEAF DOOR - CD5 (900 X 2200 mm)",
+    "unit": "Nos",
+    "qty": 10
+  },
+  {
+    "sheet": "4.2 CR Architecture",
+    "sno": "8.1.4",
+    "desc": "HALF GLAZE AUTO SLIDING  DOOR - CSD2A (1500 X 2500 mm)",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "4.2 CR Architecture",
+    "sno": "10.1",
+    "desc": "Providing, fabricating, supplying, and fixing a vertical access ladder for RAS shaft made of hot-dip",
+    "unit": "Nos",
+    "qty": 10
+  },
+  {
+    "sheet": "4.2 CR Architecture",
+    "sno": "11.1.1",
+    "desc": "Clean Room Partition",
+    "unit": "Nos.",
+    "qty": 3
+  },
+  {
+    "sheet": "4.2 CR Architecture",
+    "sno": "11.1.2",
+    "desc": "Door",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "4.2 CR Architecture",
+    "sno": "11.1.3",
+    "desc": "Cat Ladder (Grating Level As indicated in IFC drawing)",
+    "unit": "Nos.",
+    "qty": 3
+  },
+  {
+    "sheet": "4.2 CR Architecture",
+    "sno": "14.1",
+    "desc": "Clean Room Partition",
+    "unit": "Item",
+    "qty": 1
+  },
+  {
+    "sheet": "4.2 CR Architecture",
+    "sno": "14.2",
+    "desc": "Door",
+    "unit": "Item",
+    "qty": 1
+  },
+  {
+    "sheet": "4.2 CR Architecture",
+    "sno": "14.3",
+    "desc": "Cat Ladder (Grating Level As indicated in IFC drawing)",
+    "unit": "Item",
+    "qty": 1
+  },
+  {
+    "sheet": "6.2 Exhaust Equipment",
+    "sno": "1.1",
+    "desc": "Chemical day Tank / Chemical dosing Tank",
+    "unit": "No's",
+    "qty": 3
+  },
+  {
+    "sheet": "6.2 Exhaust Equipment",
+    "sno": "1.2",
+    "desc": "Chemcial day tank Transfer Pump",
+    "unit": "No's",
+    "qty": 6
+  },
+  {
+    "sheet": "6.2 Exhaust Equipment",
+    "sno": "1.3",
+    "desc": "Chemical Transfer Pump",
+    "unit": "No's",
+    "qty": 2
+  },
+  {
+    "sheet": "6.2 Exhaust Equipment",
+    "sno": "1.4",
+    "desc": "Acid Scrubber",
+    "unit": "No's",
+    "qty": 3
+  },
+  {
+    "sheet": "6.2 Exhaust Equipment",
+    "sno": "1.5",
+    "desc": "Acid Scrubber Re-circulation Pump",
+    "unit": "No's",
+    "qty": 6
+  },
+  {
+    "sheet": "6.2 Exhaust Equipment",
+    "sno": "1.6",
+    "desc": "Acid Scrubber Exhaust Fan",
+    "unit": "No's",
+    "qty": 3
+  },
+  {
+    "sheet": "6.2 Exhaust Equipment",
+    "sno": "1.7",
+    "desc": "Acid Scrubber Exhaust Stack",
+    "unit": "No's",
+    "qty": 3
+  },
+  {
+    "sheet": "6.2 Exhaust Equipment",
+    "sno": "2.1",
+    "desc": "Chemical day Tank / Chemical dosing Tank",
+    "unit": "No's",
+    "qty": 3
+  },
+  {
+    "sheet": "6.2 Exhaust Equipment",
+    "sno": "2.2",
+    "desc": "Chemcial day tank Transfer Pump",
+    "unit": "No's",
+    "qty": 6
+  },
+  {
+    "sheet": "6.2 Exhaust Equipment",
+    "sno": "2.3",
+    "desc": "Chemical Transfer Pump",
+    "unit": "No's",
+    "qty": 2
+  },
+  {
+    "sheet": "6.2 Exhaust Equipment",
+    "sno": "2.4",
+    "desc": "Ammonia Scrubber",
+    "unit": "No's",
+    "qty": 3
+  },
+  {
+    "sheet": "6.2 Exhaust Equipment",
+    "sno": "2.5",
+    "desc": "Ammonia Scrubber Re-circulation Pump",
+    "unit": "No's",
+    "qty": 6
+  },
+  {
+    "sheet": "6.2 Exhaust Equipment",
+    "sno": "2.6",
+    "desc": "Ammonia Scrubber Exhaust Fan",
+    "unit": "No's",
+    "qty": 3
+  },
+  {
+    "sheet": "6.2 Exhaust Equipment",
+    "sno": "2.7",
+    "desc": "Ammonia Scrubber Exhaust Stack",
+    "unit": "No's",
+    "qty": 3
+  },
+  {
+    "sheet": "6.2 Exhaust Equipment",
+    "sno": "3.1",
+    "desc": "Solvent VOC Abatment Unit",
+    "unit": "No's",
+    "qty": 2
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "1",
+    "desc": "40 NB",
+    "unit": "Mtr",
+    "qty": 25
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Mtr",
+    "qty": 30
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "2",
+    "desc": "65 NB",
+    "unit": "Mtr",
+    "qty": 1
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "3",
+    "desc": "80 NB",
+    "unit": "Mtr",
+    "qty": 27
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "4",
+    "desc": "100 NB",
+    "unit": "Mtr",
+    "qty": 24
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "5",
+    "desc": "150 NB",
+    "unit": "Mtr",
+    "qty": 1
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "1",
+    "desc": "40 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 3
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "2",
+    "desc": "100 NB",
+    "unit": "Nos",
+    "qty": 10
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "1",
+    "desc": "80 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "2",
+    "desc": "100 NB",
+    "unit": "Nos",
+    "qty": 3
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "1",
+    "desc": "40 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "1",
+    "desc": "40 NB x 15 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "2",
+    "desc": "40 NB x 25 NB",
+    "unit": "Nos",
+    "qty": 11
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "1",
+    "desc": "50 NB x 25 NB",
+    "unit": "Nos",
+    "qty": 13
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "2",
+    "desc": "80 NB x 40 NB",
+    "unit": "Nos",
+    "qty": 18
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "3",
+    "desc": "100 NB x 50 NB",
+    "unit": "Nos",
+    "qty": 9
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "1",
+    "desc": "65 NB x 40 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "1",
+    "desc": "150NB x 80 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "1",
+    "desc": "15 NB",
+    "unit": "Nos",
+    "qty": 3
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 18
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "2",
+    "desc": "40 NB",
+    "unit": "Nos",
+    "qty": 24
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "3",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 9
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "1",
+    "desc": "40 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "2",
+    "desc": "65 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "3",
+    "desc": "100 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "4",
+    "desc": "150 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "1",
+    "desc": "40 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "2",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "3",
+    "desc": "100NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "1",
+    "desc": "15 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "2",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 24
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "3",
+    "desc": "40 NB",
+    "unit": "Nos",
+    "qty": 18
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "4",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 9
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "1",
+    "desc": "15 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "1",
+    "desc": "15 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "2",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 24
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "3",
+    "desc": "40 NB",
+    "unit": "Nos",
+    "qty": 18
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "4",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 9
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "1",
+    "desc": "40 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "2",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "3",
+    "desc": "100 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "1",
+    "desc": "15 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "7.1 Utility_CDA",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 5
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Mtr",
+    "qty": 95
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "2",
+    "desc": "80 NB",
+    "unit": "Mtr",
+    "qty": 100
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "3",
+    "desc": "150 NB",
+    "unit": "Mtr",
+    "qty": 17
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 6
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "2",
+    "desc": "80 NB",
+    "unit": "Nos",
+    "qty": 3
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "3",
+    "desc": "150 NB",
+    "unit": "Nos",
+    "qty": 3
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "2",
+    "desc": "80 NB",
+    "unit": "Nos",
+    "qty": 5
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "3",
+    "desc": "150 NB",
+    "unit": "Nos",
+    "qty": 3
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 5
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "2",
+    "desc": "80 NB",
+    "unit": "Nos",
+    "qty": 6
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "3",
+    "desc": "150 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "2",
+    "desc": "80 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "3",
+    "desc": "150 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "1",
+    "desc": "50 NB X 15 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "2",
+    "desc": "50 NB X 25 NB",
+    "unit": "Nos",
+    "qty": 29
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "3",
+    "desc": "80 NB X 15 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "4",
+    "desc": "80 NB X 25 NB",
+    "unit": "Nos",
+    "qty": 42
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "5",
+    "desc": "150 NB X 50 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "6",
+    "desc": "150 NB X 80 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "1",
+    "desc": "80 NB X 15 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "1",
+    "desc": "15 NB",
+    "unit": "Nos",
+    "qty": 5
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "2",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 71
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "1",
+    "desc": "15 NB",
+    "unit": "Nos",
+    "qty": 5
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 71
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "1",
+    "desc": "80 NB",
+    "unit": "Nos",
+    "qty": 5
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "1",
+    "desc": "15 NB",
+    "unit": "Nos",
+    "qty": 5
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "2",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 71
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 3
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "4",
+    "desc": "80 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "5",
+    "desc": "150 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "1",
+    "desc": "15 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "1",
+    "desc": "15 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.3 PV",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 5
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Mtr",
+    "qty": 2
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "1",
+    "desc": "100 NB",
+    "unit": "Mtr",
+    "qty": 116
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "2",
+    "desc": "150 NB",
+    "unit": "Mtr",
+    "qty": 1
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "3",
+    "desc": "200 NB",
+    "unit": "Mtr",
+    "qty": 183
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 6
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "1",
+    "desc": "15 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "2",
+    "desc": "65 NB",
+    "unit": "Nos",
+    "qty": 9
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "1",
+    "desc": "200 NB",
+    "unit": "Nos",
+    "qty": 27
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "1",
+    "desc": "100 NB",
+    "unit": "Nos",
+    "qty": 20
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "2",
+    "desc": "200 NB",
+    "unit": "Nos",
+    "qty": 11
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "1",
+    "desc": "100 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "2",
+    "desc": "200 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "1",
+    "desc": "100 NB X 40 NB",
+    "unit": "Nos",
+    "qty": 18
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "2",
+    "desc": "200 NB X 150 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "1",
+    "desc": "200 NB X 100 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "1",
+    "desc": "15 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "2",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 6
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "1",
+    "desc": "200 NBX 65 NB",
+    "unit": "Nos",
+    "qty": 42
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "1",
+    "desc": "100 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "2",
+    "desc": "150 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "3",
+    "desc": "200 NB",
+    "unit": "Nos",
+    "qty": 10
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "1",
+    "desc": "100 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "2",
+    "desc": "150 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "3",
+    "desc": "200 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "1",
+    "desc": "15 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "2",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 6
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "3",
+    "desc": "40 NB",
+    "unit": "Nos",
+    "qty": 18
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "4",
+    "desc": "65 NB",
+    "unit": "Nos",
+    "qty": 42
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "1",
+    "desc": "15 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "2",
+    "desc": "40 NB",
+    "unit": "Nos",
+    "qty": 18
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "3",
+    "desc": "65 NB",
+    "unit": "Nos",
+    "qty": 42
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "1",
+    "desc": "15 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "2",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "3",
+    "desc": "40 NB",
+    "unit": "Nos",
+    "qty": 18
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "4",
+    "desc": "65 NB",
+    "unit": "Nos",
+    "qty": 42
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "1",
+    "desc": "150 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "1",
+    "desc": "15 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 8
+  },
+  {
+    "sheet": "7.4 PCW",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 8
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Mtr",
+    "qty": 73
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "2",
+    "desc": "40 NB",
+    "unit": "Mtr",
+    "qty": 97
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Mtr",
+    "qty": 19
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "2",
+    "desc": "80 NB",
+    "unit": "Mtr",
+    "qty": 140
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 22
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "2",
+    "desc": "40 NB",
+    "unit": "Nos",
+    "qty": 22
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 5
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "2",
+    "desc": "80 NB",
+    "unit": "Nos",
+    "qty": 10
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 5
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "2",
+    "desc": "40 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "2",
+    "desc": "80 NB",
+    "unit": "Nos",
+    "qty": 3
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "40 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "80 NB",
+    "unit": "Nos",
+    "qty": 3
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "40 NB x 25 NB",
+    "unit": "Nos",
+    "qty": 12
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "50 NB X 25 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "2",
+    "desc": "80 NB x 25 NB",
+    "unit": "Nos",
+    "qty": 6
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "3",
+    "desc": "80 NB x 40 NB",
+    "unit": "Nos",
+    "qty": 5
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "4",
+    "desc": "80 NB x 50 NB",
+    "unit": "Nos",
+    "qty": 3
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "40 NB x 25 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "80 NB x 40 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 11
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "2",
+    "desc": "40 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "2",
+    "desc": "80 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "40 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "2",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "3",
+    "desc": "80 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 19
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "2",
+    "desc": "40 NB",
+    "unit": "Nos",
+    "qty": 5
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "3",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 17
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "2",
+    "desc": "40 NB",
+    "unit": "Nos",
+    "qty": 5
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "3",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "80 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 3
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 6
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "25 NB X 8 NOS CONNECTION",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "2",
+    "desc": "25 NB X 4 NOS CONNECTION",
+    "unit": "Nos",
+    "qty": 7
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "3",
+    "desc": "50 NB X 4 NOS CONNECTION",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "4",
+    "desc": "50 NB X 8 NOS CONNECTION",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Mtr",
+    "qty": 6
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "2",
+    "desc": "40 NB",
+    "unit": "Mtr",
+    "qty": 6
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Mtr",
+    "qty": 150
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "2",
+    "desc": "80 NB",
+    "unit": "Mtr",
+    "qty": 106
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 5
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "2",
+    "desc": "40 NB",
+    "unit": "Nos",
+    "qty": 7
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 18
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "2",
+    "desc": "80 NB",
+    "unit": "Nos",
+    "qty": 7
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "2",
+    "desc": "40 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "80 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "80 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "2",
+    "desc": "40 NB x 25 NB",
+    "unit": "Nos",
+    "qty": 5
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "80 NB x 40 NB",
+    "unit": "Nos",
+    "qty": 8
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "40 NB x 25 NB",
+    "unit": "Nos",
+    "qty": 8
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 3
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 11
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "2",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "3",
+    "desc": "80 NB",
+    "unit": "Nos",
+    "qty": 9
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "2",
+    "desc": "80 NB",
+    "unit": "Nos",
+    "qty": 7
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "2",
+    "desc": "40 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "3",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 11
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "2",
+    "desc": "40 NB",
+    "unit": "Nos",
+    "qty": 7
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "3",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 9
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "80 NB",
+    "unit": "Nos",
+    "qty": 6
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 5
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "3.1",
+    "desc": "CLS-01",
+    "unit": "Nos",
+    "qty": 75
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "3.2",
+    "desc": "PSA-02",
+    "unit": "Nos",
+    "qty": 380
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "3.3",
+    "desc": "PSA-04",
+    "unit": "Nos",
+    "qty": 50
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "3.4",
+    "desc": "PSA-05",
+    "unit": "Nos",
+    "qty": 50
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "3.5",
+    "desc": "PC-05",
+    "unit": "Nos",
+    "qty": 730
+  },
+  {
+    "sheet": "7.5 ICA+SW",
+    "sno": "3.6",
+    "desc": "PC-02",
+    "unit": "Nos",
+    "qty": 50
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Mtr",
+    "qty": 0.5
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "40 NB",
+    "unit": "Mtr",
+    "qty": 0.5
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "3",
+    "desc": "50 NB",
+    "unit": "Mtr",
+    "qty": 54
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 12
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB x 25 NB",
+    "unit": "Nos",
+    "qty": 10
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "50 NB x 40 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50NB",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos.",
+    "qty": 9
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "40 NB",
+    "unit": "Nos.",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "3",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 4
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos.",
+    "qty": 5
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "Cut to required lengths including all necessary fittings and specials such as bends, tees, unions, r",
+    "unit": "Mtr",
+    "qty": 56
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 15
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50NB",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Mtr",
+    "qty": 0.5
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "40 NB",
+    "unit": "Mtr",
+    "qty": 0.6
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Mtr",
+    "qty": 74
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 14
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB x 25 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "50 NB x 40 NB",
+    "unit": "Nos",
+    "qty": 10
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos.",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "40 NB",
+    "unit": "Nos.",
+    "qty": 10
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "3",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 4
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "40  NB",
+    "unit": "Nos.",
+    "qty": 5
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Mtr",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Mtr",
+    "qty": 75
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50NB",
+    "unit": "Nos",
+    "qty": 8
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 6
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB X 25 NB",
+    "unit": "Nos",
+    "qty": 12
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 12
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 7
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Mtr",
+    "qty": 20
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 9
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Mtr",
+    "qty": 0.5
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "40 NB",
+    "unit": "Mtr",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "3",
+    "desc": "80 NB",
+    "unit": "Mtr",
+    "qty": 76
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "80 NB",
+    "unit": "Nos",
+    "qty": 12
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "80 NB",
+    "unit": "Nos",
+    "qty": 5
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "80 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "80 NB x 25 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "80 NB x 40 NB",
+    "unit": "Nos",
+    "qty": 16
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "80 NB",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "40 NB",
+    "unit": "Nos.",
+    "qty": 16
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "3",
+    "desc": "80 NB",
+    "unit": "Nos.",
+    "qty": 3
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "40 NB",
+    "unit": "Nos.",
+    "qty": 10
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "80 NB",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Mtr",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "50 NB",
+    "unit": "Mtr",
+    "qty": 42
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "3",
+    "desc": "65 NB",
+    "unit": "Mtr",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "4",
+    "desc": "80 NB",
+    "unit": "Mtr",
+    "qty": 63
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "3",
+    "desc": "80 NB",
+    "unit": "Nos",
+    "qty": 8
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 6
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "80 NB",
+    "unit": "Nos",
+    "qty": 5
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB x 25 NB",
+    "unit": "Nos",
+    "qty": 12
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "80 NB x 25 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "3",
+    "desc": "80 NB x 50 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "4",
+    "desc": "80 NB x 65NB",
+    "unit": "Nos",
+    "qty": 15
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "80 NB",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos.",
+    "qty": 12
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "3",
+    "desc": "65 NB",
+    "unit": "Nos.",
+    "qty": 15
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "4",
+    "desc": "80 NB",
+    "unit": "Nos.",
+    "qty": 3
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos.",
+    "qty": 7
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "65 NB",
+    "unit": "Nos.",
+    "qty": 9
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "80 NB",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Mtr",
+    "qty": 77
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 16
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Mtr",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "40 NB",
+    "unit": "Mtr",
+    "qty": 0.5
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "3",
+    "desc": "50 NB",
+    "unit": "Mtr",
+    "qty": 79
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "4",
+    "desc": "100 NB",
+    "unit": "Mtr",
+    "qty": 99
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "3",
+    "desc": "100 NB",
+    "unit": "Nos",
+    "qty": 8
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 14
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "100 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "100 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB x 25 NB",
+    "unit": "Nos",
+    "qty": 30
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "100 NB x 25 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "3",
+    "desc": "100 NB x 40 NB",
+    "unit": "Nos",
+    "qty": 3
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "4",
+    "desc": "100 NB x 50 NB",
+    "unit": "Nos",
+    "qty": 25
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "5",
+    "desc": "150 NB x 50 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "100 NB x 50 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "100 NB",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos.",
+    "qty": 29
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "40 NB",
+    "unit": "Nos.",
+    "qty": 3
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "3",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 27
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "4",
+    "desc": "100 NB",
+    "unit": "Nos.",
+    "qty": 3
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos.",
+    "qty": 17
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 13
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "100 NB",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Mtr",
+    "qty": 144
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 30
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 8
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "100 NB",
+    "unit": "Mtr",
+    "qty": 68
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "100NB`",
+    "unit": "Nos",
+    "qty": 16
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "100NB`",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "100NB`",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Mtr",
+    "qty": 80
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50NB`",
+    "unit": "Nos",
+    "qty": 20
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50NB`",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50NB`",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Mtr",
+    "qty": 0.7
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "50 NB",
+    "unit": "Mtr",
+    "qty": 71
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 8
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 5
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "50x50x25 NB",
+    "unit": "Nos",
+    "qty": 12
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 12
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Mtr",
+    "qty": 48
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 8
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Mtr",
+    "qty": 0.5
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "40 NB",
+    "unit": "Mtr",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Mtr",
+    "qty": 95
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50NB",
+    "unit": "Nos",
+    "qty": 11
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB X 25 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "50 NB X 40 NB",
+    "unit": "Nos",
+    "qty": 10
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "40 NB",
+    "unit": "Nos",
+    "qty": 10
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "40 NB",
+    "unit": "Nos",
+    "qty": 7
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Mtr",
+    "qty": 360
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "50 NB",
+    "unit": "Mtr",
+    "qty": 160
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 70
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 22
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos",
+    "qty": 22
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 15
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB x 25 NB",
+    "unit": "Nos",
+    "qty": 7
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 7
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50NB",
+    "unit": "Nos.",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "25 NB",
+    "unit": "Nos.",
+    "qty": 3
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "50 NB",
+    "unit": "Nos.",
+    "qty": 2
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "1",
+    "desc": "CLS-01",
+    "unit": "Nos",
+    "qty": 60
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "2",
+    "desc": "PSA-01",
+    "unit": "Nos",
+    "qty": 30
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "3",
+    "desc": "PSA-02",
+    "unit": "Nos",
+    "qty": 100
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "4",
+    "desc": "PSA-04",
+    "unit": "Nos",
+    "qty": 200
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "5",
+    "desc": "PSA-05",
+    "unit": "Nos",
+    "qty": 30
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "6",
+    "desc": "PC-05",
+    "unit": "Nos",
+    "qty": 700
+  },
+  {
+    "sheet": "8 Waste Water",
+    "sno": "7",
+    "desc": "AC 70",
+    "unit": "Nos",
+    "qty": 100
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "1.1",
+    "desc": "Design, Supply, installation, testing & commissioning of Automation system for FMCS as per the RFQ D",
+    "unit": "Lot.",
+    "qty": 1
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "1.2",
+    "desc": "Design, Supply, installation, testing & commissioning of Redundant PLC, and RIO system for Scrubber ",
+    "unit": "Lot.",
+    "qty": 1
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "1.3",
+    "desc": "Development and configration of SCADA graphics, programming of Automation system including integrati",
+    "unit": "Lot",
+    "qty": 1
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "1.4",
+    "desc": "Development and configration of SCADA graphics, programming of Automation systemfor the Srcubber Sys",
+    "unit": "Lot",
+    "qty": 1
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "2.1",
+    "desc": "Interagtion of FMCS With Third party along with Leak detection system as per Document (MSI-1-MH-LIS-",
+    "unit": "Lot",
+    "qty": 1
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "3.1.1",
+    "desc": "Design, Supply, installation, testing & commissioning of Remote Universal Type Temperature Transmitt",
+    "unit": "No.",
+    "qty": 1
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "3.1.2",
+    "desc": "Design, Supply, installation, testing & commissioning of Temperature Element - RTD",
+    "unit": "No.",
+    "qty": 1
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "3.1.3",
+    "desc": "Design, Supply, installation, testing & commissioning of Thermowell",
+    "unit": "No.",
+    "qty": 1
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "3.1.4",
+    "desc": "Design, Supply, installation, testing & commissioning Compound / Absolute Pressure Gauge",
+    "unit": "No.",
+    "qty": 4
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "3.1.5",
+    "desc": "Design, Supply, installation, testing & commissioning of  Pressure Gauge - Bourdon Tube Type",
+    "unit": "No.",
+    "qty": 24
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "3.1.6",
+    "desc": "Design, Supply, installation, testing & commissioning of  Pressure Gauge - Diaphragm Seal Type",
+    "unit": "No.",
+    "qty": 28
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "3.1.7",
+    "desc": "Design, Supply, installation, testing & commissioning of  Pressure Switch - Diaphragm Seal Type",
+    "unit": "No.",
+    "qty": 2
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "3.1.8",
+    "desc": "Design, Supply, installation, testing & commissioning of  Pressure Transmitter - Non diaphragm Seal ",
+    "unit": "No.",
+    "qty": 17
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "3.1.9",
+    "desc": "Design, Supply, installation, testing & commissioning of  Pressure Transmitter - Diaphragm Seal type",
+    "unit": "No.",
+    "qty": 15
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "3.1.10",
+    "desc": "Design, Supply, installation, testing & commissioning of  Mass Flow Meter - Coriolis / Ultrasonic",
+    "unit": "No.",
+    "qty": 5
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "3.1.11",
+    "desc": "Design, Supply, installation, testing & commissioning of Point type leak detectors",
+    "unit": "No.",
+    "qty": 5
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "3.2.1",
+    "desc": "Supply, installation, testing & commissioning of Pneumatic Operated Control Valve -2 Way 80NB",
+    "unit": "No.",
+    "qty": 3
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "3.2.2",
+    "desc": "Supply, installation, testing & commissioning of Pneumatic Operated Control Valve -2 Way 100NB",
+    "unit": "No.",
+    "qty": 5
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "3.2.3",
+    "desc": "Supply, installation, testing & commissioning of Pneumatic Operated Control Valve -2 Way 150NB",
+    "unit": "No.",
+    "qty": 6
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "3.2.4",
+    "desc": "Supply, installation, testing & commissioning of Pneumatic Operated Control Valve -2 Way 200NB",
+    "unit": "No.",
+    "qty": 3
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "3.2.5",
+    "desc": "Supply, installation, testing & commissioning of Pneumatic Operated Control Valve -3 Way 200NB",
+    "unit": "No.",
+    "qty": 3
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "3.2.6",
+    "desc": "Supply, installation, testing & commissioning of  Pneumatic Operated On-Off Valve - Butterfly 80NB",
+    "unit": "No.",
+    "qty": 9
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "4.1",
+    "desc": "Design, Supply, installation, testing & commissioning LEL Detector",
+    "unit": "No.",
+    "qty": 1
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "4.2",
+    "desc": "Design, Supply, installation, testing & commissioning Oxygen Detector",
+    "unit": "No.",
+    "qty": 9
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "4.3",
+    "desc": "Design, Supply, installation, testing & commissioning Hydrogen Detector",
+    "unit": "No.",
+    "qty": 6
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "4.4",
+    "desc": "Design, Supply, installation, testing & commissioning of Siren / Hooter cum Flasher for LSS detector",
+    "unit": "No.",
+    "qty": 21
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "4.5",
+    "desc": "Emergency Push Button with enclosure",
+    "unit": "No.",
+    "qty": 3
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "5.1.1",
+    "desc": "Water Leak Detection Enclosure with Touch panel and realy module",
+    "unit": "No.",
+    "qty": 1
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "5.1.2",
+    "desc": "Water Leak Detection Enclosure with Display Panel and Realy Module",
+    "unit": "No.",
+    "qty": 2
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "5.1.3",
+    "desc": "SIM/Slave module with Enclosure with mounting accessories",
+    "unit": "No.",
+    "qty": 5
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "5.1.4",
+    "desc": "Water Leak Detection Sensor Cable",
+    "unit": "m",
+    "qty": 400
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "5.1.5",
+    "desc": "Modbus RS 485 cable",
+    "unit": "m",
+    "qty": 200
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "5.1.6",
+    "desc": "Hold Down Clip",
+    "unit": "Lot",
+    "qty": 1
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "6.1",
+    "desc": "Design, Supply, installation, testing & commissioning of Differential Pressure Switch for Fans",
+    "unit": "No.",
+    "qty": 35
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "6.2",
+    "desc": "Design, Supply, installation, testing & commissioning of Differential Pressure Switch for Pumps",
+    "unit": "No.",
+    "qty": 6
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "6.3",
+    "desc": "Design, Supply, installation, testing & commissioning of Differential Pressure Transmitter HVAC",
+    "unit": "No.",
+    "qty": 55
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "6.4",
+    "desc": "Installation, testing & commissioning of Differential Pressure Transmitter HVAC - Pressure Zone-5",
+    "unit": "No.",
+    "qty": 2
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "6.5",
+    "desc": "Design, Supply, installation, testing & commissioning of Static Pressure Transmitter - Duct Mounted",
+    "unit": "No.",
+    "qty": 12
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "6.6",
+    "desc": "Design, Supply, installation, testing & commissioning of pressure Gauge",
+    "unit": "No.",
+    "qty": 141
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "6.7",
+    "desc": "Design, Supply, installation, testing & commissioning of Temperature Gauge",
+    "unit": "No.",
+    "qty": 97
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "6.8",
+    "desc": "Design, Supply, installation, testing & commissioning of Thermowell",
+    "unit": "No.",
+    "qty": 80
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "6.9",
+    "desc": "Design, Supply, installation, testing & commissioning of Temperature Transmitter/Relative Humidity S",
+    "unit": "No.",
+    "qty": 11
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "6.10",
+    "desc": "Design, Supply, installation, testing & commissioning of Temperature Transmitter/Relative Humidity S",
+    "unit": "No.",
+    "qty": 6
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "6.11",
+    "desc": "Installation, testing & commissioning of Temperature Transmitter/Relative Humidity Sensor - Wall Mou",
+    "unit": "No.",
+    "qty": 4
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "6.12",
+    "desc": "Installation, testing & commissioning of Temperature Transmitter/Relative Humidity Sensor - Extended",
+    "unit": "No.",
+    "qty": 4
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "6.13",
+    "desc": "Design, Supply, installation, testing & commissioning of Temperature Transmitter/Relative Humidity S",
+    "unit": "No.",
+    "qty": 9
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "6.14",
+    "desc": "Design, Supply, installation, testing & commissioning of Temperature Transmitter - Duct Mounted",
+    "unit": "No.",
+    "qty": 10
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "6.15",
+    "desc": "Design, Supply, installation, testing & commissioning of Temperature Transmitter - Flexible Probe Ty",
+    "unit": "No.",
+    "qty": 28
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "6.16",
+    "desc": "Design, Supply, installation, testing & commissioning of Temperature Transmitter - Wall Mounted - No",
+    "unit": "No.",
+    "qty": 4
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "6.17",
+    "desc": "Design, Supply, installation, testing & commissioning of Vibration Transmitter",
+    "unit": "No.",
+    "qty": 12
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "6.18",
+    "desc": "Design, Supply, installation, testing & commissioning of Duct Mounted Smoke Detector",
+    "unit": "No.",
+    "qty": 3
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "7.1",
+    "desc": "Supply, installation, testing(loop checking) of Analog cable - 1P x 1.0 Sqmm, Annealed tinned copper",
+    "unit": "m",
+    "qty": 12000
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "7.199999999999999",
+    "desc": "Supply, installation, testing(loop checking) of Analog cable - 2P x 1.0 Sqmm, Annealed tinned copper",
+    "unit": "m",
+    "qty": 8000
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "7.299999999999999",
+    "desc": "Supply, installation, testing & commissioning of Analog cable - 6P x 1.0 Sqmm, Annealed tinned coppe",
+    "unit": "m",
+    "qty": 1000
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "7.399999999999999",
+    "desc": "Supply, installation, testing & commissioning of Analog cable - 12P x 1.0 Sqmm, Annealed tinned copp",
+    "unit": "m",
+    "qty": 4000
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "7.499999999999998",
+    "desc": "Supply, installation, testing & commissioning of Control cable - 3C x 1.5 Sqmm, Annealed tinned copp",
+    "unit": "m",
+    "qty": 10000
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "7.599999999999998",
+    "desc": "Supply, installation, testing & commissioning of Control cable - 5C x 1.5 Sqmm, Annealed tinned copp",
+    "unit": "m",
+    "qty": 12000
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "7.6999999999999975",
+    "desc": "Supply, installation, testing & commissioning of Control cable - 12C x 1.5 Sqmm, Annealed tinned cop",
+    "unit": "m",
+    "qty": 9000
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "7.799999999999997",
+    "desc": "Supply, installation, testing & commissioning of Control cable - 36C x 1.5 Sqmm, Annealed tinned cop",
+    "unit": "m",
+    "qty": 2000
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "7.899999999999997",
+    "desc": "Supply, installation, testing & commissioning of Power cable - 3C x 2.5 Sqmm, Annealed tinned copper",
+    "unit": "m",
+    "qty": 2000
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "7.10",
+    "desc": "Supply, installation, testing & commissioning of Triad Cable - 1T x 1.0 Sqmm, Annealed tinned copper",
+    "unit": "m",
+    "qty": 50
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "7.11",
+    "desc": "Supply, installation, testing & commissioning of Industrial Ethernet Cable - UTP CAT6A, ENET IP 10GB",
+    "unit": "m",
+    "qty": 1500
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "7.12",
+    "desc": "Supply, installation, testing & commissioning of Industrial Ethernet Cable - UTP MODBUS RS485 (4C x ",
+    "unit": "m",
+    "qty": 500
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "7.13",
+    "desc": "Supply, installation, testing & commissioning of Optical fiber, PVC polyvinylchloride, 12F, single-m",
+    "unit": "m",
+    "qty": 1000
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "7.14",
+    "desc": "Supply, installation, testing & commissioning of Earthing Cable Copper, Multi strander 1C x 10 Sqmm",
+    "unit": "m",
+    "qty": 500
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "8.1",
+    "desc": "Supply, Installation, testing & commissioning of Junction Box - SS316 IP65 24 TB",
+    "unit": "Nos",
+    "qty": 5
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "8.2",
+    "desc": "Supply, Installation, testing & commissioning of Junction Box - SS316 IP65 32 TB",
+    "unit": "Nos",
+    "qty": 10
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "8.299999999999999",
+    "desc": "Supply, Installation, testing & commissioning of Junction Box - SS316 IP65 60 TB",
+    "unit": "Nos",
+    "qty": 15
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "9.1",
+    "desc": "Supply & Installation of GI Rigid Conduit 27 mm with all mounting Accessories",
+    "unit": "m",
+    "qty": 300
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "9.2",
+    "desc": "Supply & Installation of 100(W) x 50(H) x 2(T) x GI Perforated cable tray Cable with unistrut suppor",
+    "unit": "m",
+    "qty": 1500
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "9.299999999999999",
+    "desc": "Supply & Installation of 50(W) x 50(H) x 2(T) x GI Perforated cable tray Cable with unistrut support",
+    "unit": "m",
+    "qty": 400
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "9.399999999999999",
+    "desc": "Supply & Installation of 200(W) x 50(H) x 2(T) x GI Perforated cable tray Cable with unistrut suppor",
+    "unit": "m",
+    "qty": 1000
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "9.499999999999998",
+    "desc": "Installation of 100(W) x 50(H) x 2(T) x GI Perforated cable tray Cable with unistrut support at ever",
+    "unit": "m",
+    "qty": 100
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "9.599999999999998",
+    "desc": "Installation of 50(W) x 50(H) x 2(T) x GI Perforated cable tray Cable with unistrut support at every",
+    "unit": "m",
+    "qty": 50
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "9.699999999999998",
+    "desc": "Installation of 300(W) x 50(H) x 2(T) x GI Perforated cable tray Cable with unistrut support at ever",
+    "unit": "m",
+    "qty": 200
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "10.1",
+    "desc": "Supply & Installation Erection hardware items for Instruments As per Hookup (DE-MSI1-ALL-B-001-I-138",
+    "unit": "Lot.",
+    "qty": 1
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "11.1",
+    "desc": "Design, Supply, Installation, testing & commissioning of Ergonomic Console including Required Electr",
+    "unit": "Nos",
+    "qty": 5
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "12.1",
+    "desc": "Supply, Installation, testing of A3/A4 Size Colour LaserJet Printer.",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "13.1",
+    "desc": "Design, Supply, Installation of Printer Table for A3/A4 Color printer including Required Electrical ",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "14.1",
+    "desc": "Supply, Installation, testing & commissioning of PC based Operator Station",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "15.1",
+    "desc": "Supply, Installation, testing & commissioning of PC based Engineering Station ",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "16.1",
+    "desc": "Supply, Installation, testing & commissioning of HMI cum Data Server",
+    "unit": "Nos",
+    "qty": 4
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "17.1",
+    "desc": "Design, Supply, Installation, testing & commissioning of  \"42U\" Server Rack with Power supply compon",
+    "unit": "Nos",
+    "qty": 2
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "18.1",
+    "desc": "Supply, Installation, testing & commissioning of PC based Engineering Station",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "9.5 FMCS",
+    "sno": "19.1",
+    "desc": "Supply, Installation, testing & commissioning of Laptop based Engineering Station",
+    "unit": "Nos",
+    "qty": 1
+  },
+  {
+    "sheet": "9.6 IT",
+    "sno": "1.1",
+    "desc": "12U, WTC Closed Rack with PSU/PDU, Cable manager(Horizatal & Vertical) network Hardware & Software N",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "9.6 IT",
+    "sno": "1.2",
+    "desc": "Horizontal Cable Management for Open Racks - 42 U",
+    "unit": "Lot.",
+    "qty": 1
+  },
+  {
+    "sheet": "9.6 IT",
+    "sno": "1.3",
+    "desc": "Vertical Cable Management for Open Racks - 12U with cover & screws for 19\" ",
+    "unit": "Lot.",
+    "qty": 1
+  },
+  {
+    "sheet": "9.6 IT",
+    "sno": "2.1.1",
+    "desc": "1U 19\" 48F Port LC Multimode Fibre Optic Patch Panel fully loaded with all accessories",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "9.6 IT",
+    "sno": "2.1.2",
+    "desc": "1U 19\" 48F Port LC Singlemode Fibre Optic Patch Panel fully loaded with all accessories",
+    "unit": "Nos.",
+    "qty": 5
+  },
+  {
+    "sheet": "9.6 IT",
+    "sno": "2.2.1",
+    "desc": "1U 19\" 24-port, UTP CAT6A Patch panel fully loaded with all accessories Krone type.",
+    "unit": "Nos.",
+    "qty": 4
+  },
+  {
+    "sheet": "9.6 IT",
+    "sno": "3.1",
+    "desc": "Cat6A Male RJ45 to Male RJ45 Ethernet Cable, UTP, LSZH Sheath, 1 m",
+    "unit": "Nos.",
+    "qty": 185
+  },
+  {
+    "sheet": "9.6 IT",
+    "sno": "3.2",
+    "desc": "Cat6A Male RJ45 to Male RJ45 Ethernet Cable, UTP, LSZH Sheath, 2 m",
+    "unit": "Nos.",
+    "qty": 643
+  },
+  {
+    "sheet": "9.6 IT",
+    "sno": "4.1",
+    "desc": "2 Port  box mounted dataface plate with RJ45 CAT6A LAN I/O Punch Down Network Keystone Jack with Gan",
+    "unit": "Nos.",
+    "qty": 287
+  },
+  {
+    "sheet": "9.6 IT",
+    "sno": "5.1",
+    "desc": "23AWG CAT6A UTP Ethernet Cable, (LSZH) Flame Retardant Jacketing, Polyethylene (PE) Insulated, Un-Ar",
+    "unit": "m",
+    "qty": 20000
+  },
+  {
+    "sheet": "9.6 IT",
+    "sno": "5.199999999999999",
+    "desc": "Single Mode OS2 Optical fiber, (LSZH) Flame Retardant Jacketing, Un-Armoured, 24F,  including OTDR T",
+    "unit": "m",
+    "qty": 4500
+  },
+  {
+    "sheet": "9.6 IT",
+    "sno": "5.299999999999999",
+    "desc": "Single Mode OS2 Optical fiber, (LSZH) Flame Retardant Jacketing, Un-Armoured, 36F (For Indoor Applic",
+    "unit": "m",
+    "qty": 150
+  },
+  {
+    "sheet": "9.6 IT",
+    "sno": "5.399999999999999",
+    "desc": "Multi Mode OM4 Optical fiber,  (LSZH) Flame Retardant Jacketing, Un-Armoured, 12F (For Indoor Applic",
+    "unit": "m",
+    "qty": 150
+  },
+  {
+    "sheet": "9.6 IT",
+    "sno": "5.5",
+    "desc": "Earthing cable of 1x10sqmm, & materials including all accessories",
+    "unit": "m",
+    "qty": 100
+  },
+  {
+    "sheet": "9.6 IT",
+    "sno": "5.6",
+    "desc": "Fire Sealant for all cable entries",
+    "unit": "Lot.",
+    "qty": 1
+  },
+  {
+    "sheet": "9.6 IT",
+    "sno": "5.7",
+    "desc": "Power cable copper 3CX2.5 SQMM",
+    "unit": "m",
+    "qty": 100
+  },
+  {
+    "sheet": "9.6 IT",
+    "sno": "7.1",
+    "desc": "25mm Fixed PVC Conduit with all mounting Accessories  including bends, elbows etc.",
+    "unit": "m",
+    "qty": 100
+  },
+  {
+    "sheet": "9.6 IT",
+    "sno": "7.2",
+    "desc": "300(W) x 50(H) x 2(T) mm, Hot dip galvanised GI Perforated cable tray with mounting support at every",
+    "unit": "m",
+    "qty": 1000
+  },
+  {
+    "sheet": "9.6 IT",
+    "sno": "7.3",
+    "desc": "200(W) x 30(H) x 2(T) mm, Hot dip galvanised GI Cable Raceway with cover and mounting support at eve",
+    "unit": "m",
+    "qty": 100
+  },
+  {
+    "sheet": "9.6 IT",
+    "sno": "8.1",
+    "desc": "Supply, Installation, Testing & Commissioning of Data & IT system as per the requirements mentioned ",
+    "unit": "Lot.",
+    "qty": 1
+  },
+  {
+    "sheet": "9.6 IT",
+    "sno": "8.2",
+    "desc": "Installation of Wire less Access Points along with supply & installation of mounting accessories.",
+    "unit": "nos.",
+    "qty": 104
+  },
+  {
+    "sheet": "9.6 IT",
+    "sno": "8.3",
+    "desc": "Installation of IP Phones along with supply & installation of mounting accessories.",
+    "unit": "nos.",
+    "qty": 20
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.1",
+    "desc": "6.6kV, 3C x 240 sq.mm XLPE insulated, FRLS-ZH, Al. Conductor round wire armoured Cable",
+    "unit": "Meter",
+    "qty": 1000
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.2",
+    "desc": "Heat Shrinkable Cable End Termination Kit for the above cable at Item no. 1.1",
+    "unit": "Nos.",
+    "qty": 4
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1",
+    "desc": "SITC of 6.6kV/0.433 kV Dry-Type Transformer Rated Power: 1600 / 2000 kVA, AN/AF, Door Interlock etc.",
+    "unit": "Nos.",
+    "qty": 2
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2",
+    "desc": "SITC of 504V/214V Dry-Type Transformer Rated Power: 630 kVA with 2000Amp. ICOG Panel, Indication, MF",
+    "unit": "Nos.",
+    "qty": 4
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3",
+    "desc": "SITC of Emergency Push Button station with lockable key for transformer to quickly disconnect power ",
+    "unit": "Nos.",
+    "qty": 6
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.1",
+    "desc": "From Transformer 1 to Incomer 1 of MSB",
+    "unit": "Meter",
+    "qty": 20
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.2",
+    "desc": "From Transformer 2 to Incomer 2 of MSB",
+    "unit": "Meter",
+    "qty": 20
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.1",
+    "desc": "From Transformer 1 ICOG to L1M with tapp off unit as per Distribution schedule No: 4066-DE-FAB-EL-DO",
+    "unit": "Meter",
+    "qty": 170
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.1.1",
+    "desc": "63A MCCB with LSIG protection and RS485 communication facility.",
+    "unit": "Nos.",
+    "qty": 32
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.1.4",
+    "desc": "400A MCCB with LSIG protection and RS485 communication facility.",
+    "unit": "Nos.",
+    "qty": 10
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.2",
+    "desc": "From Transformer 2 ICOG to L1M with tapp off unit as per Distribution schedule No: 4066-DE-FAB-EL-DO",
+    "unit": "Meter",
+    "qty": 270
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.2.1",
+    "desc": "63A MCCB with LSIG protection and RS485 communication facility.",
+    "unit": "Nos.",
+    "qty": 6
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.2.2",
+    "desc": "100A MCCB with LSIG protection and RS485 communication facility.",
+    "unit": "Nos.",
+    "qty": 4
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.2.3",
+    "desc": "250A MCCB with LSIG protection and RS485 communication facility.",
+    "unit": "Nos.",
+    "qty": 10
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.2.4",
+    "desc": "400A MCCB with LSIG protection and RS485 communication facility.",
+    "unit": "Nos.",
+    "qty": 6
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.3",
+    "desc": "From Transformer 3 ICOG to L1M with tapp off unit as per Distribution schedule No: 4066-DE-FAB-EL-DO",
+    "unit": "Meter",
+    "qty": 200
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.3.1",
+    "desc": "63A MCCB with LSIG protection and RS485 communication facility.",
+    "unit": "Nos.",
+    "qty": 24
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.3.2",
+    "desc": "100A MCCB with LSIG protection and RS485 communication facility.",
+    "unit": "Nos.",
+    "qty": 4
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.3.4",
+    "desc": "400A MCCB with LSIG protection and RS485 communication facility.",
+    "unit": "Nos.",
+    "qty": 4
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.3.5",
+    "desc": "630A MCCB with LSIG protection and RS485 communication facility.",
+    "unit": "Nos.",
+    "qty": 4
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.4",
+    "desc": "From Transformer 4 ICOG to L1M with tapp off unit as per Distribution schedule No: 4066-DE-FAB-EL-DO",
+    "unit": "Meter",
+    "qty": 150
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.4.4",
+    "desc": "400A MCCB with LSIG protection and RS485 communication facility.",
+    "unit": "Nos.",
+    "qty": 2
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.4.6",
+    "desc": "1000A MCCB with LSIG protection and RS485 communication facility.",
+    "unit": "Nos.",
+    "qty": 6
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.1",
+    "desc": "MSI1-CUB-1-C3CA-FAC-415EMSB-006 (As per SLD No .DE-MSI1-CUB-B-001-E-193) -  As per IEC 61439",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.1",
+    "desc": "MSI1-CUB-1-C3CB-FAC-415SSB-502 (As per SLD No. DE-MSI1-CUB-B-001-E-192) -  As per IEC 61439",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.2",
+    "desc": "MSI1-FAB-1M-F13FX-PRO-208SSB-077",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.3",
+    "desc": "MSI1-FAB-1M-F10FX-PRO-208SSB-078",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.4",
+    "desc": "MSI1-FAB-1M-F10FX-PRO-208SSB-079",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.5",
+    "desc": "MSI1-FAB-1M-F9FX-PRO-208SSB-080",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.6",
+    "desc": "MSI1-FAB-1-F13FW-PRO-480SSB-001 (As per SLD No. DE-MSI1-FAB-B-001-E-189) -  As per IEC 61439",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.7",
+    "desc": "MSI1-FAB-1-F13FW-PRO-480SSB-002  (As per SLD No. DE-MSI1-FAB-B-001-E-189) -  As per IEC 61439",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.8",
+    "desc": "MSI1-FAB-1-F13FW-PRO-480SSB-003  (As per SLD No. DE-MSI1-FAB-B-001-E-189) -  As per IEC 61439",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.9",
+    "desc": "MSI1-FAB-1-F14FX-FAC-415SSB-024  (As per SLD No. DE-MSI1-FAB-B-001-E-189) -  As per IEC 61439",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.11",
+    "desc": "MSI1-FAB-1-F15FX-FAC-415ESSB-013 (As per SLD No. DE-MSI1-FAB-B-001-E-190) -  As per IEC 61439",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.12",
+    "desc": "MSI1-CUB-1-C3CC-CTRL-415UPSDB-401  (As per SLD No. DE-MSI1-CUB-B-001-E-194) -  As per IEC 61439",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.13",
+    "desc": "MSI1-FAB-1-F15FX-CTRL-415UPSDB-012  (As per SLD No. DE-MSI1-FAB-B-001-E-191) -  As per IEC 61439",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.14",
+    "desc": "MSI1-FAB-1-F17FY-PRO-208UPSDB-011  (As per SLD No. DE-MSI1-FAB-B-001-E-191) -  As per IEC 61439",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.15",
+    "desc": "MSI1-CUB-1M-C4CC-FAC-415MCC-001 (As per SLD No. DE-MSI1-CUB-B-001-E-192) -  As per IEC 61439",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.16",
+    "desc": "MSI1-CUB-1M-C4CB-FAC-415EMCC-001 (As per SLD No .DE-MSI1-CUB-B-001-E-193) -  As per IEC 61439",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.17",
+    "desc": "MSI1-FAB-1-F16FW-7AB-208PDB-001 (As per SLD No. DE-MSI1-FAB-B-001-E-189) -  As per IEC 61439",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.18",
+    "desc": "MSI1-FAB-1-F14FW-7AB-208PDB-002 (As per SLD No. DE-MSI1-FAB-B-001-E-189) -  As per IEC 61439",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.19",
+    "desc": "MSI1-FAB-1-F14FW-7AB-208PDB-003 (As per SLD No. DE-MSI1-FAB-B-001-E-189) -  As per IEC 61439",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.2",
+    "desc": "MSI1-FAB-1-F15FW-7AB-208PP-001 (As per DB Schedule No. : 4066-DE-FAB-EL-DOC-4548)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.21",
+    "desc": "MSI1-FAB-1-F15FW-7AB-208PP-002 (As per DB Schedule No. : 4066-DE-FAB-EL-DOC-4548) ",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.22",
+    "desc": "MSI1-FAB-1-F16FW-7AB-208PP-003 (As per DB Schedule No. : 4066-DE-FAB-EL-DOC-4548) ",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.23",
+    "desc": "MSI1-FAB-1-F12FW-7AB-230PP-001 (As per DB Schedule No. : 4066-DE-FAB-EL-DOC-4548) ",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.1",
+    "desc": "MSI1-FAB-1-F14FX-CRMAU-415VSD-011",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.2",
+    "desc": "MSI1-FAB-1-F14FX-CRMAU-415VSD-012",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.3",
+    "desc": "MSI1-FAB-1-F14FX-EXF-415VSD-006",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.4",
+    "desc": "MSI1-FAB-1-F14FX-EXF-415VSD-007",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.5",
+    "desc": "MSI1-FAB-1-F14FX-MAU-415VSD-005",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.6",
+    "desc": "MSI1-FAB-1-F14FX-MAU-415VSD-006",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.7",
+    "desc": "MSI1-FAB-1-F14FX-MAU-415VSD-007",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.8",
+    "desc": "MSI1-FAB-1-F14FX-MAU-415VSD-008",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.9",
+    "desc": "MSI1-CUB-1M-C3CA-ACXF-415VSD-001",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.1",
+    "desc": "MSI1-CUB-1M-C3CA-ACXF-415VSD-002",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.11",
+    "desc": "MSI1-CUB-1M-C3CA-ACXF-415VSD-003",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.12",
+    "desc": "MSI1-CUB-1M-C2CD-AMXF-415VSD-001",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.13",
+    "desc": "MSI1-CUB-1M-C2CD-AMXF-415VSD-002",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.14",
+    "desc": "MSI1-CUB-1M-C2CD-AMXF-415VSD-003",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.15",
+    "desc": "MSI1-CUB-1M-C3CA-SPXF-415VSD-001",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.16",
+    "desc": "MSI1-CUB-1M-C3CA-SPXF-415VSD-002",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.17",
+    "desc": "MSI1-CUB-1M-C3CA-SPXF-415VSD-003",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.18",
+    "desc": "MSI1-CUB-1M-C4CC-MAU-415VSD-006",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.19",
+    "desc": "MSI1-CUB-1M-C4CC-MAU-415VSD-007",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.2",
+    "desc": "MSI1-CUB-1M-C2CC-MAU-415VSD-008",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.21",
+    "desc": "MSI1-CUB-1M-C2CC-MAU-415VSD-009",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.22",
+    "desc": "MSI1-CUB-1M-C2CC-EXF-415VSD-013",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.23",
+    "desc": "MSI1-CUB-1M-C2CC-EXF-415VSD-014",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.24",
+    "desc": "VSDs for HPCDA",
+    "unit": "Nos.",
+    "qty": 3
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.1",
+    "desc": "250 kVA UPS with 3-phase input, 3-phase output  (As per SLD No. DE-MSI1-CUB-B-001-E-194)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.2",
+    "desc": "175 kVA UPS with 3-phase input, 3-phase output  (As per SLD No. DE-MSI1-FAB-B-001-E-191)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.3",
+    "desc": "175 kVA UPS with 415V 3-phase input, 208V, 3-phase output along with 415V/208V Dry-Type Transformer ",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.1",
+    "desc": "MSI1-CUB-1-C4CB-415UPSAUXP-001 (As per DB Schedule No. : 4066-DE-CUB-EL-DOC-4547)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.3",
+    "desc": "MSI1-CUB-1-C3CD-ELV-415UPSDB-401 (As per DB Schedule No. : 4066-DE-CUB-EL-DOC-4547)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.5",
+    "desc": "MSI1-FAB-1-F15FX-415UPSAUXP-001 (As per DB Schedule No. : 4066-DE-FAB-EL-DOC-4548)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.7",
+    "desc": "MSI1-FAB-1-F15FW-ELV-415UPSDB-121 (As per DB Schedule No. : 4066-DE-FAB-EL-DOC-4548)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.1",
+    "desc": "MSI1-CUB-1-C3CD-ELV-415NONUPSDB-502-1 (As per DB Schedule No. : 4066-DE-CUB-EL-DOC-4547)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.2",
+    "desc": "MSI1-FAB-1-F15FX-415AUXP-001 (As per DB Schedule No. : 4066-DE-FAB-EL-DOC-4548)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.3",
+    "desc": "MSI1-FAB-1-F15FW-ELV-415NONUPSDB-241 (As per DB Schedule No. : 4066-DE-FAB-EL-DOC-4548)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.1",
+    "desc": "MSI1-CUB-1-C3CC-ELDB-415-601 (As per DB Schedule No. : 4066-DE-CUB-EL-DOC-4547)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.2",
+    "desc": "MSI1-CUB-1M-C3CD-ELDB-415-602 (As per DB Schedule No. : 4066-DE-CUB-EL-DOC-4547)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.3",
+    "desc": "MSI1-FAB-1-F17FW-415ELDB-131 (As per DB Schedule No. : 4066-DE-FAB-EL-DOC-4548)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.4",
+    "desc": "MSI1-FAB-1-F17FW-CR-415ELDB-132 (As per DB Schedule No. : 4066-DE-FAB-EL-DOC-4548)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.5",
+    "desc": "MSI1-FAB-1-F17FW-415ELDB-133 (As per DB Schedule No. : 4066-DE-FAB-EL-DOC-4548)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "4.1",
+    "desc": "MSI1-CUB-1-C3CD-LDB-415-502-1 (As per DB Schedule No. : 4066-DE-CUB-EL-DOC-4547)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "4.2",
+    "desc": "MSI1-CUB-1M-C3CD-LDB-415-502-2 (As per DB Schedule No. : 4066-DE-CUB-EL-DOC-4547)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "4.3",
+    "desc": "MSI1-FAB-1-F17FW-415LDB-241 (As per DB Schedule No. : 4066-DE-FAB-EL-DOC-4548)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "4.4",
+    "desc": "MSI1-FAB-1-F17FW-CR-415LDB-242 (As per DB Schedule No. : 4066-DE-FAB-EL-DOC-4548)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "4.5",
+    "desc": "MSI1-FAB-1-F17FW-415LDB-243 (As per DB Schedule No. : 4066-DE-FAB-EL-DOC-4548)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "4.6",
+    "desc": "MSI1-FAB-1-F17FW-415LDB-244 (As per DB Schedule No. : 4066-DE-FAB-EL-DOC-4548)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "5.1",
+    "desc": "MSI1-CUB-1-C4CA-415RPDB-502-3 (As per DB Schedule No. : 4066-DE-CUB-EL-DOC-4547)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "5.2",
+    "desc": "MSI1-CUB-1-C4CA-415RPDB-502-5 (As per DB Schedule No. : 4066-DE-CUB-EL-DOC-4547)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "5.3",
+    "desc": "MSI1-CUB-1M-C4CA-415RPDB-502-4 (As per DB Schedule No. : 4066-DE-CUB-EL-DOC-4547)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "5.4",
+    "desc": "MSI1-FAB-1-F14FY-415RPDB-243 (As per DB Schedule No. : 4066-DE-FAB-EL-DOC-4548)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "6.1",
+    "desc": "MSI1-FAB-1-F15FW-FFU-415PDB-241 (As per DB Schedule No. : 4066-DE-FAB-EL-DOC-4548)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "6.2",
+    "desc": "MSI1-FAB-1-F15FW-FFU-415EPDB-131 (As per DB Schedule No. : 4066-DE-FAB-EL-DOC-4548)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "7.1",
+    "desc": "MSI1-FAB-1-F16FW-ION-415PDB-001 (As per DB Schedule No. : 4066-DE-FAB-EL-DOC-4548)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1",
+    "desc": "415V 3∅ 32A 5pin and 230V 1∅ 16A 3pin combine industrial Universal Switch Socket Outlet  with 100mA ",
+    "unit": "Nos.",
+    "qty": 11
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2",
+    "desc": "230V 1∅ 16A 3pin industrial Commando socket with 100mA RCBO - IP67",
+    "unit": "Nos.",
+    "qty": 33
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3",
+    "desc": "415V 3∅ 32A 5pin industrial Commando socket with 100mA RCBO - IP67",
+    "unit": "Nos.",
+    "qty": 26
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "5.1",
+    "desc": "Local Control station along with Power Isolator for Motor upto 15kW",
+    "unit": "Nos.",
+    "qty": 40
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "5.2",
+    "desc": "Local Control station along with Power Isolator for Motor above 15kW to 37kW",
+    "unit": "Nos.",
+    "qty": 5
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "5.3",
+    "desc": "Local Control station along with Power Isolator for Motor above 37kW to 75kW",
+    "unit": "Nos.",
+    "qty": 8
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "5.4",
+    "desc": "Local Control station along with Power Isolator for Motor above 75kW to 110kW",
+    "unit": "Nos.",
+    "qty": 3
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "5.5",
+    "desc": "Local Control station along with Power Isolator for Motor above 110kW",
+    "unit": "Nos.",
+    "qty": 3
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "6.1",
+    "desc": "Emergency Stop Push button Staion along with Isolator for Motor upto 15kW",
+    "unit": "Nos.",
+    "qty": 3
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "6.2",
+    "desc": "Emergency Stop Push button Staion along with Isolator for Motor above 15kW to 37kW",
+    "unit": "Nos.",
+    "qty": 5
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "6.3",
+    "desc": "Emergency Stop Push button Staion along with Isolator for Motor above 37kW to 75kW",
+    "unit": "Nos.",
+    "qty": 10
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "7.1",
+    "desc": "Isolator for Motor upto 15kW",
+    "unit": "Nos.",
+    "qty": 10
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "8.4",
+    "desc": "SITC of FLP Welding Receptacles, 32Amp, 5Pin, 3P+N+E, 415VAC, with 32A, 4 Pole RCBO Operating from o",
+    "unit": "No.",
+    "qty": 8
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "8.5",
+    "desc": "SITC of FLP Welding Receptacles, 16Amp, 3Pin, 1P+N+E, 230VAC, with 16A, 2 Pole RCBO Operating from o",
+    "unit": "No.",
+    "qty": 16
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.1",
+    "desc": "3C x 6 Sqmm Cu. Ar. Cable",
+    "unit": "Meter",
+    "qty": 2940
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.2",
+    "desc": "3C x 10 Sqmm Cu. Ar. Cable",
+    "unit": "Meter",
+    "qty": 1140
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.3",
+    "desc": "3C x 16 Sqmm Cu. Ar. Cable",
+    "unit": "Meter",
+    "qty": 460
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.4",
+    "desc": "3C x 25 Sqmm Cu. Ar. Cable",
+    "unit": "Meter",
+    "qty": 500
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.6",
+    "desc": "3C x 50 Sqmm Cu. Ar. Cable",
+    "unit": "Meter",
+    "qty": 360
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.7",
+    "desc": "3C x 70 Sqmm Cu. Ar. Cable",
+    "unit": "Meter",
+    "qty": 260
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.1",
+    "desc": "3C x 150 Sqmm Cu. Ar. Cable",
+    "unit": "Meter",
+    "qty": 280
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.14",
+    "desc": "4C x 6 Sqmm Cu. Ar. Cable",
+    "unit": "Meter",
+    "qty": 860
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.15",
+    "desc": "4C x 10 Sqmm Cu. Ar. Cable",
+    "unit": "Meter",
+    "qty": 590
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.16",
+    "desc": "4C x 16 Sqmm Cu. Ar. Cable",
+    "unit": "Meter",
+    "qty": 200
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.17",
+    "desc": "3.5C x 25 Sqmm Cu. Ar. Cable",
+    "unit": "Meter",
+    "qty": 1130
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.19",
+    "desc": "3.5C x 50 Sqmm Cu. Ar. Cable",
+    "unit": "Meter",
+    "qty": 1080
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.2",
+    "desc": "3.5C x 70 Sqmm Cu. Ar. Cable",
+    "unit": "Meter",
+    "qty": 2150
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.22",
+    "desc": "3.5C x 120 Sqmm Cu. Ar. Cable",
+    "unit": "Meter",
+    "qty": 470
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.23",
+    "desc": "3.5C x 150 Sqmm Cu. Ar. Cable",
+    "unit": "Meter",
+    "qty": 890
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.24",
+    "desc": "3.5C x 185 Sqmm Cu. Ar. Cable",
+    "unit": "Meter",
+    "qty": 1070
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.25",
+    "desc": "3.5C x 240 Sqmm Cu. Ar. Cable",
+    "unit": "Meter",
+    "qty": 2400
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.26",
+    "desc": "3.5C x 300 Sqmm Cu. Ar. Cable",
+    "unit": "Meter",
+    "qty": 12920
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.1",
+    "desc": "3C x 6 Sqmm",
+    "unit": "Nos.",
+    "qty": 90
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.2",
+    "desc": "3C x 10 Sqmm",
+    "unit": "Nos.",
+    "qty": 40
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.3",
+    "desc": "3C x 16 Sqmm",
+    "unit": "Nos.",
+    "qty": 20
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.4",
+    "desc": "3C x 25 Sqmm",
+    "unit": "Nos.",
+    "qty": 20
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.6",
+    "desc": "3C x 50 Sqmm",
+    "unit": "Nos.",
+    "qty": 20
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.7",
+    "desc": "3C x 70 Sqmm",
+    "unit": "Nos.",
+    "qty": 10
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.1",
+    "desc": "3C x 150 Sqmm",
+    "unit": "Nos.",
+    "qty": 10
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.14",
+    "desc": "4C x 6 Sqmm",
+    "unit": "Nos.",
+    "qty": 30
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.15",
+    "desc": "4C x 10 Sqmm",
+    "unit": "Nos.",
+    "qty": 30
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.16",
+    "desc": "4C x 16 Sqmm",
+    "unit": "Nos.",
+    "qty": 10
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.17",
+    "desc": "3.5C x 25 Sqmm",
+    "unit": "Nos.",
+    "qty": 40
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.19",
+    "desc": "3.5C x 50 Sqmm",
+    "unit": "Nos.",
+    "qty": 40
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.2",
+    "desc": "3.5C x 70 Sqmm",
+    "unit": "Nos.",
+    "qty": 40
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.22",
+    "desc": "3.5C x 120 Sqmm",
+    "unit": "Nos.",
+    "qty": 30
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.23",
+    "desc": "3.5C x 150 Sqmm",
+    "unit": "Nos.",
+    "qty": 20
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.24",
+    "desc": "3.5C x 185 Sqmm",
+    "unit": "Nos.",
+    "qty": 40
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.25",
+    "desc": "3.5C x 240 Sqmm",
+    "unit": "Nos.",
+    "qty": 60
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.26",
+    "desc": "3.5C x 300 Sqmm",
+    "unit": "Nos.",
+    "qty": 110
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.32",
+    "desc": "2R x 1C x 2.5 + 1R x 1C x 1.5 Sqmm Cu. Ar. Cable - Lighting cable",
+    "unit": "Nos.",
+    "qty": 930
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.33",
+    "desc": "2R x 1C x 2.5 + 1R x 1C x 1.5 Sqmm Cu. Ar. Cable - Lighting cable (SS316 Flameproof )",
+    "unit": "Nos.",
+    "qty": 387
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.1",
+    "desc": "3C X 2.5 Sq.mm CU Arm. Cable",
+    "unit": "Meter",
+    "qty": 1250
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.2",
+    "desc": "3C X 4 Sq.mm CU Arm. Cable",
+    "unit": "Meter",
+    "qty": 870
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.3",
+    "desc": "5C X 2.5 Sq.mm CU Arm. Cable",
+    "unit": "Meter",
+    "qty": 2280
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.4",
+    "desc": "7C X 2.5 Sq.mm CU Arm. Cable",
+    "unit": "Meter",
+    "qty": 3730
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.5",
+    "desc": "10C X 2.5 Sq.mm CU Arm. Cable",
+    "unit": "Meter",
+    "qty": 4270
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.6",
+    "desc": "12C X 2.5 Sq.mm CU Arm. Cable",
+    "unit": "Meter",
+    "qty": 870
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.7",
+    "desc": "1P TSP",
+    "unit": "Meter",
+    "qty": 1750
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.8",
+    "desc": "6C FO Cable",
+    "unit": "Meter",
+    "qty": 570
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.1",
+    "desc": "3C X 2.5 Sq.mm",
+    "unit": "Nos.",
+    "qty": 40
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.2",
+    "desc": "3C X 4 Sq.mm",
+    "unit": "Nos.",
+    "qty": 20
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.3",
+    "desc": "5C X 2.5 Sq.mm",
+    "unit": "Nos.",
+    "qty": 60
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.4",
+    "desc": "7C X 2.5 Sq.mm",
+    "unit": "Nos.",
+    "qty": 40
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.5",
+    "desc": "10C X 2.5 Sq.mm",
+    "unit": "Nos.",
+    "qty": 120
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.6",
+    "desc": "12C X 2.5 Sq.mm",
+    "unit": "Nos.",
+    "qty": 20
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.7",
+    "desc": "1P TSP",
+    "unit": "Nos.",
+    "qty": 50
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.8",
+    "desc": "6C FO Cable",
+    "unit": "Nos.",
+    "qty": 20
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.1",
+    "desc": "1200 x 100mm Size ",
+    "unit": "Meter",
+    "qty": 590
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.2",
+    "desc": "900 x 100mm Size",
+    "unit": "Meter",
+    "qty": 790
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.4",
+    "desc": "600 x 100mm Size",
+    "unit": "Meter",
+    "qty": 1640
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.6",
+    "desc": "300 x 100mm Size",
+    "unit": "Meter",
+    "qty": 1650
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.1",
+    "desc": "900 x 50mm Size",
+    "unit": "Meter",
+    "qty": 200
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.2",
+    "desc": "600 x 50mm Size",
+    "unit": "Meter",
+    "qty": 550
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.3",
+    "desc": "300 x 50mm Size",
+    "unit": "Meter",
+    "qty": 1430
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "4.1",
+    "desc": "50 x 50mm Size",
+    "unit": "Meter",
+    "qty": 1500
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.1",
+    "desc": "40 Watts LED linear suspended / wall mounted Batten light Tube with Batten 4 feet with Efficacy of >",
+    "unit": "Nos.",
+    "qty": 249
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.2",
+    "desc": "149 Watts LED Highbay light with Efficacy of >110Lm/W. Operating Voltage will be 180V - 230Vrms. LED",
+    "unit": "Nos.",
+    "qty": 25
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.5",
+    "desc": "Emergency Exit Light 1 x 8 watts with battery backup of 4 hours",
+    "unit": "Nos.",
+    "qty": 20
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.6",
+    "desc": "Emergency Exit Signboard 1 x 8 watts with battery backup of 4 hours  ",
+    "unit": "Nos.",
+    "qty": 16
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.7",
+    "desc": "50mm GI Pipe Bracket type 3 Mtr. high lighting poles including supply and fixing of weatherproof 3/4",
+    "unit": "Nos.",
+    "qty": 10
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.8",
+    "desc": "Supply, installation, testing & commissioning  4/6/8 Way JB, IP 65, Heavy Duty For Loop In Loop Out",
+    "unit": "Nos.",
+    "qty": 310
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.1",
+    "desc": "SITC of Flameproof/Weatherproof Well Glass Light Fixture, LED, 40W luminaire,IP-65",
+    "unit": "Nos.",
+    "qty": 83
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.2",
+    "desc": "SITC of Flameproof/Weatherproof Linear Batten Light Fixture, LED, 40W luminaire,IP-65",
+    "unit": "Nos.",
+    "qty": 27
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.3",
+    "desc": "SITC of Flameproof/Weatherproof Emergency Exit Light 1 x 8 watts with battery backup of 4 hours",
+    "unit": "Nos.",
+    "qty": 19
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.4",
+    "desc": "Supply, installation, testing & commissioning  4/6/8 Way Flameproof JB, IP 65, Heavy Duty For Loop I",
+    "unit": "Nos.",
+    "qty": 129
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1",
+    "desc": "Cable wiring - From LDB to Switchbox / control MCB using 3C x 2.5sq.mm flexible Copper FRLS wire and",
+    "unit": "Meter",
+    "qty": 250
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "6",
+    "desc": "SITC of 2-Way, 3 Nos. 6A switch for lighting circuit,  230 volts single phase 16 amps 5 pin switch-s",
+    "unit": "Nos.",
+    "qty": 8
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "7",
+    "desc": "Supply, installation, and commissioning of local control/drop-down unit using heavy-duty polyvinyl (",
+    "unit": "Job",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.3",
+    "desc": "Earth Busbar System (EBS), 50X 6 mm Coper, Length : 600mm with CRCA Box. ",
+    "unit": "Nos.",
+    "qty": 200
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.1",
+    "desc": "50x6 mm Copper earth flat (As per Doc No. : DE-MSI1-CUB-B-001-E-122 & DE-MSI1-FAB-B-001-E-123)",
+    "unit": "Meter",
+    "qty": 2600
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.8",
+    "desc": "1C x 70Sq.mm Cu flexible wire (Green) with lugs for Equipment earthing ",
+    "unit": "Meter",
+    "qty": 550
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.9",
+    "desc": "1C x 150Sq.mm Cu flexible wire (Green) with lugs for Equipment earthing ",
+    "unit": "Meter",
+    "qty": 360
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.1",
+    "desc": "1C x 185Sq.mm Cu flexible wire (Green) with lugs for Equipment earthing ",
+    "unit": "Meter",
+    "qty": 200
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.11",
+    "desc": "Exothermic welding Straight and cross connection",
+    "unit": "Job",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.1",
+    "desc": "Crocodile Clamp with 5 Meter of Flexible cable of 10 sq.mm with Spring Operated Cable Reeling Drum (",
+    "unit": "Nos.",
+    "qty": 5
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "11",
+    "desc": "CU Flat 25x4 mm Buried in ground thickness. Flat conductor shall be of CU & Cross sectional area of ",
+    "unit": "Meter",
+    "qty": 100
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1",
+    "desc": "Design, Supply and erection of Heavy duty GI Unistrut Support for Cable Tray, Light fixtures, Bus du",
+    "unit": "Job",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2",
+    "desc": "Supply and fixing of mechanical Anchor fasteners 12mm Ǿ size, in RCC Slab, RCC/Brick wall. The rate ",
+    "unit": "Job",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.1",
+    "desc": "25mm Dia",
+    "unit": "Meter",
+    "qty": 100
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1.2",
+    "desc": "40mm Dia",
+    "unit": "Meter",
+    "qty": 100
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.1",
+    "desc": "25mm Dia",
+    "unit": "Meter",
+    "qty": 100
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.2",
+    "desc": "32mm Dia",
+    "unit": "Meter",
+    "qty": 100
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.3",
+    "desc": "50mm Dia.",
+    "unit": "Meter",
+    "qty": 100
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2.4",
+    "desc": "100mm Dia.",
+    "unit": "Meter",
+    "qty": 100
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.1",
+    "desc": "Rubber Insulation Floor mat -1kV Grade",
+    "unit": "Job",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3.2",
+    "desc": "Nomenclature of equipment",
+    "unit": "Job",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "4",
+    "desc": "Relay co- ordination, settings, parameters and report including upstream correction based on origina",
+    "unit": "Job",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "5",
+    "desc": "Arc Flash study and Mark up of arc flash boundary with label and Equipment nomenclature.",
+    "unit": "Job",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "6",
+    "desc": "Harmonic Study based on actual VFD details and incorporated in system as per the recomondation ",
+    "unit": "Job",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "7",
+    "desc": "ARC Flash Protection Suit – Complete Set",
+    "unit": "Nos.",
+    "qty": 2
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "8",
+    "desc": "Charges for doing liaisoning work for obtaining the necessary clearances from the Electrical inspect",
+    "unit": "Job",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "9",
+    "desc": "SS316 type cable clamps /ties",
+    "unit": "LS",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "10",
+    "desc": "SITC of 1250A 4P ACB, 80kA short circuit level, Microprocessor based with LSIG protection, indicatio",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "11",
+    "desc": "SITC of 400A 4P MCCB, 80kA short circuit level, Microprocessor based with LSIG protection, indicatio",
+    "unit": "Nos.",
+    "qty": 2
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "12",
+    "desc": "SITC of 125A 4P MCCB, 36kA short circuit level, Microprocessor based with LSIG protection, indicatio",
+    "unit": "Nos.",
+    "qty": 3
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "13",
+    "desc": "SITC of 125A 4P MCCB, 36kA short circuit level, Microprocessor based with LSIG protection, indicatio",
+    "unit": "Nos.",
+    "qty": 2
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "12",
+    "desc": "ITC of all electric motors under GC scope, including mounting accessories, terminal boxes, earthing ",
+    "unit": "Job",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "13",
+    "desc": "Removal & Relocation of existing lighting pole outside CUB1 building as per site incharge instructio",
+    "unit": "Nos.",
+    "qty": 7
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "14",
+    "desc": "Modification of existing electrical cables, cable tray, lighting, switchboards, earthing etc. requir",
+    "unit": "Job",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1",
+    "desc": "MCT Block and Fire sealing compound (Latest cutout sealant technologies including frames, sealing co",
+    "unit": "Job",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1",
+    "desc": "First aid box",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2",
+    "desc": "Dry powder fire extinguishers wall mounted type 4.5 kg capacity (One in every switchgear room)",
+    "unit": "Set",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "3",
+    "desc": "Key SLD in A1 paper size (in English) to be fixed on wall (One in every switchgear room)",
+    "unit": "Job",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "4",
+    "desc": "Shock treatment charts (English / Local language) fixed on wall (One in every switchgear room)",
+    "unit": "Set",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "5",
+    "desc": "Danger boards for 415 V (One in every switchgear room and wherever power panels are erected)",
+    "unit": "Set",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "6",
+    "desc": "Danger boards for 6.6 kV  (One near HT switchgears and near transformer areas)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "7",
+    "desc": "415V Electric grade rubber gloves",
+    "unit": "Set",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "8",
+    "desc": "6.6kV grade Hand Gloves.",
+    "unit": "Set",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "9",
+    "desc": "LOTO Kit as per client's standard",
+    "unit": "Set",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "1",
+    "desc": "RTU Panel at CUB and intigration with existing SCADA including OPC Programing for FMCS communication",
+    "unit": "Job",
+    "qty": 1
+  },
+  {
+    "sheet": "10.1 Non-CR Elect.",
+    "sno": "2",
+    "desc": "RTU Panel at FAB and intigration with existing SCADA including OPC Programing for FMCS communication",
+    "unit": "Job",
+    "qty": 1
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "1",
+    "desc": "Fan Filter Unit-Normal DB (As per DB schedule No: 4066-DE-FAB-EL-DOC-4548)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "2",
+    "desc": "Fan Filter Unit-Emergency DB (As per DB schedule No: 4066-DE-FAB-EL-DOC-4548)",
+    "unit": "Nos.",
+    "qty": 1
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "3",
+    "desc": "Normal Lighting DB (As per DB schedule No: 4066-DE-FAB-EL-DOC-4548)",
+    "unit": "Nos.",
+    "qty": 3
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "4",
+    "desc": "Emergency Lighting DB (As per DB schedule No: 4066-DE-FAB-EL-DOC-4548)",
+    "unit": "Nos.",
+    "qty": 3
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "1",
+    "desc": "16A 3pin socket with 100mA RCBO - IP67",
+    "unit": "Nos.",
+    "qty": 10
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "1.1",
+    "desc": "2R x 1C x 2.5 + 1R x 1C x 1.5 Sqmm Cu. FRLS wire",
+    "unit": "Meter",
+    "qty": 12000
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "1.2",
+    "desc": "SITC of cable glands for above lighting cables",
+    "unit": "Nos.",
+    "qty": 6471
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "2.1",
+    "desc": "2C x 4 + 1C x 4 Sqmm Cu. FRLS wire",
+    "unit": "Meter",
+    "qty": 1500
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "3.1",
+    "desc": "3C x 16 Sqmm Cu. FRLS wire",
+    "unit": "Meter",
+    "qty": 2000
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "3.2",
+    "desc": "3C x 2.5 Sqmm Cu. FRLS wire",
+    "unit": "Meter",
+    "qty": 3150
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "3.3",
+    "desc": "FFU 4/6/8 Way JB, IP 65, For Loop In Loop Out.",
+    "unit": "Nos.",
+    "qty": 450
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "3.4",
+    "desc": "3C x 10 Sqmm Cu.Cable Glands",
+    "unit": "Nos.",
+    "qty": 900
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "3.5",
+    "desc": "3C x 2.5 Sqmm Cu.Cable Glands",
+    "unit": "Nos.",
+    "qty": 900
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "1.1",
+    "desc": "SITC of 40 Watts LED cleanroom teardrop White light fixture, CRI>=90, CCT 5700K as per Signify Catal",
+    "unit": "Nos.",
+    "qty": 1779
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "1.2",
+    "desc": "SITC of 40 Watts LED cleanroom teardrop Yellow light fixture, CRI>=90, CCT 2700-3000K as per Signify",
+    "unit": "Nos.",
+    "qty": 134
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "1.3",
+    "desc": "SITC of Emergency Exit Light 1 x 8 watts with battery backup of 4 hours  ",
+    "unit": "Nos.",
+    "qty": 18
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "1.4",
+    "desc": "SITC of Emergency Exit Signboard 1 x 8 watts with battery backup of 4 hours  ",
+    "unit": "Nos.",
+    "qty": 16
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "1.5",
+    "desc": "SITC of 4/6/8 Way JB, IP 65, For Loop In Loop Out.",
+    "unit": "Nos.",
+    "qty": 2157
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "2",
+    "desc": "ITC of 40 Watts LED cleanroom teardrop White light fixture, CRI>=90 (As per Doc No. DE-MSI1-FAB-B-00",
+    "unit": "Nos.",
+    "qty": 210
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "1.1",
+    "desc": "300 x 100mm Size for TUM Earthing (As per Doc No. DE-MSI1-FAB-B-001-E-127)",
+    "unit": "Meter",
+    "qty": 270
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "2.1",
+    "desc": "ITC of  150 x 50mm Size main cable  tray for FFU (As per Doc No. DE-MSI1-FAB-B-001-E-127)",
+    "unit": "Meter",
+    "qty": 1350
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "2.2",
+    "desc": "SITC of  50 x 50mm Size branch cable tray for FFU (As per Doc No. DE-MSI1-FAB-B-001-E-127)",
+    "unit": "Meter",
+    "qty": 1000
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "1.1",
+    "desc": "Earth Busbar System (EBS), 50X 6 mm Coper, Length : 600mm with CRCA Box. (As per Doc No. : DE-MSI1-F",
+    "unit": "Nos.",
+    "qty": 5
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "1.2",
+    "desc": "25x3 mm Copper flat (As per Doc No. DE-MSI1-FAB-B-001-E-123)",
+    "unit": "Meter",
+    "qty": 1650
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "1.3",
+    "desc": "1C x 4Sq.mm Cu flexible wire (Green) with lugs for Raised floor earthing (As per Doc No. DE-MSI1-FAB",
+    "unit": "Meter",
+    "qty": 14410
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "1.4",
+    "desc": "Earthing Junction Box (EJB) (As per Doc No. DE-MSI1-FAB-B-001-E-123)",
+    "unit": "Meter",
+    "qty": 380
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "1.5",
+    "desc": "Exothermic welding Straight and cross connection",
+    "unit": "Job",
+    "qty": 1
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "2.2",
+    "desc": "25x3 mm Copper flat (As per Doc No. DE-MSI1-FAB-B-001-E-123)",
+    "unit": "Meter",
+    "qty": 350
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "2.3",
+    "desc": "1C x 4Sq.mm Cu flexible wire (Green) with lugs for Raised floor earthing (As per Doc No. DE-MSI1-FAB",
+    "unit": "Meter",
+    "qty": 3410
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "2.4",
+    "desc": "Earthing Junction Box (EJB) (As per Doc No. DE-MSI1-FAB-B-001-E-123)",
+    "unit": "Meter",
+    "qty": 90
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "1",
+    "desc": "Design, Supply and erection of Heavy duty GI Unistrut Support for Cable Tray, Light fixtures, Bus du",
+    "unit": "Job",
+    "qty": 1
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "2",
+    "desc": "Supply and fixing of mechanical Anchor fasteners 12mm Ǿ size, in RCC Slab, RCC/Brick wall. The rate ",
+    "unit": "Job",
+    "qty": 1
+  },
+  {
+    "sheet": "10.2 CR Elect.",
+    "sno": "1",
+    "desc": "Conduit and installation accessories including G-clamps, tie rods, U-clamps, and gaskets etc for all",
+    "unit": "Lot",
+    "qty": 1
+  }
+]

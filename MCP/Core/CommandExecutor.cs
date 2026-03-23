@@ -120,6 +120,14 @@ namespace NavisworksMCP.Core
                     case "get_model_statistics":
                         result = GetModelStatistics(request.Parameters);
                         break;
+                    // ─── Quantification 命令 ───
+                    case "quantification_get_items":
+                    case "quantification_get_item_groups":
+                    case "quantification_import_bq":
+                    case "quantification_debug_tables":
+                    case "quantification_initialize":
+                    case "quantification_exec_sql":
+                        return new QuantificationExecutor().Execute(request);
                     default:
                         return new NavisCommandResponse
                         {
