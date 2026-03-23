@@ -1,0 +1,6315 @@
+{
+  "summary": {
+    "6.1 Exhaust Ducting": {
+      "categories": [
+        "Ducts(11910)",
+        "Duct Fittings(8813)",
+        "Duct Accessories(2697)",
+        "Air Terminals(1757)"
+      ],
+      "estimatedTotal": 25177
+    },
+    "7.5 ICA+SW": {
+      "categories": [
+        "Ducts(11910)",
+        "Duct Fittings(8813)",
+        "Duct Accessories(2697)",
+        "Duct Insulations(8144)",
+        "Air Terminals(1757)"
+      ],
+      "estimatedTotal": 33321
+    },
+    "5.1 Non-CR HVAC": {
+      "categories": [
+        "Duct Fittings(8813)",
+        "Duct Accessories(2697)",
+        "Duct Insulations(8144)"
+      ],
+      "estimatedTotal": 19654
+    },
+    "7.4 PCW": {
+      "categories": [
+        "Pipes(214231)",
+        "Pipe Fittings(222625)",
+        "Pipe Accessories(40546)",
+        "Pipe Insulations(45243)",
+        "Mechanical Equipment(1659505)"
+      ],
+      "estimatedTotal": 2182150
+    },
+    "12. Gas": {
+      "categories": [
+        "Pipe Fittings(222625)",
+        "Sprinklers(29174)"
+      ],
+      "estimatedTotal": 251799
+    },
+    "4.1 Non-CR Architecture": {
+      "categories": [
+        "Walls(28772)",
+        "Doors(935)",
+        "Windows(1198)",
+        "Floors(6359)"
+      ],
+      "estimatedTotal": 37264
+    },
+    "4.2 CR Architecture": {
+      "categories": [
+        "Windows(1198)"
+      ],
+      "estimatedTotal": 1198
+    },
+    "3. Structure": {
+      "categories": [
+        "Structural Columns(24882)",
+        "Structural Framing(817823)",
+        "Structural Foundations(2244)"
+      ],
+      "estimatedTotal": 844949
+    },
+    "10.1 Non-CR Elect.": {
+      "categories": [
+        "Cable Trays(51362)",
+        "Cable Tray Fittings(43739)",
+        "Electrical Equipment(8242)",
+        "Lighting Fixtures(53048)",
+        "Conduits(15914)",
+        "Conduit Fittings(11862)"
+      ],
+      "estimatedTotal": 184167
+    },
+    "6.2 Exhaust Equipment": {
+      "categories": [
+        "Mechanical Equipment(1659505)"
+      ],
+      "estimatedTotal": 1659505
+    },
+    "8 Waste Water": {
+      "categories": [
+        "Mechanical Equipment(1659505)"
+      ],
+      "estimatedTotal": 1659505
+    },
+    "9.2 FAS": {
+      "categories": [
+        "Fire Alarm Devices(6965)"
+      ],
+      "estimatedTotal": 6965
+    },
+    "9.1 ACS": {
+      "categories": [
+        "Communication Devices(2482)",
+        "Security Devices(2151)"
+      ],
+      "estimatedTotal": 4633
+    },
+    "9.6 IT": {
+      "categories": [
+        "Data Devices(5119)"
+      ],
+      "estimatedTotal": 5119
+    },
+    "2.3 PHE Works": {
+      "categories": [
+        "Plumbing Equipment(636)",
+        "Plumbing Fixtures(1652)"
+      ],
+      "estimatedTotal": 2288
+    }
+  },
+  "details": [
+    {
+      "category": "Ducts",
+      "family": "Round Duct",
+      "type": "mh_@M_Duct_GI_Tap",
+      "systemName": "Mechanical Exhaust Air 2",
+      "size": "150 mmø",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 11910
+    },
+    {
+      "category": "Ducts",
+      "family": "Round Duct",
+      "type": "mh_@M_Duct_GI_Tap",
+      "systemName": "Mechanical Exhaust Air 1",
+      "size": "150 mmø",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 11910
+    },
+    {
+      "category": "Ducts",
+      "family": "Round Duct",
+      "type": "mh_@M_Duct_GI_Tap",
+      "systemName": "Mechanical Exhaust Air 1",
+      "size": "150 mmø",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 11910
+    },
+    {
+      "category": "Ducts",
+      "family": "Round Duct",
+      "type": "mh_@M_Duct_GI_Tap",
+      "systemName": "Mechanical Exhaust Air 2",
+      "size": "150 mmø",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 11910
+    },
+    {
+      "category": "Ducts",
+      "family": "Rectangular Duct",
+      "type": "mh_@M_Duct_GI_Tap",
+      "systemName": "EA 14",
+      "size": "550 mmx400 mm",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 11910
+    },
+    {
+      "category": "Ducts",
+      "family": "Rectangular Duct",
+      "type": "mh_@M_Duct_GI_Tap",
+      "systemName": "EA 30",
+      "size": "2500 mmx700 mm",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 11910
+    },
+    {
+      "category": "Ducts",
+      "family": "Rectangular Duct",
+      "type": "mh_@M_Duct_GI_Tap",
+      "systemName": "EA 21",
+      "size": "700 mmx600 mm",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 11910
+    },
+    {
+      "category": "Ducts",
+      "family": "Rectangular Duct",
+      "type": "mh_@M_Duct_GI_Tap",
+      "systemName": "EA 24",
+      "size": "700 mmx600 mm",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 11910
+    },
+    {
+      "category": "Ducts",
+      "family": "Rectangular Duct",
+      "type": "mh_@M_Duct_GI_Tap",
+      "systemName": "EA 1",
+      "size": "2500 mmx1500 mm",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 11910
+    },
+    {
+      "category": "Ducts",
+      "family": "Rectangular Duct",
+      "type": "mh_@M_Duct_GI_Tap",
+      "systemName": "OA 25",
+      "size": "3750 mmx1200 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 11910
+    },
+    {
+      "category": "Ducts",
+      "family": "Rectangular Duct",
+      "type": "mh_@M_Duct_GI_Tap",
+      "systemName": "OA 27",
+      "size": "750 mmx600 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 11910
+    },
+    {
+      "category": "Ducts",
+      "family": "Rectangular Duct",
+      "type": "mh_@M_Duct_GI_Tap",
+      "systemName": "OA 29",
+      "size": "750 mmx600 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 11910
+    },
+    {
+      "category": "Ducts",
+      "family": "Rectangular Duct",
+      "type": "mh_@M_Duct_GI_Tap",
+      "systemName": "EA 8",
+      "size": "2800 mmx700 mm",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 11910
+    },
+    {
+      "category": "Ducts",
+      "family": "Rectangular Duct",
+      "type": "mh_@M_Duct_GI_Tap",
+      "systemName": "EA 28",
+      "size": "750 mmx600 mm",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 11910
+    },
+    {
+      "category": "Ducts",
+      "family": "Rectangular Duct",
+      "type": "mh_@M_Duct_GI_Tap",
+      "systemName": "EA 33",
+      "size": "750 mmx600 mm",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 11910
+    },
+    {
+      "category": "Ducts",
+      "family": "Rectangular Duct",
+      "type": "mh_@M_Duct_GI_Tap",
+      "systemName": "OA 3",
+      "size": "3300 mmx800 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 11910
+    },
+    {
+      "category": "Ducts",
+      "family": "Rectangular Duct",
+      "type": "mh_@M_Duct_GI_Tap",
+      "systemName": "OA 3",
+      "size": "600 mmx900 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 11910
+    },
+    {
+      "category": "Ducts",
+      "family": "Rectangular Duct",
+      "type": "mh_@M_Duct_GI_Tap",
+      "systemName": "OA 3",
+      "size": "3300 mmx800 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 11910
+    },
+    {
+      "category": "Ducts",
+      "family": "Rectangular Duct",
+      "type": "mh_@M_Duct_GI_Tap",
+      "systemName": "EA 6",
+      "size": "750 mmx900 mm",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 11910
+    },
+    {
+      "category": "Ducts",
+      "family": "Rectangular Duct",
+      "type": "mh_@M_Duct_GI_Tap",
+      "systemName": "EA 6",
+      "size": "1150 mmx600 mm",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 11910
+    },
+    {
+      "category": "Duct Fittings",
+      "family": "M_Round Elbow",
+      "type": "1.5 D",
+      "systemName": "Mechanical Exhaust Air 1",
+      "size": "150 mmø-150 mmø",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 8813
+    },
+    {
+      "category": "Duct Fittings",
+      "family": "M_Round Elbow",
+      "type": "1.5 D",
+      "systemName": "Mechanical Exhaust Air 2",
+      "size": "150 mmø-150 mmø",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 8813
+    },
+    {
+      "category": "Duct Fittings",
+      "family": "M_Rectangular Tap - Beveled",
+      "type": "Standard",
+      "systemName": "OA 3",
+      "size": "3300 mmx800 mm-3300 mmx800 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 8813
+    },
+    {
+      "category": "Duct Fittings",
+      "family": "M_Rectangular Tap - Beveled",
+      "type": "Standard",
+      "systemName": "OA 3",
+      "size": "3300 mmx800 mm-3300 mmx800 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 8813
+    },
+    {
+      "category": "Duct Fittings",
+      "family": "M_Rectangular Tap - Beveled",
+      "type": "Standard",
+      "systemName": "OA 3",
+      "size": "1150 mmx600 mm-1150 mmx600 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 8813
+    },
+    {
+      "category": "Duct Fittings",
+      "family": "M_Rectangular Tap - Beveled",
+      "type": "Standard",
+      "systemName": "OA 3",
+      "size": "1150 mmx600 mm-1150 mmx600 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 8813
+    },
+    {
+      "category": "Duct Fittings",
+      "family": "M_Rectangular Tap - Beveled",
+      "type": "Standard",
+      "systemName": "EA 6",
+      "size": "1150 mmx600 mm-1150 mmx600 mm",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 8813
+    },
+    {
+      "category": "Duct Fittings",
+      "family": "M_Rectangular Tap - Beveled",
+      "type": "Standard",
+      "systemName": "EA 6",
+      "size": "1150 mmx600 mm-1150 mmx600 mm",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 8813
+    },
+    {
+      "category": "Duct Fittings",
+      "family": "M_Rectangular Tap - Beveled",
+      "type": "Standard",
+      "systemName": "EA 6",
+      "size": "1700 mmx800 mm-1700 mmx800 mm",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 8813
+    },
+    {
+      "category": "Duct Fittings",
+      "family": "M_Rectangular Tap - Beveled",
+      "type": "Standard",
+      "systemName": "EA 6",
+      "size": "1700 mmx800 mm-1700 mmx800 mm",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 8813
+    },
+    {
+      "category": "Duct Fittings",
+      "family": "M_Rectangular Tap - Beveled",
+      "type": "Standard",
+      "systemName": "SA 5",
+      "size": "600 mmx300 mm-600 mmx300 mm",
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "system",
+      "total": 8813
+    },
+    {
+      "category": "Duct Fittings",
+      "family": "M_Rectangular Tap - Beveled",
+      "type": "Standard",
+      "systemName": "SA 6",
+      "size": "500 mmx400 mm-500 mmx400 mm",
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "system",
+      "total": 8813
+    },
+    {
+      "category": "Duct Fittings",
+      "family": "M_Rectangular Tap - Beveled",
+      "type": "Standard",
+      "systemName": "SA 9",
+      "size": "500 mmx400 mm-500 mmx400 mm",
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "system",
+      "total": 8813
+    },
+    {
+      "category": "Duct Fittings",
+      "family": "M_Rectangular Tap - Beveled",
+      "type": "Standard",
+      "systemName": "SA 12",
+      "size": "600 mmx300 mm-600 mmx300 mm",
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "system",
+      "total": 8813
+    },
+    {
+      "category": "Duct Fittings",
+      "family": "M_Rectangular Tap - Beveled",
+      "type": "Standard",
+      "systemName": "SA 14",
+      "size": "500 mmx400 mm-500 mmx400 mm",
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "system",
+      "total": 8813
+    },
+    {
+      "category": "Duct Fittings",
+      "family": "M_Rectangular Tap - Beveled",
+      "type": "Standard",
+      "systemName": "SA 15",
+      "size": "500 mmx400 mm-500 mmx400 mm",
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "system",
+      "total": 8813
+    },
+    {
+      "category": "Duct Fittings",
+      "family": "M_Rectangular Endcap",
+      "type": "Standard",
+      "systemName": "OA 3",
+      "size": "600 mmx900 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 8813
+    },
+    {
+      "category": "Duct Fittings",
+      "family": "M_Rectangular Endcap",
+      "type": "Standard",
+      "systemName": "OA 3",
+      "size": "600 mmx900 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 8813
+    },
+    {
+      "category": "Duct Fittings",
+      "family": "M_Rectangular Endcap",
+      "type": "Standard",
+      "systemName": "EA 6",
+      "size": "750 mmx900 mm",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 8813
+    },
+    {
+      "category": "Duct Fittings",
+      "family": "M_Rectangular Endcap",
+      "type": "Standard",
+      "systemName": "EA 6",
+      "size": "750 mmx900 mm",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 8813
+    },
+    {
+      "category": "Duct Accessories",
+      "family": "M_Motor Damper - Rectangular",
+      "type": "Standard",
+      "systemName": "OA 3",
+      "size": "1150 mmx600 mm-1150 mmx600 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 2697
+    },
+    {
+      "category": "Duct Accessories",
+      "family": "M_Motor Damper - Rectangular",
+      "type": "Standard",
+      "systemName": "OA 3",
+      "size": "1150 mmx600 mm-1150 mmx600 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 2697
+    },
+    {
+      "category": "Duct Accessories",
+      "family": "M_Motor Damper - Rectangular",
+      "type": "Standard",
+      "systemName": "EA 6",
+      "size": "1150 mmx600 mm-1150 mmx600 mm",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 2697
+    },
+    {
+      "category": "Duct Accessories",
+      "family": "M_Motor Damper - Rectangular",
+      "type": "Standard",
+      "systemName": "EA 6",
+      "size": "1150 mmx600 mm-1150 mmx600 mm",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 2697
+    },
+    {
+      "category": "Duct Accessories",
+      "family": "M_Motor Damper - Rectangular",
+      "type": "Standard",
+      "systemName": "EA 24",
+      "size": "700 mmx600 mm-700 mmx600 mm",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 2697
+    },
+    {
+      "category": "Duct Accessories",
+      "family": "M_Motor Damper - Rectangular",
+      "type": "Standard",
+      "systemName": "EA 21",
+      "size": "700 mmx600 mm-700 mmx600 mm",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 2697
+    },
+    {
+      "category": "Duct Accessories",
+      "family": "M_Motor Damper - Rectangular",
+      "type": "Standard",
+      "systemName": "EA 28",
+      "size": "750 mmx600 mm-750 mmx600 mm",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 2697
+    },
+    {
+      "category": "Duct Accessories",
+      "family": "M_Motor Damper - Rectangular",
+      "type": "Standard",
+      "systemName": "EA 33",
+      "size": "750 mmx600 mm-750 mmx600 mm",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 2697
+    },
+    {
+      "category": "Duct Accessories",
+      "family": "M_Motor Damper - Rectangular",
+      "type": "Standard",
+      "systemName": "OA 29",
+      "size": "750 mmx600 mm-750 mmx600 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 2697
+    },
+    {
+      "category": "Duct Accessories",
+      "family": "M_Motor Damper - Rectangular",
+      "type": "Standard",
+      "systemName": "OA 27",
+      "size": "750 mmx600 mm-750 mmx600 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 2697
+    },
+    {
+      "category": "Duct Accessories",
+      "family": "M_DUCT  SUPPORT ANGLE TYPE",
+      "type": "SUPPORT_CEILING 2",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "category",
+      "total": 2697
+    },
+    {
+      "category": "Duct Accessories",
+      "family": "M_DUCT  SUPPORT ANGLE TYPE",
+      "type": "SUPPORT_CEILING 2",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "category",
+      "total": 2697
+    },
+    {
+      "category": "Duct Accessories",
+      "family": "M_DUCT  SUPPORT ANGLE TYPE",
+      "type": "SUPPORT_CEILING 2",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "category",
+      "total": 2697
+    },
+    {
+      "category": "Duct Accessories",
+      "family": "M_DUCT  SUPPORT ANGLE TYPE",
+      "type": "SUPPORT_CEILING 2",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "category",
+      "total": 2697
+    },
+    {
+      "category": "Duct Accessories",
+      "family": "M_DUCT  SUPPORT ANGLE TYPE",
+      "type": "SUPPORT_CEILING 2",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "category",
+      "total": 2697
+    },
+    {
+      "category": "Duct Accessories",
+      "family": "M_DUCT  SUPPORT ANGLE TYPE",
+      "type": "SUPPORT_CEILING 2",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "category",
+      "total": 2697
+    },
+    {
+      "category": "Duct Accessories",
+      "family": "M_DUCT  SUPPORT ANGLE TYPE",
+      "type": "SUPPORT_CEILING 2",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "category",
+      "total": 2697
+    },
+    {
+      "category": "Duct Accessories",
+      "family": "M_DUCT  SUPPORT ANGLE TYPE",
+      "type": "SUPPORT_CEILING 2",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "category",
+      "total": 2697
+    },
+    {
+      "category": "Duct Accessories",
+      "family": "M_DUCT  SUPPORT ANGLE TYPE",
+      "type": "SUPPORT_CEILING 2",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "category",
+      "total": 2697
+    },
+    {
+      "category": "Duct Accessories",
+      "family": "M_DUCT  SUPPORT ANGLE TYPE",
+      "type": "SUPPORT_CEILING 2",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "category",
+      "total": 2697
+    },
+    {
+      "category": "Duct Insulations",
+      "family": "Duct Insulation",
+      "type": "mh_@M_DI_Duct Wrap",
+      "systemName": "MA 1",
+      "size": null,
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 8144
+    },
+    {
+      "category": "Duct Insulations",
+      "family": "Duct Insulation",
+      "type": "mh_@M_DI_Duct Wrap",
+      "systemName": "MA 1",
+      "size": null,
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 8144
+    },
+    {
+      "category": "Duct Insulations",
+      "family": "Duct Insulation",
+      "type": "mh_@M_DI_Duct Wrap",
+      "systemName": "RA 7",
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "system",
+      "total": 8144
+    },
+    {
+      "category": "Duct Insulations",
+      "family": "Duct Insulation",
+      "type": "mh_@M_DI_Duct Wrap",
+      "systemName": "RA 7",
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "system",
+      "total": 8144
+    },
+    {
+      "category": "Duct Insulations",
+      "family": "Duct Insulation",
+      "type": "mh_@M_DI_Duct Wrap",
+      "systemName": "RA 6",
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "system",
+      "total": 8144
+    },
+    {
+      "category": "Duct Insulations",
+      "family": "Duct Insulation",
+      "type": "mh_@M_DI_Duct Wrap",
+      "systemName": "RA 6",
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "system",
+      "total": 8144
+    },
+    {
+      "category": "Duct Insulations",
+      "family": "Duct Insulation",
+      "type": "mh_@M_DI_Duct Wrap",
+      "systemName": "RA 6",
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "system",
+      "total": 8144
+    },
+    {
+      "category": "Duct Insulations",
+      "family": "Duct Insulation",
+      "type": "mh_@M_DI_Duct Wrap",
+      "systemName": "RA 1",
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "system",
+      "total": 8144
+    },
+    {
+      "category": "Duct Insulations",
+      "family": "Duct Insulation",
+      "type": "mh_@M_DI_Duct Wrap",
+      "systemName": "RA 23",
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "system",
+      "total": 8144
+    },
+    {
+      "category": "Duct Insulations",
+      "family": "Duct Insulation",
+      "type": "mh_@M_DI_Duct Wrap",
+      "systemName": "RA 23",
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "system",
+      "total": 8144
+    },
+    {
+      "category": "Duct Insulations",
+      "family": "Duct Insulation",
+      "type": "mh_@M_DI_Duct Wrap",
+      "systemName": "RA 23",
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "system",
+      "total": 8144
+    },
+    {
+      "category": "Duct Insulations",
+      "family": "Duct Insulation",
+      "type": "mh_@M_DI_Duct Wrap",
+      "systemName": "RA 23",
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "system",
+      "total": 8144
+    },
+    {
+      "category": "Duct Insulations",
+      "family": "Duct Insulation",
+      "type": "mh_@M_DI_Duct Wrap",
+      "systemName": "RA 23",
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "system",
+      "total": 8144
+    },
+    {
+      "category": "Duct Insulations",
+      "family": "Duct Insulation",
+      "type": "mh_@M_DI_Duct Wrap",
+      "systemName": "RA 23",
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "system",
+      "total": 8144
+    },
+    {
+      "category": "Duct Insulations",
+      "family": "Duct Insulation",
+      "type": "mh_@M_DI_Duct Wrap",
+      "systemName": "RA 23",
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "system",
+      "total": 8144
+    },
+    {
+      "category": "Duct Insulations",
+      "family": "Duct Insulation",
+      "type": "mh_@M_DI_Duct Wrap",
+      "systemName": "RA 23",
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "system",
+      "total": 8144
+    },
+    {
+      "category": "Duct Insulations",
+      "family": "Duct Insulation",
+      "type": "mh_@M_DI_Duct Wrap",
+      "systemName": "RA 1",
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "system",
+      "total": 8144
+    },
+    {
+      "category": "Duct Insulations",
+      "family": "Duct Insulation",
+      "type": "mh_@M_DI_Duct Wrap",
+      "systemName": "RA 16",
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "system",
+      "total": 8144
+    },
+    {
+      "category": "Duct Insulations",
+      "family": "Duct Insulation",
+      "type": "mh_@M_DI_Duct Wrap",
+      "systemName": "RA 16",
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "system",
+      "total": 8144
+    },
+    {
+      "category": "Duct Insulations",
+      "family": "Duct Insulation",
+      "type": "mh_@M_DI_Duct Wrap",
+      "systemName": "RA 23",
+      "size": null,
+      "bqSheet": "5.1 Non-CR HVAC",
+      "matchedBy": "system",
+      "total": 8144
+    },
+    {
+      "category": "Pipes",
+      "family": "Pipe Types",
+      "type": "DICL PIPE",
+      "systemName": "PIWS 2",
+      "size": "300 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 214231
+    },
+    {
+      "category": "Pipes",
+      "family": "Pipe Types",
+      "type": "DICL PIPE",
+      "systemName": "PIWS 2",
+      "size": "300 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 214231
+    },
+    {
+      "category": "Pipes",
+      "family": "Pipe Types",
+      "type": "DICL PIPE",
+      "systemName": "PIWS 2",
+      "size": "300 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 214231
+    },
+    {
+      "category": "Pipes",
+      "family": "Pipe Types",
+      "type": "DICL PIPE",
+      "systemName": "PIWS 2",
+      "size": "600 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 214231
+    },
+    {
+      "category": "Pipes",
+      "family": "Pipe Types",
+      "type": "DICL PIPE",
+      "systemName": "PIWS 2",
+      "size": "600 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 214231
+    },
+    {
+      "category": "Pipes",
+      "family": "Pipe Types",
+      "type": "DICL PIPE",
+      "systemName": "PIWS 2",
+      "size": "600 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 214231
+    },
+    {
+      "category": "Pipes",
+      "family": "Pipe Types",
+      "type": "DICL PIPE",
+      "systemName": "PIWS 2",
+      "size": "600 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 214231
+    },
+    {
+      "category": "Pipes",
+      "family": "Pipe Types",
+      "type": "DICL PIPE",
+      "systemName": "PIWS 2",
+      "size": "600 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 214231
+    },
+    {
+      "category": "Pipes",
+      "family": "Pipe Types",
+      "type": "DICL PIPE",
+      "systemName": "PIWS 2",
+      "size": "600 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 214231
+    },
+    {
+      "category": "Pipes",
+      "family": "Pipe Types",
+      "type": "DICL PIPE",
+      "systemName": "PIWS 2",
+      "size": "600 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 214231
+    },
+    {
+      "category": "Pipes",
+      "family": "Pipe Types",
+      "type": "DICL PIPE",
+      "systemName": "PIWS 2",
+      "size": "600 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 214231
+    },
+    {
+      "category": "Pipes",
+      "family": "Pipe Types",
+      "type": "DICL PIPE",
+      "systemName": "PIWS 1",
+      "size": "350 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 214231
+    },
+    {
+      "category": "Pipes",
+      "family": "Pipe Types",
+      "type": "DICL PIPE",
+      "systemName": "PIWS 1",
+      "size": "350 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 214231
+    },
+    {
+      "category": "Pipes",
+      "family": "Pipe Types",
+      "type": "DICL PIPE",
+      "systemName": "PIWS 1",
+      "size": "350 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 214231
+    },
+    {
+      "category": "Pipes",
+      "family": "Pipe Types",
+      "type": "DICL PIPE",
+      "systemName": "PIWS 1",
+      "size": "350 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 214231
+    },
+    {
+      "category": "Pipes",
+      "family": "Pipe Types",
+      "type": "DICL PIPE",
+      "systemName": "PIWS 1",
+      "size": "350 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 214231
+    },
+    {
+      "category": "Pipes",
+      "family": "Pipe Types",
+      "type": "DICL PIPE",
+      "systemName": "PIWS 1",
+      "size": "350 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 214231
+    },
+    {
+      "category": "Pipes",
+      "family": "Pipe Types",
+      "type": "DICL PIPE",
+      "systemName": "PIWS 1",
+      "size": "350 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 214231
+    },
+    {
+      "category": "Pipes",
+      "family": "Pipe Types",
+      "type": "DICL PIPE",
+      "systemName": "PIWS 1",
+      "size": "350 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 214231
+    },
+    {
+      "category": "Pipes",
+      "family": "Pipe Types",
+      "type": "DICL PIPE",
+      "systemName": "PWL 30",
+      "size": "250 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 214231
+    },
+    {
+      "category": "Pipe Fittings",
+      "family": "M_Flange - Blind - Steel - Class 150",
+      "type": "Standard",
+      "systemName": "PIWS 2",
+      "size": "600 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 222625
+    },
+    {
+      "category": "Pipe Fittings",
+      "family": "M_Flange - Blind - Steel - Class 150",
+      "type": "Standard",
+      "systemName": "PWL 30",
+      "size": "250 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 222625
+    },
+    {
+      "category": "Pipe Fittings",
+      "family": "M_Flange - Blind - Steel - Class 150",
+      "type": "Standard",
+      "systemName": "PWL 30",
+      "size": "600 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 222625
+    },
+    {
+      "category": "Pipe Fittings",
+      "family": "M_Flange - Blind - Steel - Class 150",
+      "type": "Standard",
+      "systemName": "PIWS 1",
+      "size": "600 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 222625
+    },
+    {
+      "category": "Pipe Fittings",
+      "family": "M_Flange - Blind - Steel - Class 150",
+      "type": "Standard",
+      "systemName": "RWL 3",
+      "size": "700 mmø",
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 222625
+    },
+    {
+      "category": "Pipe Fittings",
+      "family": "M_Flange - Blind - Steel - Class 150",
+      "type": "Standard",
+      "systemName": "PIWS 1",
+      "size": "300 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 222625
+    },
+    {
+      "category": "Pipe Fittings",
+      "family": "M_Flange - Blind - Steel - Class 150",
+      "type": "Standard",
+      "systemName": "PIWS 1",
+      "size": "300 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 222625
+    },
+    {
+      "category": "Pipe Fittings",
+      "family": "M_Flange - Blind - Steel - Class 150",
+      "type": "Standard",
+      "systemName": "PWL 30",
+      "size": "350 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 222625
+    },
+    {
+      "category": "Pipe Fittings",
+      "family": "M_Flange - Blind - Steel - Class 150",
+      "type": "Standard",
+      "systemName": "RWL 1",
+      "size": "80 mmø",
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 222625
+    },
+    {
+      "category": "Pipe Fittings",
+      "family": "M_Flange - Blind - Steel - Class 150",
+      "type": "Standard",
+      "systemName": "RWL 1",
+      "size": "80 mmø",
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 222625
+    },
+    {
+      "category": "Pipe Fittings",
+      "family": "M_Flange - Blind - Steel - Class 150",
+      "type": "Standard",
+      "systemName": "RWL 1",
+      "size": "80 mmø",
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 222625
+    },
+    {
+      "category": "Pipe Fittings",
+      "family": "M_Flange - Blind - Steel - Class 150",
+      "type": "Standard",
+      "systemName": "RWL 1",
+      "size": "80 mmø",
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 222625
+    },
+    {
+      "category": "Pipe Fittings",
+      "family": "M_Flange - Blind - Steel - Class 150",
+      "type": "Standard",
+      "systemName": "PIWS 2",
+      "size": "50 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 222625
+    },
+    {
+      "category": "Pipe Fittings",
+      "family": "M_Flange - Blind - Steel - Class 150",
+      "type": "Standard",
+      "systemName": "PIWS 2",
+      "size": "50 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 222625
+    },
+    {
+      "category": "Pipe Fittings",
+      "family": "M_Flange - Blind - Steel - Class 150",
+      "type": "Standard",
+      "systemName": "PWL 30",
+      "size": "300 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 222625
+    },
+    {
+      "category": "Pipe Fittings",
+      "family": "M_Flange - Blind - Steel - Class 150",
+      "type": "Standard",
+      "systemName": "PIWS 2",
+      "size": "300 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 222625
+    },
+    {
+      "category": "Pipe Fittings",
+      "family": "M_Flange - Blind - Steel - Class 150",
+      "type": "Standard",
+      "systemName": "PIWS 2",
+      "size": "250 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 222625
+    },
+    {
+      "category": "Pipe Fittings",
+      "family": "M_Flange - Blind - Steel - Class 150",
+      "type": "Standard",
+      "systemName": "PWL 30",
+      "size": "200 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 222625
+    },
+    {
+      "category": "Pipe Fittings",
+      "family": "M_Flange - Blind - Steel - Class 150",
+      "type": "Standard",
+      "systemName": "PIWS 2",
+      "size": "250 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 222625
+    },
+    {
+      "category": "Pipe Fittings",
+      "family": "M_Flange - Blind - Steel - Class 150",
+      "type": "Standard",
+      "systemName": "PWL 30",
+      "size": "200 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 222625
+    },
+    {
+      "category": "Pipe Accessories",
+      "family": "M_Butterfly Valve - 350-600 mm-GA",
+      "type": "600 mm",
+      "systemName": "PIWS 2",
+      "size": "600 mmø-600 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 40546
+    },
+    {
+      "category": "Pipe Accessories",
+      "family": "M_Butterfly Valve - 350-600 mm-GA",
+      "type": "600 mm",
+      "systemName": "PIWS 2",
+      "size": "600 mmø-600 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 40546
+    },
+    {
+      "category": "Pipe Accessories",
+      "family": "M_Butterfly Valve - 350-600 mm-GA",
+      "type": "600 mm",
+      "systemName": "PIWS 2",
+      "size": "600 mmø-600 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 40546
+    },
+    {
+      "category": "Pipe Accessories",
+      "family": "M_Butterfly Valve - 50-300 mm",
+      "type": "300 mm",
+      "systemName": "PIWS 1",
+      "size": "300 mmø-300 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 40546
+    },
+    {
+      "category": "Pipe Accessories",
+      "family": "M_Butterfly Valve - 50-300 mm",
+      "type": "300 mm",
+      "systemName": "PIWS 1",
+      "size": "300 mmø-300 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 40546
+    },
+    {
+      "category": "Pipe Accessories",
+      "family": "M_Butterfly Valve - 50-300 mm",
+      "type": "300 mm",
+      "systemName": "PIWS 1",
+      "size": "300 mmø-300 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 40546
+    },
+    {
+      "category": "Pipe Accessories",
+      "family": "M_Butterfly Valve - 50-300 mm",
+      "type": "300 mm",
+      "systemName": "PIWS 1",
+      "size": "300 mmø-300 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 40546
+    },
+    {
+      "category": "Pipe Accessories",
+      "family": "M_Butterfly Valve - 50-300 mm",
+      "type": "300 mm",
+      "systemName": "PIWS 2",
+      "size": "300 mmø-300 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 40546
+    },
+    {
+      "category": "Pipe Accessories",
+      "family": "M_Butterfly Valve - 50-300 mm",
+      "type": "300 mm",
+      "systemName": "PWL 30",
+      "size": "300 mmø-300 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 40546
+    },
+    {
+      "category": "Pipe Accessories",
+      "family": "M_Butterfly Valve - 50-300 mm",
+      "type": "300 mm",
+      "systemName": "PWL 30",
+      "size": "300 mmø-300 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 40546
+    },
+    {
+      "category": "Pipe Accessories",
+      "family": "M_Butterfly Valve - 50-300 mm",
+      "type": "300 mm",
+      "systemName": "PIWS 1",
+      "size": "300 mmø-300 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 40546
+    },
+    {
+      "category": "Pipe Accessories",
+      "family": "M_Butterfly Valve - 50-300 mm",
+      "type": "300 mm",
+      "systemName": "PIWS 1",
+      "size": "300 mmø-300 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 40546
+    },
+    {
+      "category": "Pipe Accessories",
+      "family": "M_Butterfly Valve - 50-300 mm",
+      "type": "300 mm",
+      "systemName": "PIWS 1",
+      "size": "300 mmø-300 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 40546
+    },
+    {
+      "category": "Pipe Accessories",
+      "family": "M_Butterfly Valve - 50-300 mm",
+      "type": "300 mm",
+      "systemName": "PWL 391",
+      "size": "300 mmø-300 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 40546
+    },
+    {
+      "category": "Pipe Accessories",
+      "family": "M_Butterfly Valve - 50-300 mm",
+      "type": "300 mm",
+      "systemName": "PIWS 1",
+      "size": "300 mmø-300 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 40546
+    },
+    {
+      "category": "Pipe Accessories",
+      "family": "M_Butterfly Valve - 50-300 mm",
+      "type": "300 mm",
+      "systemName": "PWL 3",
+      "size": "300 mmø-300 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 40546
+    },
+    {
+      "category": "Pipe Accessories",
+      "family": "M_Butterfly Valve - 50-300 mm",
+      "type": "300 mm",
+      "systemName": "PWL 5",
+      "size": "300 mmø-300 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 40546
+    },
+    {
+      "category": "Pipe Accessories",
+      "family": "M_Butterfly Valve - 50-300 mm",
+      "type": "300 mm",
+      "systemName": "PIWS 2",
+      "size": "300 mmø-300 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 40546
+    },
+    {
+      "category": "Pipe Accessories",
+      "family": "M_Butterfly Valve - 50-300 mm",
+      "type": "300 mm",
+      "systemName": "PWL 504",
+      "size": "300 mmø-300 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 40546
+    },
+    {
+      "category": "Pipe Accessories",
+      "family": "M_Butterfly Valve - 50-300 mm",
+      "type": "300 mm",
+      "systemName": "PWL 173",
+      "size": "300 mmø-300 mmø",
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 40546
+    },
+    {
+      "category": "Pipe Insulations",
+      "family": "Pipe Insulation",
+      "type": "Mineral Wool",
+      "systemName": "CHWS 7",
+      "size": null,
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 45243
+    },
+    {
+      "category": "Pipe Insulations",
+      "family": "Pipe Insulation",
+      "type": "Mineral Wool",
+      "systemName": "CHWS 7",
+      "size": null,
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 45243
+    },
+    {
+      "category": "Pipe Insulations",
+      "family": "Pipe Insulation",
+      "type": "Mineral Wool",
+      "systemName": "CHWS 7",
+      "size": null,
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 45243
+    },
+    {
+      "category": "Pipe Insulations",
+      "family": "Pipe Insulation",
+      "type": "Mineral Wool",
+      "systemName": "CHWS 7",
+      "size": null,
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 45243
+    },
+    {
+      "category": "Pipe Insulations",
+      "family": "Pipe Insulation",
+      "type": "Mineral Wool",
+      "systemName": "CHWS 7",
+      "size": null,
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 45243
+    },
+    {
+      "category": "Pipe Insulations",
+      "family": "Pipe Insulation",
+      "type": "Mineral Wool",
+      "systemName": "CHWS 7",
+      "size": null,
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 45243
+    },
+    {
+      "category": "Pipe Insulations",
+      "family": "Pipe Insulation",
+      "type": "Mineral Wool",
+      "systemName": "CHWS 7",
+      "size": null,
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 45243
+    },
+    {
+      "category": "Pipe Insulations",
+      "family": "Pipe Insulation",
+      "type": "Mineral Wool",
+      "systemName": "CHWS 7",
+      "size": null,
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 45243
+    },
+    {
+      "category": "Pipe Insulations",
+      "family": "Pipe Insulation",
+      "type": "Mineral Wool",
+      "systemName": "CHWS 7",
+      "size": null,
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 45243
+    },
+    {
+      "category": "Pipe Insulations",
+      "family": "Pipe Insulation",
+      "type": "Mineral Wool",
+      "systemName": "CHWS 7",
+      "size": null,
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 45243
+    },
+    {
+      "category": "Pipe Insulations",
+      "family": "Pipe Insulation",
+      "type": "Mineral Wool",
+      "systemName": "CHWS 7",
+      "size": null,
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 45243
+    },
+    {
+      "category": "Pipe Insulations",
+      "family": "Pipe Insulation",
+      "type": "Mineral Wool",
+      "systemName": "CHWS 10",
+      "size": null,
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 45243
+    },
+    {
+      "category": "Pipe Insulations",
+      "family": "Pipe Insulation",
+      "type": "Mineral Wool",
+      "systemName": "CHWS 10",
+      "size": null,
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 45243
+    },
+    {
+      "category": "Pipe Insulations",
+      "family": "Pipe Insulation",
+      "type": "Mineral Wool",
+      "systemName": "CHWS 10",
+      "size": null,
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 45243
+    },
+    {
+      "category": "Pipe Insulations",
+      "family": "Pipe Insulation",
+      "type": "Mineral Wool",
+      "systemName": "CHWS 10",
+      "size": null,
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 45243
+    },
+    {
+      "category": "Pipe Insulations",
+      "family": "Pipe Insulation",
+      "type": "Mineral Wool",
+      "systemName": "CHWS 10",
+      "size": null,
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 45243
+    },
+    {
+      "category": "Pipe Insulations",
+      "family": "Pipe Insulation",
+      "type": "Mineral Wool",
+      "systemName": "CHWS 10",
+      "size": null,
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 45243
+    },
+    {
+      "category": "Pipe Insulations",
+      "family": "Pipe Insulation",
+      "type": "Mineral Wool",
+      "systemName": "CHWS 14",
+      "size": null,
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 45243
+    },
+    {
+      "category": "Pipe Insulations",
+      "family": "Pipe Insulation",
+      "type": "Mineral Wool",
+      "systemName": "CHWS 10",
+      "size": null,
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 45243
+    },
+    {
+      "category": "Pipe Insulations",
+      "family": "Pipe Insulation",
+      "type": "Mineral Wool",
+      "systemName": "CHWS 14",
+      "size": null,
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 45243
+    },
+    {
+      "category": "Walls",
+      "family": "Basic Wall",
+      "type": "mu_@A_Wall_CONC_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 28772
+    },
+    {
+      "category": "Walls",
+      "family": "Basic Wall",
+      "type": "mu_@A_Wall_CONC_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 28772
+    },
+    {
+      "category": "Walls",
+      "family": "Basic Wall",
+      "type": "mu_@A_Wall_CONC_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 28772
+    },
+    {
+      "category": "Walls",
+      "family": "Basic Wall",
+      "type": "mu_@A_Wall_CONC_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 28772
+    },
+    {
+      "category": "Walls",
+      "family": "Basic Wall",
+      "type": "mu_@A_Wall_CONC_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 28772
+    },
+    {
+      "category": "Walls",
+      "family": "Basic Wall",
+      "type": "mu_@A_Wall_CONC_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 28772
+    },
+    {
+      "category": "Walls",
+      "family": "Basic Wall",
+      "type": "mu_@A_Wall_CONC_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 28772
+    },
+    {
+      "category": "Walls",
+      "family": "Basic Wall",
+      "type": "mu_@A_Wall_CONC_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 28772
+    },
+    {
+      "category": "Walls",
+      "family": "Basic Wall",
+      "type": "mu_@A_Wall_CONC_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 28772
+    },
+    {
+      "category": "Walls",
+      "family": "Basic Wall",
+      "type": "mu_@A_Wall_CONC_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 28772
+    },
+    {
+      "category": "Walls",
+      "family": "Basic Wall",
+      "type": "mu_@A_Wall_CONC_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 28772
+    },
+    {
+      "category": "Walls",
+      "family": "Basic Wall",
+      "type": "mu_@A_Wall_CONC_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 28772
+    },
+    {
+      "category": "Walls",
+      "family": "Basic Wall",
+      "type": "mu_@A_Wall_CONC_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 28772
+    },
+    {
+      "category": "Walls",
+      "family": "Basic Wall",
+      "type": "mu_@A_Wall_CONC_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 28772
+    },
+    {
+      "category": "Walls",
+      "family": "Basic Wall",
+      "type": "mu_@A_Wall_CONC_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 28772
+    },
+    {
+      "category": "Walls",
+      "family": "Basic Wall",
+      "type": "mu_@A_Wall_CONC_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 28772
+    },
+    {
+      "category": "Walls",
+      "family": "Basic Wall",
+      "type": "mu_@A_Wall_CONC_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 28772
+    },
+    {
+      "category": "Walls",
+      "family": "Basic Wall",
+      "type": "mu_@A_Wall_CONC_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 28772
+    },
+    {
+      "category": "Walls",
+      "family": "Basic Wall",
+      "type": "mu_@A_Wall_CONC_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 28772
+    },
+    {
+      "category": "Walls",
+      "family": "Basic Wall",
+      "type": "mu_@A_Wall_CONC_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 28772
+    },
+    {
+      "category": "Doors",
+      "family": "Wide Flap Barrier",
+      "type": "Wide Flap Barrier",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 935
+    },
+    {
+      "category": "Doors",
+      "family": "Type-F Flap Barrier",
+      "type": "Type-F Flap Barrier",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 935
+    },
+    {
+      "category": "Doors",
+      "family": "Type-F Flap Barrier",
+      "type": "Type-F Flap Barrier",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 935
+    },
+    {
+      "category": "Doors",
+      "family": "Full Height Barrier",
+      "type": "Full Height Barrier",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 935
+    },
+    {
+      "category": "Doors",
+      "family": "Full Height Barrier",
+      "type": "Full Height Barrier",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 935
+    },
+    {
+      "category": "Doors",
+      "family": "Full Height Barrier",
+      "type": "Full Height Barrier",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 935
+    },
+    {
+      "category": "Doors",
+      "family": "Full Height Barrier",
+      "type": "Full Height Barrier",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 935
+    },
+    {
+      "category": "Doors",
+      "family": "DEB-33SS_Door Contact",
+      "type": "DEB-33SS_Door Contact seme",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 935
+    },
+    {
+      "category": "Doors",
+      "family": "DEB-33SS_Door Contact",
+      "type": "DEB-33SS_Door Contact seme",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 935
+    },
+    {
+      "category": "Doors",
+      "family": "DEB-33SS_Door Contact",
+      "type": "DEB-33SS_Door Contact seme",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 935
+    },
+    {
+      "category": "Doors",
+      "family": "DEB-33SS_Door Contact",
+      "type": "DEB-33SS_Door Contact seme",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 935
+    },
+    {
+      "category": "Doors",
+      "family": "DEB-33SS_Door Contact",
+      "type": "DEB-33SS_Door Contact seme",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 935
+    },
+    {
+      "category": "Doors",
+      "family": "DEB-33SS_Door Contact",
+      "type": "DEB-33SS_Door Contact seme",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 935
+    },
+    {
+      "category": "Doors",
+      "family": "mh_DOOR_Metal Swing Door",
+      "type": "@A_DOOR_MD2_1200x2200mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 935
+    },
+    {
+      "category": "Doors",
+      "family": "SOUTH ENTRY GATE OPTION 1",
+      "type": "SOUTH ENTRY GATE OPTION 1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 935
+    },
+    {
+      "category": "Doors",
+      "family": "NORTH ENTRY GATE OPTION 1_Part-2",
+      "type": "NORTH ENTRY GATE OPTION 1_Part-2",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 935
+    },
+    {
+      "category": "Doors",
+      "family": "NORTH ENTRY GATE OPTION 1",
+      "type": "NORTH ENTRY GATE OPTION 1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 935
+    },
+    {
+      "category": "Doors",
+      "family": "SOUTH ENTRY GATE OPTION 1_Part-2",
+      "type": "SOUTH ENTRY GATE OPTION 1_Part-2",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 935
+    },
+    {
+      "category": "Doors",
+      "family": "M_Door-Overhead-Rolling pump house",
+      "type": "RS4",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 935
+    },
+    {
+      "category": "Doors",
+      "family": "mh_DOOR_Metal Door Vision Panel",
+      "type": "MD2",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 935
+    },
+    {
+      "category": "Windows",
+      "family": "Windows_Sgl_Plain",
+      "type": "1200x600mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 1198
+    },
+    {
+      "category": "Windows",
+      "family": "Windows_Sgl_Plain",
+      "type": "1200x600mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 1198
+    },
+    {
+      "category": "Windows",
+      "family": "M_Window-Sliding-Double",
+      "type": "W1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 1198
+    },
+    {
+      "category": "Windows",
+      "family": "M_Window-Sliding-Double",
+      "type": "W1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 1198
+    },
+    {
+      "category": "Windows",
+      "family": "M_Window-Sliding-Double",
+      "type": "W1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 1198
+    },
+    {
+      "category": "Windows",
+      "family": "M_Window-Sliding-Double",
+      "type": "W1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 1198
+    },
+    {
+      "category": "Windows",
+      "family": "M_Window-Sliding-Double",
+      "type": "W1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 1198
+    },
+    {
+      "category": "Windows",
+      "family": "M_Window-Double",
+      "type": "1200 x 1200mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 1198
+    },
+    {
+      "category": "Windows",
+      "family": "M_Window-Double",
+      "type": "1200 x 1200mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 1198
+    },
+    {
+      "category": "Windows",
+      "family": "M_Window-Double",
+      "type": "1200 x 1200mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 1198
+    },
+    {
+      "category": "Windows",
+      "family": "M_Window-Double",
+      "type": "W3",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 1198
+    },
+    {
+      "category": "Windows",
+      "family": "M_Window-Double",
+      "type": "W3",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 1198
+    },
+    {
+      "category": "Windows",
+      "family": "Windows_Sgl_Plain",
+      "type": "1200x600mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 1198
+    },
+    {
+      "category": "Windows",
+      "family": "Windows_Sgl_Plain",
+      "type": "1200x600mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 1198
+    },
+    {
+      "category": "Windows",
+      "family": "M_Window-Double",
+      "type": "1200 x 1200mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 1198
+    },
+    {
+      "category": "Windows",
+      "family": "M_Window-Double",
+      "type": "1200 x 1200mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 1198
+    },
+    {
+      "category": "Windows",
+      "family": "M_Window-Double",
+      "type": "W3",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 1198
+    },
+    {
+      "category": "Windows",
+      "family": "M_Window-Double",
+      "type": "1200 x 1200mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 1198
+    },
+    {
+      "category": "Windows",
+      "family": "M_Window-Double",
+      "type": "W3",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 1198
+    },
+    {
+      "category": "Windows",
+      "family": "ICTPL-ALU-GVP-44mm thk",
+      "type": "GVP-1148 x 1148",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.2 CR Architecture",
+      "matchedBy": "category",
+      "total": 1198
+    },
+    {
+      "category": "Floors",
+      "family": "Floor",
+      "type": "Generic 150X150",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 6359
+    },
+    {
+      "category": "Floors",
+      "family": "Floor",
+      "type": "Generic 150X150",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 6359
+    },
+    {
+      "category": "Floors",
+      "family": "Floor",
+      "type": "Generic 150X150",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 6359
+    },
+    {
+      "category": "Floors",
+      "family": "Floor",
+      "type": "Generic 150X150",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 6359
+    },
+    {
+      "category": "Floors",
+      "family": "Floor",
+      "type": "Generic 150X150",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 6359
+    },
+    {
+      "category": "Floors",
+      "family": "Floor",
+      "type": "Generic 150X150",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 6359
+    },
+    {
+      "category": "Floors",
+      "family": "Floor",
+      "type": "Generic 150X150",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 6359
+    },
+    {
+      "category": "Floors",
+      "family": "Floor",
+      "type": "Generic 150X150",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 6359
+    },
+    {
+      "category": "Floors",
+      "family": "Floor",
+      "type": "mu_@A_FLOR_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 6359
+    },
+    {
+      "category": "Floors",
+      "family": "Floor",
+      "type": "mu_@A_FLOR_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 6359
+    },
+    {
+      "category": "Floors",
+      "family": "Floor",
+      "type": "mu_@A_FLOR_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 6359
+    },
+    {
+      "category": "Floors",
+      "family": "Floor",
+      "type": "mu_@A_FLOR_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 6359
+    },
+    {
+      "category": "Floors",
+      "family": "Floor",
+      "type": "mu_@A_FLOR_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 6359
+    },
+    {
+      "category": "Floors",
+      "family": "Floor",
+      "type": "mu_@A_FLOR_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 6359
+    },
+    {
+      "category": "Floors",
+      "family": "Floor",
+      "type": "mu_@A_FLOR_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 6359
+    },
+    {
+      "category": "Floors",
+      "family": "Floor",
+      "type": "mu_@A_FLOR_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 6359
+    },
+    {
+      "category": "Floors",
+      "family": "Floor",
+      "type": "mu_@A_FLOR_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 6359
+    },
+    {
+      "category": "Floors",
+      "family": "Floor",
+      "type": "mu_@A_FLOR_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 6359
+    },
+    {
+      "category": "Floors",
+      "family": "Floor",
+      "type": "mu_@A_FLOR_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 6359
+    },
+    {
+      "category": "Floors",
+      "family": "Floor",
+      "type": "mu_@A_FLOR_Thk160mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "4.1 Non-CR Architecture",
+      "matchedBy": "category",
+      "total": 6359
+    },
+    {
+      "category": "Structural Columns",
+      "family": "Tank pipe support",
+      "type": "Pipe Support Truck",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 24882
+    },
+    {
+      "category": "Structural Columns",
+      "family": "Tank pipe support",
+      "type": "Pipe Support Truck",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 24882
+    },
+    {
+      "category": "Structural Columns",
+      "family": "Tank pipe support",
+      "type": "Pipe Support Truck",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 24882
+    },
+    {
+      "category": "Structural Columns",
+      "family": "Tank pipe support",
+      "type": "Pipe Support Truck",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 24882
+    },
+    {
+      "category": "Structural Columns",
+      "family": "Tank pipe support",
+      "type": "Pipe Support Truck",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 24882
+    },
+    {
+      "category": "Structural Columns",
+      "family": "Tank pipe support",
+      "type": "Pipe Support Truck",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 24882
+    },
+    {
+      "category": "Structural Columns",
+      "family": "Tank pipe support",
+      "type": "Pipe Support Truck",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 24882
+    },
+    {
+      "category": "Structural Columns",
+      "family": "Tank pipe support",
+      "type": "Pipe Support Truck",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 24882
+    },
+    {
+      "category": "Structural Columns",
+      "family": "p1001-24-through-144-column-loading-gm.0001.rfa -2024",
+      "type": "P1001 - 24\" Column Loading",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 24882
+    },
+    {
+      "category": "Structural Columns",
+      "family": "p1001-24-through-144-column-loading-gm.0001.rfa -2024",
+      "type": "P1001 - 24\" Column Loading",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 24882
+    },
+    {
+      "category": "Structural Columns",
+      "family": "SYS Steelwork Column Channels",
+      "type": "SM520_C75x40x5x7mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 24882
+    },
+    {
+      "category": "Structural Columns",
+      "family": "M_Concrete-Rectangular-Column",
+      "type": "250x250_1mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 24882
+    },
+    {
+      "category": "Structural Columns",
+      "family": "M_Concrete-Rectangular-Column",
+      "type": "250x250_1mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 24882
+    },
+    {
+      "category": "Structural Columns",
+      "family": "M_Concrete-Rectangular-Column",
+      "type": "250x250_1mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 24882
+    },
+    {
+      "category": "Structural Columns",
+      "family": "M_Concrete-Rectangular-Column",
+      "type": "250x250_1mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 24882
+    },
+    {
+      "category": "Structural Columns",
+      "family": "M_Concrete-Rectangular-Column",
+      "type": "250x250_1mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 24882
+    },
+    {
+      "category": "Structural Columns",
+      "family": "M_Concrete-Rectangular-Column",
+      "type": "250x250_1mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 24882
+    },
+    {
+      "category": "Structural Columns",
+      "family": "M_Concrete-Rectangular-Column",
+      "type": "250x250_1mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 24882
+    },
+    {
+      "category": "Structural Columns",
+      "family": "M_Concrete-Rectangular-Column",
+      "type": "250x250_1mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 24882
+    },
+    {
+      "category": "Structural Columns",
+      "family": "M_Concrete-Rectangular-Column",
+      "type": "250x250_1mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 24882
+    },
+    {
+      "category": "Structural Framing",
+      "family": "C-Channels.100",
+      "type": "C102x51",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 817823
+    },
+    {
+      "category": "Structural Framing",
+      "family": "C-Channels.100",
+      "type": "C102x51",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 817823
+    },
+    {
+      "category": "Structural Framing",
+      "family": "C-Channels.100",
+      "type": "C102x51",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 817823
+    },
+    {
+      "category": "Structural Framing",
+      "family": "C-Channels.100",
+      "type": "C102x51",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 817823
+    },
+    {
+      "category": "Structural Framing",
+      "family": "C-Channels.100",
+      "type": "C102x51",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 817823
+    },
+    {
+      "category": "Structural Framing",
+      "family": "C-Channels.100",
+      "type": "C102x51",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 817823
+    },
+    {
+      "category": "Structural Framing",
+      "family": "C-Channels.100",
+      "type": "C102x51",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 817823
+    },
+    {
+      "category": "Structural Framing",
+      "family": "C-Channels.100",
+      "type": "C102x51",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 817823
+    },
+    {
+      "category": "Structural Framing",
+      "family": "C-Channels.100",
+      "type": "C102x51",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 817823
+    },
+    {
+      "category": "Structural Framing",
+      "family": "C-Channels.100",
+      "type": "C102x51",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 817823
+    },
+    {
+      "category": "Structural Framing",
+      "family": "C-Channels.100",
+      "type": "C102x51",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 817823
+    },
+    {
+      "category": "Structural Framing",
+      "family": "C-Channels.100",
+      "type": "C102x51",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 817823
+    },
+    {
+      "category": "Structural Framing",
+      "family": "C-Channels.100",
+      "type": "C102x51",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 817823
+    },
+    {
+      "category": "Structural Framing",
+      "family": "C-Channels.100",
+      "type": "C102x51",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 817823
+    },
+    {
+      "category": "Structural Framing",
+      "family": "C-Channels.100",
+      "type": "C102x51",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 817823
+    },
+    {
+      "category": "Structural Framing",
+      "family": "C-Channels.100",
+      "type": "C102x51",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 817823
+    },
+    {
+      "category": "Structural Framing",
+      "family": "C-Channels.100",
+      "type": "C102x51",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 817823
+    },
+    {
+      "category": "Structural Framing",
+      "family": "C-Channels.100",
+      "type": "C102x51",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 817823
+    },
+    {
+      "category": "Structural Framing",
+      "family": "C-Channels.100",
+      "type": "C102x51",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 817823
+    },
+    {
+      "category": "Structural Framing",
+      "family": "C-Channels.100",
+      "type": "C102x51",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 817823
+    },
+    {
+      "category": "Structural Foundations",
+      "family": "M_CONC-PAD",
+      "type": "elec pump",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 2244
+    },
+    {
+      "category": "Structural Foundations",
+      "family": "M_CONC-PAD",
+      "type": "elec pump",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 2244
+    },
+    {
+      "category": "Structural Foundations",
+      "family": "M_CONC-PAD",
+      "type": "M_CONC.PAD",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 2244
+    },
+    {
+      "category": "Structural Foundations",
+      "family": "mu_LGHT_StreetLight_Foundation",
+      "type": "mu_LGHT_StreetLight_Foundation",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 2244
+    },
+    {
+      "category": "Structural Foundations",
+      "family": "mu_LGHT_StreetLight_Foundation",
+      "type": "mu_LGHT_StreetLight_Foundation",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 2244
+    },
+    {
+      "category": "Structural Foundations",
+      "family": "mu_LGHT_StreetLight_Foundation",
+      "type": "mu_LGHT_StreetLight_Foundation",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 2244
+    },
+    {
+      "category": "Structural Foundations",
+      "family": "mu_LGHT_StreetLight_Foundation",
+      "type": "mu_LGHT_StreetLight_Foundation",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 2244
+    },
+    {
+      "category": "Structural Foundations",
+      "family": "mu_LGHT_StreetLight_Foundation",
+      "type": "mu_LGHT_StreetLight_Foundation",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 2244
+    },
+    {
+      "category": "Structural Foundations",
+      "family": "mu_LGHT_StreetLight_Foundation",
+      "type": "mu_LGHT_StreetLight_Foundation",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 2244
+    },
+    {
+      "category": "Structural Foundations",
+      "family": "mu_LGHT_StreetLight_Foundation",
+      "type": "mu_LGHT_StreetLight_Foundation",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 2244
+    },
+    {
+      "category": "Structural Foundations",
+      "family": "mu_LGHT_StreetLight_Foundation",
+      "type": "mu_LGHT_StreetLight_Foundation",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 2244
+    },
+    {
+      "category": "Structural Foundations",
+      "family": "mu_LGHT_StreetLight_Foundation",
+      "type": "mu_LGHT_StreetLight_Foundation",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 2244
+    },
+    {
+      "category": "Structural Foundations",
+      "family": "mu_LGHT_StreetLight_Foundation",
+      "type": "mu_LGHT_StreetLight_Foundation",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 2244
+    },
+    {
+      "category": "Structural Foundations",
+      "family": "mu_LGHT_StreetLight_Foundation",
+      "type": "mu_LGHT_StreetLight_Foundation",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 2244
+    },
+    {
+      "category": "Structural Foundations",
+      "family": "mu_LGHT_StreetLight_Foundation",
+      "type": "mu_LGHT_StreetLight_Foundation",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 2244
+    },
+    {
+      "category": "Structural Foundations",
+      "family": "mu_LGHT_StreetLight_Foundation",
+      "type": "mu_LGHT_StreetLight_Foundation",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 2244
+    },
+    {
+      "category": "Structural Foundations",
+      "family": "mu_LGHT_StreetLight_Foundation",
+      "type": "mu_LGHT_StreetLight_Foundation",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 2244
+    },
+    {
+      "category": "Structural Foundations",
+      "family": "mu_LGHT_StreetLight_Foundation",
+      "type": "mu_LGHT_StreetLight_Foundation",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 2244
+    },
+    {
+      "category": "Structural Foundations",
+      "family": "mu_LGHT_StreetLight_Foundation",
+      "type": "mu_LGHT_StreetLight_Foundation",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 2244
+    },
+    {
+      "category": "Structural Foundations",
+      "family": "mu_LGHT_StreetLight_Foundation",
+      "type": "mu_LGHT_StreetLight_Foundation",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "3. Structure",
+      "matchedBy": "category",
+      "total": 2244
+    },
+    {
+      "category": "Cable Trays",
+      "family": "Cable Tray with Fittings",
+      "type": "Default",
+      "systemName": null,
+      "size": "300 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 51362
+    },
+    {
+      "category": "Cable Trays",
+      "family": "Cable Tray with Fittings",
+      "type": "Default",
+      "systemName": null,
+      "size": "300 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 51362
+    },
+    {
+      "category": "Cable Trays",
+      "family": "Cable Tray with Fittings",
+      "type": "Default",
+      "systemName": null,
+      "size": "300 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 51362
+    },
+    {
+      "category": "Cable Trays",
+      "family": "Cable Tray with Fittings",
+      "type": "Default",
+      "systemName": null,
+      "size": "300 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 51362
+    },
+    {
+      "category": "Cable Trays",
+      "family": "Cable Tray with Fittings",
+      "type": "Default",
+      "systemName": null,
+      "size": "300 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 51362
+    },
+    {
+      "category": "Cable Trays",
+      "family": "Cable Tray with Fittings",
+      "type": "Default",
+      "systemName": null,
+      "size": "300 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 51362
+    },
+    {
+      "category": "Cable Trays",
+      "family": "Cable Tray with Fittings",
+      "type": "Default",
+      "systemName": null,
+      "size": "200 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 51362
+    },
+    {
+      "category": "Cable Trays",
+      "family": "Cable Tray with Fittings",
+      "type": "Default",
+      "systemName": null,
+      "size": "200 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 51362
+    },
+    {
+      "category": "Cable Trays",
+      "family": "Cable Tray with Fittings",
+      "type": "Default",
+      "systemName": null,
+      "size": "200 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 51362
+    },
+    {
+      "category": "Cable Trays",
+      "family": "Cable Tray with Fittings",
+      "type": "Default",
+      "systemName": null,
+      "size": "200 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 51362
+    },
+    {
+      "category": "Cable Trays",
+      "family": "Cable Tray with Fittings",
+      "type": "Default",
+      "systemName": null,
+      "size": "200 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 51362
+    },
+    {
+      "category": "Cable Trays",
+      "family": "Cable Tray with Fittings",
+      "type": "Default",
+      "systemName": null,
+      "size": "200 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 51362
+    },
+    {
+      "category": "Cable Trays",
+      "family": "Cable Tray with Fittings",
+      "type": "Default",
+      "systemName": null,
+      "size": "200 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 51362
+    },
+    {
+      "category": "Cable Trays",
+      "family": "Cable Tray with Fittings",
+      "type": "Default",
+      "systemName": null,
+      "size": "200 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 51362
+    },
+    {
+      "category": "Cable Trays",
+      "family": "Cable Tray with Fittings",
+      "type": "Default",
+      "systemName": null,
+      "size": "200 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 51362
+    },
+    {
+      "category": "Cable Trays",
+      "family": "Cable Tray with Fittings",
+      "type": "Default",
+      "systemName": null,
+      "size": "200 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 51362
+    },
+    {
+      "category": "Cable Trays",
+      "family": "Cable Tray with Fittings",
+      "type": "Default",
+      "systemName": null,
+      "size": "100 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 51362
+    },
+    {
+      "category": "Cable Trays",
+      "family": "Cable Tray with Fittings",
+      "type": "Default",
+      "systemName": null,
+      "size": "100 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 51362
+    },
+    {
+      "category": "Cable Trays",
+      "family": "Cable Tray with Fittings",
+      "type": "Default",
+      "systemName": null,
+      "size": "200 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 51362
+    },
+    {
+      "category": "Cable Trays",
+      "family": "Cable Tray with Fittings",
+      "type": "Default",
+      "systemName": null,
+      "size": "200 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 51362
+    },
+    {
+      "category": "Cable Tray Fittings",
+      "family": "Cable_Tray-Fitting-Chalfant-Series_5-Vertical_Outside_Bend",
+      "type": "Standard",
+      "systemName": null,
+      "size": "200 mmx100 mm-200 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 43739
+    },
+    {
+      "category": "Cable Tray Fittings",
+      "family": "Cable_Tray-Fitting-Chalfant-Series_5-Vertical_Outside_Bend",
+      "type": "Standard",
+      "systemName": null,
+      "size": "200 mmx100 mm-200 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 43739
+    },
+    {
+      "category": "Cable Tray Fittings",
+      "family": "Cable_Tray-Fitting-Chalfant-Series_5-Vertical_Outside_Bend",
+      "type": "Standard",
+      "systemName": null,
+      "size": "200 mmx100 mm-200 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 43739
+    },
+    {
+      "category": "Cable Tray Fittings",
+      "family": "Cable_Tray-Fitting-Chalfant-Series_5-Vertical_Outside_Bend",
+      "type": "Standard",
+      "systemName": null,
+      "size": "300 mmx100 mm-300 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 43739
+    },
+    {
+      "category": "Cable Tray Fittings",
+      "family": "Cable_Tray-Fitting-Chalfant-Series_5-Vertical_Outside_Bend",
+      "type": "Standard",
+      "systemName": null,
+      "size": "300 mmx100 mm-300 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 43739
+    },
+    {
+      "category": "Cable Tray Fittings",
+      "family": "Cable_Tray-Fitting-Chalfant-Series_5-Vertical_Outside_Bend",
+      "type": "Standard",
+      "systemName": null,
+      "size": "300 mmx100 mm-300 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 43739
+    },
+    {
+      "category": "Cable Tray Fittings",
+      "family": "Cable_Tray-Fitting-Chalfant-Series_5-Vertical_Outside_Bend",
+      "type": "Standard",
+      "systemName": null,
+      "size": "100 mmx50 mm-100 mmx50 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 43739
+    },
+    {
+      "category": "Cable Tray Fittings",
+      "family": "Cable_Tray-Fitting-Chalfant-Series_5-Vertical_Outside_Bend",
+      "type": "Standard",
+      "systemName": null,
+      "size": "100 mmx50 mm-100 mmx50 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 43739
+    },
+    {
+      "category": "Cable Tray Fittings",
+      "family": "Cable_Tray-Fitting-Chalfant-Series_5-Vertical_Outside_Bend",
+      "type": "Standard",
+      "systemName": null,
+      "size": "50 mmx50 mm-50 mmx50 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 43739
+    },
+    {
+      "category": "Cable Tray Fittings",
+      "family": "Cable_Tray-Fitting-Chalfant-Series_5-Vertical_Outside_Bend",
+      "type": "Standard",
+      "systemName": null,
+      "size": "50 mmx50 mm-50 mmx50 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 43739
+    },
+    {
+      "category": "Cable Tray Fittings",
+      "family": "Cable_Tray-Fitting-Chalfant-Series_5-Vertical_Outside_Bend",
+      "type": "Standard",
+      "systemName": null,
+      "size": "300 mmx100 mm-300 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 43739
+    },
+    {
+      "category": "Cable Tray Fittings",
+      "family": "Cable_Tray-Fitting-Chalfant-Series_5-Vertical_Outside_Bend",
+      "type": "Standard",
+      "systemName": null,
+      "size": "300 mmx100 mm-300 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 43739
+    },
+    {
+      "category": "Cable Tray Fittings",
+      "family": "Cable_Tray-Fitting-Chalfant-Series_5-Vertical_Outside_Bend",
+      "type": "Standard",
+      "systemName": null,
+      "size": "300 mmx100 mm-300 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 43739
+    },
+    {
+      "category": "Cable Tray Fittings",
+      "family": "Cable_Tray-Fitting-Chalfant-Series_5-Vertical_Outside_Bend",
+      "type": "Standard",
+      "systemName": null,
+      "size": "300 mmx100 mm-300 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 43739
+    },
+    {
+      "category": "Cable Tray Fittings",
+      "family": "Cable_Tray-Fitting-Chalfant-Series_5-Vertical_Outside_Bend",
+      "type": "Standard",
+      "systemName": null,
+      "size": "100 mmx50 mm-100 mmx50 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 43739
+    },
+    {
+      "category": "Cable Tray Fittings",
+      "family": "Cable_Tray-Fitting-Chalfant-Series_5-Vertical_Outside_Bend",
+      "type": "Standard",
+      "systemName": null,
+      "size": "100 mmx100 mm-100 mmx100 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 43739
+    },
+    {
+      "category": "Cable Tray Fittings",
+      "family": "Cable_Tray-Fitting-Chalfant-Series_5-Vertical_Outside_Bend",
+      "type": "Standard",
+      "systemName": null,
+      "size": "50 mmx50 mm-50 mmx50 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 43739
+    },
+    {
+      "category": "Cable Tray Fittings",
+      "family": "Cable_Tray-Fitting-Chalfant-Series_5-Vertical_Outside_Bend",
+      "type": "Standard",
+      "systemName": null,
+      "size": "50 mmx50 mm-50 mmx50 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 43739
+    },
+    {
+      "category": "Cable Tray Fittings",
+      "family": "Cable_Tray-Fitting-Chalfant-Series_5-Vertical_Outside_Bend",
+      "type": "Standard",
+      "systemName": null,
+      "size": "50 mmx50 mm-50 mmx50 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 43739
+    },
+    {
+      "category": "Cable Tray Fittings",
+      "family": "Cable_Tray-Fitting-Chalfant-Series_5-Vertical_Outside_Bend",
+      "type": "Standard",
+      "systemName": null,
+      "size": "50 mmx50 mm-50 mmx50 mm",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 43739
+    },
+    {
+      "category": "Electrical Equipment",
+      "family": "990 L FUEL TANK DOUBLE WALL 1",
+      "type": "990 L FUEL TANK DOUBLE WALL 1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 8242
+    },
+    {
+      "category": "Electrical Equipment",
+      "family": "TSFLUXUS_F532WDV1-0EN_Leu",
+      "type": "TSFLUXUS_F532WDV1-0EN_Leu",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 8242
+    },
+    {
+      "category": "Electrical Equipment",
+      "family": "Guided Wave Radar (GWR)",
+      "type": "Guided Wave Radar (GWR)",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 8242
+    },
+    {
+      "category": "Electrical Equipment",
+      "family": "UNISTRUT_41X41X6MM",
+      "type": "UNISTRUT_41X41X6MM",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 8242
+    },
+    {
+      "category": "Electrical Equipment",
+      "family": "UNISTRUT_41X41X6MM",
+      "type": "UNISTRUT_41X41X6MM",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 8242
+    },
+    {
+      "category": "Electrical Equipment",
+      "family": "UNISTRUT_41X41X6MM",
+      "type": "UNISTRUT_41X41X6MM",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 8242
+    },
+    {
+      "category": "Electrical Equipment",
+      "family": "mh_ManHole IT Chamber",
+      "type": "Type- T1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 8242
+    },
+    {
+      "category": "Electrical Equipment",
+      "family": "mh_ManHole IT Chamber",
+      "type": "Type- T1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 8242
+    },
+    {
+      "category": "Electrical Equipment",
+      "family": "mh_ManHole IT Chamber",
+      "type": "Type- T1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 8242
+    },
+    {
+      "category": "Electrical Equipment",
+      "family": "mh_ManHole IT Chamber",
+      "type": "Type- T1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 8242
+    },
+    {
+      "category": "Electrical Equipment",
+      "family": "mh_ManHole IT Chamber",
+      "type": "Type- T1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 8242
+    },
+    {
+      "category": "Electrical Equipment",
+      "family": "mh_ManHole IT Chamber",
+      "type": "Type- T1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 8242
+    },
+    {
+      "category": "Electrical Equipment",
+      "family": "mh_ManHole IT Chamber",
+      "type": "Type- T1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 8242
+    },
+    {
+      "category": "Electrical Equipment",
+      "family": "mh_ManHole IT Chamber",
+      "type": "Type- T1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 8242
+    },
+    {
+      "category": "Electrical Equipment",
+      "family": "mh_ManHole IT Chamber",
+      "type": "Type- T1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 8242
+    },
+    {
+      "category": "Electrical Equipment",
+      "family": "mh_ManHole IT Chamber",
+      "type": "Type- T1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 8242
+    },
+    {
+      "category": "Electrical Equipment",
+      "family": "mh_ManHole IT Chamber",
+      "type": "Type- T1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 8242
+    },
+    {
+      "category": "Electrical Equipment",
+      "family": "mh_ManHole IT Chamber",
+      "type": "Type- T1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 8242
+    },
+    {
+      "category": "Electrical Equipment",
+      "family": "mh_ManHole IT Chamber",
+      "type": "Type- T1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 8242
+    },
+    {
+      "category": "Electrical Equipment",
+      "family": "mh_ManHole IT Chamber",
+      "type": "Type- T1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 8242
+    },
+    {
+      "category": "Lighting Fixtures",
+      "family": "mh_LGHT_StreetLight_160MM Pipe",
+      "type": "mh_LGHT_StreetLight_160MM Pipe-STR PEDESTAL",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 53048
+    },
+    {
+      "category": "Lighting Fixtures",
+      "family": "mh_LGHT_StreetLight_160MM Pipe",
+      "type": "mh_LGHT_StreetLight_160MM Pipe-STR PEDESTAL",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 53048
+    },
+    {
+      "category": "Lighting Fixtures",
+      "family": "mh_LGHT_StreetLight_160MM Pipe",
+      "type": "mh_LGHT_StreetLight_160MM Pipe-STR PEDESTAL",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 53048
+    },
+    {
+      "category": "Lighting Fixtures",
+      "family": "mh_LGHT_StreetLight_160MM Pipe",
+      "type": "mh_LGHT_StreetLight_160MM Pipe-STR PEDESTAL",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 53048
+    },
+    {
+      "category": "Lighting Fixtures",
+      "family": "mh_LGHT_StreetLight_160MM Pipe",
+      "type": "mh_LGHT_StreetLight_160MM Pipe-STR PEDESTAL",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 53048
+    },
+    {
+      "category": "Lighting Fixtures",
+      "family": "mh_LGHT_StreetLight_160MM Pipe",
+      "type": "mh_LGHT_StreetLight_160MM Pipe-STR PEDESTAL",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 53048
+    },
+    {
+      "category": "Lighting Fixtures",
+      "family": "mh_LGHT_StreetLight_160MM Pipe",
+      "type": "mh_LGHT_StreetLight_160MM Pipe-STR PEDESTAL",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 53048
+    },
+    {
+      "category": "Lighting Fixtures",
+      "family": "mh_LGHT_HighMastLight",
+      "type": "mh_LGHT_HighMastLight_STR PEDESTAL",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 53048
+    },
+    {
+      "category": "Lighting Fixtures",
+      "family": "Electric Bollards",
+      "type": "Electric Bollards",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 53048
+    },
+    {
+      "category": "Lighting Fixtures",
+      "family": "Electric Bollards",
+      "type": "Electric Bollards",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 53048
+    },
+    {
+      "category": "Lighting Fixtures",
+      "family": "Electric Bollards",
+      "type": "Electric Bollards",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 53048
+    },
+    {
+      "category": "Lighting Fixtures",
+      "family": "Electric Bollards",
+      "type": "Electric Bollards",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 53048
+    },
+    {
+      "category": "Lighting Fixtures",
+      "family": "Electric Bollards",
+      "type": "Electric Bollards",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 53048
+    },
+    {
+      "category": "Lighting Fixtures",
+      "family": "Electric Bollards",
+      "type": "Electric Bollards",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 53048
+    },
+    {
+      "category": "Lighting Fixtures",
+      "family": "Electric Bollards",
+      "type": "Electric Bollards",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 53048
+    },
+    {
+      "category": "Lighting Fixtures",
+      "family": "Electric Bollards",
+      "type": "Electric Bollards",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 53048
+    },
+    {
+      "category": "Lighting Fixtures",
+      "family": "Electric Bollards",
+      "type": "Electric Bollards",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 53048
+    },
+    {
+      "category": "Lighting Fixtures",
+      "family": "Electric Bollards",
+      "type": "Electric Bollards",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 53048
+    },
+    {
+      "category": "Lighting Fixtures",
+      "family": "Electric Bollards",
+      "type": "Electric Bollards",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 53048
+    },
+    {
+      "category": "Lighting Fixtures",
+      "family": "Electric Bollards",
+      "type": "Electric Bollards",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 53048
+    },
+    {
+      "category": "Mechanical Equipment",
+      "family": "mu_MECH_EQ_Process Water tank_1,2,3",
+      "type": "mu_MECH_EQ_Process Water tank_1,2,3",
+      "systemName": "PWL 3,PWL 8,PWL 6,PIWS 1",
+      "size": null,
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 1659505
+    },
+    {
+      "category": "Mechanical Equipment",
+      "family": "mu_MECH_EQ_Process Water tank_1,2,3",
+      "type": "mu_MECH_EQ_Process Water tank_1,2,3",
+      "systemName": "PIWS 2,PIWS 1,PWL 9,PWL 12,PWL 13",
+      "size": null,
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 1659505
+    },
+    {
+      "category": "Mechanical Equipment",
+      "family": "mu_MECH_EQ_Process Water tank_1,2,3",
+      "type": "mu_MECH_EQ_Process Water tank_1,2,3",
+      "systemName": "PWL 5,PWL 10,PWL 14",
+      "size": null,
+      "bqSheet": "7.4 PCW",
+      "matchedBy": "system",
+      "total": 1659505
+    },
+    {
+      "category": "Mechanical Equipment",
+      "family": "Mechanical Equipment 5",
+      "type": "Mechanical Equipment 1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "6.2 Exhaust Equipment",
+      "matchedBy": "category",
+      "total": 1659505
+    },
+    {
+      "category": "Mechanical Equipment",
+      "family": "Mechanical Equipment 6",
+      "type": "Mechanical Equipment 1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "6.2 Exhaust Equipment",
+      "matchedBy": "category",
+      "total": 1659505
+    },
+    {
+      "category": "Mechanical Equipment",
+      "family": "GUJARAT GAS PANEL",
+      "type": "1500 x 1000 x 2000",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "6.2 Exhaust Equipment",
+      "matchedBy": "category",
+      "total": 1659505
+    },
+    {
+      "category": "Mechanical Equipment",
+      "family": "GUJARAT GAS PANEL",
+      "type": "1500 x 1000 x 2000",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "6.2 Exhaust Equipment",
+      "matchedBy": "category",
+      "total": 1659505
+    },
+    {
+      "category": "Mechanical Equipment",
+      "family": "GUJARAT GAS PANEL",
+      "type": "1500 x 1000 x 2000",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "6.2 Exhaust Equipment",
+      "matchedBy": "category",
+      "total": 1659505
+    },
+    {
+      "category": "Mechanical Equipment",
+      "family": "Demo_Mechanical Eq Connector",
+      "type": "FAB-1-AM1-PWS-PWT-01",
+      "systemName": "PIWS 2",
+      "size": null,
+      "bqSheet": "8 Waste Water",
+      "matchedBy": "system",
+      "total": 1659505
+    },
+    {
+      "category": "Mechanical Equipment",
+      "family": "Demo_Mechanical Eq Connector",
+      "type": "FAB-1-AM2-PWS-PWT-02",
+      "systemName": "PIWS 2",
+      "size": null,
+      "bqSheet": "8 Waste Water",
+      "matchedBy": "system",
+      "total": 1659505
+    },
+    {
+      "category": "Mechanical Equipment",
+      "family": "Demo_Mechanical Eq Connector",
+      "type": "FAB-1-AM3-PWS-PWT-03",
+      "systemName": "PIWS 2",
+      "size": null,
+      "bqSheet": "8 Waste Water",
+      "matchedBy": "system",
+      "total": 1659505
+    },
+    {
+      "category": "Mechanical Equipment",
+      "family": "Demo_Mechanical Eq Connector",
+      "type": "FAB-1-AM1-PWS-PWT-01.",
+      "systemName": "PIWS 1",
+      "size": null,
+      "bqSheet": "8 Waste Water",
+      "matchedBy": "system",
+      "total": 1659505
+    },
+    {
+      "category": "Mechanical Equipment",
+      "family": "Demo_Mechanical Eq Connector",
+      "type": "FAB-1-AM2-PWS-PWT-02.",
+      "systemName": "PIWS 1",
+      "size": null,
+      "bqSheet": "8 Waste Water",
+      "matchedBy": "system",
+      "total": 1659505
+    },
+    {
+      "category": "Mechanical Equipment",
+      "family": "Demo_Mechanical Eq Connector",
+      "type": "FAB-1-AM3-PWS-PWT-03.",
+      "systemName": "PIWS 1",
+      "size": null,
+      "bqSheet": "8 Waste Water",
+      "matchedBy": "system",
+      "total": 1659505
+    },
+    {
+      "category": "Mechanical Equipment",
+      "family": "Demo_Mechanical Eq Connector",
+      "type": "FAB-1-AM1-PWS-PWT-01..",
+      "systemName": "PIWS 2",
+      "size": null,
+      "bqSheet": "8 Waste Water",
+      "matchedBy": "system",
+      "total": 1659505
+    },
+    {
+      "category": "Mechanical Equipment",
+      "family": "Demo_Mechanical Eq Connector",
+      "type": "FAB-1-AM3-PWS-PWT-03..",
+      "systemName": "PIWS 2",
+      "size": null,
+      "bqSheet": "8 Waste Water",
+      "matchedBy": "system",
+      "total": 1659505
+    },
+    {
+      "category": "Mechanical Equipment",
+      "family": "Mechanical Equipment 59",
+      "type": "Mechanical Equipment 7",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "6.2 Exhaust Equipment",
+      "matchedBy": "category",
+      "total": 1659505
+    },
+    {
+      "category": "Mechanical Equipment",
+      "family": "Mechanical Equipment 63",
+      "type": "Mechanical Equipment 7",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "6.2 Exhaust Equipment",
+      "matchedBy": "category",
+      "total": 1659505
+    },
+    {
+      "category": "Mechanical Equipment",
+      "family": "Mechanical Equipment 65",
+      "type": "Mechanical Equipment 7",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "6.2 Exhaust Equipment",
+      "matchedBy": "category",
+      "total": 1659505
+    },
+    {
+      "category": "Mechanical Equipment",
+      "family": "Mechanical Equipment 67",
+      "type": "Mechanical Equipment 7",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "6.2 Exhaust Equipment",
+      "matchedBy": "category",
+      "total": 1659505
+    },
+    {
+      "category": "Sprinklers",
+      "family": "M_Sprinkler_U_K080_70C_SR",
+      "type": "M_Sprinkler_U_K080_70C_SR",
+      "systemName": "FP 29",
+      "size": null,
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 29174
+    },
+    {
+      "category": "Sprinklers",
+      "family": "M_Sprinkler_U_K080_70C_SR",
+      "type": "M_Sprinkler_U_K080_70C_SR",
+      "systemName": "FP 29",
+      "size": null,
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 29174
+    },
+    {
+      "category": "Sprinklers",
+      "family": "M_Sprinkler_U_K080_70C_SR",
+      "type": "M_Sprinkler_U_K080_70C_SR",
+      "systemName": "FP 29",
+      "size": null,
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 29174
+    },
+    {
+      "category": "Sprinklers",
+      "family": "M_Sprinkler_U_K080_70C_SR",
+      "type": "M_Sprinkler_U_K080_70C_SR",
+      "systemName": "FP 29",
+      "size": null,
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 29174
+    },
+    {
+      "category": "Sprinklers",
+      "family": "M_Sprinkler_U_K080_70C_SR",
+      "type": "M_Sprinkler_U_K080_70C_SR",
+      "systemName": "FP 29",
+      "size": null,
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 29174
+    },
+    {
+      "category": "Sprinklers",
+      "family": "M_Sprinkler_U_K080_70C_SR",
+      "type": "M_Sprinkler_U_K080_70C_SR",
+      "systemName": "FP 29",
+      "size": null,
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 29174
+    },
+    {
+      "category": "Sprinklers",
+      "family": "M_Sprinkler_U_K080_70C_SR",
+      "type": "M_Sprinkler_U_K080_70C_SR",
+      "systemName": "FP 29",
+      "size": null,
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 29174
+    },
+    {
+      "category": "Sprinklers",
+      "family": "M_Sprinkler_U_K080_70C_SR",
+      "type": "M_Sprinkler_U_K080_70C_SR",
+      "systemName": "FP 29",
+      "size": null,
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 29174
+    },
+    {
+      "category": "Sprinklers",
+      "family": "M_Sprinkler_U_K080_70C_SR",
+      "type": "M_Sprinkler_U_K080_70C_SR",
+      "systemName": "FP 29",
+      "size": null,
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 29174
+    },
+    {
+      "category": "Sprinklers",
+      "family": "M_Sprinkler_U_K080_70C_SR",
+      "type": "M_Sprinkler_U_K080_70C_SR",
+      "systemName": "FP 29",
+      "size": null,
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 29174
+    },
+    {
+      "category": "Sprinklers",
+      "family": "M_Sprinkler_U_K080_70C_SR",
+      "type": "M_Sprinkler_U_K080_70C_SR",
+      "systemName": "FP 29",
+      "size": null,
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 29174
+    },
+    {
+      "category": "Sprinklers",
+      "family": "M_Sprinkler_U_K080_70C_SR",
+      "type": "M_Sprinkler_U_K080_70C_SR",
+      "systemName": "FP 29",
+      "size": null,
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 29174
+    },
+    {
+      "category": "Sprinklers",
+      "family": "M_Sprinkler_U_K080_70C_SR",
+      "type": "M_Sprinkler_U_K080_70C_SR",
+      "systemName": "FP 31",
+      "size": null,
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 29174
+    },
+    {
+      "category": "Sprinklers",
+      "family": "M_Sprinkler_U_K080_70C_SR",
+      "type": "M_Sprinkler_U_K080_70C_SR",
+      "systemName": "FP 31",
+      "size": null,
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 29174
+    },
+    {
+      "category": "Sprinklers",
+      "family": "M_Sprinkler_U_K080_70C_SR",
+      "type": "M_Sprinkler_U_K080_70C_SR",
+      "systemName": "FP 31",
+      "size": null,
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 29174
+    },
+    {
+      "category": "Sprinklers",
+      "family": "M_Sprinkler_U_K080_70C_SR",
+      "type": "M_Sprinkler_U_K080_70C_SR",
+      "systemName": "FP 31",
+      "size": null,
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 29174
+    },
+    {
+      "category": "Sprinklers",
+      "family": "M_Sprinkler_U_K080_70C_SR",
+      "type": "M_Sprinkler_U_K080_70C_SR",
+      "systemName": "FP 31",
+      "size": null,
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 29174
+    },
+    {
+      "category": "Sprinklers",
+      "family": "M_Sprinkler_U_K080_70C_SR",
+      "type": "M_Sprinkler_U_K080_70C_SR",
+      "systemName": "FP 31",
+      "size": null,
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 29174
+    },
+    {
+      "category": "Sprinklers",
+      "family": "M_Sprinkler_U_K080_70C_SR",
+      "type": "M_Sprinkler_U_K080_70C_SR",
+      "systemName": "FP 31",
+      "size": null,
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 29174
+    },
+    {
+      "category": "Sprinklers",
+      "family": "M_Sprinkler_U_K080_70C_SR",
+      "type": "M_Sprinkler_U_K080_70C_SR",
+      "systemName": "FP 31",
+      "size": null,
+      "bqSheet": "12. Gas",
+      "matchedBy": "system",
+      "total": 29174
+    },
+    {
+      "category": "Fire Alarm Devices",
+      "family": "ABC Dry Powder 6 Kg",
+      "type": "ABC - 9.0 kg",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.2 FAS",
+      "matchedBy": "category",
+      "total": 6965
+    },
+    {
+      "category": "Fire Alarm Devices",
+      "family": "ABC Dry Powder 6 Kg",
+      "type": "ABC - 9.0 kg",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.2 FAS",
+      "matchedBy": "category",
+      "total": 6965
+    },
+    {
+      "category": "Fire Alarm Devices",
+      "family": "ABC Dry Powder 6 Kg",
+      "type": "ABC - 9.0 kg",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.2 FAS",
+      "matchedBy": "category",
+      "total": 6965
+    },
+    {
+      "category": "Fire Alarm Devices",
+      "family": "ABC Dry Powder 6 Kg",
+      "type": "ABC - 9.0 kg",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.2 FAS",
+      "matchedBy": "category",
+      "total": 6965
+    },
+    {
+      "category": "Fire Alarm Devices",
+      "family": "ABC Dry Powder 6 Kg",
+      "type": "ABC - 9.0 kg",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.2 FAS",
+      "matchedBy": "category",
+      "total": 6965
+    },
+    {
+      "category": "Fire Alarm Devices",
+      "family": "ABC Dry Powder 6 Kg",
+      "type": "ABC - 9.0 kg",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.2 FAS",
+      "matchedBy": "category",
+      "total": 6965
+    },
+    {
+      "category": "Fire Alarm Devices",
+      "family": "ABC Dry Powder 6 Kg",
+      "type": "ABC - 9.0 kg",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.2 FAS",
+      "matchedBy": "category",
+      "total": 6965
+    },
+    {
+      "category": "Fire Alarm Devices",
+      "family": "ABC Dry Powder 6 Kg",
+      "type": "ABC - 9.0 kg",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.2 FAS",
+      "matchedBy": "category",
+      "total": 6965
+    },
+    {
+      "category": "Fire Alarm Devices",
+      "family": "ABC Dry Powder 6 Kg",
+      "type": "ABC - 9.0 kg",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.2 FAS",
+      "matchedBy": "category",
+      "total": 6965
+    },
+    {
+      "category": "Fire Alarm Devices",
+      "family": "ABC Dry Powder 6 Kg",
+      "type": "ABC - 9.0 kg",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.2 FAS",
+      "matchedBy": "category",
+      "total": 6965
+    },
+    {
+      "category": "Fire Alarm Devices",
+      "family": "ABC Dry Powder 6 Kg",
+      "type": "ABC - 9.0 kg",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.2 FAS",
+      "matchedBy": "category",
+      "total": 6965
+    },
+    {
+      "category": "Fire Alarm Devices",
+      "family": "ABC Dry Powder 6 Kg",
+      "type": "ABC - 9.0 kg",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.2 FAS",
+      "matchedBy": "category",
+      "total": 6965
+    },
+    {
+      "category": "Fire Alarm Devices",
+      "family": "ABC Dry Powder 6 Kg",
+      "type": "ABC - 9.0 kg",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.2 FAS",
+      "matchedBy": "category",
+      "total": 6965
+    },
+    {
+      "category": "Fire Alarm Devices",
+      "family": "ABC Dry Powder 6 Kg",
+      "type": "ABC - 9.0 kg",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.2 FAS",
+      "matchedBy": "category",
+      "total": 6965
+    },
+    {
+      "category": "Fire Alarm Devices",
+      "family": "ABC Dry Powder 6 Kg",
+      "type": "ABC - 9.0 kg",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.2 FAS",
+      "matchedBy": "category",
+      "total": 6965
+    },
+    {
+      "category": "Fire Alarm Devices",
+      "family": "ABC Dry Powder 6 Kg",
+      "type": "ABC - 9.0 kg",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.2 FAS",
+      "matchedBy": "category",
+      "total": 6965
+    },
+    {
+      "category": "Fire Alarm Devices",
+      "family": "ABC Dry Powder 6 Kg",
+      "type": "ABC - 9.0 kg",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.2 FAS",
+      "matchedBy": "category",
+      "total": 6965
+    },
+    {
+      "category": "Fire Alarm Devices",
+      "family": "ABC Dry Powder 6 Kg",
+      "type": "ABC - 9.0 kg",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.2 FAS",
+      "matchedBy": "category",
+      "total": 6965
+    },
+    {
+      "category": "Fire Alarm Devices",
+      "family": "ABC Dry Powder 6 Kg",
+      "type": "ABC - 9.0 kg",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.2 FAS",
+      "matchedBy": "category",
+      "total": 6965
+    },
+    {
+      "category": "Fire Alarm Devices",
+      "family": "ABC Dry Powder 6 Kg",
+      "type": "ABC - 9.0 kg",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.2 FAS",
+      "matchedBy": "category",
+      "total": 6965
+    },
+    {
+      "category": "Communication Devices",
+      "family": "Communication_Bosch_Cabinet_Loudspeaker_Premium_Sound_(Metal)",
+      "type": "LB1-UM20E-L Cabinet loudspeaker, 20W, white",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2482
+    },
+    {
+      "category": "Communication Devices",
+      "family": "Communication_Bosch_Cabinet_Loudspeaker_Premium_Sound_(Metal)",
+      "type": "LB1-UM20E-L Cabinet loudspeaker, 20W, white",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2482
+    },
+    {
+      "category": "Communication Devices",
+      "family": "Communication_Bosch_Cabinet_Loudspeaker_Premium_Sound_(Metal)",
+      "type": "LB1-UM20E-L Cabinet loudspeaker, 20W, white",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2482
+    },
+    {
+      "category": "Communication Devices",
+      "family": "Communication_Bosch_Cabinet_Loudspeaker_Premium_Sound_(Metal)",
+      "type": "LB1-UM20E-L Cabinet loudspeaker, 20W, white",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2482
+    },
+    {
+      "category": "Communication Devices",
+      "family": "Communication_Bosch_Cabinet_Loudspeaker_Premium_Sound_(Metal)",
+      "type": "LB1-UM20E-L Cabinet loudspeaker, 20W, white",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2482
+    },
+    {
+      "category": "Communication Devices",
+      "family": "Communication_Bosch_Cabinet_Loudspeaker_Premium_Sound_(Metal)",
+      "type": "LB1-UM20E-L Cabinet loudspeaker, 20W, white",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2482
+    },
+    {
+      "category": "Communication Devices",
+      "family": "Communication_Bosch_Cabinet_Loudspeaker_Premium_Sound_(Metal)",
+      "type": "LB1-UM20E-L Cabinet loudspeaker, 20W, white",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2482
+    },
+    {
+      "category": "Communication Devices",
+      "family": "Communication_Bosch_Cabinet_Loudspeaker_Premium_Sound_(Metal)",
+      "type": "LB1-UM20E-L Cabinet loudspeaker, 20W, white",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2482
+    },
+    {
+      "category": "Communication Devices",
+      "family": "Communication_Bosch_Cabinet_Loudspeaker_Premium_Sound_(Metal)",
+      "type": "LB1-UM20E-L Cabinet loudspeaker, 20W, white",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2482
+    },
+    {
+      "category": "Communication Devices",
+      "family": "Communication_Bosch_Cabinet_Loudspeaker_Premium_Sound_(Metal)",
+      "type": "LB1-UM20E-L Cabinet loudspeaker, 20W, white",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2482
+    },
+    {
+      "category": "Communication Devices",
+      "family": "Communication_Bosch_Cabinet_Loudspeaker_Premium_Sound_(Metal)",
+      "type": "LB1-UM20E-L Cabinet loudspeaker, 20W, white",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2482
+    },
+    {
+      "category": "Communication Devices",
+      "family": "Communication_Bosch_Cabinet_Loudspeaker_Premium_Sound_(Metal)",
+      "type": "LB1-UM20E-L Cabinet loudspeaker, 20W, white",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2482
+    },
+    {
+      "category": "Communication Devices",
+      "family": "Communication_Bosch_Cabinet_Loudspeaker_Premium_Sound_(Metal)",
+      "type": "LB1-UM20E-L Cabinet loudspeaker, 20W, white",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2482
+    },
+    {
+      "category": "Communication Devices",
+      "family": "Communication_Bosch_Cabinet_Loudspeaker_Premium_Sound_(Metal)",
+      "type": "LB1-UM20E-L Cabinet loudspeaker, 20W, white",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2482
+    },
+    {
+      "category": "Communication Devices",
+      "family": "Communication_Bosch_Cabinet_Loudspeaker_Premium_Sound_(Metal)",
+      "type": "LB1-UM20E-L Cabinet loudspeaker, 20W, white",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2482
+    },
+    {
+      "category": "Communication Devices",
+      "family": "Communication_Bosch_Ceiling_Loudspeaker_6W",
+      "type": "LBC3086/41 Ceiling loudspeaker 6W metal clamp mount",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2482
+    },
+    {
+      "category": "Communication Devices",
+      "family": "Communication_Bosch_Ceiling_Loudspeaker_6W",
+      "type": "LBC3086/41 Ceiling loudspeaker 6W metal clamp mount",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2482
+    },
+    {
+      "category": "Communication Devices",
+      "family": "Communication_Bosch_Ceiling_Loudspeaker_6W",
+      "type": "LBC3086/41 Ceiling loudspeaker 6W metal clamp mount",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2482
+    },
+    {
+      "category": "Communication Devices",
+      "family": "Communication_Bosch_Ceiling_Loudspeaker_6W",
+      "type": "LBC3086/41 Ceiling loudspeaker 6W metal clamp mount",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2482
+    },
+    {
+      "category": "Communication Devices",
+      "family": "Communication_Bosch_Ceiling_Loudspeaker_6W",
+      "type": "LBC3086/41 Ceiling loudspeaker 6W metal clamp mount",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2482
+    },
+    {
+      "category": "Security Devices",
+      "family": "DEB-33SS_Card Reader",
+      "type": "DEB-33SS_Card Reader",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2151
+    },
+    {
+      "category": "Security Devices",
+      "family": "DEB-33SS_Card Reader",
+      "type": "DEB-33SS_Card Reader",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2151
+    },
+    {
+      "category": "Security Devices",
+      "family": "DEB-33SS_Card Reader",
+      "type": "DEB-33SS_Card Reader",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2151
+    },
+    {
+      "category": "Security Devices",
+      "family": "DEB-33SS_Card Reader",
+      "type": "DEB-33SS_Card Reader",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2151
+    },
+    {
+      "category": "Security Devices",
+      "family": "DEB-33SS_Card Reader",
+      "type": "DEB-33SS_Card Reader",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2151
+    },
+    {
+      "category": "Security Devices",
+      "family": "DEB-33SS_Card Reader",
+      "type": "DEB-33SS_Card Reader",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2151
+    },
+    {
+      "category": "Security Devices",
+      "family": "DEB-33SS_Card Reader",
+      "type": "DEB-33SS_Card Reader",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2151
+    },
+    {
+      "category": "Security Devices",
+      "family": "DEB-33SS_Card Reader",
+      "type": "DEB-33SS_Card Reader",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2151
+    },
+    {
+      "category": "Security Devices",
+      "family": "DEB-33SS_Card Reader",
+      "type": "DEB-33SS_Card Reader",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2151
+    },
+    {
+      "category": "Security Devices",
+      "family": "DEB-33SS_Card Reader",
+      "type": "DEB-33SS_Card Reader",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2151
+    },
+    {
+      "category": "Security Devices",
+      "family": "mu_CCTV_BulletType.rfa TYPE 2",
+      "type": "mu_CCTV_BulletType.rfa TYPE 2",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2151
+    },
+    {
+      "category": "Security Devices",
+      "family": "mu_CCTV_BulletType.rfa TYPE 2",
+      "type": "mu_CCTV_BulletType.rfa TYPE 1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2151
+    },
+    {
+      "category": "Security Devices",
+      "family": "mu_CCTV_BulletType.rfa TYPE 2",
+      "type": "mu_CCTV_BulletType.rfa TYPE 1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2151
+    },
+    {
+      "category": "Security Devices",
+      "family": "mu_CCTV_BulletType.rfa TYPE 2",
+      "type": "mu_CCTV_BulletType.rfa TYPE 1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2151
+    },
+    {
+      "category": "Security Devices",
+      "family": "mu_CCTV_BulletType.rfa TYPE 2",
+      "type": "mu_CCTV_BulletType.rfa TYPE 1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2151
+    },
+    {
+      "category": "Security Devices",
+      "family": "mu_CCTV_BulletType.rfa TYPE 2",
+      "type": "mu_CCTV_BulletType.rfa TYPE 1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2151
+    },
+    {
+      "category": "Security Devices",
+      "family": "mu_CCTV_BulletType.rfa TYPE 2",
+      "type": "mu_CCTV_BulletType.rfa TYPE 1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2151
+    },
+    {
+      "category": "Security Devices",
+      "family": "mu_CCTV_BulletType.rfa TYPE 2",
+      "type": "mu_CCTV_BulletType.rfa TYPE 1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2151
+    },
+    {
+      "category": "Security Devices",
+      "family": "mu_CCTV_BulletType.rfa TYPE 2",
+      "type": "mu_CCTV_BulletType.rfa TYPE 1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2151
+    },
+    {
+      "category": "Security Devices",
+      "family": "mu_CCTV_BulletType.rfa TYPE 2",
+      "type": "mu_CCTV_BulletType.rfa TYPE 1",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.1 ACS",
+      "matchedBy": "category",
+      "total": 2151
+    },
+    {
+      "category": "Data Devices",
+      "family": "tc_Junction Box_Pole Mounted",
+      "type": "Pole Mounted",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.6 IT",
+      "matchedBy": "category",
+      "total": 5119
+    },
+    {
+      "category": "Data Devices",
+      "family": "tc_Junction Box_Pole Mounted",
+      "type": "Pole Mounted",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.6 IT",
+      "matchedBy": "category",
+      "total": 5119
+    },
+    {
+      "category": "Data Devices",
+      "family": "tc_Junction Box_Pole Mounted",
+      "type": "Pole Mounted",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.6 IT",
+      "matchedBy": "category",
+      "total": 5119
+    },
+    {
+      "category": "Data Devices",
+      "family": "tc_Junction Box_Pole Mounted",
+      "type": "Pole Mounted",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.6 IT",
+      "matchedBy": "category",
+      "total": 5119
+    },
+    {
+      "category": "Data Devices",
+      "family": "tc_Junction Box_Pole Mounted",
+      "type": "Pole Mounted",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.6 IT",
+      "matchedBy": "category",
+      "total": 5119
+    },
+    {
+      "category": "Data Devices",
+      "family": "tc_Junction Box_Pole Mounted",
+      "type": "Pole Mounted",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.6 IT",
+      "matchedBy": "category",
+      "total": 5119
+    },
+    {
+      "category": "Data Devices",
+      "family": "tc_Junction Box_Pole Mounted",
+      "type": "Pole Mounted",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.6 IT",
+      "matchedBy": "category",
+      "total": 5119
+    },
+    {
+      "category": "Data Devices",
+      "family": "tc_Junction Box_Pole Mounted",
+      "type": "Pole Mounted",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.6 IT",
+      "matchedBy": "category",
+      "total": 5119
+    },
+    {
+      "category": "Data Devices",
+      "family": "tc_Junction Box_Pole Mounted",
+      "type": "Pole Mounted",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.6 IT",
+      "matchedBy": "category",
+      "total": 5119
+    },
+    {
+      "category": "Data Devices",
+      "family": "tc_Junction Box_Pole Mounted",
+      "type": "Pole Mounted",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.6 IT",
+      "matchedBy": "category",
+      "total": 5119
+    },
+    {
+      "category": "Data Devices",
+      "family": "tc_Junction Box_Pole Mounted",
+      "type": "Pole Mounted",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.6 IT",
+      "matchedBy": "category",
+      "total": 5119
+    },
+    {
+      "category": "Data Devices",
+      "family": "tc_Junction Box_Pole Mounted",
+      "type": "Pole Mounted",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.6 IT",
+      "matchedBy": "category",
+      "total": 5119
+    },
+    {
+      "category": "Data Devices",
+      "family": "tc_Junction Box_Pole Mounted",
+      "type": "Pole Mounted",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.6 IT",
+      "matchedBy": "category",
+      "total": 5119
+    },
+    {
+      "category": "Data Devices",
+      "family": "tc_Junction Box_Pole Mounted",
+      "type": "Pole Mounted",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.6 IT",
+      "matchedBy": "category",
+      "total": 5119
+    },
+    {
+      "category": "Data Devices",
+      "family": "tc_Junction Box_Pole Mounted",
+      "type": "Pole Mounted",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.6 IT",
+      "matchedBy": "category",
+      "total": 5119
+    },
+    {
+      "category": "Data Devices",
+      "family": "tc_Junction Box_Pole Mounted",
+      "type": "Pole Mounted",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.6 IT",
+      "matchedBy": "category",
+      "total": 5119
+    },
+    {
+      "category": "Data Devices",
+      "family": "tc_Junction Box_Pole Mounted",
+      "type": "Pole Mounted",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.6 IT",
+      "matchedBy": "category",
+      "total": 5119
+    },
+    {
+      "category": "Data Devices",
+      "family": "tc_Junction Box_Pole Mounted",
+      "type": "Pole Mounted",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.6 IT",
+      "matchedBy": "category",
+      "total": 5119
+    },
+    {
+      "category": "Data Devices",
+      "family": "tc_Junction Box_Pole Mounted",
+      "type": "Pole Mounted",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.6 IT",
+      "matchedBy": "category",
+      "total": 5119
+    },
+    {
+      "category": "Data Devices",
+      "family": "tc_Junction Box_Pole Mounted",
+      "type": "Pole Mounted",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "9.6 IT",
+      "matchedBy": "category",
+      "total": 5119
+    },
+    {
+      "category": "Plumbing Equipment",
+      "family": "Rec man hole 600 mm",
+      "type": "Rec man hole 600 mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 636
+    },
+    {
+      "category": "Plumbing Equipment",
+      "family": "Rec man hole 600 mm",
+      "type": "Rec man hole 600 mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 636
+    },
+    {
+      "category": "Plumbing Equipment",
+      "family": "mh_P_Valve Chamber",
+      "type": "IC Chamber 600x600x700",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 636
+    },
+    {
+      "category": "Plumbing Equipment",
+      "family": "mh_P_Valve Chamber",
+      "type": "IC Chamber 600x600x700",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 636
+    },
+    {
+      "category": "Plumbing Equipment",
+      "family": "mh_P_Valve Chamber",
+      "type": "IC Chamber 600x600x700",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 636
+    },
+    {
+      "category": "Plumbing Equipment",
+      "family": "mh_P_Valve Chamber",
+      "type": "IC Chamber 600x600x700",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 636
+    },
+    {
+      "category": "Plumbing Equipment",
+      "family": "mh_P_Valve Chamber",
+      "type": "IC Chamber 600x600x700",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 636
+    },
+    {
+      "category": "Plumbing Equipment",
+      "family": "mh_P_Valve Chamber",
+      "type": "IC Chamber 600x600x700",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 636
+    },
+    {
+      "category": "Plumbing Equipment",
+      "family": "mh_P_Valve Chamber",
+      "type": "IC Chamber 600x1200x900",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 636
+    },
+    {
+      "category": "Plumbing Equipment",
+      "family": "mh_P_Valve Chamber",
+      "type": "IC Chamber 600x600x1000",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 636
+    },
+    {
+      "category": "Plumbing Equipment",
+      "family": "mh_P_Valve Chamber",
+      "type": "IC Chamber 600x600x1000",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 636
+    },
+    {
+      "category": "Plumbing Equipment",
+      "family": "mh_P_Valve Chamber",
+      "type": "IC Chamber 600x600x1000",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 636
+    },
+    {
+      "category": "Plumbing Equipment",
+      "family": "mh_P_Valve Chamber",
+      "type": "IC Chamber 600x600x1000",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 636
+    },
+    {
+      "category": "Plumbing Equipment",
+      "family": "mh_P_Valve Chamber",
+      "type": "IC Chamber 600x600x1000",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 636
+    },
+    {
+      "category": "Plumbing Equipment",
+      "family": "mh_P_Valve Chamber",
+      "type": "IC Chamber 600x600x1000",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 636
+    },
+    {
+      "category": "Plumbing Equipment",
+      "family": "mh_P_Valve Chamber",
+      "type": "IC Chamber 600x600x800",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 636
+    },
+    {
+      "category": "Plumbing Equipment",
+      "family": "mh_P_Valve Chamber",
+      "type": "IC Chamber 600x600x800",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 636
+    },
+    {
+      "category": "Plumbing Equipment",
+      "family": "mh_P_Valve Chamber",
+      "type": "IC Chamber 600x600x600",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 636
+    },
+    {
+      "category": "Plumbing Equipment",
+      "family": "mh_P_Valve Chamber",
+      "type": "IC Chamber 600x600x600",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 636
+    },
+    {
+      "category": "Plumbing Equipment",
+      "family": "mh_P_Meter Chamber",
+      "type": "Meter Chamber",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 636
+    },
+    {
+      "category": "Plumbing Fixtures",
+      "family": "mu_PLUM_MANHOLE",
+      "type": "2270mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 1652
+    },
+    {
+      "category": "Plumbing Fixtures",
+      "family": "mu_PLUM_MANHOLE",
+      "type": "2150mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 1652
+    },
+    {
+      "category": "Plumbing Fixtures",
+      "family": "mu_PLUM_MANHOLE",
+      "type": "1570mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 1652
+    },
+    {
+      "category": "Plumbing Fixtures",
+      "family": "mu_PLUM_MANHOLE",
+      "type": "1940mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 1652
+    },
+    {
+      "category": "Plumbing Fixtures",
+      "family": "mu_PLUM_MANHOLE",
+      "type": "2100mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 1652
+    },
+    {
+      "category": "Plumbing Fixtures",
+      "family": "mu_PLUM_MANHOLE",
+      "type": "2800mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 1652
+    },
+    {
+      "category": "Plumbing Fixtures",
+      "family": "mu_PLUM_MANHOLE",
+      "type": "2380 mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 1652
+    },
+    {
+      "category": "Plumbing Fixtures",
+      "family": "mu_PLUM_MANHOLE",
+      "type": "2560mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 1652
+    },
+    {
+      "category": "Plumbing Fixtures",
+      "family": "mu_PLUM_MANHOLE",
+      "type": "2740mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 1652
+    },
+    {
+      "category": "Plumbing Fixtures",
+      "family": "mu_PLUM_MANHOLE",
+      "type": "1800mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 1652
+    },
+    {
+      "category": "Plumbing Fixtures",
+      "family": "mu_PLUM_MANHOLE",
+      "type": "1950mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 1652
+    },
+    {
+      "category": "Plumbing Fixtures",
+      "family": "mu_PLUM_MANHOLE",
+      "type": "1950mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 1652
+    },
+    {
+      "category": "Plumbing Fixtures",
+      "family": "mu_PLUM_MANHOLE",
+      "type": "2110mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 1652
+    },
+    {
+      "category": "Plumbing Fixtures",
+      "family": "mu_PLUM_MANHOLE",
+      "type": "2310 mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 1652
+    },
+    {
+      "category": "Plumbing Fixtures",
+      "family": "mu_PLUM_MANHOLE",
+      "type": "2500mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 1652
+    },
+    {
+      "category": "Plumbing Fixtures",
+      "family": "mu_PLUM_MANHOLE",
+      "type": "1640mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 1652
+    },
+    {
+      "category": "Plumbing Fixtures",
+      "family": "mu_PLUM_MANHOLE",
+      "type": "1500mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 1652
+    },
+    {
+      "category": "Plumbing Fixtures",
+      "family": "mu_PLUM_MANHOLE",
+      "type": "1240mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 1652
+    },
+    {
+      "category": "Plumbing Fixtures",
+      "family": "mu_PLUM_MANHOLE",
+      "type": "1780mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 1652
+    },
+    {
+      "category": "Plumbing Fixtures",
+      "family": "mu_PLUM_MANHOLE",
+      "type": "800mm",
+      "systemName": null,
+      "size": null,
+      "bqSheet": "2.3 PHE Works",
+      "matchedBy": "category",
+      "total": 1652
+    },
+    {
+      "category": "Air Terminals",
+      "family": "Extract Louver Vertical1",
+      "type": "Family1 2",
+      "systemName": "EA 14",
+      "size": "550 mmx400 mm",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 1757
+    },
+    {
+      "category": "Air Terminals",
+      "family": "Extract Louver Vertical1",
+      "type": "FRESH AIR LOUVER",
+      "systemName": "OA 7",
+      "size": "1200 mmx600 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 1757
+    },
+    {
+      "category": "Air Terminals",
+      "family": "Extract Louver Vertical1",
+      "type": "FRESH AIR LOUVER",
+      "systemName": "OA 10",
+      "size": "1200 mmx600 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 1757
+    },
+    {
+      "category": "Air Terminals",
+      "family": "Extract Louver Vertical1",
+      "type": "FRESH AIR LOUVER",
+      "systemName": "OA 12",
+      "size": "1200 mmx600 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 1757
+    },
+    {
+      "category": "Air Terminals",
+      "family": "Extract Louver Vertical1",
+      "type": "FRESH AIR LOUVER",
+      "systemName": "OA 13",
+      "size": "1200 mmx600 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 1757
+    },
+    {
+      "category": "Air Terminals",
+      "family": "Extract Louver Vertical1",
+      "type": "FRESH AIR LOUVER",
+      "systemName": "OA 14",
+      "size": "1200 mmx600 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 1757
+    },
+    {
+      "category": "Air Terminals",
+      "family": "Extract Louver Vertical1",
+      "type": "FRESH AIR LOUVER",
+      "systemName": "OA 15",
+      "size": "1200 mmx600 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 1757
+    },
+    {
+      "category": "Air Terminals",
+      "family": "Extract Louver Vertical1",
+      "type": "FRESH AIR LOUVER",
+      "systemName": "OA 16",
+      "size": "1200 mmx600 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 1757
+    },
+    {
+      "category": "Air Terminals",
+      "family": "Extract Louver Vertical1",
+      "type": "FRESH AIR LOUVER",
+      "systemName": "OA 17",
+      "size": "1200 mmx600 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 1757
+    },
+    {
+      "category": "Air Terminals",
+      "family": "Extract Louver Vertical1",
+      "type": "FRESH AIR LOUVER",
+      "systemName": "OA 19",
+      "size": "1200 mmx600 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 1757
+    },
+    {
+      "category": "Air Terminals",
+      "family": "Extract Louver Vertical1",
+      "type": "FRESH AIR LOUVER",
+      "systemName": "OA 20",
+      "size": "1200 mmx600 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 1757
+    },
+    {
+      "category": "Air Terminals",
+      "family": "Extract Louver Vertical1",
+      "type": "FRESH AIR LOUVER",
+      "systemName": "OA 21",
+      "size": "1200 mmx600 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 1757
+    },
+    {
+      "category": "Air Terminals",
+      "family": "Extract Louver Vertical1",
+      "type": "FRESH AIR LOUVER 2",
+      "systemName": "OA 24",
+      "size": "1000 mmx500 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 1757
+    },
+    {
+      "category": "Air Terminals",
+      "family": "Extract Louver Vertical1",
+      "type": "FRESH AIR LOUVER 2",
+      "systemName": "OA 23",
+      "size": "1000 mmx500 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 1757
+    },
+    {
+      "category": "Air Terminals",
+      "family": "Extract Louver Vertical1",
+      "type": "FRESH AIR LOUVER 2",
+      "systemName": "OA 22",
+      "size": "1000 mmx500 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 1757
+    },
+    {
+      "category": "Air Terminals",
+      "family": "Extract Louver Vertical1",
+      "type": "400 x 350",
+      "systemName": "OA 1",
+      "size": "400 mmx350 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 1757
+    },
+    {
+      "category": "Air Terminals",
+      "family": "Extract Louver Vertical1",
+      "type": "400 x 350",
+      "systemName": "OA 4",
+      "size": "400 mmx350 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 1757
+    },
+    {
+      "category": "Air Terminals",
+      "family": "Extract Louver Vertical1",
+      "type": "450 x 450",
+      "systemName": "OA 5",
+      "size": "450 mmx450 mm",
+      "bqSheet": "7.5 ICA+SW",
+      "matchedBy": "system",
+      "total": 1757
+    },
+    {
+      "category": "Air Terminals",
+      "family": "mh_AT_Round Wire Mesh",
+      "type": "@M_AT_800 mm",
+      "systemName": "EA 18",
+      "size": "710 mmø",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 1757
+    },
+    {
+      "category": "Air Terminals",
+      "family": "mh_AT_Round Wire Mesh",
+      "type": "@M_AT_800 mm",
+      "systemName": "EA 19",
+      "size": "710 mmø",
+      "bqSheet": "6.1 Exhaust Ducting",
+      "matchedBy": "system",
+      "total": 1757
+    },
+    {
+      "category": "Conduits",
+      "family": "Conduit without Fittings",
+      "type": "6MM SS TUBE",
+      "systemName": null,
+      "size": "6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 15914
+    },
+    {
+      "category": "Conduits",
+      "family": "Conduit without Fittings",
+      "type": "6MM SS TUBE",
+      "systemName": null,
+      "size": "6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 15914
+    },
+    {
+      "category": "Conduits",
+      "family": "Conduit without Fittings",
+      "type": "6MM SS TUBE",
+      "systemName": null,
+      "size": "6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 15914
+    },
+    {
+      "category": "Conduits",
+      "family": "Conduit without Fittings",
+      "type": "6MM SS TUBE",
+      "systemName": null,
+      "size": "6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 15914
+    },
+    {
+      "category": "Conduits",
+      "family": "Conduit without Fittings",
+      "type": "6MM SS TUBE",
+      "systemName": null,
+      "size": "6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 15914
+    },
+    {
+      "category": "Conduits",
+      "family": "Conduit without Fittings",
+      "type": "6MM SS TUBE",
+      "systemName": null,
+      "size": "6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 15914
+    },
+    {
+      "category": "Conduits",
+      "family": "Conduit without Fittings",
+      "type": "6MM SS TUBE",
+      "systemName": null,
+      "size": "6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 15914
+    },
+    {
+      "category": "Conduits",
+      "family": "Conduit without Fittings",
+      "type": "6MM SS TUBE",
+      "systemName": null,
+      "size": "6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 15914
+    },
+    {
+      "category": "Conduits",
+      "family": "Conduit without Fittings",
+      "type": "6MM SS TUBE",
+      "systemName": null,
+      "size": "6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 15914
+    },
+    {
+      "category": "Conduits",
+      "family": "Conduit without Fittings",
+      "type": "6MM SS TUBE",
+      "systemName": null,
+      "size": "6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 15914
+    },
+    {
+      "category": "Conduits",
+      "family": "Conduit without Fittings",
+      "type": "6MM SS TUBE",
+      "systemName": null,
+      "size": "6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 15914
+    },
+    {
+      "category": "Conduits",
+      "family": "Conduit without Fittings",
+      "type": "6MM SS TUBE",
+      "systemName": null,
+      "size": "6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 15914
+    },
+    {
+      "category": "Conduits",
+      "family": "Conduit without Fittings",
+      "type": "6MM SS TUBE",
+      "systemName": null,
+      "size": "6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 15914
+    },
+    {
+      "category": "Conduits",
+      "family": "Conduit without Fittings",
+      "type": "6MM SS TUBE",
+      "systemName": null,
+      "size": "6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 15914
+    },
+    {
+      "category": "Conduits",
+      "family": "Conduit without Fittings",
+      "type": "6MM SS TUBE",
+      "systemName": null,
+      "size": "6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 15914
+    },
+    {
+      "category": "Conduits",
+      "family": "Conduit without Fittings",
+      "type": "6MM SS TUBE",
+      "systemName": null,
+      "size": "6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 15914
+    },
+    {
+      "category": "Conduits",
+      "family": "Conduit without Fittings",
+      "type": "6MM SS TUBE",
+      "systemName": null,
+      "size": "6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 15914
+    },
+    {
+      "category": "Conduits",
+      "family": "Conduit without Fittings",
+      "type": "6MM SS TUBE",
+      "systemName": null,
+      "size": "6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 15914
+    },
+    {
+      "category": "Conduits",
+      "family": "Conduit without Fittings",
+      "type": "6MM SS TUBE",
+      "systemName": null,
+      "size": "6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 15914
+    },
+    {
+      "category": "Conduits",
+      "family": "Conduit without Fittings",
+      "type": "6MM SS TUBE",
+      "systemName": null,
+      "size": "6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 15914
+    },
+    {
+      "category": "Conduit Fittings",
+      "family": "Conduit Elbow - without Fittings - RNC",
+      "type": "Standard",
+      "systemName": null,
+      "size": "6 mmø-6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 11862
+    },
+    {
+      "category": "Conduit Fittings",
+      "family": "Conduit Elbow - without Fittings - RNC",
+      "type": "Standard",
+      "systemName": null,
+      "size": "6 mmø-6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 11862
+    },
+    {
+      "category": "Conduit Fittings",
+      "family": "Conduit Elbow - without Fittings - RNC",
+      "type": "Standard",
+      "systemName": null,
+      "size": "6 mmø-6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 11862
+    },
+    {
+      "category": "Conduit Fittings",
+      "family": "Conduit Elbow - without Fittings - RNC",
+      "type": "Standard",
+      "systemName": null,
+      "size": "6 mmø-6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 11862
+    },
+    {
+      "category": "Conduit Fittings",
+      "family": "Conduit Elbow - without Fittings - RNC",
+      "type": "Standard",
+      "systemName": null,
+      "size": "6 mmø-6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 11862
+    },
+    {
+      "category": "Conduit Fittings",
+      "family": "Conduit Elbow - without Fittings - RNC",
+      "type": "Standard",
+      "systemName": null,
+      "size": "6 mmø-6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 11862
+    },
+    {
+      "category": "Conduit Fittings",
+      "family": "Conduit Elbow - without Fittings - RNC",
+      "type": "Standard",
+      "systemName": null,
+      "size": "6 mmø-6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 11862
+    },
+    {
+      "category": "Conduit Fittings",
+      "family": "Conduit Elbow - without Fittings - RNC",
+      "type": "Standard",
+      "systemName": null,
+      "size": "6 mmø-6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 11862
+    },
+    {
+      "category": "Conduit Fittings",
+      "family": "Conduit Elbow - without Fittings - RNC",
+      "type": "Standard",
+      "systemName": null,
+      "size": "6 mmø-6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 11862
+    },
+    {
+      "category": "Conduit Fittings",
+      "family": "Conduit Elbow - without Fittings - RNC",
+      "type": "Standard",
+      "systemName": null,
+      "size": "6 mmø-6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 11862
+    },
+    {
+      "category": "Conduit Fittings",
+      "family": "Conduit Elbow - without Fittings - RNC",
+      "type": "Standard",
+      "systemName": null,
+      "size": "6 mmø-6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 11862
+    },
+    {
+      "category": "Conduit Fittings",
+      "family": "Conduit Elbow - without Fittings - RNC",
+      "type": "Standard",
+      "systemName": null,
+      "size": "6 mmø-6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 11862
+    },
+    {
+      "category": "Conduit Fittings",
+      "family": "Conduit Elbow - without Fittings - RNC",
+      "type": "Standard",
+      "systemName": null,
+      "size": "6 mmø-6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 11862
+    },
+    {
+      "category": "Conduit Fittings",
+      "family": "Conduit Elbow - without Fittings - RNC",
+      "type": "Standard",
+      "systemName": null,
+      "size": "6 mmø-6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 11862
+    },
+    {
+      "category": "Conduit Fittings",
+      "family": "Conduit Elbow - without Fittings - RNC",
+      "type": "Standard",
+      "systemName": null,
+      "size": "6 mmø-6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 11862
+    },
+    {
+      "category": "Conduit Fittings",
+      "family": "Conduit Elbow - without Fittings - RNC",
+      "type": "Standard",
+      "systemName": null,
+      "size": "6 mmø-6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 11862
+    },
+    {
+      "category": "Conduit Fittings",
+      "family": "Conduit Elbow - without Fittings - RNC",
+      "type": "Standard",
+      "systemName": null,
+      "size": "6 mmø-6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 11862
+    },
+    {
+      "category": "Conduit Fittings",
+      "family": "Conduit Elbow - without Fittings - RNC",
+      "type": "Standard",
+      "systemName": null,
+      "size": "6 mmø-6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 11862
+    },
+    {
+      "category": "Conduit Fittings",
+      "family": "Conduit Elbow - without Fittings - RNC",
+      "type": "Standard",
+      "systemName": null,
+      "size": "6 mmø-6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 11862
+    },
+    {
+      "category": "Conduit Fittings",
+      "family": "Conduit Elbow - without Fittings - RNC",
+      "type": "Standard",
+      "systemName": null,
+      "size": "6 mmø-6 mmø",
+      "bqSheet": "10.1 Non-CR Elect.",
+      "matchedBy": "category",
+      "total": 11862
+    }
+  ],
+  "categoryResults": {
+    "Ducts": {
+      "total": 11910,
+      "matched": {
+        "6.1 Exhaust Ducting": 14,
+        "7.5 ICA+SW": 6
+      }
+    },
+    "Duct Fittings": {
+      "total": 8813,
+      "matched": {
+        "6.1 Exhaust Ducting": 8,
+        "7.5 ICA+SW": 6,
+        "5.1 Non-CR HVAC": 6
+      }
+    },
+    "Duct Accessories": {
+      "total": 2697,
+      "matched": {
+        "7.5 ICA+SW": 4,
+        "6.1 Exhaust Ducting": 6,
+        "5.1 Non-CR HVAC": 10
+      }
+    },
+    "Duct Insulations": {
+      "total": 8144,
+      "matched": {
+        "7.5 ICA+SW": 2,
+        "5.1 Non-CR HVAC": 18
+      }
+    },
+    "Pipes": {
+      "total": 214231,
+      "matched": {
+        "7.4 PCW": 20
+      }
+    },
+    "Pipe Fittings": {
+      "total": 222625,
+      "matched": {
+        "7.4 PCW": 15,
+        "12. Gas": 5
+      }
+    },
+    "Pipe Accessories": {
+      "total": 40546,
+      "matched": {
+        "7.4 PCW": 20
+      }
+    },
+    "Pipe Insulations": {
+      "total": 45243,
+      "matched": {
+        "7.4 PCW": 20
+      }
+    },
+    "Walls": {
+      "total": 28772,
+      "matched": {
+        "4.1 Non-CR Architecture": 20
+      }
+    },
+    "Doors": {
+      "total": 935,
+      "matched": {
+        "4.1 Non-CR Architecture": 20
+      }
+    },
+    "Windows": {
+      "total": 1198,
+      "matched": {
+        "4.1 Non-CR Architecture": 19,
+        "4.2 CR Architecture": 1
+      }
+    },
+    "Floors": {
+      "total": 6359,
+      "matched": {
+        "4.1 Non-CR Architecture": 20
+      }
+    },
+    "Structural Columns": {
+      "total": 24882,
+      "matched": {
+        "3. Structure": 20
+      }
+    },
+    "Structural Framing": {
+      "total": 817823,
+      "matched": {
+        "3. Structure": 20
+      }
+    },
+    "Structural Foundations": {
+      "total": 2244,
+      "matched": {
+        "3. Structure": 20
+      }
+    },
+    "Cable Trays": {
+      "total": 51362,
+      "matched": {
+        "10.1 Non-CR Elect.": 20
+      }
+    },
+    "Cable Tray Fittings": {
+      "total": 43739,
+      "matched": {
+        "10.1 Non-CR Elect.": 20
+      }
+    },
+    "Electrical Equipment": {
+      "total": 8242,
+      "matched": {
+        "10.1 Non-CR Elect.": 20
+      }
+    },
+    "Lighting Fixtures": {
+      "total": 53048,
+      "matched": {
+        "10.1 Non-CR Elect.": 20
+      }
+    },
+    "Mechanical Equipment": {
+      "total": 1659505,
+      "matched": {
+        "7.4 PCW": 3,
+        "6.2 Exhaust Equipment": 9,
+        "8 Waste Water": 8
+      }
+    },
+    "Sprinklers": {
+      "total": 29174,
+      "matched": {
+        "12. Gas": 20
+      }
+    },
+    "Fire Alarm Devices": {
+      "total": 6965,
+      "matched": {
+        "9.2 FAS": 20
+      }
+    },
+    "Communication Devices": {
+      "total": 2482,
+      "matched": {
+        "9.1 ACS": 20
+      }
+    },
+    "Security Devices": {
+      "total": 2151,
+      "matched": {
+        "9.1 ACS": 20
+      }
+    },
+    "Data Devices": {
+      "total": 5119,
+      "matched": {
+        "9.6 IT": 20
+      }
+    },
+    "Plumbing Equipment": {
+      "total": 636,
+      "matched": {
+        "2.3 PHE Works": 20
+      }
+    },
+    "Plumbing Fixtures": {
+      "total": 1652,
+      "matched": {
+        "2.3 PHE Works": 20
+      }
+    },
+    "Air Terminals": {
+      "total": 1757,
+      "matched": {
+        "6.1 Exhaust Ducting": 3,
+        "7.5 ICA+SW": 17
+      }
+    },
+    "Conduits": {
+      "total": 15914,
+      "matched": {
+        "10.1 Non-CR Elect.": 20
+      }
+    },
+    "Conduit Fittings": {
+      "total": 11862,
+      "matched": {
+        "10.1 Non-CR Elect.": 20
+      }
+    }
+  }
+}
