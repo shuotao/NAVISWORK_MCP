@@ -1,0 +1,263 @@
+ALL_D_INAP         | 7.1 Utility_CDA           | 7A_CDA.dwg                | 692 | CDA(2), CDA-100-SS304L-005(133), CDA-100-SS304L-005_Supports(16), CDA-40-SS304L-006(147), CDA-40-SS304L-006_Supports(22)
+ALL_D_INAP         | 7.1 Utility_CDA           | 7A_HPCDA.dwg              | 894 | 0(12), CDA-50(59), CDA-50_Supports(20), HPCDA(2), HPCDA-50(251), HPCDA-50_Supports(54), HPCDA-VENDOR SCOPE(401), HPCDA-V
+ALL_D_INAP         | 7.1 Utility_CDA           | 7A_ICA.dwg                | 1874 | 0(434), _Supports(247), ICA(565), ICA_Supports(12), SUPPORT(337), SW_PW(261), SW_PW_Supports(18)
+ALL_D_INAP         | 7.1 Utility_CDA           | 7A_NG.dwg                 | 433 | 0(145), _Supports(2), NG(162), NG_Supports(124)
+ALL_D_INAP         | 7.1 Utility_CDA           | 7A_PV.dwg                 | 1007 | 0(2), PV(561), PV-100-UPVC-002(5), PV-100-UPVC-002_Supports(14), PV-50-UPVC-005(142), PV-50-UPVC-005_Supports(55), PV-50
+ALL_D_PRWT         | 8 Waste Water             | 7A_APM.dwg                | 388 | APM-50-PVC-002-B(132), APM-50-PVC-002-B_Supports(45), SUPPORT(211)
+ALL_D_PRWT         | 8 Waste Water             | 7A_CCW.dwg                | 458 | 0(15), CCW-80-PVC-005(130), CCW-80-PVC-005_SUPPORTS(62), SUPPORT(251)
+ALL_D_PRWT         | 8 Waste Water             | 7A_DIW.dwg                | 144 | 0(50), 7A_DIWS(43), 7A_DWR(51)
+ALL_D_PRWT         | 8 Waste Water             | 7A_IPAL.dwg               | 251 | 0(17), IPAL-50-PVC-012(146), IPAL-50-PVC-012_Supports(54), SUPPORT(34)
+ALL_D_PRWT         | 8 Waste Water             | 7A_IW.dwg                 | 1259 | 0(3), _Supports(7), SUPPORT(498), WWR+IW-100-PVC-005(10), WWR+IW-50-PVC-008(586), WWR+IW-50-PVC-011(4), WWS-100-PVC-012(
+ALL_D_PRWT         | 8 Waste Water             | 7A_MMW.dwg                | 717 | 0(8), MMW-50-PVC-005(289), MMW-50-PVC-005_Supports(92), SUPPORT(318), WWS-100-PVC-009(10)
+ALL_D_PRWT         | 8 Waste Water             | 7A_PCW.dwg                | 1150 | 0(61), 7A_PCWR(119), PCWR-100-SS304L-005(132), PCWR-200-SS304L-07(254), PCWS-100-SS304L-006(121), PCWS-200-SS304L-OO8(27
+ALL_D_PRWT         | 8 Waste Water             | 7A_SW.dwg                 | 622 | 0(86), SUPPORT(169), SW-25-GI-004(94), SW-25-GI-004_Supports(2), SW-80-GI-001(199), SW-80-GI-001_Supports(72)
+ALL_D_PRWT         | 8 Waste Water             | 7A_SWPD.dwg               | 450 | 0(20), _Supports(165), SUPPORT(35), SWPD-50-SS304-005(153), SWPD-50-SS304-005_Supports(77)
+ALL_D_PRWT         | 8 Waste Water             | 7A_TMAH.dwg               | 363 | 0(14), _Supports(177), TMAH-50-PP-005(111), TMAH-50-PP-005_Supports(61)
+ALL_D_PRWT         | 8 Waste Water             | 7A_UPW.dwg                | 734 | 0(201), 7A_UPWR(280), 7A_UPWS(253)
+ALL_D_PRWT         | 8 Waste Water             | 7A_VENT.dwg               | 1245 | 0(11), SUPPORT(413), VG-25-PVC-003(373), VG-25-PVC-006(23), VG-25-PVC-009(60), VG-25-PVC-009_Supports(5), VG-50-PVC-002(
+ALL_D_PRWT         | 8 Waste Water             | 7A_WOR-431.dwg            | 265 | 0(15), SUPPORT(44), W-OR-431-50-SS304-005(142), W-OR-431-50-SS304-005_Supports(64)
+ALL_D_PRWT         | 8 Waste Water             | CUB-WWTP-LINES.dwg        | 930 | 0(185), _Supports(315), APM(41), EDTA(82), IW(45), MMW(54), NON-SOLVENT-CHEMICAL(82), TMAH(20), VG-25-PVC-009(16), VG-25
+ALL_M_EQPM         | 6.2 Exhaust Equipment     | 7A_BUMPING_EQUIPMENTS.dwg | 140 | 0(114), _Green(3), Chemical Area  Future(2), Chemical Area  New(2), MHI(6), PIPE_TMAH(11), PIPE_WWR(2)
+ALL_M_EQPM         | 6.2 Exhaust Equipment     | 7A_Tool.dwg               | 503 | 0(31), 7A_TOOL(354), _Production tools(118)
+ALL_N_GASS         | 12. Gas                   | 0                         | 607 | (unnamed)(607)
+ALL_N_GASS         | 12. Gas                   | 1.5_-SS316L EP-PAR        | 313 | (unnamed)(313)
+ALL_N_GASS         | 12. Gas                   | 1.5_-SS316L EP-PAR_Supports | 299 | (unnamed)(299)
+ALL_N_GASS         | 12. Gas                   | 10_-EXHUST-CLEAN.         | 18 | (unnamed)(18)
+ALL_N_GASS         | 12. Gas                   | 14_ SS304_ETFE ACID EXHAUST-CORR. | 66 | (unnamed)(66)
+ALL_N_GASS         | 12. Gas                   | 1_ SS304 BA GN2-CLEAN     | 182 | (unnamed)(182)
+ALL_N_GASS         | 12. Gas                   | 1_ SS304 BA GN2-CLEAN_Supports | 19 | (unnamed)(19)
+ALL_N_GASS         | 12. Gas                   | 1_ SS304 BA GN2-CORR.     | 526 | (unnamed)(526)
+ALL_N_GASS         | 12. Gas                   | 1_ SS304 BA GN2-CORR._Supports | 29 | (unnamed)(29)
+ALL_N_GASS         | 12. Gas                   | 1_ SS304 BA-GN2-FLM.      | 521 | (unnamed)(521)
+ALL_N_GASS         | 12. Gas                   | 1_ SS304 BA-GN2-FLM._Supports | 27 | (unnamed)(27)
+ALL_N_GASS         | 12. Gas                   | 1_ SS316L EP-PO2          | 405 | (unnamed)(405)
+ALL_N_GASS         | 12. Gas                   | 1_ SS316L EP-PO2_Supports | 290 | (unnamed)(290)
+ALL_N_GASS         | 12. Gas                   | 1_ VENT ABATEMENT-FLAM.   | 11 | (unnamed)(11)
+ALL_N_GASS         | 12. Gas                   | 1_-GAS-HR                 | 24 | (unnamed)(24)
+ALL_N_GASS         | 12. Gas                   | 1_2_ SS304 BA GN2-CLEAN   | 7 | (unnamed)(7)
+ALL_N_GASS         | 12. Gas                   | 1_2_ SS304 BA-GO2         | 167 | (unnamed)(167)
+ALL_N_GASS         | 12. Gas                   | 1_2_ SS304 BA-GO2_Supports | 68 | (unnamed)(68)
+ALL_N_GASS         | 12. Gas                   | 1_2_ SS316L EP-H2_HE      | 88 | (unnamed)(88)
+ALL_N_GASS         | 12. Gas                   | 1_2_ SS316L EP-H2_HE_Supports | 92 | (unnamed)(92)
+ALL_N_GASS         | 12. Gas                   | 1_2_ SS316L EP-PCO2       | 198 | (unnamed)(198)
+ALL_N_GASS         | 12. Gas                   | 1_2_ SS316L EP-PCO2_Supports | 81 | (unnamed)(81)
+ALL_N_GASS         | 12. Gas                   | 1_2_ SS316L EP-PO2        | 165 | (unnamed)(165)
+ALL_N_GASS         | 12. Gas                   | 1_2_ SS316L EP-PO2_Supports | 26 | (unnamed)(26)
+ALL_N_GASS         | 12. Gas                   | 1_2_ VENT PCO2 GP-CORR.   | 18 | (unnamed)(18)
+ALL_N_GASS         | 12. Gas                   | 1_2_ VENT PCO2 GP-CORR._Supports | 4 | (unnamed)(4)
+ALL_N_GASS         | 12. Gas                   | 2_ SS304 BA-GN2           | 1132 | (unnamed)(1132)
+ALL_N_GASS         | 12. Gas                   | 2_ SS304 BA-GN2_Supports  | 212 | (unnamed)(212)
+ALL_N_GASS         | 12. Gas                   | 3D BOX                    | 10 | (unnamed)(10)
+ALL_N_GASS         | 12. Gas                   | 3_ SS316L EP-PN2          | 1235 | (unnamed)(1235)
+ALL_N_GASS         | 12. Gas                   | 3_ SS316L EP-PN2_Supports | 181 | (unnamed)(181)
+ALL_N_GASS         | 12. Gas                   | 3_4_ SS316L EP-PAR        | 217 | (unnamed)(217)
+ALL_N_GASS         | 12. Gas                   | 3_4_ SS316L EP-PAR_Supports | 27 | (unnamed)(27)
+ALL_N_GASS         | 12. Gas                   | 3_8_ HP PURGE N2 SS316L EP-FLAM. | 27 | *A1(17), (unnamed)(10)
+ALL_N_GASS         | 12. Gas                   | 3_8_ HP PURGE N2 SS316L EP-FLAM._Supports | 6 | (unnamed)(6)
+ALL_N_GASS         | 12. Gas                   | 3_8_ LP PURGE N2 SS316L EP-CORR. | 18 | (unnamed)(18)
+ALL_N_GASS         | 12. Gas                   | 3_8_ LP PURGE N2 SS316L EP-CORR._Supports | 5 | (unnamed)(5)
+ALL_N_GASS         | 12. Gas                   | 3_8_ LP PURGE N2 SS316L EP-FLAM. | 27 | (unnamed)(27)
+ALL_N_GASS         | 12. Gas                   | 3_8_ LP PURGE N2 SS316L EP-FLAM._Supports | 5 | (unnamed)(5)
+ALL_N_GASS         | 12. Gas                   | 4_ SS304 BA-GN2           | 104 | (unnamed)(104)
+ALL_N_GASS         | 12. Gas                   | 4_ SS304 BA-GN2_Supports  | 53 | (unnamed)(53)
+ALL_N_GASS         | 12. Gas                   | 4_ SS316L EP-PN2          | 341 | (unnamed)(341)
+ALL_N_GASS         | 12. Gas                   | 4_ SS316L EP-PN2_Supports | 275 | (unnamed)(275)
+ALL_N_GASS         | 12. Gas                   | 6_-ACID EXHUST-CORR       | 22 | (unnamed)(22)
+ALL_N_GASS         | 12. Gas                   | 6_-GAS-PN2                | 1 | (unnamed)(1)
+ALL_N_GASS         | 12. Gas                   | 6_-GENERAL EXHUST-FLAMM   | 19 | (unnamed)(19)
+ALL_N_GASS         | 12. Gas                   | EXISTING VALVE            | 10 | (unnamed)(10)
+ALL_N_GASS         | 12. Gas                   | FLAMMABLE-EXHUST          | 88 | (unnamed)(88)
+ALL_N_GASS         | 12. Gas                   | FLAMMABLE-EXHUST_Supports | 1 | (unnamed)(1)
+ALL_N_GASS         | 12. Gas                   | GN2-1_-SS304(BA)-303      | 66 | (unnamed)(66)
+ALL_N_GASS         | 12. Gas                   | GN2-1_-SS304(BA)-303_Supports | 30 | (unnamed)(30)
+ALL_N_GASS         | 12. Gas                   | MHI                       | 37 | (unnamed)(37)
+ALL_N_GASS         | 12. Gas                   | S-COLS                    | 2 | (unnamed)(2)
+ALL_N_GASS         | 12. Gas                   | S-COLS-HDLN               | 2 | (unnamed)(2)
+ALL_N_GASS         | 12. Gas                   | SUPPORT                   | 58 | (unnamed)(58)
+CUB_A_ARCH         | 4.1 Non-CR Architecture   | Curtain Panels            | 2 | System Panel(2)
+CUB_A_ARCH         | 4.1 Non-CR Architecture   | Doors                     | 8 | mh_DOOR_Double Door Vision Panel(3), mh_DOOR_Single Door  Vision Panel_Metal(2), mh_DOOR_Rolling Shutter(3)
+CUB_A_ARCH         | 4.1 Non-CR Architecture   | Floors                    | 4 | Floor(4)
+CUB_A_ARCH         | 4.1 Non-CR Architecture   | Generic Models            | 80 | Face based opening(2), Generic Models 9(2), Generic Models 10(2), Generic Models 8(2), Generic Models 20(2), Generic Mod
+CUB_A_ARCH         | 4.1 Non-CR Architecture   | Handrails                 | 3 | Handrail Type(3)
+CUB_A_ARCH         | 4.1 Non-CR Architecture   | Railings                  | 2 | Railing(2)
+CUB_A_ARCH         | 4.1 Non-CR Architecture   | Ramps                     | 2 | Ramp(2)
+CUB_A_ARCH         | 4.1 Non-CR Architecture   | Roofs                     | 2 | Basic Roof(2)
+CUB_A_ARCH         | 4.1 Non-CR Architecture   | Specialty Equipment       | 2 | Fall_Protection-Anchor_Points-Super_Anchor-CRA-Anchor-End(2)
+CUB_A_ARCH         | 4.1 Non-CR Architecture   | Stairs                    | 2 | Cast-In-Place Stair(2)
+CUB_A_ARCH         | 4.1 Non-CR Architecture   | Structural Columns        | 2 | mu_Column_Triangle_v1(2)
+CUB_A_ARCH         | 4.1 Non-CR Architecture   | Top Rails                 | 2 | Top Rail Type(2)
+CUB_A_ARCH         | 4.1 Non-CR Architecture   | Walls                     | 81 | Basic Wall(9), Walls 1(2), Walls 5(2), Walls 6(2), Walls 8(2), Walls 12(2), Walls 13(2), Walls 15(2), Walls 16(2), Walls
+CUB_E_ELEC         | 10.1 Non-CR Elect.        | Cable Tray Fittings       | 24 | MH_Ladder Vertical Inside Bend(2), MH_Ladder Vertical Outside Bend(2), MH_Ladder_Rack-Fitting-Chalfant-Horizontal_Bend_9
+CUB_E_ELEC         | 10.1 Non-CR Elect.        | Cable Trays               | 5 | Cable Tray with Fittings(5)
+CUB_E_ELEC         | 10.1 Non-CR Elect.        | Electrical Equipment      | 49 | MH_ GF POWER PANEL(33), MH_ADMIN GF POWER PANEL(3), mh_LCS(2), Disconnect Switches(3), MH_SUBLDB(2), transformer with du
+CUB_E_ELEC         | 10.1 Non-CR Elect.        | Electrical Fixtures       | 2 | MH_MH_1 Nos Socket raw power 2(2)
+CUB_E_ELEC         | 10.1 Non-CR Elect.        | Generic Models            | 2 | P9013_Post_Base(2)
+CUB_E_ELEC         | 10.1 Non-CR Elect.        | Lighting Devices          | 2 | 415V 3∅ 32A 5PIN AND 230V 1∅ 16A 3PIN COMBINED INDUSTRIAL SOCKET OUTLET(2)
+CUB_E_ELEC         | 10.1 Non-CR Elect.        | Lighting Fixtures         | 23 | mh_LGHT_BayLight_Normal(2), mh_LGHT_LinearLight_Suspended(2), MH_LGHT_TubeLight(2), MH_LGHT_SuspendedLight(2), Lighting_
+CUB_E_ELEC         | 10.1 Non-CR Elect.        | Mechanical Equipment      | 10 | CSA-01-E(2), CSA-01-B(2), Cleats_V1(2), scs 084(2), CSA-01-A-support(2)
+CUB_E_ELEC         | 10.1 Non-CR Elect.        | Structural Columns        | 2 | mu_Column_Triangle_v1(2)
+CUB_E_ELEC         | 10.1 Non-CR Elect.        | Structural Framing        | 3 | SYS Steelwork Framing Channels(3)
+CUB_F_FPRT         | 11.1 INTERNAL HYDRANT SYSTEM | Generic Models            | 2 | mh_Fire Pipe Cutout(2)
+CUB_F_FPRT         | 11.1 INTERNAL HYDRANT SYSTEM | Mechanical Equipment      | 35 | mh_MEC_140 Ltr Cyclinder(2), mh_MEC_BATTEERY FRAME -01(2), mh_MEC_CO2 FIRE EXTINGUSIER WITH CABIN(2), mh_MEC_ABC FIRE EX
+CUB_F_FPRT         | 11.1 INTERNAL HYDRANT SYSTEM | Pipe Accessories          | 27 | mh_PA_PPA_GATE_VALVE_N(2), mh_PA_Victaulic-FP-FireLock Alarm Check Valve Series 751(2), mh_PA_Flow Detector - Switch(2),
+CUB_F_FPRT         | 11.1 INTERNAL HYDRANT SYSTEM | Pipe Fittings             | 22 | Elbow - Threaded - MI - Class 300(2), Tee Branch Reduced - Threaded - MS(2), M_Elbow - Welded - Generic(2), Cap - Thread
+CUB_F_FPRT         | 11.1 INTERNAL HYDRANT SYSTEM | Pipes                     | 4 | Pipe Types(4)
+CUB_F_FPRT         | 11.1 INTERNAL HYDRANT SYSTEM | Plumbing Equipment        | 2 | FA_DPS Switch(2)
+CUB_F_FPRT         | 11.1 INTERNAL HYDRANT SYSTEM | Specialty Equipment       | 2 | 20L pilot cylinder Bucket support(2)
+CUB_F_FPRT         | 11.1 INTERNAL HYDRANT SYSTEM | Sprinklers                | 6 | SPK_UPRIGHT_UPRIGHT_FIRE WET_N1(2), SPK_UPRIGHT_UPRIGHT_FIRE WET_N(2), RV-360D NOZZLE(2)
+CUB_F_FPRT         | 11.1 INTERNAL HYDRANT SYSTEM | Structural Columns        | 2 | mu_Column_Triangle_v1(2)
+CUB_I_INST         | 9.1 ACS                   | Cable Tray Fittings       | 22 | M_Channel Vertical Inside Bend1(2), M_Channel Vertical Outside Bend1(2), Cable_Bus_Trough_Horizontal_Bend_CH_I(2), Cable
+CUB_I_INST         | 9.1 ACS                   | Cable Trays               | 2 | Cable Tray with Fittings(2)
+CUB_I_INST         | 9.1 ACS                   | Communication Devices     | 8 | Communication_Bosch_Cabinet_Loudspeaker_Premium_Sound_(Metal)(2), Communication_Bosch_Horn_Loundspeaker_(Circular)1(2), 
+CUB_I_INST         | 9.1 ACS                   | Conduit Fittings          | 8 | M_Conduit Corner Coupling Capped - Set Screw - Die Cast Zinc(2), Conduit Elbow - without Fittings1(2), E_Conduit Elbow -
+CUB_I_INST         | 9.1 ACS                   | Conduits                  | 3 | Conduit without Fittings(3)
+CUB_I_INST         | 9.1 ACS                   | Data Devices              | 4 | tc_@T_COMM_Data Outlet Face Plate(2), tc_@T_COMM_Data Outlet Face Plate box (2)
+CUB_I_INST         | 9.1 ACS                   | Electrical Equipment      | 10 | RIO Panel(2), CONS. _ PLC PANEL(2), DCP Panel(2), DCP Panel1(2), DCP Panel2(2)
+CUB_I_INST         | 9.1 ACS                   | Electrical Fixtures       | 4 | DEB-33SS_Electromechanical Lock(2), ZONE BOX_12U_600x650x613_ FAB(2)
+CUB_I_INST         | 9.1 ACS                   | Fire Alarm Devices        | 28 | Fire_Alarm-Intelligent_Detector-EDWARDS_Multi_Detectors(2), Monitor Modules_SIGA-CC1(2), Signal Modules_SIGA-CC1-SM(3), 
+CUB_I_INST         | 9.1 ACS                   | Furniture                 | 6 | mh_FURN_Chair(2), mh_FURN_Table TYP3(4)
+CUB_I_INST         | 9.1 ACS                   | Generic Models            | 23 | mh_uvir - ultraviolet uv and infrared ir sensor(2), SENSEPOINT XCD GAS DETECTOR FOR 112 (CATALYTIC TYPE)(2), Diffrential
+CUB_I_INST         | 9.1 ACS                   | Mechanical Equipment      | 12 | TYPE A FAMILY_CSA__FOR 200 MM CABLE TRAY FINAL Without Clamp(2), TYPE A FAMILY_CSA__FOR 200 MM CABLE TRAY With Clamp(2),
+CUB_I_INST         | 9.1 ACS                   | Pipe Accessories          | 6 | Pressure Gauge(2), Ball Valve(2), mh_PA_Ball Valve - 50-150 mm(2)
+CUB_I_INST         | 9.1 ACS                   | Pipe Fittings             | 8 | M_Transition - Generic(2), M_Tee Reducing Vent(2), MH_Transition - Generic(2), mh_PF_Elbow - Welded - Generic(2)
+CUB_I_INST         | 9.1 ACS                   | Pipes                     | 3 | Pipe Types(3)
+CUB_I_INST         | 9.1 ACS                   | Security Devices          | 8 | Security_Camera-Outdoor_Dome-Hanwha-QNV-Fixed_Focal_mm.rfa 111 - Updated(2), Camouflage LD-96T indoor sirenblue strobeli
+CUB_I_INST         | 9.1 ACS                   | Specialty Equipment       | 6 | E-108E_Break Glass Unit(2), DEB-33SS_Door Contact1(2), mh_O2_SENSOR(2)
+CUB_I_INST         | 9.1 ACS                   | Structural Columns        | 2 | mu_Column_Triangle_v1(2)
+CUB_M_CHWT         | 7.4 PCW                   | Mechanical Equipment      | 15 | PSA-06-Without baseplate(2), Single MT Channel - W(2), PC-05(2), I-Beam Mounted STRAP SUPPORT(3), Variable Trunion(2), P
+CUB_M_CHWT         | 7.4 PCW                   | Pipe Accessories          | 38 | mh_PA_Butterfly Valve - 50-300 mm-GA(5), SM.3.2.B.4.0.0.0(6), mh_PA_Ball Valve - 15-150 mm-GAwithout flange(3), mh_PA_Ru
+CUB_M_CHWT         | 7.4 PCW                   | Pipe Fittings             | 39 | Elbow - Welded - Generic(3), mh_PF_Flange -Slip-on-PVC(3), mh_PF_Cap - Threaded - MI - Class 150(2), M_Flange - Table E-
+CUB_M_CHWT         | 7.4 PCW                   | Pipe Insulations          | 3 | Pipe Insulation(3)
+CUB_M_CHWT         | 7.4 PCW                   | Pipes                     | 7 | Pipe Types(7)
+CUB_M_CHWT         | 7.4 PCW                   | Structural Columns        | 2 | mu_Column_Triangle_v1(2)
+CUB_M_DUCT         | 5.1 Non-CR HVAC           | Air Terminals             | 21 | mh_AT_Louver - Extruded(2), mh_AT_Supply Air Grille(3), mh_AT_Makeup Air Grille(6), mh_AT_Exhaust Air Grille(5), mh_AT_R
+CUB_M_DUCT         | 5.1 Non-CR HVAC           | Duct Accessories          | 12 | MH_M_Pneumatic Control Damper - Rectangular(2), mh_PNEUMATIC_Motor Damper - Round(2), mh_DA_DAMPER FSD(2), mh_DA_Air Vol
+CUB_M_DUCT         | 5.1 Non-CR HVAC           | Duct Fittings             | 26 | MH_M_Rectangular to Round Transition - Angle(2), MH_M_Rectangular Endcap(2), MH_M_Rectangular Tap - Beveled(2), MH_M_Rec
+CUB_M_DUCT         | 5.1 Non-CR HVAC           | Duct Insulations          | 2 | Duct Insulation(2)
+CUB_M_DUCT         | 5.1 Non-CR HVAC           | Ducts                     | 5 | Rectangular Duct(3), Round Duct(2)
+CUB_M_DUCT         | 5.1 Non-CR HVAC           | Generic Models            | 2 | Stool Support(2)
+CUB_M_DUCT         | 5.1 Non-CR HVAC           | Mechanical Equipment      | 51 | USF-Direct_LOD300_SelectedSizes(2), mh_MEQ_Box(11), mh_MEQ_Wall cut out(2), mh_MEQ_Vane Axial Fan AXC1120-Horizontal(2),
+CUB_M_DUCT         | 5.1 Non-CR HVAC           | Pipe Accessories          | 2 | Ball Valve - 50-150 mm(2)
+CUB_M_DUCT         | 5.1 Non-CR HVAC           | Pipe Fittings             | 14 | mh_PF_Elbow - Welded - Generic1(2), MH_M_Tee - Generic(2), MH_Bend - PVC - Sch 40 - DWV(2), MH_Tee Sanitary - PVC - Sch 
+CUB_M_DUCT         | 5.1 Non-CR HVAC           | Pipe Insulations          | 2 | Pipe Insulation(2)
+CUB_M_DUCT         | 5.1 Non-CR HVAC           | Pipes                     | 3 | Pipe Types(3)
+CUB_M_DUCT         | 5.1 Non-CR HVAC           | Structural Columns        | 2 | mu_Column_Triangle_v1(2)
+CUB_M_EGEX         | 6.1 Exhaust Ducting       | <No level>                | 856 | Center line(711), Generic Models(5), Lines(43), Mechanical Equipment(13), Plates(84)
+CUB_M_EGEX         | 6.1 Exhaust Ducting       | LEVEL 1 FLOOR PLAN        | 623 | Air Terminals(2), Center line(421), Center Line(160), Duct Accessories(2), Duct Fittings(6), Ducts(3), Floors(2), Generi
+CUB_M_EGEX         | 6.1 Exhaust Ducting       | Level 6                   | 26 | Air Terminals(2), Center Line(6), Duct Accessories(2), Duct Fittings(2), Generic Models(3), Pipe Accessories(2), Pipe Fi
+CUB_M_EGEX         | 6.1 Exhaust Ducting       | MEZZANINE FLOOR PLAN      | 527 | Center Line(493), Duct Accessories(3), Generic Models(3), Mechanical Equipment(6), Pipe Accessories(5), Pipe Fittings(13
+CUB_M_EGEX         | 6.1 Exhaust Ducting       | ROAD LEVEL                | 16 | Center Line(4), Generic Models(3), Pipe Accessories(2), Pipe Fittings(3), Pipes(2), Structural Columns(2)
+CUB_M_EGEX         | 6.1 Exhaust Ducting       | ROOF LEVEL                | 15 | Center Line(4), Generic Models(3), Mechanical Equipment(2), Pipe Accessories(2), Pipe Fittings(2), Pipes(2)
+CUB_M_EGEX         | 6.1 Exhaust Ducting       | TOP OF SLAB               | 27 | Air Terminals(2), Center Line(5), Floors(7), Generic Models(3), Mechanical Equipment(3), Pipe Fittings(3), Pipes(2), Str
+CUB_P_PLUM         | 2.3 PHE Works             | Pipe Accessories          | 11 | Ball Valve(3), Pressure_Reducing_Valve(2), Pressure Gauge(2), Double_Check_Valve_Assemblies-WATTS-(125-200_LF007-QT, 125
+CUB_P_PLUM         | 2.3 PHE Works             | Pipe Fittings             | 18 | MH_Elbow(2), MH_Tee Reducing 2(2), MH_Tee Sanitary - PVC - Sch 40 - DWV(2), M_Tee Reducing Vent(2), Flange - Slip-on - S
+CUB_P_PLUM         | 2.3 PHE Works             | Pipes                     | 5 | Pipe Types(5)
+CUB_P_PLUM         | 2.3 PHE Works             | Plumbing Equipment        | 2 | mh_P_Chamber(2)
+CUB_P_PLUM         | 2.3 PHE Works             | Plumbing Fixtures         | 6 | mh_P_Safety shower(2), mh_P_Multi Floor Drain(2), Shafety Shower Open Type(2)
+CUB_S_STRU         | 3. Structure              | Bolts                     | 4 | (unnamed)(4)
+CUB_S_STRU         | 3. Structure              | Floors                    | 20 | Floor(20)
+CUB_S_STRU         | 3. Structure              | Generic Models            | 44 | Lift_Dock_Advance_Series4000(2), TOP Grating Family(2), Generic Models 21(2), Generic Models 22(2), Generic Models 23(2)
+CUB_S_STRU         | 3. Structure              | Plates                    | 3098 | (unnamed)(3098)
+CUB_S_STRU         | 3. Structure              | Railings                  | 4 | Railing(4)
+CUB_S_STRU         | 3. Structure              | Stairs                    | 3 | Assembled Stair(3)
+CUB_S_STRU         | 3. Structure              | Structural Columns        | 82 | SHS-Square Hollow Sections-Column(4), SHS-Square Hollow Sections-Column(Cold)(2), Plate-Column(2), UB-Universal Beams-Co
+CUB_S_STRU         | 3. Structure              | Structural Connections    | 16 | CONCRETE ENCASING(2), Structural Connections(2), Structural Connections1(2), Structural Connections3(2), Structural Conn
+CUB_S_STRU         | 3. Structure              | Structural Foundations    | 7 | Foundation Slab(7)
+CUB_S_STRU         | 3. Structure              | Structural Framing        | 47 | Plate Girder(7), UB-Universal Beams(9), SFC(3), CHS-Circular Hollow Sections(Cold)(2), mh_STB2_BuiltUpSections(2), L-Ang
+CUB_S_STRU         | 3. Structure              | Walls                     | 11 | Basic Wall(11)
+FAB_A_ARCH         | 4.2 CR Architecture       | Curtain Panels            | 7 | System Panel(3), ICTPL-CP-FFU(2), ICTPL-CP-Perforated(2)
+FAB_A_ARCH         | 4.2 CR Architecture       | Curtain Wall Mullions     | 2 | Rectangular Mullion(2)
+FAB_A_ARCH         | 4.2 CR Architecture       | Doors                     | 21 | mh_DOOR_Double Door Vision Panel(8), mh_DOOR_Single Door  Vision Panel(6), mh_DOOR_Double sliding(2), mh_DOOR-Overhead-R
+FAB_A_ARCH         | 4.2 CR Architecture       | Floors                    | 7 | Floor(7)
+FAB_A_ARCH         | 4.2 CR Architecture       | Generic Models            | 11 | Face based opening(2), Face based opening1(2), drain cover(2), Family2(5)
+FAB_A_ARCH         | 4.2 CR Architecture       | Handrails                 | 3 | Handrail Type(3)
+FAB_A_ARCH         | 4.2 CR Architecture       | Railings                  | 3 | Railing(3)
+FAB_A_ARCH         | 4.2 CR Architecture       | Specialty Equipment       | 4 | mh_SPEQ_ Ladder(2), mh_RAFL__Pedestal Support_600mm(2)
+FAB_A_ARCH         | 4.2 CR Architecture       | Stairs                    | 2 | Assembled Stair(2)
+FAB_A_ARCH         | 4.2 CR Architecture       | Structural Columns        | 2 | mu_Column_Triangle_v1(2)
+FAB_A_ARCH         | 4.2 CR Architecture       | Top Rails                 | 2 | Top Rail Type(2)
+FAB_A_ARCH         | 4.2 CR Architecture       | Walls                     | 14 | Basic Wall(14)
+FAB_A_ARCH         | 4.2 CR Architecture       | Windows                   | 9 | Parametric_Louver_Window_15219(9)
+FAB_E_ELEC         | 10.2 CR Elect.            | Cable Tray Fittings       | 12 | MH_Ladder Horizontal Tee(2), MH_Ladder Vertical Outside Bend(2), MH_Ladder_Rack-Fitting-Chalfant-Horizontal_Bend_90(2), 
+FAB_E_ELEC         | 10.2 CR Elect.            | Cable Trays               | 4 | Cable Tray with Fittings(2), Cable Tray without Fittings(2)
+FAB_E_ELEC         | 10.2 CR Elect.            | Duct Fittings             | 8 | Rectangular Square Bend - Slip Joint(2), Rectangular Medium Radius Bend - Flanged(2), Rectangular Concentric Taper - Fla
+FAB_E_ELEC         | 10.2 CR Elect.            | Ducts                     | 6 | Rectangular Duct(6)
+FAB_E_ELEC         | 10.2 CR Elect.            | Electrical Equipment      | 70 | MH_ADMIN EMG POWER PANEL  GROUND FLOOR(35), mh_Equipment_Grating1(4), mh_PanelStand(2), mh_@E_XMFR(2), MH_415 UPS(6), mh
+FAB_E_ELEC         | 10.2 CR Elect.            | Generic Models            | 2 | P9013_Post_Base(2)
+FAB_E_ELEC         | 10.2 CR Elect.            | Lighting Fixtures         | 10 | TEARDROP LIGHT blue(2), TEARDROP LIGHT green(2), mh_LGHT_BayLight_Normal(2), MH_LGHT_TubeLight(2), MH_LGHT_SuspendedLigh
+FAB_E_ELEC         | 10.2 CR Elect.            | Mechanical Equipment      | 8 | 800A canopy-front end(2), 800A canopy-01(2), CSA 2-01-E(2), scs 084(2)
+FAB_E_ELEC         | 10.2 CR Elect.            | Specialty Equipment       | 2 | MH_Bus Duct Support(2)
+FAB_E_ELEC         | 10.2 CR Elect.            | Structural Columns        | 2 | mu_Column_Triangle_v1(2)
+FAB_F_FPRT         | 11.2 SPRINKLER SYSTEM     | Flex Pipes                | 3 | Flex Pipe Round(3)
+FAB_F_FPRT         | 11.2 SPRINKLER SYSTEM     | Mechanical Equipment      | 36 | mh_MEC_CO2 FIRE EXTINGUSIER WITH CABIN(2), mh_MEC_FIRE HOSE REEL CABINET 2 Nos(2), mh_MEC_CABINET_FIRE HOSE REEL_Top&Sid
+FAB_F_FPRT         | 11.2 SPRINKLER SYSTEM     | Pipe Accessories          | 19 | mh_PA_PPA_GATE_VALVE_N(2), mh_PA_VKV Wet Valve Model E-1 and F-1(2), mh_PA_Flow Detector - Switch(2), M_Butterfly Valve 
+FAB_F_FPRT         | 11.2 SPRINKLER SYSTEM     | Pipe Fittings             | 26 | Elbow - Threaded - MI - Class 150(3), Tee Branch Reduced - Threaded - MS(3), Cap - Threaded - MI - Class 150(3), Transit
+FAB_F_FPRT         | 11.2 SPRINKLER SYSTEM     | Pipes                     | 4 | Pipe Types(4)
+FAB_F_FPRT         | 11.2 SPRINKLER SYSTEM     | Sprinklers                | 14 | SPK_PENDENT_N(3), SPK_UPRIGHT_UPRIGHT_FIRE WET_N(3), mh_SPK_UPRIGHT_UPRIGHT_FIRE WET_N(2), mh_SPK_PENDENT_N(2), RV-360D 
+FAB_F_FPRT         | 11.2 SPRINKLER SYSTEM     | Structural Columns        | 2 | mu_Column_Triangle_v1(2)
+FAB_I_INST         | 9.1 ACS                   | Cable Tray Fittings       | 35 | Cable_Bus_Trough_Horizontal_Bend_CH_I(2), Cable_Bus_Trough_Vertical_Outside_Bend_CH_I(2), Cable_Bus_Trough_Vertical_Insi
+FAB_I_INST         | 9.1 ACS                   | Cable Trays               | 22 | Cable Tray with Fittings(22)
+FAB_I_INST         | 9.1 ACS                   | Communication Devices     | 6 | Communication_Bosch_Horn_Loundspeaker_(Circular)1(2), Communication_Bosch_Cabinet_Loudspeaker_Premium_Sound_(Metal)2(2),
+FAB_I_INST         | 9.1 ACS                   | Conduit Fittings          | 4 | M_Conduit Corner Coupling Capped - Set Screw - Die Cast Zinc(2), M_Conduit Elbow - without Fittings - EMT(2)
+FAB_I_INST         | 9.1 ACS                   | Conduits                  | 3 | Conduit without Fittings(3)
+FAB_I_INST         | 9.1 ACS                   | Data Devices              | 9 | tc_@T_COMM_Data Outlet Face Plate box 1(2), tc_@T_COMM_Data Outlet Face Plate1(2), Rack with Cable Manager1(3), 5.1_PDU(
+FAB_I_INST         | 9.1 ACS                   | Electrical Equipment      | 9 | PSU1(2), mh_HSSD1(3), NETWORK PANEL -600MM(2), RIO Panel(2)
+FAB_I_INST         | 9.1 ACS                   | Electrical Fixtures       | 15 | DEB-33SS_Electromechanical Lock(3), mh_Cable tray  Support 31 P(2), TC@SUPPORT CHANNEL-SCH-4(4), ZONE BOX_12U_600x650x61
+FAB_I_INST         | 9.1 ACS                   | Fire Alarm Devices        | 18 | Fire_Alarm-Intelligent_Detector-EDWARDS_Multi_Detectors(2), Signal Modules_SIGA-CC1(3), Horn-Strobe_Genesis-G1 Series1(2
+FAB_I_INST         | 9.1 ACS                   | Flex Pipes                | 2 | Flex Pipe Round(2)
+FAB_I_INST         | 9.1 ACS                   | Generic Models            | 20 | Stand_JCI_02(2), mh_uvir - ultraviolet uv and infrared ir sensor(2), SENSEPOINT XCD GAS DETECTOR FOR 112 (CATALYTIC TYPE
+FAB_I_INST         | 9.1 ACS                   | Mechanical Equipment      | 32 | grider-cleats_V2(3), tc_@_zone box beam clamp(2), CSA-01-A - Data center support POD above(2), support-channel_V1(2), Fi
+FAB_I_INST         | 9.1 ACS                   | Pipe Accessories          | 8 | mh_PA_Ball Valve - 50-150 mm(2), Temperature Cum Humidity Transmeter(2), STANCHION STAND-1500mm For Sencer(2), TEMPERATU
+FAB_I_INST         | 9.1 ACS                   | Pipe Fittings             | 16 | Elbow - Plain - PVC-C(2), 1.Sampling Hole(2), Cap - Plain - PVC-C(2), Tee - Plain - PVC-C(2), Cross - Plain - PVC-C(2), 
+FAB_I_INST         | 9.1 ACS                   | Pipes                     | 3 | Pipe Types(3)
+FAB_I_INST         | 9.1 ACS                   | Security Devices          | 6 | Camouflage LD-96T indoor sirenblue strobelight - Buzzer(2), DEB-33SS_Card Reader(2), Security_Camera-Outdoor_Dome-Hanwha
+FAB_I_INST         | 9.1 ACS                   | Specialty Equipment       | 17 | E-108E_Break Glass Unit(2), Bulet Camera Hanger Support(2), DEB-33SS_Push Button(2), DEB-33SS_Door Contact1(2), mh_O2_SE
+FAB_I_INST         | 9.1 ACS                   | Structural Columns        | 6 | p1001-24-through-144-column-loading-gm.0001.rfa -2024(2), mu_Column_Triangle_v1(2), p1001-24-through-144-single column-l
+FAB_I_INST         | 9.1 ACS                   | Structural Connections    | 8 | 3-fitting-wing_shape-unistrut-p2345-rfa(2), P2073ASQ_Post_Base_( DOUBLE UNI)(2), RSen_3_SCON_FB_pipe clamp - FRSM_fische
+FAB_I_INST         | 9.1 ACS                   | Structural Framing        | 6 | BEAM CHANNEL(2), Sapport For RIO(2), STRUCTURAL PANEL BASE CHANEL(2)
+FAB_M_CHWT         | 7.4 PCW                   | Conduit Fittings          | 2 | Conduit Elbow - without Fittings - RNC(2)
+FAB_M_CHWT         | 7.4 PCW                   | Flex Pipes                | 3 | Flex Pipe Round(3)
+FAB_M_CHWT         | 7.4 PCW                   | Generic Models            | 16 | mh_PA_PNEUMATIC OPERATED CONTROL VALVE _150mm_Vertical(2), mh_PA_PNEUMATIC OPERATED CONTROL VALVE _100mm_V(2), mh_PA_PNE
+FAB_M_CHWT         | 7.4 PCW                   | Mechanical Equipment      | 44 | mh_MEQ_Demo_Mechanical Eq Connector(4), PSA-06-Without baseplate(2), Single MT Channel - W(2), PC-05(2), PC1(2), BS 11(3
+FAB_M_CHWT         | 7.4 PCW                   | Pipe Accessories          | 105 | mh_PA_Butterfly Valve-Gearbox Operated-10-24(6), mh_PA_PNEUMATIC OPERATED CONTROL VALVE _80mm_V150(2), mh_PA_Y Strainer 
+FAB_M_CHWT         | 7.4 PCW                   | Pipe Fittings             | 54 | mh_PF_Flange - Blind - Steel - Class 1(2), Branch Connection - Welded - Generic(2), Elbow - Welded - Generic(3), mh_PF_F
+FAB_M_CHWT         | 7.4 PCW                   | Pipe Insulations          | 3 | Pipe Insulation(3)
+FAB_M_CHWT         | 7.4 PCW                   | Pipes                     | 9 | Pipe Types(9)
+FAB_M_CHWT         | 7.4 PCW                   | Structural Columns        | 2 | mu_Column_Triangle_v1(2)
+FAB_M_DUCT         | 5.2 CR HVAC               | Air Terminals             | 20 | mh_AT_Louver - Extruded(2), mh_AT_Supply vertical horizontal grille with shutter(4), mh_AT_Exhaust vertical horizontal g
+FAB_M_DUCT         | 5.2 CR HVAC               | Duct Accessories          | 29 | mh_DA_Damper_FSD(2), mh_DA_Motor Damper - Rectangula - Single actuator-(2), mh_DA_Motor Damper - Rectangula - double act
+FAB_M_DUCT         | 5.2 CR HVAC               | Duct Fittings             | 34 | MH_M_Rectangular Endcap(3), MH_M_Rectangular Elbow - Radius(3), MH_M_Rectangular Tap - Beveled(3), MH_M_Rectangular Tran
+FAB_M_DUCT         | 5.2 CR HVAC               | Duct Insulations          | 4 | Duct Insulation(4)
+FAB_M_DUCT         | 5.2 CR HVAC               | Duct Linings              | 2 | Duct Lining(2)
+FAB_M_DUCT         | 5.2 CR HVAC               | Ducts                     | 6 | Rectangular Duct(3), Round Duct(3)
+FAB_M_DUCT         | 5.2 CR HVAC               | Generic Models            | 8 | PUMP FOUNDATION PLATE(2), DPS(WAYK)(2), Drain Pan DCC(2), mh_PA_pressure transmitter(PT)(2)
+FAB_M_DUCT         | 5.2 CR HVAC               | Mechanical Equipment      | 56 | mh_MEQ_CRMAU(2), mh_MEQ_Pump-Inline-Vertical-Remote_Coupled-Patterson-EnviroFlo(2), mh_MEQ_Box(7), mh_MEQ_03.06.2024 - R
+FAB_M_DUCT         | 5.2 CR HVAC               | Pipe Accessories          | 21 | mh_PA_Solenoid Valve - 0.25-0.375 Inch(2), mh_PA_PRV-20(2), mh_PA_Flexible_Connector(2), mh_PA_Butterfly_Valves-Full_Lug
+FAB_M_DUCT         | 5.2 CR HVAC               | Pipe Fittings             | 47 | mh_PF_Elbow - Welded - Generic1(3), mh_PF_Elbow - Soldered - CU(2), mh_PF_Reducer - Soldered - CU(2), mh_PF_Tee - Solder
+FAB_M_DUCT         | 5.2 CR HVAC               | Pipe Insulations          | 2 | Pipe Insulation(2)
+FAB_M_DUCT         | 5.2 CR HVAC               | Pipes                     | 9 | Pipe Types(9)
+FAB_M_DUCT         | 5.2 CR HVAC               | Structural Columns        | 2 | mu_Column_Triangle_v1(2)
+FAB_M_DUCT         | 5.2 CR HVAC               | Structural Foundations    | 2 | MECH_EQUIP_PLINTH(2)
+FAB_M_EGEX         | 6.2 Exhaust Equipment     | -2.6 LVL                  | 81 | Center Line(68), Duct Fittings(3), Mechanical Equipment(2), Pipe Accessories(3), Pipe Fittings(3), Pipes(2)
+FAB_M_EGEX         | 6.2 Exhaust Equipment     | <No level>                | 534 | Center line(524), Mechanical Equipment(10)
+FAB_M_EGEX         | 6.2 Exhaust Equipment     | FALSE CEILING LEVEL       | 124 | Center line(27), Center Line(79), Duct Fittings(2), Ducts(2), Generic Models(3), Mechanical Equipment(3), Pipe Accessori
+FAB_M_EGEX         | 6.2 Exhaust Equipment     | LEVEL 1                   | 715 | Center line(519), Center Line(177), Duct Accessories(2), Duct Fittings(5), Ducts(2), Mechanical Equipment(2), Pipe Acces
+FAB_M_EGEX         | 6.2 Exhaust Equipment     | MEZZANINE LEVEL           | 3 | Duct Fittings(3)
+FAB_M_EGEX         | 6.2 Exhaust Equipment     | ROOF LEVEL                | 2 | Duct Fittings(2)
+FAB_M_EGEX         | 6.2 Exhaust Equipment     | SUB MEZZANINE LEVEL       | 2 | Duct Fittings(2)
+FAB_M_EGEX         | 6.2 Exhaust Equipment     | T.O.S.                    | 3 | Duct Fittings(3)
+FAB_M_EGEX         | 6.2 Exhaust Equipment     | TOP OF SLAB               | 15 | Center Line(2), Duct Fittings(3), Mechanical Equipment(2), Pipe Accessories(2), Pipe Fittings(2), Pipes(2), Structural C
+FAB_P_PLUM         | 2.3 PHE Works             | Pipe Accessories          | 12 | Ball Valve(4), Pressure Gauge(2), Pressure_Reducing_Valve(2), Double_Check_Valve_Assemblies-WATTS-(125-200_LF007-QT, 125
+FAB_P_PLUM         | 2.3 PHE Works             | Pipe Fittings             | 30 | M_Elbow(2), Wye 45 Deg Reducing - PVC - Sch 40 - DWV(2), MH_Bend - PVC - Sch 40 - DWV(2), M_Tee Reducing Vent - DWV(2), 
+FAB_P_PLUM         | 2.3 PHE Works             | Pipes                     | 6 | Pipe Types(6)
+FAB_P_PLUM         | 2.3 PHE Works             | Plumbing Equipment        | 2 | mh_P_Chamber(2)
+FAB_P_PLUM         | 2.3 PHE Works             | Plumbing Fixtures         | 6 | mh_P_Eye safety shower(2), Plumbing_Drainage_COTTO_CT6406Z4P(2), Drain_Shower_RadiantAustralia_Grate(2)
+FAB_S_STRU         | 3. Structure              | Handrails                 | 3 | Handrail Type(3)
+FAB_S_STRU         | 3. Structure              | Railings                  | 2 | Railing(2)
+FAB_S_STRU         | 3. Structure              | Stairs                    | 2 | Cast-In-Place Stair(2)
+FAB_S_STRU         | 3. Structure              | Structural Columns        | 4 | UB-Universal Beams-Column(2), SFC Column(2)
+FAB_S_STRU         | 3. Structure              | Structural Framing        | 6 | UB-Universal Beams(2), SFC(2), LL-Double Angles(2)
+FAB_S_STRU         | 3. Structure              | Top Rails                 | 2 | Top Rail Type(2)
+SIT_C_CIVIL        | 2.1 Civil Works           | <No level>                | 87 | Generic Models(2), Parking(2), Signage(79), Site(2), Structural Connections(2)
+SIT_C_CIVIL        | 2.1 Civil Works           | RL                        | 19 | Floors(2), Railings(2), Signage(6), Structural Columns(4), Structural Connections(2), Structural Foundations(3)
+SIT_C_CIVIL        | 2.1 Civil Works           | VEHICLE TRACKING - 2a     | 4 | Site(2), Structural Framing(2)
