@@ -1,0 +1,18 @@
+# Build
+MCP/bin/
+MCP/obj/
+MCP-Server/build/
+MCP-Server/node_modules/
+
+# IDE
+.vs/
+*.user
+*.suo
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store

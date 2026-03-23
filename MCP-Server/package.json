@@ -1,0 +1,25 @@
+{
+  "name": "navisworks-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for Navisworks integration - AI-Powered Navisworks Control",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "npm run build && npm run start",
+    "watch": "tsc --watch",
+    "clean": "rimraf build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/ws": "^8.5.10",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.7.2"
+  },
+  "license": "MIT"
+}

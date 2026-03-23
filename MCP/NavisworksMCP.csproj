@@ -1,0 +1,63 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>NavisworksMCP</RootNamespace>
+    <AssemblyName>NavisworksMCP</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputType>Library</OutputType>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+  <!-- Navisworks installation path -->
+  <PropertyGroup>
+    <NavisworksPath>C:\Program Files\Autodesk\Navisworks Manage 2025</NavisworksPath>
+  </PropertyGroup>
+
+  <!-- NuGet packages -->
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Autodesk.Navisworks.Api">
+      <HintPath>$(NavisworksPath)\Autodesk.Navisworks.Api.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Autodesk.Navisworks.Clash">
+      <HintPath>$(NavisworksPath)\Autodesk.Navisworks.Clash.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Autodesk.Navisworks.ComApi">
+      <HintPath>$(NavisworksPath)\Autodesk.Navisworks.ComApi.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Autodesk.Navisworks.Interop.ComApi">
+      <HintPath>$(NavisworksPath)\Autodesk.Navisworks.Interop.ComApi.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+
+  <!-- Post-build: copy to Navisworks Plugins folder (需要管理員權限，或使用 scripts/install-addon.ps1) -->
+  <Target Name="CopyToPlugins" AfterTargets="Build" Condition="Exists('$(NavisworksPath)\Plugins\NavisworksMCP\')">
+    <Message Text="Copying to Navisworks Plugins folder..." Importance="high" />
+    <Copy SourceFiles="$(TargetPath)"
+          DestinationFolder="$(NavisworksPath)\Plugins\NavisworksMCP\"
+          SkipUnchangedFiles="true"
+          ContinueOnError="true" />
+    <Copy SourceFiles="$(TargetDir)$(TargetName).pdb"
+          DestinationFolder="$(NavisworksPath)\Plugins\NavisworksMCP\"
+          SkipUnchangedFiles="true"
+          ContinueOnError="true"
+          Condition="Exists('$(TargetDir)$(TargetName).pdb')" />
+    <Copy SourceFiles="$(TargetDir)Newtonsoft.Json.dll"
+          DestinationFolder="$(NavisworksPath)\Plugins\NavisworksMCP\"
+          SkipUnchangedFiles="true"
+          ContinueOnError="true"
+          Condition="Exists('$(TargetDir)Newtonsoft.Json.dll')" />
+  </Target>
+
+</Project>

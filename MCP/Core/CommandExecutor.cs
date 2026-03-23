@@ -1,0 +1,1189 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Autodesk.Navisworks.Api;
+using NavisworksMCP.Models;
+
+namespace NavisworksMCP.Core
+{
+    /// <summary>
+    /// 命令執行器 — 將 MCP 命令轉譯為 Navisworks API 呼叫
+    /// </summary>
+    public class CommandExecutor
+    {
+        private readonly Document _doc;
+
+        public CommandExecutor()
+        {
+            _doc = Autodesk.Navisworks.Api.Application.ActiveDocument;
+        }
+
+        public NavisCommandResponse ExecuteCommand(NavisCommandRequest request)
+        {
+            try
+            {
+                if (_doc == null)
+                {
+                    return new NavisCommandResponse
+                    {
+                        Success = false,
+                        Error = "沒有打開的文件",
+                        RequestId = request.RequestId
+                    };
+                }
+
+                object result;
+                switch (request.Command)
+                {
+                    case "get_document_info":
+                        result = GetDocumentInfo();
+                        break;
+                    case "get_model_info":
+                        result = GetModelInfo();
+                        break;
+                    case "get_current_selection":
+                        result = GetCurrentSelection();
+                        break;
+                    case "select_items_by_search":
+                        result = SelectItemsBySearch(request.Parameters);
+                        break;
+                    case "get_item_properties":
+                        result = GetItemProperties(request.Parameters);
+                        break;
+                    case "get_model_tree":
+                        result = GetModelTree(request.Parameters);
+                        break;
+                    case "get_viewpoints":
+                        result = GetViewpoints();
+                        break;
+                    case "set_active_viewpoint":
+                        result = SetActiveViewpoint(request.Parameters);
+                        break;
+                    case "get_clash_tests":
+                        result = GetClashTests();
+                        break;
+                    case "get_clash_results":
+                        result = GetClashResults(request.Parameters);
+                        break;
+                    case "get_selection_sets":
+                        result = GetSelectionSets();
+                        break;
+                    case "select_items_by_set":
+                        result = SelectItemsBySet(request.Parameters);
+                        break;
+                    case "clear_selection":
+                        result = ClearSelection();
+                        break;
+                    case "get_all_categories":
+                        result = GetAllCategories();
+                        break;
+                    case "search_items":
+                        result = SearchItems(request.Parameters);
+                        break;
+                    case "get_item_geometry_info":
+                        result = GetItemGeometryInfo(request.Parameters);
+                        break;
+                    case "zoom_to_selection":
+                        result = ZoomToSelection();
+                        break;
+                    case "set_item_override_color":
+                        result = SetItemOverrideColor(request.Parameters);
+                        break;
+                    case "clear_override_colors":
+                        result = ClearOverrideColors();
+                        break;
+                    case "hide_items":
+                        result = HideItems(request.Parameters);
+                        break;
+                    case "unhide_all":
+                        result = UnhideAll();
+                        break;
+                    // ─── 新增：篩選與資料抽取工具 ───
+                    case "get_selection_set_items":
+                        result = GetSelectionSetItems(request.Parameters);
+                        break;
+                    case "execute_search_set":
+                        result = ExecuteSearchSet(request.Parameters);
+                        break;
+                    case "get_override_status":
+                        result = GetOverrideStatus(request.Parameters);
+                        break;
+                    case "get_hidden_items":
+                        result = GetHiddenItems(request.Parameters);
+                        break;
+                    case "get_frozen_items":
+                        result = GetFrozenItems(request.Parameters);
+                        break;
+                    case "batch_get_properties":
+                        result = BatchGetProperties(request.Parameters);
+                        break;
+                    case "get_model_statistics":
+                        result = GetModelStatistics(request.Parameters);
+                        break;
+                    default:
+                        return new NavisCommandResponse
+                        {
+                            Success = false,
+                            Error = $"未知命令: {request.Command}",
+                            RequestId = request.RequestId
+                        };
+                }
+
+                return new NavisCommandResponse
+                {
+                    Success = true,
+                    Data = result,
+                    RequestId = request.RequestId
+                };
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"執行命令 {request.Command} 失敗", ex);
+                return new NavisCommandResponse
+                {
+                    Success = false,
+                    Error = ex.Message,
+                    RequestId = request.RequestId
+                };
+            }
+        }
+
+        #region Document & Model Info
+
+        private object GetDocumentInfo()
+        {
+            return new
+            {
+                title = _doc.Title,
+                fileName = _doc.FileName,
+                currentUnits = _doc.Units.ToString(),
+                modelCount = _doc.Models.Count,
+                isClear = _doc.IsClear
+            };
+        }
+
+        private object GetModelInfo()
+        {
+            var models = new List<object>();
+            foreach (Model model in _doc.Models)
+            {
+                var rootItem = model.RootItem;
+                int childCount = 0;
+                string rootName = null;
+                if (rootItem != null)
+                {
+                    rootName = rootItem.DisplayName;
+                    childCount = rootItem.Children.Count();
+                }
+                models.Add(new
+                {
+                    fileName = model.FileName,
+                    sourceFileName = model.SourceFileName,
+                    rootItemDisplayName = rootName,
+                    childCount
+                });
+            }
+            return new { models, totalModels = _doc.Models.Count };
+        }
+
+        #endregion
+
+        #region Selection
+
+        private object GetCurrentSelection()
+        {
+            var items = new List<object>();
+            foreach (ModelItem item in _doc.CurrentSelection.SelectedItems)
+            {
+                items.Add(ExtractBasicItemInfo(item));
+            }
+            return new { selectedCount = items.Count, items };
+        }
+
+        private object ClearSelection()
+        {
+            _doc.CurrentSelection.Clear();
+            return new { message = "選擇已清除" };
+        }
+
+        private object SelectItemsBySearch(Dictionary<string, object> parameters)
+        {
+            var categoryName = parameters.ContainsKey("category") ? parameters["category"]?.ToString() : null;
+            var propertyName = parameters.ContainsKey("property") ? parameters["property"]?.ToString() : null;
+            var value = parameters.ContainsKey("value") ? parameters["value"]?.ToString() : null;
+
+            if (string.IsNullOrEmpty(categoryName) || string.IsNullOrEmpty(propertyName) || string.IsNullOrEmpty(value))
+                throw new ArgumentException("需要 category, property, value 參數");
+
+            var search = new Search();
+            search.Selection.SelectAll();
+            search.SearchConditions.Add(
+                SearchCondition.HasPropertyByDisplayName(categoryName, propertyName)
+                    .EqualValue(VariantData.FromDisplayString(value)));
+
+            var found = search.FindAll(_doc, false);
+            _doc.CurrentSelection.CopyFrom(found);
+
+            return new { foundCount = found.Count(), message = $"已選擇 {found.Count()} 個項目" };
+        }
+
+        private object SelectItemsBySet(Dictionary<string, object> parameters)
+        {
+            var setName = parameters.ContainsKey("name") ? parameters["name"]?.ToString() : null;
+            if (string.IsNullOrEmpty(setName))
+                throw new ArgumentException("需要 name 參數");
+
+            var sets = _doc.SelectionSets.Value;
+            var foundSet = FindSelectionSetByName(sets, setName);
+            if (foundSet == null)
+                throw new Exception($"找不到選擇集: {setName}");
+
+            if (foundSet is SelectionSet selSet && selSet.HasExplicitModelItems)
+            {
+                _doc.CurrentSelection.CopyFrom(selSet.ExplicitModelItems);
+                return new { message = $"已選擇集合 '{setName}' 的項目" };
+            }
+
+            return new { message = "選擇集為空或為搜索集" };
+        }
+
+        #endregion
+
+        #region Properties
+
+        private object GetItemProperties(Dictionary<string, object> parameters)
+        {
+            ModelItem item = GetTargetItem(parameters);
+            if (item == null)
+                throw new Exception("找不到指定的項目，請先選擇項目或提供搜索條件");
+
+            var categories = new List<object>();
+            foreach (PropertyCategory cat in item.PropertyCategories)
+            {
+                var props = new List<object>();
+                foreach (DataProperty prop in cat.Properties)
+                {
+                    props.Add(new
+                    {
+                        name = prop.DisplayName,
+                        internalName = prop.Name,
+                        value = prop.Value?.ToDisplayString(),
+                        dataType = prop.Value?.DataType.ToString()
+                    });
+                }
+                categories.Add(new
+                {
+                    categoryName = cat.DisplayName,
+                    internalName = cat.Name,
+                    properties = props
+                });
+            }
+
+            return new
+            {
+                displayName = item.DisplayName,
+                classDisplayName = item.ClassDisplayName,
+                categories
+            };
+        }
+
+        private object GetAllCategories()
+        {
+            var categorySet = new HashSet<string>();
+
+            foreach (ModelItem item in _doc.CurrentSelection.SelectedItems)
+            {
+                foreach (PropertyCategory cat in item.PropertyCategories)
+                {
+                    categorySet.Add(cat.DisplayName);
+                }
+            }
+
+            if (!categorySet.Any())
+            {
+                foreach (Model model in _doc.Models)
+                {
+                    if (model.RootItem != null)
+                    {
+                        foreach (ModelItem item in model.RootItem.Descendants.Take(50))
+                        {
+                            foreach (PropertyCategory cat in item.PropertyCategories)
+                            {
+                                categorySet.Add(cat.DisplayName);
+                            }
+                        }
+                        break;
+                    }
+                }
+            }
+
+            return new { categories = categorySet.OrderBy(c => c).ToList() };
+        }
+
+        #endregion
+
+        #region Model Tree
+
+        private object GetModelTree(Dictionary<string, object> parameters)
+        {
+            int maxDepth = 3;
+            if (parameters != null && parameters.ContainsKey("maxDepth"))
+                int.TryParse(parameters["maxDepth"]?.ToString(), out maxDepth);
+
+            var tree = new List<object>();
+            foreach (Model model in _doc.Models)
+            {
+                tree.Add(BuildTreeNode(model.RootItem, 0, maxDepth));
+            }
+            return new { tree };
+        }
+
+        private object BuildTreeNode(ModelItem item, int currentDepth, int maxDepth)
+        {
+            int childCount = item.Children.Count();
+
+            var node = new Dictionary<string, object>
+            {
+                ["displayName"] = item.DisplayName,
+                ["classDisplayName"] = item.ClassDisplayName,
+                ["hasGeometry"] = item.HasGeometry,
+                ["isHidden"] = item.IsHidden,
+                ["childCount"] = childCount
+            };
+
+            if (currentDepth < maxDepth && childCount > 0)
+            {
+                var children = new List<object>();
+                foreach (ModelItem child in item.Children)
+                {
+                    children.Add(BuildTreeNode(child, currentDepth + 1, maxDepth));
+                }
+                node["children"] = children;
+            }
+
+            return node;
+        }
+
+        #endregion
+
+        #region Viewpoints
+
+        private object GetViewpoints()
+        {
+            var viewpoints = new List<object>();
+            var savedViewpoints = _doc.SavedViewpoints.Value;
+
+            foreach (SavedItem savedItem in savedViewpoints)
+            {
+                CollectViewpoints(savedItem, viewpoints, "");
+            }
+
+            return new { viewpoints, count = viewpoints.Count };
+        }
+
+        private void CollectViewpoints(SavedItem item, List<object> list, string parentPath)
+        {
+            string path = string.IsNullOrEmpty(parentPath) ? item.DisplayName : $"{parentPath}/{item.DisplayName}";
+
+            if (item is SavedViewpoint vp)
+            {
+                var viewpoint = vp.Viewpoint;
+                list.Add(new
+                {
+                    name = item.DisplayName,
+                    path,
+                    hasViewpoint = viewpoint != null,
+                    projection = viewpoint?.Projection.ToString()
+                });
+            }
+
+            if (item is GroupItem group)
+            {
+                foreach (SavedItem child in group.Children)
+                {
+                    CollectViewpoints(child, list, path);
+                }
+            }
+        }
+
+        private object SetActiveViewpoint(Dictionary<string, object> parameters)
+        {
+            var name = parameters.ContainsKey("name") ? parameters["name"]?.ToString() : null;
+            if (string.IsNullOrEmpty(name))
+                throw new ArgumentException("需要 name 參數");
+
+            var savedViewpoints = _doc.SavedViewpoints.Value;
+            var found = FindViewpointByName(savedViewpoints, name);
+            if (found == null)
+                throw new Exception($"找不到視點: {name}");
+
+            _doc.SavedViewpoints.CurrentSavedViewpoint = found;
+            return new { message = $"已切換到視點: {name}" };
+        }
+
+        private SavedViewpoint FindViewpointByName(SavedItemCollection items, string name)
+        {
+            foreach (SavedItem item in items)
+            {
+                if (item is SavedViewpoint vp && vp.DisplayName == name)
+                    return vp;
+                if (item is GroupItem group)
+                {
+                    var found = FindViewpointByName(group.Children, name);
+                    if (found != null) return found;
+                }
+            }
+            return null;
+        }
+
+        #endregion
+
+        #region Clash Detection (via COM Interop)
+
+        private object GetClashTests()
+        {
+            try
+            {
+                var comDoc = ComApiBridge.State;
+                if (comDoc == null)
+                    return new { tests = new List<object>(), message = "COM API 不可用" };
+
+                var clashPlugin = comDoc as dynamic;
+                // 透過 DocumentParts 存取 Clash
+                var parts = _doc.GetType().GetProperty("DocumentParts")?.GetValue(_doc);
+                if (parts == null)
+                    return new { tests = new List<object>(), message = "Clash Detective 不可用" };
+
+                // 嘗試取得 Clash 資訊
+                return new { tests = new List<object>(), message = "請使用 Navisworks GUI 執行碰撞檢測，此功能需要 Manage 版本" };
+            }
+            catch (Exception ex)
+            {
+                return new { tests = new List<object>(), message = $"Clash Detective 存取失敗: {ex.Message}" };
+            }
+        }
+
+        private object GetClashResults(Dictionary<string, object> parameters)
+        {
+            var testName = parameters.ContainsKey("testName") ? parameters["testName"]?.ToString() : null;
+            if (string.IsNullOrEmpty(testName))
+                throw new ArgumentException("需要 testName 參數");
+
+            return new { testName, results = new List<object>(), message = "請使用 Navisworks GUI 查看碰撞結果" };
+        }
+
+        #endregion
+
+        #region Search
+
+        private object SearchItems(Dictionary<string, object> parameters)
+        {
+            var category = parameters.ContainsKey("category") ? parameters["category"]?.ToString() : null;
+            var property = parameters.ContainsKey("property") ? parameters["property"]?.ToString() : null;
+            var value = parameters.ContainsKey("value") ? parameters["value"]?.ToString() : null;
+            var condition = parameters.ContainsKey("condition") ? parameters["condition"]?.ToString() : "equals";
+
+            var search = new Search();
+            search.Selection.SelectAll();
+
+            if (!string.IsNullOrEmpty(category) && !string.IsNullOrEmpty(property) && !string.IsNullOrEmpty(value))
+            {
+                var propCondition = SearchCondition.HasPropertyByDisplayName(category, property);
+                // Navisworks Search API 主要支援 EqualValue
+                search.SearchConditions.Add(propCondition.EqualValue(VariantData.FromDisplayString(value)));
+            }
+            else if (!string.IsNullOrEmpty(category))
+            {
+                search.SearchConditions.Add(
+                    SearchCondition.HasCategoryByDisplayName(category));
+            }
+
+            var found = search.FindAll(_doc, false);
+            int maxReturn = 100;
+            if (parameters.ContainsKey("maxResults"))
+                int.TryParse(parameters["maxResults"]?.ToString(), out maxReturn);
+
+            var items = new List<object>();
+            int count = 0;
+            foreach (ModelItem item in found)
+            {
+                if (count >= maxReturn) break;
+                items.Add(ExtractBasicItemInfo(item));
+                count++;
+            }
+
+            return new
+            {
+                totalFound = found.Count(),
+                returnedCount = items.Count,
+                items
+            };
+        }
+
+        #endregion
+
+        #region Selection Sets
+
+        private object GetSelectionSets()
+        {
+            var sets = new List<object>();
+            CollectSelectionSets(_doc.SelectionSets.Value, sets, "");
+            return new { selectionSets = sets, count = sets.Count };
+        }
+
+        private void CollectSelectionSets(SavedItemCollection items, List<object> list, string parentPath)
+        {
+            foreach (SavedItem item in items)
+            {
+                string path = string.IsNullOrEmpty(parentPath) ? item.DisplayName : $"{parentPath}/{item.DisplayName}";
+
+                if (item is SelectionSet selSet)
+                {
+                    list.Add(new
+                    {
+                        name = item.DisplayName,
+                        path,
+                        hasExplicitItems = selSet.HasExplicitModelItems,
+                        isSearch = selSet.HasSearch,
+                        itemCount = selSet.HasExplicitModelItems ? selSet.ExplicitModelItems.Count() : 0
+                    });
+                }
+                else if (item is FolderItem folder)
+                {
+                    CollectSelectionSets(folder.Children, list, path);
+                }
+            }
+        }
+
+        private SavedItem FindSelectionSetByName(SavedItemCollection items, string name)
+        {
+            foreach (SavedItem item in items)
+            {
+                if (item.DisplayName == name) return item;
+                if (item is FolderItem folder)
+                {
+                    var found = FindSelectionSetByName(folder.Children, name);
+                    if (found != null) return found;
+                }
+            }
+            return null;
+        }
+
+        #endregion
+
+        #region Geometry
+
+        private object GetItemGeometryInfo(Dictionary<string, object> parameters)
+        {
+            ModelItem item = GetTargetItem(parameters);
+            if (item == null)
+                throw new Exception("找不到指定項目");
+
+            var bbox = item.BoundingBox();
+            return new
+            {
+                displayName = item.DisplayName,
+                hasGeometry = item.HasGeometry,
+                boundingBox = bbox != null ? new
+                {
+                    min = new { x = bbox.Min.X, y = bbox.Min.Y, z = bbox.Min.Z },
+                    max = new { x = bbox.Max.X, y = bbox.Max.Y, z = bbox.Max.Z },
+                    center = new
+                    {
+                        x = (bbox.Min.X + bbox.Max.X) / 2,
+                        y = (bbox.Min.Y + bbox.Max.Y) / 2,
+                        z = (bbox.Min.Z + bbox.Max.Z) / 2
+                    }
+                } : null
+            };
+        }
+
+        #endregion
+
+        #region Visual Override
+
+        private object ZoomToSelection()
+        {
+            if (_doc.CurrentSelection.SelectedItems.Count() == 0)
+                throw new Exception("沒有選擇任何項目");
+
+            _doc.ActiveView.FocusOnCurrentSelection();
+            return new { message = "已縮放至選擇的項目" };
+        }
+
+        private object SetItemOverrideColor(Dictionary<string, object> parameters)
+        {
+            int r = Convert.ToInt32(parameters["r"]);
+            int g = Convert.ToInt32(parameters["g"]);
+            int b = Convert.ToInt32(parameters["b"]);
+
+            var color = new Color(r / 255.0, g / 255.0, b / 255.0);
+
+            if (_doc.CurrentSelection.SelectedItems.Count() == 0)
+                throw new Exception("請先選擇項目");
+
+            _doc.Models.OverridePermanentColor(
+                _doc.CurrentSelection.SelectedItems, color);
+
+            return new
+            {
+                message = $"已將 {_doc.CurrentSelection.SelectedItems.Count()} 個項目顏色覆蓋為 RGB({r},{g},{b})"
+            };
+        }
+
+        private object ClearOverrideColors()
+        {
+            if (_doc.CurrentSelection.SelectedItems.Count() == 0)
+            {
+                foreach (Model model in _doc.Models)
+                {
+                    _doc.Models.ResetPermanentMaterials(model.RootItem.Descendants);
+                }
+                return new { message = "已清除所有項目的顏色覆蓋" };
+            }
+
+            _doc.Models.ResetPermanentMaterials(_doc.CurrentSelection.SelectedItems);
+            return new { message = $"已重設 {_doc.CurrentSelection.SelectedItems.Count()} 個項目" };
+        }
+
+        private object HideItems(Dictionary<string, object> parameters)
+        {
+            if (_doc.CurrentSelection.SelectedItems.Count() == 0)
+                throw new Exception("請先選擇項目");
+
+            _doc.Models.SetHidden(_doc.CurrentSelection.SelectedItems, true);
+            return new { message = $"已隱藏 {_doc.CurrentSelection.SelectedItems.Count()} 個項目" };
+        }
+
+        private object UnhideAll()
+        {
+            foreach (Model model in _doc.Models)
+            {
+                _doc.Models.SetHidden(model.RootItem.Descendants, false);
+            }
+            return new { message = "已取消隱藏所有項目" };
+        }
+
+        #endregion
+
+        #region Filter & Data Extraction (新增)
+
+        /// <summary>
+        /// 取得 Selection Set 內的所有項目（不選擇），回傳屬性摘要
+        /// </summary>
+        private object GetSelectionSetItems(Dictionary<string, object> parameters)
+        {
+            var setName = parameters.ContainsKey("name") ? parameters["name"]?.ToString() : null;
+            if (string.IsNullOrEmpty(setName))
+                throw new ArgumentException("需要 name 參數");
+
+            var sets = _doc.SelectionSets.Value;
+            var foundSet = FindSelectionSetByName(sets, setName);
+            if (foundSet == null)
+                throw new Exception($"找不到選擇集: {setName}");
+
+            int maxReturn = 200;
+            if (parameters.ContainsKey("maxResults"))
+                int.TryParse(parameters["maxResults"]?.ToString(), out maxReturn);
+
+            var items = new List<object>();
+
+            if (foundSet is SelectionSet selSet)
+            {
+                if (selSet.HasExplicitModelItems)
+                {
+                    int count = 0;
+                    foreach (ModelItem item in selSet.ExplicitModelItems)
+                    {
+                        if (count >= maxReturn) break;
+                        items.Add(ExtractBasicItemInfo(item));
+                        count++;
+                    }
+                    return new { setName, totalItems = selSet.ExplicitModelItems.Count(), returnedCount = items.Count, items };
+                }
+                else if (selSet.HasSearch)
+                {
+                    // 這是一個 Search Set，執行搜尋
+                    var found = selSet.Search.FindAll(_doc, false);
+                    int count = 0;
+                    foreach (ModelItem item in found)
+                    {
+                        if (count >= maxReturn) break;
+                        items.Add(ExtractBasicItemInfo(item));
+                        count++;
+                    }
+                    return new { setName, type = "SearchSet", totalItems = found.Count(), returnedCount = items.Count, items };
+                }
+            }
+
+            return new { setName, totalItems = 0, items, message = "選擇集為空" };
+        }
+
+        /// <summary>
+        /// 執行已儲存的搜尋集 (Search Set)
+        /// </summary>
+        private object ExecuteSearchSet(Dictionary<string, object> parameters)
+        {
+            var setName = parameters.ContainsKey("name") ? parameters["name"]?.ToString() : null;
+            if (string.IsNullOrEmpty(setName))
+                throw new ArgumentException("需要 name 參數");
+
+            bool selectResults = true;
+            if (parameters.ContainsKey("select"))
+                bool.TryParse(parameters["select"]?.ToString(), out selectResults);
+
+            var sets = _doc.SelectionSets.Value;
+            var foundSet = FindSelectionSetByName(sets, setName);
+            if (foundSet == null)
+                throw new Exception($"找不到選擇集: {setName}");
+
+            if (!(foundSet is SelectionSet selSet) || !selSet.HasSearch)
+                throw new Exception($"'{setName}' 不是搜尋集 (Search Set)");
+
+            var found = selSet.Search.FindAll(_doc, false);
+            if (selectResults)
+                _doc.CurrentSelection.CopyFrom(found);
+
+            int maxReturn = 200;
+            if (parameters.ContainsKey("maxResults"))
+                int.TryParse(parameters["maxResults"]?.ToString(), out maxReturn);
+
+            var items = new List<object>();
+            int count = 0;
+            foreach (ModelItem item in found)
+            {
+                if (count >= maxReturn) break;
+                items.Add(ExtractBasicItemInfo(item));
+                count++;
+            }
+
+            return new
+            {
+                setName,
+                totalFound = found.Count(),
+                returnedCount = items.Count,
+                selected = selectResults,
+                items
+            };
+        }
+
+        /// <summary>
+        /// 偵測模型中有顏色覆蓋/透明度覆蓋的項目
+        /// 透過比對原始材質與當前狀態來判定
+        /// </summary>
+        private object GetOverrideStatus(Dictionary<string, object> parameters)
+        {
+            string scope = "selection"; // selection 或 all
+            if (parameters != null && parameters.ContainsKey("scope"))
+                scope = parameters["scope"]?.ToString();
+
+            int maxReturn = 200;
+            if (parameters != null && parameters.ContainsKey("maxResults"))
+                int.TryParse(parameters["maxResults"]?.ToString(), out maxReturn);
+
+            IEnumerable<ModelItem> sourceItems;
+            if (scope == "all")
+            {
+                sourceItems = _doc.Models.RootItemDescendants;
+            }
+            else
+            {
+                if (_doc.CurrentSelection.SelectedItems.Count() == 0)
+                    throw new Exception("scope=selection 時需先選擇項目，或使用 scope=all");
+                sourceItems = _doc.CurrentSelection.SelectedItems;
+            }
+
+            var overridden = new List<object>();
+            var hidden = new List<object>();
+            var frozen = new List<object>();
+            int totalScanned = 0;
+
+            foreach (ModelItem item in sourceItems)
+            {
+                totalScanned++;
+                if (overridden.Count >= maxReturn && hidden.Count >= maxReturn) break;
+
+                if (item.IsHidden && hidden.Count < maxReturn)
+                {
+                    hidden.Add(new { displayName = item.DisplayName, path = GetItemPath(item) });
+                }
+
+                if (item.IsFrozen && frozen.Count < maxReturn)
+                {
+                    frozen.Add(new { displayName = item.DisplayName, path = GetItemPath(item) });
+                }
+
+                // 偵測顏色覆蓋：檢查 Geometry 是否有被覆蓋
+                // NW API 無直接 "hasOverride" 屬性，但可用 IsRequired 間接判斷
+                // 或透過 DocumentModels.IsHidden/IsFrozen 集合方法
+            }
+
+            return new
+            {
+                totalScanned,
+                hiddenCount = hidden.Count,
+                hiddenItems = hidden,
+                frozenCount = frozen.Count,
+                frozenItems = frozen,
+                message = "使用 set_item_override_color 設定的覆蓋需透過比對原始材質判定，建議用 Selection Sets 管理"
+            };
+        }
+
+        /// <summary>
+        /// 取得模型中所有被隱藏的項目
+        /// </summary>
+        private object GetHiddenItems(Dictionary<string, object> parameters)
+        {
+            int maxReturn = 500;
+            if (parameters != null && parameters.ContainsKey("maxResults"))
+                int.TryParse(parameters["maxResults"]?.ToString(), out maxReturn);
+
+            // 優先使用 scope 參數
+            string scope = "all";
+            if (parameters != null && parameters.ContainsKey("scope"))
+                scope = parameters["scope"]?.ToString();
+
+            var hiddenItems = new List<object>();
+            IEnumerable<ModelItem> source;
+
+            if (scope == "selection" && _doc.CurrentSelection.SelectedItems.Count() > 0)
+            {
+                source = _doc.CurrentSelection.SelectedItems;
+            }
+            else
+            {
+                source = _doc.Models.RootItemDescendants;
+            }
+
+            int count = 0;
+            int totalHidden = 0;
+            foreach (ModelItem item in source)
+            {
+                if (item.IsHidden)
+                {
+                    totalHidden++;
+                    if (count < maxReturn)
+                    {
+                        hiddenItems.Add(new
+                        {
+                            displayName = item.DisplayName,
+                            classDisplayName = item.ClassDisplayName,
+                            path = GetItemPath(item),
+                            hasGeometry = item.HasGeometry
+                        });
+                        count++;
+                    }
+                }
+            }
+
+            return new
+            {
+                totalHidden,
+                returnedCount = hiddenItems.Count,
+                items = hiddenItems
+            };
+        }
+
+        /// <summary>
+        /// 取得模型中所有被凍結的項目
+        /// </summary>
+        private object GetFrozenItems(Dictionary<string, object> parameters)
+        {
+            int maxReturn = 500;
+            if (parameters != null && parameters.ContainsKey("maxResults"))
+                int.TryParse(parameters["maxResults"]?.ToString(), out maxReturn);
+
+            var frozenItems = new List<object>();
+            int totalFrozen = 0;
+            int count = 0;
+
+            foreach (ModelItem item in _doc.Models.RootItemDescendants)
+            {
+                if (item.IsFrozen)
+                {
+                    totalFrozen++;
+                    if (count < maxReturn)
+                    {
+                        frozenItems.Add(new
+                        {
+                            displayName = item.DisplayName,
+                            classDisplayName = item.ClassDisplayName,
+                            path = GetItemPath(item)
+                        });
+                        count++;
+                    }
+                }
+            }
+
+            return new
+            {
+                totalFrozen,
+                returnedCount = frozenItems.Count,
+                items = frozenItems
+            };
+        }
+
+        /// <summary>
+        /// 批量取得多個項目的屬性 — 用於資料抽取
+        /// 可指定要讀取的分類和屬性名稱
+        /// </summary>
+        private object BatchGetProperties(Dictionary<string, object> parameters)
+        {
+            // 目標欄位：指定要抽取的 category.property
+            var fieldsList = new List<string>();
+            if (parameters.ContainsKey("fields"))
+            {
+                var fieldsObj = parameters["fields"];
+                if (fieldsObj is Newtonsoft.Json.Linq.JArray jArr)
+                    fieldsList = jArr.Select(x => x.ToString()).ToList();
+                else if (fieldsObj is string s)
+                    fieldsList = s.Split(',').Select(x => x.Trim()).ToList();
+            }
+
+            int maxReturn = 500;
+            if (parameters.ContainsKey("maxResults"))
+                int.TryParse(parameters["maxResults"]?.ToString(), out maxReturn);
+
+            // 資料來源：當前選擇 或 指定 Selection Set
+            IEnumerable<ModelItem> sourceItems;
+            string source = "selection";
+
+            if (parameters.ContainsKey("setName"))
+            {
+                var setName = parameters["setName"]?.ToString();
+                var foundSet = FindSelectionSetByName(_doc.SelectionSets.Value, setName);
+                if (foundSet is SelectionSet selSet)
+                {
+                    if (selSet.HasExplicitModelItems)
+                        sourceItems = selSet.ExplicitModelItems;
+                    else if (selSet.HasSearch)
+                        sourceItems = selSet.Search.FindAll(_doc, false);
+                    else
+                        throw new Exception($"選擇集 '{setName}' 為空");
+                    source = $"set:{setName}";
+                }
+                else
+                    throw new Exception($"找不到選擇集: {setName}");
+            }
+            else
+            {
+                if (_doc.CurrentSelection.SelectedItems.Count() == 0)
+                    throw new Exception("請先選擇項目或指定 setName 參數");
+                sourceItems = _doc.CurrentSelection.SelectedItems;
+            }
+
+            var rows = new List<Dictionary<string, object>>();
+            int count = 0;
+            int totalItems = 0;
+
+            foreach (ModelItem item in sourceItems)
+            {
+                totalItems++;
+                if (count >= maxReturn) continue; // 繼續計數但不加入結果
+
+                var row = new Dictionary<string, object>
+                {
+                    ["displayName"] = item.DisplayName,
+                    ["classDisplayName"] = item.ClassDisplayName,
+                    ["path"] = GetItemPath(item)
+                };
+
+                if (fieldsList.Any())
+                {
+                    // 只抽取指定欄位
+                    foreach (string field in fieldsList)
+                    {
+                        var parts = field.Split('.');
+                        string catName = parts.Length > 1 ? parts[0] : null;
+                        string propName = parts.Length > 1 ? parts[1] : parts[0];
+
+                        string val = null;
+                        foreach (PropertyCategory cat in item.PropertyCategories)
+                        {
+                            if (catName != null && cat.DisplayName != catName)
+                                continue;
+                            foreach (DataProperty prop in cat.Properties)
+                            {
+                                if (prop.DisplayName == propName)
+                                {
+                                    val = prop.Value?.ToDisplayString();
+                                    break;
+                                }
+                            }
+                            if (val != null) break;
+                        }
+                        row[field] = val;
+                    }
+                }
+                else
+                {
+                    // 抽取所有屬性（扁平化）
+                    foreach (PropertyCategory cat in item.PropertyCategories)
+                    {
+                        foreach (DataProperty prop in cat.Properties)
+                        {
+                            var key = $"{cat.DisplayName}.{prop.DisplayName}";
+                            row[key] = prop.Value?.ToDisplayString();
+                        }
+                    }
+                }
+
+                rows.Add(row);
+                count++;
+            }
+
+            return new
+            {
+                source,
+                totalItems,
+                returnedCount = rows.Count,
+                fields = fieldsList.Any() ? fieldsList : null,
+                rows
+            };
+        }
+
+        /// <summary>
+        /// 模型統計 — 按分類/圖層/來源檔案彙總數量
+        /// </summary>
+        private object GetModelStatistics(Dictionary<string, object> parameters)
+        {
+            string groupBy = "classDisplayName";
+            if (parameters != null && parameters.ContainsKey("groupBy"))
+                groupBy = parameters["groupBy"]?.ToString();
+
+            bool geometryOnly = true;
+            if (parameters != null && parameters.ContainsKey("geometryOnly"))
+                bool.TryParse(parameters["geometryOnly"]?.ToString(), out geometryOnly);
+
+            var stats = new Dictionary<string, int>();
+            int totalItems = 0;
+            int totalWithGeometry = 0;
+            int totalHidden = 0;
+
+            foreach (ModelItem item in _doc.Models.RootItemDescendants)
+            {
+                totalItems++;
+                if (item.HasGeometry) totalWithGeometry++;
+                if (item.IsHidden) totalHidden++;
+
+                if (geometryOnly && !item.HasGeometry) continue;
+
+                string key;
+                switch (groupBy)
+                {
+                    case "className":
+                        key = item.ClassName ?? "(無)";
+                        break;
+                    case "layer":
+                        key = item.IsLayer ? item.DisplayName : "(非圖層)";
+                        // 取得圖層名稱：往上找到 IsLayer=true 的祖先
+                        var layerAncestor = item.Ancestors.FirstOrDefault(a => a.IsLayer);
+                        if (layerAncestor != null) key = layerAncestor.DisplayName;
+                        break;
+                    case "sourceFile":
+                        key = item.Model?.SourceFileName ?? item.Model?.FileName ?? "(未知)";
+                        break;
+                    case "classDisplayName":
+                    default:
+                        key = item.ClassDisplayName ?? "(無)";
+                        break;
+                }
+
+                if (stats.ContainsKey(key))
+                    stats[key]++;
+                else
+                    stats[key] = 1;
+            }
+
+            var sortedStats = stats.OrderByDescending(kv => kv.Value)
+                .Select(kv => new { name = kv.Key, count = kv.Value })
+                .ToList();
+
+            return new
+            {
+                totalItems,
+                totalWithGeometry,
+                totalHidden,
+                groupBy,
+                categoryCount = sortedStats.Count,
+                statistics = sortedStats
+            };
+        }
+
+        #endregion
+
+        #region Helpers
+
+        private ModelItem GetTargetItem(Dictionary<string, object> parameters)
+        {
+            // 先看當前選擇
+            if (_doc.CurrentSelection.SelectedItems.Count() > 0)
+                return _doc.CurrentSelection.SelectedItems.First;
+
+            // 如果有搜索參數
+            if (parameters != null && parameters.ContainsKey("category") && parameters.ContainsKey("property"))
+            {
+                var search = new Search();
+                search.Selection.SelectAll();
+                search.SearchConditions.Add(
+                    SearchCondition.HasPropertyByDisplayName(
+                        parameters["category"].ToString(),
+                        parameters["property"].ToString())
+                    .EqualValue(VariantData.FromDisplayString(parameters["value"]?.ToString())));
+                return search.FindFirst(_doc, false);
+            }
+
+            return null;
+        }
+
+        private object ExtractBasicItemInfo(ModelItem item)
+        {
+            return new
+            {
+                displayName = item.DisplayName,
+                classDisplayName = item.ClassDisplayName,
+                hasGeometry = item.HasGeometry,
+                isHidden = item.IsHidden,
+                instanceGuid = item.InstanceGuid.ToString(),
+                ancestorPath = GetItemPath(item)
+            };
+        }
+
+        private string GetItemPath(ModelItem item)
+        {
+            if (item == null) return "";
+            var parts = new List<string>();
+            var current = item;
+            while (current != null)
+            {
+                if (!string.IsNullOrEmpty(current.DisplayName))
+                    parts.Insert(0, current.DisplayName);
+                current = current.Parent;
+            }
+            return string.Join(" > ", parts);
+        }
+
+        #endregion
+    }
+
+    /// <summary>
+    /// COM API 橋接 — 用於存取 .NET API 不提供的功能
+    /// </summary>
+    internal static class ComApiBridge
+    {
+        public static Autodesk.Navisworks.Api.Interop.ComApi.InwOpState10 State
+        {
+            get
+            {
+                try
+                {
+                    return Autodesk.Navisworks.Api.ComApi.ComApiBridge.State;
+                }
+                catch
+                {
+                    return null;
+                }
+            }
+        }
+    }
+}

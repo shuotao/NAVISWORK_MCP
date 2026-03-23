@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "navisworks-mcp": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${workspaceFolder}/MCP-Server/build/index.js"],
+      "env": {
+        "NAVIS_MCP_PORT": "2222"
+      }
+    }
+  }
+}
