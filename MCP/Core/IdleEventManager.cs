@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Concurrent;
-using Autodesk.Navisworks.Api;
+using System.Windows.Forms;
 
 namespace NavisworksMCP.Core
 {
     /// <summary>
-    /// 使用 Navisworks Idle 事件在主執行緒安全執行命令
-    /// Navisworks 沒有 Revit 的 ExternalEvent，改用 Application.Idle
+    /// 使用 Timer 輪詢方式在主執行緒安全執行命令
+    /// Application.Idle 在大模型中不可靠，改用 Timer
     /// </summary>
     public class IdleEventManager
     {
@@ -14,6 +14,7 @@ namespace NavisworksMCP.Core
         private static readonly object _lock = new object();
 
         private readonly ConcurrentQueue<Action> _pendingActions = new ConcurrentQueue<Action>();
+        private Timer _timer;
         private bool _isRegistered;
 
         private IdleEventManager() { }
@@ -31,47 +32,57 @@ namespace NavisworksMCP.Core
             }
         }
 
-        /// <summary>
-        /// 註冊 Idle 事件監聽
-        /// </summary>
         public void Register()
         {
             if (_isRegistered) return;
-            Autodesk.Navisworks.Api.Application.Idle += OnIdle;
+
+            _timer = new Timer();
+            _timer.Interval = 500; // 每 500ms 檢查一次
+            _timer.Tick += OnTimerTick;
+            _timer.Start();
+
             _isRegistered = true;
-            Logger.Info("Idle 事件已註冊");
+            Logger.Info("Timer 輪詢已啟動 (500ms)");
         }
 
-        /// <summary>
-        /// 取消註冊
-        /// </summary>
         public void Unregister()
         {
             if (!_isRegistered) return;
-            Autodesk.Navisworks.Api.Application.Idle -= OnIdle;
+
+            if (_timer != null)
+            {
+                _timer.Stop();
+                _timer.Tick -= OnTimerTick;
+                _timer.Dispose();
+                _timer = null;
+            }
+
             _isRegistered = false;
-            Logger.Info("Idle 事件已取消註冊");
+            Logger.Info("Timer 輪詢已停止");
         }
 
-        /// <summary>
-        /// 排入要在主執行緒執行的動作
-        /// </summary>
         public void EnqueueAction(Action action)
         {
             _pendingActions.Enqueue(action);
         }
 
-        private void OnIdle(object sender, EventArgs e)
+        private void OnTimerTick(object sender, EventArgs e)
         {
-            while (_pendingActions.TryDequeue(out var action))
+            // 每次 tick 只處理一個命令，避免阻塞 UI 太久
+            if (_pendingActions.TryDequeue(out var action))
             {
                 try
                 {
+                    _timer.Stop(); // 暫停計時器，避免重入
                     action.Invoke();
                 }
                 catch (Exception ex)
                 {
-                    Logger.Error("Idle 執行命令失敗", ex);
+                    Logger.Error("Timer 執行命令失敗", ex);
+                }
+                finally
+                {
+                    _timer.Start(); // 恢復計時器
                 }
             }
         }
