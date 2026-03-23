@@ -21,7 +21,7 @@ export class NavisSocketClient {
   private readonly port: number;
 
   constructor() {
-    this.port = parseInt(process.env.NAVIS_MCP_PORT || "5150", 10);
+    this.port = parseInt(process.env.NAVIS_MCP_PORT || "2233", 10);
   }
 
   async connect(): Promise<void> {
@@ -93,7 +93,7 @@ export class NavisSocketClient {
         await this.connect();
       } catch {
         throw new Error(
-          "無法連接到 Navisworks。請確認 Navisworks 已開啟且 MCP 服務已啟動 (port 5150)"
+          "無法連接到 Navisworks。請確認 Navisworks 已開啟且 MCP 服務已啟動 (port 2233)"
         );
       }
     }

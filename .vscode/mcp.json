@@ -5,7 +5,7 @@
       "command": "node",
       "args": ["${workspaceFolder}/MCP-Server/build/index.js"],
       "env": {
-        "NAVIS_MCP_PORT": "5150"
+        "NAVIS_MCP_PORT": "2233"
       }
     }
   }

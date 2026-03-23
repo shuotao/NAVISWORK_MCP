@@ -10,7 +10,7 @@ using NavisworksMCP.Models;
 namespace NavisworksMCP.Core
 {
     /// <summary>
-    /// WebSocket 服務 — 監聽 port 5150，接收 MCP Server 指令
+    /// WebSocket 服務 — 監聽 port 2233，接收 MCP Server 指令
     /// </summary>
     public class SocketService
     {
@@ -23,7 +23,7 @@ namespace NavisworksMCP.Core
 
         public event EventHandler<NavisCommandRequest> CommandReceived;
 
-        public SocketService(int port = 5150)
+        public SocketService(int port = 2233)
         {
             _port = port;
         }

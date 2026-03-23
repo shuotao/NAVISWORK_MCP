@@ -11,7 +11,7 @@ namespace NavisworksMCP
     /// </summary>
     [Plugin("NavisworksMCP.Toggle", "NavisMCP",
         DisplayName = "MCP 服務\n(開/關)",
-        ToolTip = "啟動或停止 MCP WebSocket 服務 (port 5150)")]
+        ToolTip = "啟動或停止 MCP WebSocket 服務 (port 2233)")]
     [AddInPlugin(AddInLocation.AddIn)]
     public class ToggleServicePlugin : AddInPlugin
     {
@@ -35,7 +35,7 @@ namespace NavisworksMCP
                     StartService();
                     MessageBox.Show(
                         "MCP 服務已啟動\n\n" +
-                        "WebSocket 端口: 5150\n" +
+                        "WebSocket 端口: 2233\n" +
                         "等待 MCP Server 連接...",
                         "NavisworksMCP",
                         MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -53,7 +53,7 @@ namespace NavisworksMCP
 
         private void StartService()
         {
-            _socketService = new SocketService(5150);
+            _socketService = new SocketService(2233);
             _socketService.CommandReceived += OnCommandReceived;
             _socketService.StartAsync().ConfigureAwait(false);
 
@@ -63,7 +63,7 @@ namespace NavisworksMCP
                 _idleRegistered = true;
             }
 
-            Logger.Info("MCP 服務已啟動於 port 5150");
+            Logger.Info("MCP 服務已啟動於 port 2233");
         }
 
         public static void StopService()
