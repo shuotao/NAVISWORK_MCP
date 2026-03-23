@@ -10,7 +10,7 @@ AI 驅動的 Navisworks 自動化控制系統
 ```
 ┌──────────────┐      stdio       ┌──────────────┐    WebSocket     ┌──────────────────┐
 │  AI 平台      │ ◄──────────────► │  MCP Server  │ ◄──────────────► │  Navisworks 插件  │
-│  Claude       │     MCP 協議     │  (Node.js)   │    port 2222    │  (C# Add-in)     │
+│  Claude       │     MCP 協議     │  (Node.js)   │    port 2233    │  (C# Add-in)     │
 │  Gemini       │                  │              │                  │                  │
 │  VS Code      │                  │  index.ts    │                  │  Application.cs  │
 └──────────────┘                  └──────────────┘                  └──────────────────┘
@@ -53,7 +53,7 @@ powershell -ExecutionPolicy Bypass -File scripts\install-addon.ps1
 1. 開啟 Navisworks Manage 2025
 2. 載入你的 NWF/NWD 模型
 3. 在 **Add-ins** 面板找到 **"MCP 服務 (開/關)"** 按鈕，點擊啟動
-4. 看到提示 `WebSocket 端口: 2222` 即表示服務就緒
+4. 看到提示 `WebSocket 端口: 2233` 即表示服務就緒
 
 ### 連接 AI 平台
 
@@ -66,7 +66,7 @@ powershell -ExecutionPolicy Bypass -File scripts\install-addon.ps1
     "navisworks": {
       "command": "node",
       "args": ["C:/Users/你的帳號/DESKTOP/NV_mcp/MCP-Server/build/index.js"],
-      "env": { "NAVIS_MCP_PORT": "2222" }
+      "env": { "NAVIS_MCP_PORT": "2233" }
     }
   }
 }
@@ -328,7 +328,7 @@ NV_mcp/
 │   ├── NavisworksMCP.csproj    # .NET Framework 4.8
 │   ├── Application.cs          # Plugin 入口 (Toggle + Log + EventWatcher)
 │   ├── Core/
-│   │   ├── SocketService.cs    # WebSocket 服務 (port 2222)
+│   │   ├── SocketService.cs    # WebSocket 服務 (port 2233)
 │   │   ├── CommandExecutor.cs  # 27 個命令的執行器
 │   │   ├── IdleEventManager.cs # 主執行緒安全排程
 │   │   └── Logger.cs           # 日誌系統
@@ -357,7 +357,7 @@ NV_mcp/
 
 ## 注意事項
 
-- WebSocket 端口固定為 **2222**，可透過環境變數 `NAVIS_MCP_PORT` 調整
+- WebSocket 端口固定為 **2233**，可透過環境變數 `NAVIS_MCP_PORT` 調整
 - 所有命令在 Navisworks **主執行緒**中序列化執行，不會有並發衝突
 - Plugin DLL 部署到 `C:\Program Files\Autodesk\Navisworks Manage 2025\Plugins\NavisworksMCP\`
 - 日誌存放在 `%APPDATA%\NavisworksMCP\Logs\`
