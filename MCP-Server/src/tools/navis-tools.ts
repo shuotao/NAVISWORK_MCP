@@ -368,6 +368,52 @@ export function getNavisTools(): ToolDefinition[] {
         },
       },
     },
+    // ─── 子樹掃描 ───
+    {
+      name: "scan_subtree",
+      description:
+        "掃描指定 NWC/NWD 子樹節點下的所有幾何元素，按 Revit Category 和 Family/Type 分組統計。用於精確掃描特定來源檔案的內容，不受全模型取樣限制。",
+      inputSchema: {
+        type: "object",
+        properties: {
+          name: {
+            type: "string",
+            description:
+              "要掃描的節點名稱（例如 'DE_MSI_001_CUB_B001_A_ARCH.nwc'），支援部分匹配",
+          },
+          maxItems: {
+            type: "number",
+            description: "最大掃描後代數量（預設 50000）",
+          },
+          fields: {
+            type: "array",
+            items: { type: "string" },
+            description:
+              "額外要讀取的屬性欄位（例如 ['Element.System Name', 'Element.Size']），指定後會回傳 rows 明細",
+          },
+          maxResults: {
+            type: "number",
+            description: "明細行最大數量（預設 5000，需配合 fields 使用）",
+          },
+        },
+        required: ["name"],
+      },
+    },
+    {
+      name: "select_subtree",
+      description:
+        "選取指定子樹節點下的所有幾何元素到 CurrentSelection，可搭配 batch_get_properties 使用",
+      inputSchema: {
+        type: "object",
+        properties: {
+          name: {
+            type: "string",
+            description: "要選取的節點名稱，支援部分匹配",
+          },
+        },
+        required: ["name"],
+      },
+    },
   ];
 }
 

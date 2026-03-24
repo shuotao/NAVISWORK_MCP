@@ -120,6 +120,12 @@ namespace NavisworksMCP.Core
                     case "get_model_statistics":
                         result = GetModelStatistics(request.Parameters);
                         break;
+                    case "scan_subtree":
+                        result = ScanSubtree(request.Parameters);
+                        break;
+                    case "select_subtree":
+                        result = SelectSubtree(request.Parameters);
+                        break;
                     // ─── Quantification 命令 ───
                     case "quantification_get_items":
                     case "quantification_get_item_groups":
@@ -1202,6 +1208,219 @@ namespace NavisworksMCP.Core
                 current = current.Parent;
             }
             return string.Join(" > ", parts);
+        }
+
+        /// <summary>
+        /// 在模型樹中找到指定名稱的節點
+        /// 支援部分匹配和精確匹配
+        /// </summary>
+        private ModelItem FindNodeByName(string name, bool exact = false)
+        {
+            foreach (Model model in _doc.Models)
+            {
+                if (model.RootItem == null) continue;
+                var found = FindNodeRecursive(model.RootItem, name, exact, 0, 5);
+                if (found != null) return found;
+            }
+            return null;
+        }
+
+        private ModelItem FindNodeRecursive(ModelItem parent, string name, bool exact, int depth, int maxDepth)
+        {
+            if (depth > maxDepth) return null;
+            foreach (ModelItem child in parent.Children)
+            {
+                var dn = child.DisplayName ?? "";
+                if (exact ? dn == name : dn.Contains(name))
+                    return child;
+                var found = FindNodeRecursive(child, name, exact, depth + 1, maxDepth);
+                if (found != null) return found;
+            }
+            return null;
+        }
+
+        /// <summary>
+        /// 掃描指定子樹節點下的所有幾何元素，按 Revit Category 和 Family/Type 分組統計
+        /// 參數: name (節點名稱), maxItems (最大掃描數，預設 50000), fields (額外屬性欄位)
+        /// </summary>
+        private object ScanSubtree(Dictionary<string, object> parameters)
+        {
+            var name = parameters.ContainsKey("name") ? parameters["name"]?.ToString() : null;
+            if (string.IsNullOrEmpty(name))
+                throw new ArgumentException("需要 name 參數（NWC/NWD 節點名稱）");
+
+            int maxItems = 50000;
+            if (parameters.ContainsKey("maxItems"))
+                int.TryParse(parameters["maxItems"]?.ToString(), out maxItems);
+
+            // 額外要讀取的屬性欄位
+            var fieldsList = new List<string>();
+            if (parameters.ContainsKey("fields"))
+            {
+                var fieldsObj = parameters["fields"];
+                if (fieldsObj is Newtonsoft.Json.Linq.JArray jArr)
+                    fieldsList = jArr.Select(x => x.ToString()).ToList();
+                else if (fieldsObj is string s)
+                    fieldsList = s.Split(',').Select(x => x.Trim()).ToList();
+            }
+
+            var node = FindNodeByName(name, exact: true) ?? FindNodeByName(name, exact: false);
+            if (node == null)
+                throw new Exception($"找不到節點: {name}");
+
+            // 統計資料結構
+            var categoryStats = new Dictionary<string, Dictionary<string, int>>(); // category → { family|type → count }
+            int totalGeometry = 0;
+            int totalItems = 0;
+            var rows = new List<Dictionary<string, object>>();
+
+            bool collectRows = fieldsList.Any();
+            int rowLimit = 5000;
+            if (parameters.ContainsKey("maxResults"))
+                int.TryParse(parameters["maxResults"]?.ToString(), out rowLimit);
+
+            foreach (ModelItem item in node.Descendants)
+            {
+                totalItems++;
+                if (totalItems > maxItems) break;
+
+                if (!item.HasGeometry) continue;
+                totalGeometry++;
+
+                // 讀取 Element.Category, Element.Family, Element.Type
+                string elemCategory = null, elemFamily = null, elemType = null;
+                foreach (PropertyCategory cat in item.PropertyCategories)
+                {
+                    if (cat.DisplayName != "Element") continue;
+                    foreach (DataProperty prop in cat.Properties)
+                    {
+                        try
+                        {
+                            var val = prop.Value?.IsDisplayString == true
+                                ? prop.Value.ToDisplayString()
+                                : prop.Value?.ToString();
+                            switch (prop.DisplayName)
+                            {
+                                case "Category": elemCategory = val; break;
+                                case "Family": elemFamily = val; break;
+                                case "Type": elemType = val; break;
+                            }
+                        }
+                        catch { }
+                    }
+                    break;
+                }
+
+                if (string.IsNullOrEmpty(elemCategory)) elemCategory = item.ClassDisplayName ?? "(unknown)";
+
+                // 統計
+                if (!categoryStats.ContainsKey(elemCategory))
+                    categoryStats[elemCategory] = new Dictionary<string, int>();
+                var typeKey = (elemFamily ?? elemCategory) + " | " + (elemType ?? "");
+                if (!categoryStats[elemCategory].ContainsKey(typeKey))
+                    categoryStats[elemCategory][typeKey] = 0;
+                categoryStats[elemCategory][typeKey]++;
+
+                // 收集詳細行（如有指定 fields）
+                if (collectRows && rows.Count < rowLimit)
+                {
+                    var row = new Dictionary<string, object>
+                    {
+                        ["displayName"] = item.DisplayName,
+                        ["path"] = GetItemPath(item),
+                        ["Element.Category"] = elemCategory,
+                        ["Element.Family"] = elemFamily,
+                        ["Element.Type"] = elemType
+                    };
+
+                    foreach (string field in fieldsList)
+                    {
+                        if (row.ContainsKey(field)) continue;
+                        var fp = field.Split('.');
+                        string catName = fp.Length > 1 ? fp[0] : null;
+                        string propName = fp.Length > 1 ? fp[1] : fp[0];
+                        string val = null;
+                        foreach (PropertyCategory cat in item.PropertyCategories)
+                        {
+                            if (catName != null && cat.DisplayName != catName) continue;
+                            foreach (DataProperty prop in cat.Properties)
+                            {
+                                if (prop.DisplayName == propName)
+                                {
+                                    try { val = prop.Value?.IsDisplayString == true ? prop.Value.ToDisplayString() : prop.Value?.ToString(); }
+                                    catch { }
+                                    break;
+                                }
+                            }
+                            if (val != null) break;
+                        }
+                        row[field] = val;
+                    }
+                    rows.Add(row);
+                }
+            }
+
+            // 組裝結果
+            var stats = categoryStats.Select(kvp => new
+            {
+                category = kvp.Key,
+                totalCount = kvp.Value.Values.Sum(),
+                types = kvp.Value.Select(t => new { typeKey = t.Key, count = t.Value })
+                    .OrderByDescending(t => t.count).ToList()
+            }).OrderByDescending(c => c.totalCount).ToList();
+
+            var result = new Dictionary<string, object>
+            {
+                ["nodeName"] = node.DisplayName,
+                ["nodePath"] = GetItemPath(node),
+                ["totalDescendants"] = totalItems,
+                ["totalGeometry"] = totalGeometry,
+                ["categoryCount"] = stats.Count,
+                ["categories"] = stats
+            };
+            if (collectRows)
+            {
+                result["rows"] = rows;
+                result["rowCount"] = rows.Count;
+            }
+            return result;
+        }
+
+        /// <summary>
+        /// 選取指定子樹節點下的所有幾何元素到 CurrentSelection
+        /// 參數: name (節點名稱)
+        /// </summary>
+        private object SelectSubtree(Dictionary<string, object> parameters)
+        {
+            var name = parameters.ContainsKey("name") ? parameters["name"]?.ToString() : null;
+            if (string.IsNullOrEmpty(name))
+                throw new ArgumentException("需要 name 參數");
+
+            var node = FindNodeByName(name, exact: true) ?? FindNodeByName(name, exact: false);
+            if (node == null)
+                throw new Exception($"找不到節點: {name}");
+
+            // 收集所有有幾何的後代
+            var geometryItems = new List<ModelItem>();
+            int total = 0;
+            foreach (ModelItem item in node.Descendants)
+            {
+                total++;
+                if (total > 100000) break; // 安全上限
+                if (item.HasGeometry)
+                    geometryItems.Add(item);
+            }
+
+            _doc.CurrentSelection.Clear();
+            _doc.CurrentSelection.AddRange(geometryItems);
+
+            return new
+            {
+                nodeName = node.DisplayName,
+                totalDescendants = total,
+                selectedCount = geometryItems.Count,
+                message = $"已選擇 {geometryItems.Count} 個幾何項目（來自 {node.DisplayName}）"
+            };
         }
 
         #endregion
