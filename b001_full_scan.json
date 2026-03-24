@@ -1,0 +1,2184 @@
+{
+  "4.1 Non-CR Architecture": {
+    "Railings": {
+      "Railing | mh_RLNG": 438
+    },
+    "Generic Models": {
+      "Face based opening | Opening_generic": 317,
+      "Generic Models 9 | Generic Models 6": 1,
+      "Generic Models 10 | Generic Models 5": 1,
+      "Generic Models 8 | Generic Models 5": 1,
+      "Generic Models 20 | Generic Models 20": 1,
+      "Generic Models 21 | Generic Models 20": 1,
+      "FIXED KNOCKOUTPANEL2 | FIXED KNOCKOUTPANEL": 1,
+      "L KNOCKOUT PANEL REMOVABLE1 | L KNOCKOUT PANEL REMOVABLE": 1,
+      "kt v | kt v": 1,
+      "kt v1 | kt v": 1,
+      "kt v2 | kt v": 1,
+      "kt v3 | kt v": 1,
+      "KNOCKOUT PANEL FIX | KNOCKOUT PANEL FIX": 1,
+      "KNOCKOUT PANEL FIX1 | KNOCKOUT PANEL FIX": 1,
+      "KNOCKOUT PANEL FIX2 | KNOCKOUT PANEL FIX": 1,
+      "KNOCKOUT PANEL FIX3 | KNOCKOUT PANEL FIX": 1,
+      "KNOCKOUT PANEL FIX4 | KNOCKOUT PANEL FIX": 1,
+      "KNOCKOUT PANEL FIX5 | KNOCKOUT PANEL FIX": 1,
+      "KNOCKOUT PANEL FIX6 | KNOCKOUT PANEL FIX": 1,
+      "KNOCKOUT PANEL FIX7 | KNOCKOUT PANEL FIX": 1,
+      "KNOCKOUT PANEL FIX8 | KNOCKOUT PANEL FIX": 1,
+      "KNOCKOUT PANEL FIX9 | KNOCKOUT PANEL FIX": 1,
+      "KNOCKOUT PANEL FIX10 | KNOCKOUT PANEL FIX": 1,
+      "KNOCKOUT PANEL FIX11 | KNOCKOUT PANEL FIX": 1,
+      "FIXED KNOCKOUTPANEL3 | FIXED KNOCKOUTPANEL": 1,
+      "KNOCKOUT PANEL FIX12 | KNOCKOUT PANEL FIX": 1,
+      "FIXED KNOCKOUTPANEL1 | FIXED KNOCKOUTPANEL": 1,
+      "FIXED KNOCKOUTPANEL4 | FIXED KNOCKOUTPANEL": 1,
+      "FIXED KNOCKOUTPANEL5 | FIXED KNOCKOUTPANEL": 1,
+      "FIXED KNOCKOUTPANEL6 | FIXED KNOCKOUTPANEL": 1,
+      "FIXED KNOCKOUTPANEL7 | FIXED KNOCKOUTPANEL": 1,
+      "FIXED KNOCKOUTPANEL9 | FIXED KNOCKOUTPANEL": 1,
+      "FIXED KNOCKOUTPANEL10 | FIXED KNOCKOUTPANEL": 1,
+      "FIXED KNOCKOUTPANEL11 | FIXED KNOCKOUTPANEL": 1,
+      "FIXED KNOCKOUTPANEL12 | FIXED KNOCKOUTPANEL": 1,
+      "FIXED KNOCKOUTPANEL13 | FIXED KNOCKOUTPANEL": 1,
+      "FIXED KNOCKOUTPANEL14 | FIXED KNOCKOUTPANEL": 1,
+      "FIXED KNOCKOUTPANEL16 | FIXED KNOCKOUTPANEL": 1,
+      "FIXED KNOCKOUTPANEL17 | FIXED KNOCKOUTPANEL": 1,
+      "FIXED KNOCKOUTPANEL18 | FIXED KNOCKOUTPANEL": 1
+    },
+    "Walls": {
+      "Basic Wall | (FR-2 HR) 200mm DRY WALL PARTITION": 51,
+      "Basic Wall | Wall 200mm 2 hour fire rated": 40,
+      "Basic Wall | RCC Wall 200mm 4 hour fire rated": 13,
+      "Basic Wall | EXISTING 100mm PRECAST WALL": 13,
+      "Basic Wall | (FR-4 HR) 200mm DRY WALL": 10,
+      "Basic Wall | mh_wall sheating": 5,
+      "Basic Wall | (FR-4 HR) 100mm THK PRECAST WALL": 3,
+      "Basic Wall | DRY WALL - 100mm 4 HOURS FIRE RATED": 2,
+      "Walls 1 | Walls 1": 1,
+      "Walls 5 | Walls 1": 1,
+      "Walls 6 | Walls 1": 1,
+      "Walls 8 | Walls 1": 1,
+      "Walls 12 | Walls 1": 1,
+      "Walls 13 | Walls 1": 1,
+      "Walls 15 | Walls 1": 1,
+      "Walls 16 | Walls 1": 1,
+      "Walls 23 | Walls 1": 1,
+      "Walls 22 | Walls 1": 1,
+      "Walls 47 | Walls 1": 1,
+      "Walls 77 | Walls 1": 1,
+      "Walls 78 | Walls 1": 1,
+      "Walls 79 | Walls 1": 1,
+      "Walls 21 | Walls 1": 1,
+      "Walls 83 | Walls 1": 1,
+      "Walls 84 | Walls 1": 1,
+      "Walls 35 | Walls 1": 1,
+      "Walls 36 | Walls 1": 1,
+      "Walls 37 | Walls 1": 1,
+      "Walls 38 | Walls 1": 1,
+      "Walls 39 | Walls 1": 1,
+      "Walls 40 | Walls 1": 1,
+      "Walls 41 | Walls 1": 1,
+      "Walls 42 | Walls 1": 1,
+      "Walls 43 | Walls 1": 1,
+      "Walls 44 | Walls 1": 1,
+      "Walls 45 | Walls 1": 1,
+      "Walls 46 | Walls 1": 1,
+      "Walls 82 | Walls 1": 1,
+      "Walls 93 | Walls 1": 1,
+      "Walls 95 | Walls 1": 1,
+      "Walls 96 | Walls 1": 1,
+      "Walls 97 | Walls 1": 1,
+      "Walls 98 | Walls 1": 1,
+      "Walls 94 | Walls 1": 1
+    },
+    "Doors": {
+      "mh_DOOR_Single Door  Vision Panel_Metal | @_DOOR_FD1B_1200X2500mm": 70,
+      "mh_DOOR_Double Door Vision Panel | @A_DOOR_FD2B_2400X2500mm": 45,
+      "mh_DOOR_Double Door Vision Panel | @A_DOOR_FD4D_2400X2500mm": 15,
+      "mh_DOOR_Rolling Shutter | @A_DOOR_4200X4000 2": 1,
+      "mh_DOOR_Rolling Shutter | @A_DOOR_6000X6500": 1
+    },
+    "Curtain Panels": {
+      "System Panel | mh_@A_GLAS_150mm": 49
+    },
+    "<Room Separation>": {
+      "<Room Separation> | ": 47
+    },
+    "Specialty Equipment": {
+      "Fall_Protection-Anchor_Points-Super_Anchor-CRA-Anchor-End | Not a Type - Load Type Catalog": 17,
+      "Fall_Protection-HLL_Turnbuckle | 1058": 17
+    },
+    "Handrails": {
+      "Handrail Type | 32 NB GALVANIZED HANDRAIL_STAIR 2": 16,
+      "Handrail Type | 32 NB GALVANIZED HANDRAIL_STAIR": 16
+    },
+    "Lines": {
+      "Lines | ": 16
+    },
+    "Floors": {
+      "Floor | LOADING PLATFORM CHEQUIRED PLATE": 8,
+      "Floor | Generic 250mm": 3,
+      "Floor | Generic 50mm": 1
+    },
+    "Top Rails": {
+      "Top Rail Type | 32 NB GALVANIZED HANDRAIL_STAIR": 8
+    },
+    "Ramps": {
+      "Ramp | Ramp 1": 2
+    },
+    "Roofs": {
+      "Basic Roof | ROOF SHEATING": 1
+    },
+    "Runs": {
+      "Monolithic Run | 150mm Depth": 1
+    },
+    "Structural Columns": {
+      "mu_Column_Triangle_v1 | @A_柱_450x600mm": 1
+    }
+  },
+  "4.2 CR Architecture": {
+    "Specialty Equipment": {
+      "mh_RAFL__Pedestal Support_600mm | @A_RAFL_AlphaVPedestal": 9911,
+      "mh_SPEQ_ Ladder | mh_Ladder_metal": 30
+    },
+    "Curtain Wall Mullions": {
+      "Rectangular Mullion | ICCP-T-GRID-PRF": 5864
+    },
+    "Curtain Panels": {
+      "System Panel | ICCP-CP-BLANK-PANEL": 1665,
+      "ICTPL-CP-Perforated | ICTPL-CP-Perforated": 819,
+      "ICTPL-CP-FFU | ICTPL-CP-FFU": 410,
+      "System Panel | Glazed": 8
+    },
+    "Generic Models": {
+      "Face based opening | Opening_generic": 586,
+      "Family2 | Type 1": 40,
+      "Family2 | Type 2": 16,
+      "Family2 | Type 4": 10,
+      "Face based opening1 | Opening_generic": 7,
+      "Family2 | Type 3": 4,
+      "drain cover | 1\" GRATING": 2
+    },
+    "Railings": {
+      "Railing | mh_@A_RLNG_1100mm_type5": 372,
+      "Railing | mh_RLNG": 51
+    },
+    "Walls": {
+      "Basic Wall | Exis. GI Sheet_50mm": 120,
+      "Basic Wall | Exis.Wall Panel 50": 85,
+      "Basic Wall | GI SHEET PARTATION 50MM": 37,
+      "Basic Wall | Wall Panel 50": 22,
+      "Basic Wall | UNDER RAISED FLOOR BLANK OFF GI SHEET": 13,
+      "Basic Wall | (FR-4 HR) 200mm DRY WALL": 10,
+      "Basic Wall | DRY WALL - 100mm 4 HOURS FIRE RATED": 9,
+      "Basic Wall | Wall 200mm 2 hour fire rated": 8,
+      "Basic Wall | (FR-2 HR) 200mm DRY WALL PARTITION": 6,
+      "Basic Wall | 200MM CONCRETE BLOCK WALL": 5,
+      "Basic Wall | BLAST PROOF PANEL - 300mm 4 HOURS FIRE RATED": 4,
+      "Basic Wall | BLAST RELIEF PANEL - 100mm 4 HOURS FIRE RATED 2": 3,
+      "Basic Wall | Interior - Blockwork 100": 2
+    },
+    "Doors": {
+      "mh_DOOR_Single Door  Vision Panel | @_DOOR_CD5 900X2200": 70,
+      "mh_DOOR_Single Door  Vision Panel | @_DOOR_PD1A_1000X2500mm": 70,
+      "mh_DOOR_Single Door  Vision Panel | @_DOOR_CD1 1200X2200": 49,
+      "mh_DOOR_Double Door Vision Panel | @A_DOOR_CD2C_2400X3200": 24,
+      "mh_DOOR_Single Door  Vision Panel | @_DOOR_FD1B_1200X2500mm": 14,
+      "mh_DOOR_Double Door Vision Panel | @A_DOOR_FD2M_2000X2500": 12,
+      "mh_DOOR_Double Door Vision Panel | @A_DOOR_PD2A_2400X3200": 12,
+      "mh_DOOR_Single Door  Vision Panel | @_DOOR_FD4C_1200X2500": 7,
+      "mh_DOOR_Double Door Vision Panel | @A_DOOR_FD4N_2000X2500": 6,
+      "mh_DOOR_Double Door Vision Panel | @A_DOOR_FD2E_2400X3000": 6,
+      "mh_DOOR_Double Door Vision Panel | @A_DOOR_FD4E_2400X2100": 6,
+      "mh_DOOR_Double Door Vision Panel | @A_DOOR_PD2AN_2400X3000": 6,
+      "mh_DOOR_Single Door_metal | @A_DOOR_PD1A_1000X2500mm": 6,
+      "mh_DOOR_Double sliding | @A_DOOR_CSD2A_1500x2500mm": 4,
+      "mh_DOOR_Single Door_metal | @A_DOOR_750X2200mm": 3,
+      "mh_DOOR-Overhead-Rolling | @A_DOOR_RS2A_4000X4200MM": 1
+    },
+    "Floors": {
+      "Floor | SOLID TILES": 224,
+      "Floor | HORIZONTAL GI SHEET": 5,
+      "Floor | PERFORATED TILES": 3,
+      "Floor | GENERIC FLOOR": 2,
+      "Floor | Generic 200mm": 1,
+      "Floor | FLOOR FOR TRENCH": 1
+    },
+    "Lines": {
+      "Lines | ": 22
+    },
+    "Windows": {
+      "Parametric_Louver_Window_15219 | 1500x5000mm": 5,
+      "Parametric_Louver_Window_15219 | 4800 x 2000": 4,
+      "Parametric_Louver_Window_15219 | 1200x5000mm": 2,
+      "Parametric_Louver_Window_15219 | 700x700": 2,
+      "Parametric_Louver_Window_15219 | 2100 x 2000": 1,
+      "Parametric_Louver_Window_15219 | 4140 x 2100": 1,
+      "Parametric_Louver_Window_15219 | 1650X950": 1,
+      "Parametric_Louver_Window_15219 | 1985 x 1000": 1
+    },
+    "Handrails": {
+      "Handrail Type | 32 NB GALVANIZED HANDRAIL_STAIR 2": 8,
+      "Handrail Type | 32 NB GALVANIZED HANDRAIL_STAIR": 8
+    },
+    "Supports": {
+      "Stringer | Stringer - 50mm Width": 14
+    },
+    "Top Rails": {
+      "Top Rail Type | 32 NB GALVANIZED HANDRAIL_STAIR": 4
+    },
+    "Landings": {
+      "Non-Monolithic Landing | Non-Monolithic Landing": 3
+    },
+    "Runs": {
+      "Non-Monolithic Run | 50mm Tread 13mm Riser with Nosing": 3
+    },
+    "Structural Columns": {
+      "mu_Column_Triangle_v1 | @A_柱_450x600mm": 1
+    }
+  },
+  "3. Structure": {
+    "Plates": {
+      "Plates | ": 1549
+    },
+    "Structural Framing": {
+      "L-Angles | L75x75x6": 268,
+      "UB-Universal Beams | UB254x146x31": 189,
+      "UB-Universal Beams | UB203x133x25": 181,
+      "UB-Universal Beams | UB254x146x37": 148,
+      "SFC | ISMC150": 150,
+      "Channel | ISMC 250": 89,
+      "Plate Girder | WH 400x150x16x10": 51,
+      "LL-Double Angles | 2L65x6x10": 53,
+      "Channel | ISMC 125": 40,
+      "LL-Double Angles | 2L50x50x6": 31,
+      "Channel | ISMC 100": 31,
+      "UB-Universal Beams | UB457x191x67": 27,
+      "UB-Universal Beams | UB356x171x51": 21,
+      "UB-Universal Beams | UB305x165x40": 18,
+      "LL-Double Angles | 2L90x90x8": 17,
+      "Channel | ISMC 200": 14,
+      "Plate Girder | WH 500x200x16x10": 13,
+      "LL-Double Angles | 2L100x100x10": 12,
+      "Plate Girder | WH 650x275x20x12": 10,
+      "Plate Girder | WH 750x330x30x16": 7,
+      "SFC | ISMC125": 7,
+      "Plate Girder | WH 400x200x16x10": 6,
+      "CHS-Circular Hollow Sections(Cold) | CHS 88.9x4.8": 5,
+      "Plate Girder | WH 700x300x25x12": 4,
+      "UB-Universal Beams | UB406x178x60": 4,
+      "mh_FLST_Precast Sump cover | mh_FLST_Precast Sump cover_950x950x150 mm": 4,
+      "UB-Universal Beams | UB406x178x54": 2,
+      "mh_STB2_BuiltUpSections | WH 600x350x25x12": 2,
+      "LL-Double Angles | 2L60x60X6": 2,
+      "mh_BEAM_ConcreteRectangularBeam | RB10 250x300": 2,
+      "SHS-Square Hollow Sections | SHS 250x250x8": 2,
+      "Concrete - Rectangular Beam | B1 External Step Beam": 2,
+      "mh_BEAM_ConcreteRectangularBeam | B3_750X700": 1,
+      "mh_BEAM_ConcreteRectangularBeam | B2_600X700": 1,
+      "mh_FLST_Precast Sump cover | mh_FLST_Precast Sump cover_1250x1250mm 2": 1
+    },
+    "Railings": {
+      "Railing | mh_@S_RLNG_1100mm_Type6": 1161,
+      "Railing | mh_@S_RLNG_1100mm_LANDING": 18,
+      "Railing | mh_@S_RLNG_1100mm_Corner": 3,
+      "Railing | mh_@A_RLNG_1100mm_type5 3": 205
+    },
+    "Structural Columns": {
+      "SHS-Square Hollow Sections-Column | SHS 180x180x6": 71,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA7_500X500": 71,
+      "SHS-Square Hollow Sections-Column | SHS 400x400x16": 55,
+      "UB-Universal Beams-Column | UB203x133x25": 40,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_P5_1400X1400": 23,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_P1_1550X750": 17,
+      "UB-Universal Beams-Column | UB305x165x40": 12,
+      "SHS-Square Hollow Sections-Column(Cold) | SHS 300x300x12": 9,
+      "mh_PDSL_PrecastSquare | @S_PDSL_C1_650": 9,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_P12_L1_1600X1600": 9,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_P45_400X400": 8,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA6_1400X400": 7,
+      "SHS-Square Hollow Sections-Column | SHS 250x250x8": 6,
+      "UB-Universal Beams-Column | UB254x146x31": 6,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_P3_1200X1200": 6,
+      "Plate-Column | WH 450X200X16X10": 5,
+      "T-Tees from Universal Columns-Column | TUC200x102x26": 4,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA1_800X600": 4,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_P14_500X500": 4,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_P6_2000X750": 4,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_P3_L1_2075X2280": 4,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_P4_1300X750": 3,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_P1_L1_2500X1300": 3,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_P2_L1_3665X2395": 3,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_P7_L1_1300X2500": 3,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_P8_L1_4500X3585": 3,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_P9_L1_2500X1300": 3,
+      "SFC Column | ISMC250": 2,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA7_1200X900": 2,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA10_700X550": 2,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA36X1300X1700": 2,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA35_3350X1120": 2,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA5_7150X1200": 2,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_P4_L1_5050X4200": 2,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_P10_L1_3050X2050": 2,
+      "T-Tees from Universal Columns-Column | TUC203x102x26": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_P7_1200X900": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA2_4570X800": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA8_5925X1560": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA9_7070X1520": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA11_6320X1520": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA3_1217X550": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA22X1120X1120": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA23_1645X1215": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA34_3600X3750": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA33_1220X1220": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA32_1200X400": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA28_1500X3100": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA31_1740X550": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA27_1300X1700": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA26_400X2400": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA29_2070X935": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA37_2000X5400": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA43_1860": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA18_3720X1820": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA1_1700x550": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA21_1740X1215": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA20_550X1215": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA24_10520X2670": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA17_3210X1550": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA44_1615X1050": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA4_2400X800": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA19_1420X1680": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA16_6720X1785": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA30_2720X1320": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_P13_7935x2210": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_PA2_900X750": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_P5_L1_4100X2300": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_P6_L1_3800X1900": 1,
+      "mh_PDSL_Concrete Rectangular | mh_PDSL_P11_L1_1200X1910": 1,
+      "mh_PDSL_ConcreteSquare | mh_PDSL_ConcreteSquare": 1,
+      "Concrete Rectangular | @mh_COLM_C1_300 x 301": 1,
+      "SFC Column | ISMC150": 6,
+      "UB-Universal Beams-Column | UB254x146x37": 2
+    },
+    "Walls": {
+      "Basic Wall | mh_@S_Wall_RCWL_THK100mm": 144,
+      "Basic Wall | Generic - 150": 65,
+      "Basic Wall | mh_@S_Wall_RCWL_THK150mm": 24,
+      "Basic Wall | Wall Panel 150": 22,
+      "Basic Wall | mh_@S_Wall_Thk225mm": 20,
+      "Basic Wall | mh_@S_Wall_RCWL_Thk300mm": 12,
+      "Basic Wall | mh_@S_Wall_RCWL_Thk230mm": 6,
+      "Basic Wall | 150mm concrete wall": 6,
+      "Basic Wall | Wall Panel 300": 3,
+      "Basic Wall | mh_@S_Wall_RCWL_Thk200mm": 2
+    },
+    "Generic Models": {
+      "TOP Grating Family | TOP Grating Family": 76,
+      "Lift_Dock_Advance_Series4000 | Lift_Dock_Advance_Series4000": 3,
+      "Generic Models 21 | Generic Models 1": 1,
+      "Generic Models 22 | Generic Models 2": 1,
+      "Generic Models 23 | Generic Models 2": 1,
+      "Generic Models 24 | Generic Models 2": 1,
+      "Generic Models 25 | Generic Models 2": 1,
+      "Generic Models 6 | Generic Models 1": 1,
+      "Generic Models 7 | Generic Models 2": 1,
+      "Generic Models 8 | Generic Models 2": 1,
+      "Generic Models 9 | Generic Models 2": 1,
+      "Generic Models 10 | Generic Models 2": 1,
+      "Generic Models 11 | Generic Models 1": 1,
+      "Generic Models 12 | Generic Models 2": 1,
+      "Generic Models 13 | Generic Models 2": 1,
+      "Generic Models 14 | Generic Models 2": 1,
+      "Generic Models 15 | Generic Models 2": 1,
+      "Generic Models 16 | Generic Models 1": 1,
+      "Generic Models 17 | Generic Models 2": 1,
+      "Generic Models 18 | Generic Models 2": 1,
+      "Generic Models 19 | Generic Models 2": 1,
+      "Generic Models 20 | Generic Models 2": 1
+    },
+    "Floors": {
+      "Floor | mh_@S_FLST_Thk100mmPCC": 3,
+      "Floor | mh_@S_FLST_Thk30mm": 3,
+      "Floor | 100mm cover": 3,
+      "Floor | mh_@S_FLST_Thk100mm": 3,
+      "Floor | Generic 200": 2,
+      "Floor | mh_@S_FLST_Thk200mm": 2,
+      "Floor | 300thk Slab": 2,
+      "Floor | 200mm THK Deck Slab": 2,
+      "Floor | mh_@S_FLST_Thk300mm": 2,
+      "Floor | mh_@S_FLST_Thk350mm": 1,
+      "Floor | mh_@S_FLST_Thk250mm": 1,
+      "Floor | mh_@S_FLST_Thk150mm": 1,
+      "Floor | Generic 100": 1,
+      "Floor | mh_@S_FLST_PCC_Thk100mm": 1,
+      "Floor | mh_@S_FLST_MSM_Thk200mm": 1,
+      "Floor | 100MM SLAB": 1,
+      "Floor | Generic 300mm 2": 1,
+      "Floor | mh_@S_FLST_Thk75mm": 1,
+      "Floor | RCC road": 1
+    },
+    "Structural Foundations": {
+      "Foundation Slab | mh_@S_FLST_Thk500mm MSM": 6,
+      "Foundation Slab | mh_@S_FLST_Thk450MM": 5,
+      "Foundation Slab | mh_@S_FLST_Thk100mm PCC": 5,
+      "Foundation Slab | 400mm Foundation Slab": 2,
+      "Foundation Slab | mh_@S_FLST_Thk300mm": 1,
+      "Foundation Slab | 300mm Foundation Slab 2": 1
+    },
+    "Runs": {
+      "Non-Monolithic Run | 50 mm Tread 13 mm Riser": 12,
+      "Monolithic Run | 150mm Depth": 1
+    },
+    "Landings": {
+      "Non-Monolithic Landing | Non-Monolithic Landing": 11,
+      "Monolithic Landing | 300mm Thickness": 1
+    },
+    "Structural Connections": {
+      "CONCRETE ENCASING | CONCRETE ENCASING": 1,
+      "Structural Connections | Structural Connections": 1,
+      "Structural Connections1 | Structural Connections": 1,
+      "Structural Connections3 | Structural Connections": 1,
+      "Structural Connections4 | Structural Connections": 1,
+      "Grouting | Grouting": 1,
+      "Concrete encasing 2 | Concrete encasing 01": 1,
+      "Concrete encasing 6 | Concrete encasing 01": 1
+    },
+    "Lines": {
+      "Lines | ": 4
+    },
+    "Bolts": {
+      "Bolts | ": 2
+    },
+    "Handrails": {
+      "Handrail Type | 32 NB GALVANIZED HANDRAIL_STAIR 2": 6,
+      "Handrail Type | 32 NB GALVANIZED HANDRAIL_STAIR": 6
+    },
+    "Top Rails": {
+      "Top Rail Type | 32 NB GALVANIZED HANDRAIL_STAIR": 3
+    }
+  },
+  "7.4 PCW": {
+    "Mechanical Equipment": {
+      "PC-05 | PC-05": 1438,
+      "channel_V7 | 41x41_2.5_HDG": 598,
+      "Cleats_V1 | 38/40_A2": 316,
+      "I-Beam Mounted STRAP SUPPORT | with base plate": 195,
+      "Fixotec_Support-channels_FXT-Protection-caps_V2 | 41x41": 360,
+      "Cleats_V1 | 38/40_GAL": 386,
+      "L-Clamp | MT-C-L1": 170,
+      "Fixotec_Support-channels_FXT-support-channel_V7 | 41x41_2.0_GAL": 1402,
+      "PSA 02 | PSA 02": 53,
+      "Variable Trunion | 5 inch trunion": 40,
+      "PSA 04 | PSA 04": 32,
+      "Fixotec_FXT-support-system_FXT-cantilever-bracket_V1 | FXR Angle Bracket, 100 x 100 x 4": 381,
+      "Hilti_INS_baseconnector_MT-B-T | MT-B-T": 376,
+      "I-Beam Mounted STRAP SUPPORT | with base plate450X250 2": 6,
+      "Cleats_V1 | 39/52_GAL": 214,
+      "support-channel_FSA 03-7 | 41x21_2.0_GAL": 202,
+      "PC1 | PC-05": 176,
+      "Fixotec_Support-channels_FXT-support-channel_H-profile_V1 (1)1 | 38x80-2000_GAL": 112,
+      "washers_V1 | M16_FSA 03-7": 96,
+      "hexagonal_washers_V1_FSA 03-7 | M10": 96,
+      "Fixotec_Accessories_hexagonal_nut_V1 | M10 FSA03-7": 96,
+      "hexagonal_nut_V1 | M16_FSA 03-7": 96,
+      "support-channel_FSA 03-7 | 41x41_2.5_HDG": 92,
+      "Fixotec_Support-channels_FXT-Protection-caps_V2 | 41x41_FSA-03-7": 48,
+      "rods_V1 FSA 03-7 | M10": 48,
+      "Hilti_INS_connector_MT-C-G | MT-C-GS OC": 35,
+      "Cleats_V2 | 38/40_GAL": 34,
+      "Hilti_INS_channel_MT girder | MT-80 OC": 32,
+      "Cleats_V1 | 27/18_A2": 28,
+      "Fixotec_Support-channels_FXT-support-channel_V7 | 41x41_2.0_HDG": 22,
+      "washers_V1 | M12": 20,
+      "Hilti_INS_connector_MT-C-L | MT-C-L1": 20,
+      "Hilti_INS_endcap_MT-EC_Girder | MT-EC End Cap Girder": 16,
+      "Hilti_INS_baseconnector_MT-B-O2B | MT-B-O2B": 13,
+      "hexagonal_nut_V1_1 | M12": 12,
+      "Fixotec_Accessories_hexagonal_nut_V1 | M12": 10,
+      "rods_V1 | M12": 10,
+      "PSA 04-MT-C-L | with base plate": 10,
+      "BS 11 | FSA 03-25": 9,
+      "hexagonal_nut_V1 | M12": 8,
+      "Cleats_V2 | 38/80_GAL": 8,
+      "Hilti_INS_baseconnector_MT-B-GS | MT-B-GS O4U OC": 7,
+      "BS 11 | FSA 03-100": 6,
+      "support-channel_V7 | 41x62_2.5_GAL": 6,
+      "Fixotec_Accessories_hexagonal_washers_V1_1 | M12": 6,
+      "support-channel_V7 | 41x41_2.5_HDG": 4,
+      "Fixotec_Accessories_hexagonal_washers_V1 | M12": 4,
+      "Hilti_INS_baseconnector_MT-B-O2B | MT-B-O2B OC": 4,
+      "mh_MEQ_Demo_Mechanical Eq Connector | @D_MEQ_MSI1-FAB-1-F21FR-HVAC-RCU-25": 3,
+      "Beam Clamp_FSA 03-7 | 88.9mm": 3,
+      "PC-02 | MP-PI": 3,
+      "PSA 01 | PSA 01": 3,
+      "mh_MEQ_Demo_Mechanical Eq Connector | @D_MEQ_MSI1-FAB-1-F21FQ-HVAC-RCU-27": 2,
+      "Fixotec_Support-channels_FXT-support-channel_V7 | 41x62_2.5_GAL": 2,
+      "Hilti_INS_baseconnector_MT-B-O2 | MT-B-O2": 2,
+      "Hilti_INS_connector_MT-C-L | MT-C-L2": 2,
+      "mh_MEQ_Demo_Mechanical Eq Connector | @D_MEQ_MSI1-FAB-1-F21FQ-HVAC-RCU-26": 1,
+      "hexagonal_nut_V1_02 | M16_FSA 03-7": 1,
+      "washers_V1_02 | M16_FSA 03-7": 1
+    },
+    "Pipe Insulations": {
+      "Pipe Insulation | mh_@D_PI_Mineral Wool": 6286,
+      "Pipe Insulation | Fiberglass": 256,
+      "Pipe Insulation | Mineral Wool": 339
+    },
+    "Pipes": {
+      "Pipe Types | mh_@D_Pipe_MS Sch 40_Tap": 4314,
+      "Pipe Types | mh_@D_Pipe_MS Sch 40_Tee": 1156,
+      "Pipe Types | mh_@D_Pipe_GI Sch 40 - Tee": 198,
+      "Pipe Types | mh_@D_Pipe_MS Sch 80_Tee": 80,
+      "Pipe Types | mh_@D_Pipe_MS Sch 40_FLANGE": 320,
+      "Pipe Types | mh_@D_Pipe_MS Sch 80_Tap": 12,
+      "Pipe Types | mh_@D_Pipe_GI - C class2": 126,
+      "Pipe Types | mh_@D_Pipe_GI - C class": 18,
+      "Pipe Types | mh_@D_Pipe_MS Sch 40_Tap2": 2
+    },
+    "Center Line": {
+      "Center Line | ": 3113
+    },
+    "Center line": {
+      "Center line | ": 3162
+    },
+    "Pipe Fittings": {
+      "Elbow - Welded - Generic | @D_PF_Standard": 610,
+      "mh_PF_Branch Connection - Threaded - Generic | @D_PF_Standard": 409,
+      "Branch Connection - Welded - Generic | @D_PF_Standard": 235,
+      "M_Flange - Table E-Steel - Class 150 | Standard": 359,
+      "mh_PF_Elbow - Welded - Generic | @D_PF_Standard": 224,
+      "mh_PF_Elbow - Threaded - MI - Class 300 | @D_PF_Standard": 275,
+      "mh_PF_Tee Reducing - Welded-GA | @D_PF_Standard": 110,
+      "Transition - Generic | @D_PF_Standard": 77,
+      "mh_PF_Flange -Slip-on-PVC | @D_PF_Standard": 30,
+      "mh_PF_Cap - Threaded - MI - Class 150 | @D_PF_Standard": 36,
+      "mh_PF_Tee - Threaded - MI - Class 1 | @D_PF_Standard": 34,
+      "Elbow - Welded - Generic | Standard": 12,
+      "mh_PF_Transition - Welded - Generic1 | @D_PF_Standard": 9,
+      "mh_PF_Flange - Blind - Steel - Class 1 | @D_PF_Standard": 13,
+      "mh_PF_Tee - Welded - Generic | Standard": 8,
+      "mh_PF_Tee - Threaded - MI - Class 300 | @D_PF_Standard": 4,
+      "Transition - Generic1 | @D_PF_Standard": 14,
+      "mh_PF_Elbow - Threaded - MI - Class 300 | Standard": 3,
+      "mh_PF_Cap - Threaded - MI - Class 1 | @D_PF_Standard": 2,
+      "mh_PF_Flange -Slip-on-PVC | Standard": 1,
+      "mh_PF_Transition - Welded - Generic | @D_PF_Standard": 25,
+      "mh_PF_Flange - Slip-on-STEEL | @D_PF_Standard": 527,
+      "mh_PF_Flange -Slip-on | @D_PF_Standard": 97,
+      "mh_PF_Elbow - Generic | @D_PF_Standard": 11,
+      "mh_PF_Tee - Welded - Generic | @D_PF_Standard": 10,
+      "MH_Transition - Welded - Generic | Standard": 8,
+      "Transition - Welded - Generic | @D_PF_Standard": 3,
+      "mh_PF_Elbow Long Radius - Welded-GA | @D_PF_Standard": 3,
+      "Coupling - Generic | @D_PF_Standard": 3,
+      "mh_PF_Flange -Slip-on | Standard": 2,
+      "mh_PF_Transition - Welded - Generic | Standard": 1,
+      "MH_Elbow - Welded - Generic | Standard": 1,
+      "Coupling - Generic1 | @D_PF_Standard": 1,
+      "MH_Elbow - Generic | Standard": 1
+    },
+    "Pipe Accessories": {
+      "mh_PA_Butterfly Valve - 50-300 mm-GA | @D_PA_100 mm": 66,
+      "mh_PA_Ball Valve - 15-150 mm-GAwithout flange | @D_PA_15 mm": 148,
+      "mh_MANIFOLD 2 VALVE BLOCK & BLEED | @D_MANIFOLD 2 VALVE BLOCK & BLEED": 117,
+      "mh_PA_Pressure Gauge(PG) | @D_PA_Pressure Gauge(PG)": 117,
+      "mh_PA_Ball Valve - 15-150 mm-GAwithout flange | @D_PA_25 mm": 42,
+      "45 Temperature Gauge-Hr | @D_PA_Temperature Gauge-VR": 33,
+      "mh_PA_Butterfly Valve - 50-300 mm-GA | @D_PA_80": 20,
+      "mh_PA_Y Strainer_Flanged | @D_PA_DIA 50 TO 125": 34,
+      "mh_PA_Butterfly Valve - 50-300 mm-GA | @D_PA_50": 18,
+      "mh_PA_Butterfly Valve - 50-300 mm-GA | @D_PA_65": 18,
+      "M_Ball Valve - 50-150 mm | 40": 18,
+      "mh_PA_Rubber_Expansion_Joints | @D_PA_100": 22,
+      "M_Ball Valve - 50-150 mm | 32mm": 12,
+      "SM.3.2.B.4.0.0.0 | DN100": 8,
+      "Temperature Gauge | @D_PA_Temperature Gauge-HR": 19,
+      "mh_PA_Rubber_Expansion_Joints | @D_PA_65": 4,
+      "mh_PA_Rubber_Expansion_Joints | @D_PA_40": 4,
+      "mh_PA_Rubber_Expansion_Joints | @D_PA_80": 10,
+      "mh_PA_Rubber_Expansion_Joints | @D_PA_50": 12,
+      "mh_PA_PIBCV | @D_PA_SM.2 - DN32": 4,
+      "SM.3.2.B.4.0.0.0 | DN80": 2,
+      "SM.3.2.B.4.0.0.0 | DN50": 6,
+      "SM.3.2.B.4.0.0.0 | DN65": 2,
+      "SM.3.2.B.4.0.0.0 | DN40": 2,
+      "mh_PA_Butterfly Valve-Gearbox Operated-10-24 | @D_PA_200mm": 18,
+      "mh_PA_PIBCV | @D_PA_SM.2 - DN40": 2,
+      "mh_PA_Ball Valve - 15-150 mm-GA | @D_PA_40 mm": 68,
+      "mh_PA_Butterfly Valve-Gearbox Operated-10-24 | @D_PA_150mm": 44,
+      "mh_PA_Balancing_valve-Caleffi-130_DN15-DN50 | @D_PA_1 1/2\"": 40,
+      "mh_PA_Rubber_Expansion_Joints | @D_PA_65 mm": 32,
+      "M_Butterfly Valve - 50-300 mm | 65 mm": 32,
+      "45 Temperature Gauge-Hr-SHORT | @D_PA_Temperature Gauge-VR": 24,
+      "mh_PA_Butterfly Valve - 50-300 mm-GA | @D_PA_50 mm": 22,
+      "mh_PA_Butterfly Valve - 50-300 mm-GA | @D_PA_80 mm": 20,
+      "mh_MANIFOLD 2 VALVE BLOCK & BLEED_45 deg. | @D_MANIFOLD 2 VALVE BLOCK & BLEED": 18,
+      "Pressure Gauge(45) | Pressure Gauge(45)": 18,
+      "mh_PA_Ball Valve - 15-150 mm-GA | @D_PA_32 mm": 16,
+      "mh_PA_Ball Valve - 15-150 mm-GA | @D_PA_20 mm": 16,
+      "A_Balancing Valve | 2 1/2\"": 16,
+      "M_Butterfly Valve - 50-300 mm | 100 mm": 15,
+      "mh_PA_Ball Valve - 15-150 mm-GAwithout flange | @D_PA_40 mm": 14,
+      "45 1 Temperature Gauge-Hr | @D_PA_Temperature Gauge-VR": 14,
+      "mh_PA_Rubber_Expansion_Joints | @D_PA_32": 8,
+      "mh_PA_Rubber_Expansion_Joints | @D_PA_20": 8,
+      "mh_PA_XV-BV-S36-80mm-DN0080-C150-LE-POA-V | mh_PA_XV-BV-S36-80mm-DN0080-C150-LE-POA-V": 7,
+      "mh_PA_Y Strainer - 50-500 mm - Flanged | @D_PA_150 mm": 6,
+      "mh_PA_Rubber_Expansion_Joints | @D_PA_200": 6,
+      "mh_PA_Rubber_Expansion_Joints | @D_PA_150": 6,
+      "mh_PA_Butterfly Valve-Gearbox Operated-10-24 | @D_PA_100": 4,
+      "mh_PA_Butterfly Valve-Gearbox Operated-10-24 | @D_PA_250mm": 4,
+      "mh_PA_Y Strainer - 6-100 mm - Threaded | @D_PA_100 mm": 4,
+      "SM.3.2.B.4.0.0.0 | DN32": 4,
+      "SM.3.2.B.4.0.0.0 | DN20": 4,
+      "M_TemperatureGauge | 50 mm Dial - 8 mm": 4,
+      "mh_PA_Y Strainer - 50-500 mm - Flanged | @D_PA_200 mm": 3,
+      "mh_PA_Y Strainer - 50-500 mm - Flanged | @D_PA_80 mm": 3,
+      "mh_PA_Double Regulating Valve 65-300 | @D_PA_DN200": 3,
+      "mh_PA_Double Regulating Valve 65-300 | @D_PA_DN100": 3,
+      "mh_PA_APPL_BALL VALVE 25MM.0001 | @D_PA_25 mm": 3,
+      "mh_PA_PPA_AUTOMATIC AIR VENT VALVE_BRASS_N | @D_PA_3/8''": 3,
+      "M_Balancing Valve - Straight - 65-300 mm - Flanged | 150 mm": 3,
+      "Tcv-200mm 3WAy | Tcv-200mm 3WAy": 3,
+      "mh_PA_Pressure Gauge with flange | @D_PA_50 mm Dial - 8 mm": 3,
+      "mh_PA_Butterfly Valve-Gearbox Operated-10-24 | @D_PA_600mm": 2,
+      "mh_PA_PNEUMATIC OPERATED CONTROL VALVE _80mm_V150 | @D_PA_TCV-04": 2,
+      "mh_PA_XV-BV-S36-80mm-DN0080-C150-LE-POA-H | mh_PA_XV-BV-S36-80mm-DN0080-C150-LE-POA-H": 2,
+      "M_Balancing Valve - Straight - 65-300 mm - Flanged | 80 mm": 2,
+      "Temperature Gauge_Hr | @D_PA_Temperature Gauge": 2,
+      "45 mh_EEQ_Model TR10-0 | @D_EEQ_Model TR10-0": 2,
+      "mh_PA_TCV-01_150mm-H | @D_PA_TCV-01_150mm_H": 2,
+      "mh_PA_TCV_100mm-HBS-2052 AS3 | @D_PA_TCV_100mm-VBS-2052 AS3": 2,
+      "mh_PA_Strainer-Y-Flanged | @D_PA_150mm": 2,
+      "mh_PA_Motor Control Valve - 65-150 mm | @D_PA_150 mm": 2,
+      "mh_PA_Y Strainer - 50-500 mm - Flanged | @D_PA_100 mm": 1,
+      "mh_PA_Y Strainer - 6-100 mm - Threaded | @D_PA_25 mm": 1,
+      "mh_PA_Strainer-Y-Flanged | @D_PA_100": 1,
+      "mh_PA_Motor Control Valve - 65-150 mm | 100": 1,
+      "mh_PA_TCV-01_150mm_V | @D_PA_TCV-01_150mm_V": 1,
+      "mh_PA_TCV_100mm-VBS-2052 AS1 | @D_PA_TCV_100mm-VBS-2052 AS3 2": 1
+    },
+    "Structural Columns": {
+      "mu_Column_Triangle_v1 | @A_柱_450x600mm": 2
+    },
+    "Flex Pipes": {
+      "Flex Pipe Round | Flex - Round": 68,
+      "Flex Pipe Round | mh_@D_Pipe_MS Sch 40_Tap": 12
+    },
+    "Generic Models": {
+      "mh_PA_Pressure Gauge(PG)1 | @D_PA_Pressure Gauge(PG) 2": 24,
+      "mh_MANIFOLD 2 VALVE BLOCK & BLEED1 | @D_MANIFOLD 2 VALVE BLOCK & BLEED 2": 7,
+      "mh_PA_PNEUMATIC OPERATED CONTROL VALVE _150mm_Vertical | @D_PA_TCV-3": 6,
+      "mh_MANIFOLD 2 VALVE BLOCK & BLEED_45 deg.1 | @D_MANIFOLD 2 VALVE BLOCK & BLEED 2": 5,
+      "mh_PA_PNEUMATIC OPERATED CONTROL VALVE _100mm_V | @D_PA_TCV-01": 3,
+      "mh_PA_PNEUMATIC OPERATED CONTROL VALVE _200mm_Horizontal | @D_PA_TCV-02": 3,
+      "DRAINPAN | DRAINPAN": 3,
+      "FLOW Direction | FLOW Direction": 2
+    },
+    "Conduit Fittings": {
+      "Conduit Elbow - without Fittings - RNC | Standard": 4
+    }
+  },
+  "5.1 Non-CR HVAC": {
+    "Mechanical Equipment": {
+      "washers_V1 | M12": 680,
+      "hexagonal_nut_V1 | M12": 680,
+      "Fixotec_Support-channels_FXT-Protection-caps_V2 | 41x41": 580,
+      "channel_V7 | 41x41_2.5_HDG": 506,
+      "grider-cleats_V1 | 38/24_GAL": 426,
+      "Fixotec_Accessories_hexagonal_washers_V1 | M12": 345,
+      "Fixotec_Accessories_hexagonal_nut_V1 | M12": 345,
+      "rods_V1 | M12": 344,
+      "support-channel_V7 | 41x41_2.5_HDG": 340,
+      "Cleats_V1 | 38/40_A2": 312,
+      "Fixotec_Support-channels_FXT-support-channel_V7 | 41x41_2.0_GAL": 152,
+      "FX_Support-channels_FXR-Splus_mounting-angles-135-deg_V1 | 2+2_GAL": 114,
+      "channel_V7 | 41x21_2.0_GAL": 102,
+      "PLUMBING PC-05 | PLUMBING PC-05": 70,
+      "FXR Support-Channels Suspended Support (only Bracing) | Seismic Restraint": 57,
+      "MUEPRO_Anchors_BZ-Heavy-Duty-anchors_V7 | M8-6/60_GAL": 57,
+      "Hilti_INS_baseconnector_MT-B-T | MT-B-T": 42,
+      "Fixotec_FXT-support-system_FXT-cantilever-bracket_V1 | FXR Angle Bracket, 100 x 100 x 4": 38,
+      "hexagonal_nut_V1 | M16_FSA 03-7": 37,
+      "DSA-01-01 | DSA-01-01": 32,
+      "DSA-01-01 | DSA-01-01.1": 30,
+      "washers_V1 | M16_FSA 03-7": 29,
+      "washers_V1 | M10": 29,
+      "rods_V1 FSA 03-7 | M10": 29,
+      "Channel hingged-c-clamp | Hanger_50": 21,
+      "C-CLAMP | 88.9mm": 21,
+      "Cleats_V1 | 27/18_A2": 14,
+      "C-CLAMP PC-05 | C-CLAMP PC-05": 12,
+      "DSA-01-01 | DSA-01-01.2": 11,
+      "L-Clamp | MT-C-L1": 10,
+      "FLOORMOUNTED PSA 02 | with base plate": 9,
+      "Cleats_V1 | 38/40_GAL": 8,
+      "Fixotec_Support-channels_FXC-grider-cleats_V1 | 27/18_A2": 8,
+      "Channel hingged | Hanger_50": 8,
+      "mh_Maintenance Space | @M_Maintenance Space": 6,
+      "I-Beam Mounted STRAP SUPPORT | with base plate": 6,
+      "USF-Direct_LOD300_SelectedSizes | Default Model - Use Type Catalog (.txt) (see instructions)": 4,
+      "mh_MEQ_Box | @M_MEQ_CASSETTE - TGCM": 4,
+      "Fixotec_Support-channels_FXT-support-channel_V7 | 41x41_2.5_GAL": 4,
+      "mh_MEQ_Box | @M_MEQ_MAU - SOLVENT ROOM": 2,
+      "mh_MEQ_Box | @M_MEQ_MAU - CHEMICAL ROOM": 2,
+      "mh_MEQ_Box | @M_MEQ_AHU - MCC ROOM": 2,
+      "mh_MEQ_Box | @M_MEQ_Pedestal - MCC ROOM AHU": 2,
+      "mh_MEQ_Box | @M_MEQ_FCU - LINK BRIDGE": 2,
+      "mh_MEQ_Vane Axial Fan AXC1120-Horizontal | @M_MEQ_EXF-10(E)": 2,
+      "Fixotec_Support-channels_FXT-support-channel_V7 | 41x62_2.5_HDG": 2,
+      "Fixotec_FX_Accessories_Threaded-rods_V1_001 | M12": 2,
+      "mh_MEQ_Box | @M_MEQ_Pedestal - SOLVENT ROOM MAU": 1,
+      "mh_MEQ_Box | @M_MEQ_Pedestal - CHEMICAL ROOM MAU": 1,
+      "mh_MEQ_Box | @M_MEQ_EF - MCC ROOM EMERGENCY": 1,
+      "mh_MEQ_Box | @M_MEQ_EF - CHEMICAL ROOM EMERGENCY 2": 1,
+      "mh_MEQ_Wall cut out | @D_MEQ_Wall cut out": 1,
+      "v-support | v-support": 1
+    },
+    "Ducts": {
+      "Rectangular Duct | mh_@M_Duct_GI_Tap": 550,
+      "Round Duct | mh_@M_Duct_GI_Tap": 80,
+      "Rectangular Duct | mh_@M_Duct_GI_Tee": 12
+    },
+    "Pipes": {
+      "Pipe Types | PVC - DWV": 198,
+      "Pipe Types | mh_@M_Pipe_SS304": 100
+    },
+    "Duct Fittings": {
+      "MH_M_Rectangular Tap - Beveled | Standard": 97,
+      "MH_M_Rectangular Elbow - Radius | 1 W": 64,
+      "MH_M_Round Endcap | Standard": 28,
+      "MH_M_Rectangular Endcap | Standard": 26,
+      "MH_M_Round Takeoff - Beveled | Standard": 20,
+      "MH_M_Rectangular Transition - Angle | 60 Degree": 15,
+      "MH_M_Rectangular Transition - Angle | 45 Degree": 8,
+      "M_Round Takeoff - Shoe | Standard": 8,
+      "MH_M_Rectangular Transition - Angle | 30 Degree": 7,
+      "MH_M_Rectangular to Round Transition - Angle | 45 Degree": 6,
+      "MH_M_Round Elbow | 1 D": 4,
+      "MH_M_Rectangular Tee | Standard": 3,
+      "M_Rectangular Wye - Curved | Standard": 2,
+      "MH_M_Round Transition - Angle | 45 Degree": 2
+    },
+    "Duct Insulations": {
+      "Duct Insulation | Duct Wrap": 247
+    },
+    "Center line": {
+      "Center line | ": 240
+    },
+    "Pipe Insulations": {
+      "Pipe Insulation | Fiberglass": 193
+    },
+    "Center Line": {
+      "Center Line | ": 149
+    },
+    "Pipe Fittings": {
+      "MH_Bend - PVC - Sch 40 - DWV | Standard": 73,
+      "mh_PF_Elbow - Welded - Generic1 | @M_PF_Standard": 24,
+      "MH_Reducer - PVC - Sch 40 - DWV | Standard": 13,
+      "MH_Tee Sanitary - PVC - Sch 40 - DWV | Standard": 10,
+      "MH_Transition - Generic | @M_PF_Standard": 9,
+      "MH_M_Tee - Generic | @M_PF_Standard": 8,
+      "Cap - Threaded - MI - Class 150 | Standard": 1
+    },
+    "Air Terminals": {
+      "mh_AT_Exhaust Air Grille | @M_AT_900 X 450": 50,
+      "mh_AT_Supply Air Grille | @M_AT_@M_1250 X 400": 32,
+      "mh_AT_Louver - Extruded | @M_AT_Standard": 10,
+      "mh_AT_Exhaust Air Grille | @M_AT_650 X 250": 8,
+      "mh_AT_Makeup Air Grille | @M_AT_600 X 200": 6,
+      "mh_AT_Makeup Air Grille | @M_AT_500 X 200": 6,
+      "mh_AT_Exhaust Air Grille | @M_AT_1270 X 400": 6,
+      "mh_AT_Makeup Air Grille | @M_AT_900 X 300": 4,
+      "mh_AT_Supply Air Grille | @M_AT_@M_900 X 300": 2,
+      "mh_AT_Makeup Air Grille | @M_AT_650 X 250": 2,
+      "mh_AT_Exhaust Air Grille | @M_AT_1500 X 700": 2,
+      "mh_AT_Return Air Grille | @M_AT_900 X 300": 2,
+      "mh_AT_WIRE MESH VERTICAL GRILLE | @M_AT_AIR": 2,
+      "mh_AT_WIRE MESH VERTICAL GRILLE | @M_AT_AIR_5900X1600": 2,
+      "mh_AT_Makeup Air Grille | @M_AT_300 X 200": 1
+    },
+    "Duct Accessories": {
+      "mh_DA_Air Volume Control Damper - Rectangular | @M_DA_Standard": 27,
+      "mh_DA_DAMPER FSD | @M_DA_DAMPER FSD": 24,
+      "mh_DA_Manual Damper - Round | @M_DA_Standard": 20,
+      "MH_M_Pneumatic Control Damper - Rectangular | Standard": 10,
+      "mh_PNEUMATIC_Motor Damper - Round | @M_DA_Standard": 2,
+      "mh_DA_FIRE Damper - Round | @M_DA_Standard": 1
+    },
+    "Pipe Accessories": {
+      "Ball Valve - 50-150 mm | 50 mm": 9
+    },
+    "Generic Models": {
+      "Stool Support | Stool Support": 1
+    },
+    "Structural Columns": {
+      "mu_Column_Triangle_v1 | @A_柱_450x600mm": 1
+    }
+  },
+  "5.2 CR HVAC": {
+    "Mechanical Equipment": {
+      "mh_MEQ_FFU WITH CHEMICAL FILTER - EMERGENCY | @D_MEQ_FFU WITH CHEMICAL FILTER - EMERGENCY": 1890,
+      "washers_V1 | M12": 1428,
+      "hexagonal_nut_V1 | M12": 1428,
+      "Fixotec_Support-channels_FXT-Protection-caps_V2 | 41x41": 1363,
+      "mh_MEQ_FFU WITH CHEMICAL FILTER | @D_MEQ_FFU WITH CHEMICAL FILTER": 1320,
+      "hexagonal_nut_V1 | M16_FSA 03-7": 995,
+      "washers_V1 | M16_FSA 03-7": 972,
+      "channel_V7 | 41x41_2.5_HDG": 878,
+      "Fixotec_Accessories_hexagonal_nut_V1 | M10 FSA03-7": 820,
+      "hexagonal_washers_V1_FSA 03-7 | M10": 820,
+      "support-channel_V7 | 41x41_2.5_HDG": 714,
+      "Fixotec_Accessories_hexagonal_washers_V1 | M12": 714,
+      "Fixotec_Accessories_hexagonal_nut_V1 | M12": 714,
+      "rods_V1 | M12": 714,
+      "grider-cleats_V1 | 38/24_GAL": 608,
+      "rods_V1 FSA 03-7 | M10": 562,
+      "I-Beam Mounted STRAP SUPPORT | with base plate": 552,
+      "Fixotec_Support-channels_FXT-Protection-caps_V2 | 41x41_FSA-03-7": 410,
+      "support-channel_FSA 03-7 | 41x41_2.5_HDG": 410,
+      "Beam Clamp_FSA 03-7 | 88.9mm": 403,
+      "L-Clamp | MT-C-L1": 370,
+      "DSA-01-01 | DSA-01-01.1": 227,
+      "FX_Support-channels_FXR-Splus_mounting-angles-135-deg_V1 | 2+2_GAL": 172,
+      "washers_V1 | M10": 152,
+      "C-CLAMP | 88.9mm": 129,
+      "PC-05 | PC-05": 118,
+      "DSA-01-01 | DSA-01-01": 108,
+      "FXR Support-Channels Suspended Support (only Bracing) | Seismic Restraint": 86,
+      "MUEPRO_Anchors_BZ-Heavy-Duty-anchors_V7 | M8-6/60_GAL": 86,
+      "Channel hingged-c-clamp | Hanger_65": 75,
+      "Hilti_INS_connector_MQT_beam clamp-01 | MQT-41-82": 74,
+      "mh_MEQ_03.06.2024 - R1 - RCU REVIT FAMILY | @M_MEQ_Coil LHS": 72,
+      "mh_MEQ_STARTER PANEL | @D_MEQ_PANEL": 64,
+      "grider-cleats_V1 | 38/80_GAL": 60,
+      "Channel hingged-c-clamp | Hanger_50": 54,
+      "channel_V1 | 41x41_2.5_HDG 2": 42,
+      "mh_MEQ_Pump-Inline-Vertical-Remote_Coupled-Patterson-EnviroFlo | @D_MEQ_ERROR_LOAD TYPE CATALOG": 24,
+      "Channel hingged | Hanger_50": 23,
+      "mh_Maintenance Space | @M_Maintenance Space": 14,
+      "mh_MEQ_STAND_RCU_PANEL | @D_MEQ_STAND RCU PANEL": 8,
+      "mu_@M_CRMAU_FUTURE | @M_MEQ_Access Door LHS": 7,
+      "mh_MEQ_CABLE ENTRY | @M_MEQ_CABLE ENTRY": 5,
+      "mh_MEQ_Box | @M_MEQ_Pedestal - Flammable Gas Room": 4,
+      "mh_MEQ_Box | @M_MEQ_MAU - Flammable Gas Room": 4,
+      "I-Beam Mounted_H1-H2 | with base plate": 3,
+      "mh_MEQ_CRMAU | @M_MEQ_Access Door LHS": 2,
+      "mh_MEQ_Box | @M_MEQ_Pedestal - Mechanical Room": 2,
+      "mh_MEQ_Box | @M_MEQ_AHU - Mechanical Room": 2,
+      "mh_MEQ_Box | @M_MEQ_EF - Flammable Gas Room": 2,
+      "mh_MEQ_Vane Axial Fan AXC630-Horizontal | @M_MEQ_CEEF-01(E)": 2,
+      "DSA-01-01 | DSA-01-01.2": 2,
+      "mh_MEQ_Box | @M_MEQ_Pedestal EF - Flammable Gas Room": 1
+    },
+    "Pipes": {
+      "Pipe Types | PVC - DWV": 404,
+      "Pipe Types | mh_@M_Pipe_GI": 320,
+      "Pipe Types | mh_@M_Pipe_SS304": 150,
+      "Pipe Types | mh_@M_Pipe_UPVC_Sch40": 128,
+      "Pipe Types | PVC -ASTM D-1785 SCH-40": 60,
+      "Pipe Types | mh_@M_Pipe_PVC": 38,
+      "Pipe Types | mh_@M_Pipe_GI_tee": 16,
+      "Pipe Types | PVC -6 kg/cm2": 8
+    },
+    "Ducts": {
+      "Rectangular Duct | mh_@M_Duct_GI_Tap": 848,
+      "Round Duct | mh_@M_Duct_GI_Tap": 104,
+      "Rectangular Duct | mh_@M_Duct_GI_Tee": 36,
+      "Round Duct | mh_@M_Duct_GI_Tee": 8
+    },
+    "Center line": {
+      "Center line | ": 591
+    },
+    "Center Line": {
+      "Center Line | ": 562
+    },
+    "Pipe Insulations": {
+      "Pipe Insulation | Fiberglass": 536
+    },
+    "Pipe Fittings": {
+      "MH_Bend - PVC - Sch 40 - DWV | Standard": 102,
+      "MH_Reducer - PVC - Sch 40 - DWV | Standard": 51,
+      "MH_Elbow - PVC - Sch 40 | @M_PF_Standard": 48,
+      "MH_Tee Sanitary - PVC - Sch 40 - DWV | Standard": 47,
+      "mh_PF_Elbow - Welded - Generic1 | @M_PF_Standard": 46,
+      "mh_PF_Elbow - Soldered - CU | @M_PF_Standard": 45,
+      "mh_PF_Reducer - Soldered - CU | @M_PF_Standard": 30,
+      "M_Elbow | Standard": 24,
+      "mh_PF_Tee - Soldered - CU | @M_PF_Standard": 21,
+      "mh_PF_Bend - PVC - Sch 40 - DWV | @M_PF_Standard": 13,
+      "MH_M_Tee - Generic | @M_PF_Standard": 12,
+      "MH_Transition - Generic | @M_PF_Standard": 11,
+      "mh_PF_Trap P - PVC - Sch 40 - DWV | @M_PF_Standard": 8,
+      "mh_PF_Tee Branch Reduced - Butt Welded - CS | @M_PF_MS 2": 6,
+      "M_Tee Reducing Vent - DWV | Standard": 4,
+      "mh_PF_Elbow - Welded - Generic1 | @M_PF_Elbow CHWS": 3,
+      "Cap - Threaded - MI - Class 150 | Standard": 3,
+      "Reducer | Standard": 2,
+      "mh_PF_Flange -Slip-on | Standard": 1,
+      "M_Wye Combination with 8th Bend Double - PVC - Sch 40 - DWV | Standard": 1,
+      "MH_Tee - PVC - Sch 1 | Standard": 1,
+      "MH_Coupling Reducing - PVC - Sch 40 | @M_PF_Standard": 1,
+      "MH_Cap - Generic | @M_PF_Standard": 1,
+      "M_Tee Reducing Sanitary | BEND Standard": 1
+    },
+    "Duct Fittings": {
+      "MH_M_Rectangular Elbow - Radius | 1 W": 183,
+      "MH_M_Rectangular Tap - Beveled | Standard": 97,
+      "MH_M_Rectangular Transition - Angle | 60 Degree": 29,
+      "MH_M_Rectangular Endcap | Standard": 24,
+      "M_Round Takeoff - Shoe | Standard": 24,
+      "MH_M_Round Endcap | Standard": 13,
+      "MH_M_Rectangular Elbow - Radius | @M_DF_1 W": 11,
+      "MH_M_Round Elbow | 1 D": 11,
+      "MH_M_Rectangular Transition - Angle | @M_DF_60 Degree": 7,
+      "MH_M_Rectangular Transition - Angle | @M_DF_45 Degree": 5,
+      "MH_M_Rectangular Tap - Beveled | @M_DF_Standard": 4,
+      "mh_DF_Rectangular Transition - Length | @M_DF_Standard": 4,
+      "MH_M_Rectangular Transition - Angle | 30 Degree": 3,
+      "MH_mh_DF_Rectangular Transition - Length1 | @M_DF_Transition": 3,
+      "MH_M_Round Transition - Angle | 45 Degree": 3,
+      "MH_M_Rectangular Endcap | @M_DF_Standard": 2,
+      "MH_M_Rectangular Elbow - Mitered | @M_DF_Standard": 2,
+      "MH_M_Rectangular Tee | Standard": 2,
+      "M_Round Tee - Straight | Standard": 2,
+      "MH_M_Rectangular to Round Transition - Angle | 45 Degree": 1
+    },
+    "Duct Insulations": {
+      "Duct Insulation | Duct Wrap": 208,
+      "Duct Insulation | mh_@M_DI_Duct Wrap": 61,
+      "Duct Insulation | mh_@M_DI_FIRE_WRAP": 11
+    },
+    "Generic Models": {
+      "Drain Pan DCC | Drain Pan DCC": 136,
+      "DPS(WAYK) | DPS(WAYK)": 12,
+      "PUMP FOUNDATION PLATE | PUMP FOUNDATION PLATE": 3,
+      "mh_PA_pressure transmitter(PT) | @D_PA_pressure transmitter(PT)": 3
+    },
+    "Pipe Accessories": {
+      "mh_PA_Butterfly_Valves-Full_Lug-WATTS-BF-03_Series | @M_PA_BF-03 / 5\"": 36,
+      "mh_PA_Flexible_Connector | @M_PA_4\" Flexible Connector": 24,
+      "MANIFOLD 3 WAY | MANIFOLD 3 WAY": 18,
+      "mh_PA_Ball Valve - 50-150 mm1 | @M_PA_50 mm": 15,
+      "mh_PA_Check_Valves-Mueller_Steam-1604_Series | @M_PA_1604-A 5\"": 12,
+      "mh_PA_Solenoid Valve - 0.25-0.375 Inch | @M_PA_3/8\"": 6,
+      "mh_PA_Ball Valve - 50-150 mm1 | @M_PA_50 mm 2": 6,
+      "mh_PA_PRV-20 | @M_PA_20": 3,
+      "mh_PA_Y Strainer - 50-500 mm - Flanged1 | @M_PA_125 mm": 3,
+      "STANCHION STAND- FINAL 2 WAY | STANCHION STAND- FINAL 2 WAY": 3,
+      "Butterfly Valve | 80mm": 2
+    },
+    "Duct Accessories": {
+      "MH_M_Motor Damper - Rectangular | @M_DA_Standard": 16,
+      "MH_M_Pneumatic Control Damper - Rectangular | Standard": 11,
+      "mh_DA_Air Volume Control Damper - Rectangular | @M_DA_Standard": 10,
+      "M_Balancing Damper - Round | Standard": 10,
+      "mh_DA_Damper_FSD | @M_DA_Damper_FSD": 8,
+      "mh_DA_Motor Damper - Rectangula - Single actuator- | @M_DA_Standard": 7,
+      "mh_PNEUMATIC_Motor Damper - Round | @M_DA_Standard": 7,
+      "MH_M_Motor Damper - Rectangular - POD | Standard": 6,
+      "mh_DA_BLAST GATE DAMPER | @M_DA_BLAST GATE DAMPER": 4,
+      "MH_M_Motor Damper - Rectangular | Standard": 3,
+      "mh_DA_Control Damper - Rectangular - Motorised | @M_DA_POD": 2,
+      "mh_DA_Motor Damper - Rectangula - double actuator- | @M_DA_Standard": 1,
+      "mh_DA_Motor Damper - Round01 | @M_DA_Standard": 1,
+      "mh_DA_FIRE Damper - Round | @M_DA_Standard": 1,
+      "mh_FSD - Round | @M_DA_Standard": 1
+    },
+    "Air Terminals": {
+      "mh_AT_Exhaust vertical horizontal grille with shutter1 | @M_AT_500X400": 14,
+      "mh_AT_Makeup Air Grille | @M_AT_700 X 350": 11,
+      "mh_AT_Makeup Air Grille | @M_AT_700 X 450": 10,
+      "mh_AT_Supply vertical horizontal grille with shutter | @M_AT_750X350": 9,
+      "mh_AT_Louver - Extruded | @M_AT_Standard": 8,
+      "mh_AT_Exhaust vertical horizontal grille with shutter | @M_AT_500X200": 8,
+      "mh_AT_Supply vertical horizontal grille with shutter | @M_AT_1500X500": 6,
+      "mh_AT_Exhaust vertical horizontal grille with shutter | @M_AT_1150X1150": 5,
+      "mh_AT_Exhaust vertical horizontal grille with shutter | @M_AT_300X450": 4,
+      "mh_AT_Makeup Air Grille | @M_AT_500 X 200": 4,
+      "mh_AT_Makeup Air Grille | @M_AT_1500 X 500": 3,
+      "mh_AT_Makeup Air Grille | @M_AT_150 X 150": 2,
+      "mh_AT_Supply vertical horizontal grille with shutter | @M_AT_900X600": 1,
+      "mh_AT_Exhaust vertical horizontal grille with shutter | @M_AT_300X200": 1,
+      "mh_AT_Exhaust vertical horizontal grille with shutter | @M_AT_500X500": 1
+    },
+    "Duct Linings": {
+      "Duct Lining | Textile": 12
+    },
+    "Structural Foundations": {
+      "MECH_EQUIP_PLINTH | Chiller Foundation": 3
+    },
+    "Lines": {
+      "Lines | ": 1
+    },
+    "Structural Columns": {
+      "mu_Column_Triangle_v1 | @A_柱_450x600mm": 1
+    }
+  },
+  "2.3 PHE Works": {
+    "Pipes": {
+      "Pipe Types | COPPER ASTM B-88": 228,
+      "Pipe Types | HDPE PE 100 PN 6": 216,
+      "Pipe Types | GALVANIZED IRON": 42,
+      "Pipe Types | COPPER -ASTM B88": 114,
+      "Pipe Types | PVC - DWV": 87,
+      "Pipe Types | Galvanized Iron": 20,
+      "Pipe Types | mh_@D_Pipe_UPVC_Sch80": 7,
+      "Pipe Types | Cast Iron-Hubless": 1
+    },
+    "Center Line": {
+      "Center Line | ": 247
+    },
+    "Center line": {
+      "Center line | ": 192
+    },
+    "Pipe Fittings": {
+      "MH_Elbow | Standard": 148,
+      "MH_Tee Reducing 2 | Standard": 23,
+      "M_Elbow | Standard": 82,
+      "MH_Transition - Generic | Standard": 5,
+      "M_Tee Reducing Vent | Standard": 8,
+      "MH_Tee Sanitary - PVC - Sch 40 - DWV | Standard": 7,
+      "Flange - Slip-on - Steel - Class 150 | Standard": 1,
+      "MH_Coupling Reducing | Standard": 2,
+      "MH_Cap - Generic | Standard": 1,
+      "MH_Bend - PVC - Sch 40 - DWV | Standard": 54,
+      "M_Tee Reducing Vent - DWV | Standard": 9,
+      "MH_Reducer - PVC - Sch 40 - DWV | Standard": 7,
+      "Wye 45 Deg Reducing - PVC - Sch 40 - DWV | Standard": 6,
+      "M_Flange - Blind - Steel - Class 150 | Standard": 5,
+      "MH_Plug - PVC - Sch 40 - DWV | Standard": 4,
+      "Tee Reducing | Standard": 3,
+      "Elbow | Standard": 3,
+      "M_Transition - Generic | Standard": 2,
+      "MH_Coupling - Generic | Standard": 1
+    },
+    "Plumbing Fixtures": {
+      "mh_P_Safety shower | mh_P_Safety shower": 22,
+      "mh_P_Multi Floor Drain | MFD 50mm": 13,
+      "Shafety Shower Open Type | Shafety Shower Open Type": 2,
+      "mh_P_Eye safety shower | mh_P_Safety shower": 18,
+      "Drain_Shower_RadiantAustralia_Grate | Black 900mm Length + 38mm Waste (316-BLK-RGL-400-38) 2": 9,
+      "Plumbing_Drainage_COTTO_CT6406Z4P | Rail Drain for Ø2\" PVC Drain Pipe (10x100 cm.)": 1
+    },
+    "Pipe Accessories": {
+      "Ball Valve | 40 mm": 34,
+      "Ball Valve | 20 mm": 4,
+      "Pressure_Reducing_Valve | 40MM": 4,
+      "Pressure Gauge | 100mm Dial": 4,
+      "Double_Check_Valve_Assemblies-WATTS-(125-200_LF007-QT, 125-200_LF007-QT-S)_Series | LF007-M2-QT- 1.5\"": 3,
+      "Flow_switch-Caleffi-626 | 1''": 3,
+      "Ball Valve | 25 mm": 1
+    },
+    "Plumbing Equipment": {
+      "mh_P_Chamber | 600x600x600": 1,
+      "mh_P_Chamber | 450x450x600": 1
+    }
+  },
+  "11.1 INTERNAL HYDRANT SYSTEM": {
+    "Pipes": {
+      "Pipe Types | mh_@F_Pipe_MS - Tee": 1910,
+      "Pipe Types | mh_@F_GSS_Pipe_MS - Tee": 178,
+      "Pipe Types | mh_@F_Pipe_MS_Tap": 4
+    },
+    "Center Line": {
+      "Center Line | ": 1046
+    },
+    "Mechanical Equipment": {
+      "hexagonal_nut_V1 | M16_FSA 03-7": 159,
+      "washers_V1 | M16_FSA 03-7": 140,
+      "washers_V1 | M10": 121,
+      "rods_V1 FSA 03-7 | M10": 102,
+      "Channel hingged 50--c-clamp | Hanger_100 mm": 99,
+      "support-channel_FSA 03-7 | 41x41_2.5_HDG": 48,
+      "mh_MEC_CO2 FIRE EXTINGUSIER WITH CABIN | @F_MEC_CO2 FIRE EXTINGUSIER WITH CABIN": 40,
+      "mh_MEC_ABC FIRE EXTINGUSIER WITH CABIN | @F_MEC_ABC FIRE EXTINGUSIER WITH CABIN": 40,
+      "mh_MEC_140 Ltr Cyclinder | @F_MEC_140 Ltr Cyc - Viking": 32,
+      "mh_MEC_CA FIRE EXTINGUSIER WITH CABIN | @F_MEC_CA FIRE EXTINGUSIER WITH CABIN": 32,
+      "C-CLAMP | 88.9mm": 24,
+      "FSA 06 | FSA 06-50": 24,
+      "FSA 06 | FSA 06-100": 14,
+      "BS 11 | FSA 03-25": 5,
+      "Pressure Relief Damper | PRD": 5,
+      "Pilot Cylinder 20L | Pilot Cylinder 20L": 4,
+      "mh_MEQ_MEC_CABINET_FIRE HOSE REEL_Top&Side Connections | @F_MEQ_FIRE HOSE REEL": 3,
+      "Channel hingged 80--c-clamp - | Hanger_100 mm": 3,
+      "FSA 01-25NB | FSA 01-25NB": 3,
+      "FSA 01-100NB | FSA 01-100NB": 2,
+      "Beam Clamp | 88.9mm": 2,
+      "mh_MEC_BATTEERY FRAME -01 | @F_MEC_BATTEERY FRAME -01": 1,
+      "FIRE HOSE REEL CABINET 01 | @F_MEQ_FIRE HOSE REEL": 1,
+      "VF Bladder Tank - Vertical | VFTV0350U 350 Gallon Vertical 175psi": 1,
+      "mh_Mech eq Box | mh_Mech eq Box": 1
+    },
+    "Center line": {
+      "Center line | ": 849
+    },
+    "Pipe Fittings": {
+      "Tee Branch Reduced - Threaded - MS | Standard": 274,
+      "Elbow - Threaded - MI - Class 300 | Standard": 233,
+      "M_Elbow - Welded - Generic | Standard": 101,
+      "M_Transition - Generic1 | Standard": 95,
+      "M_Transition - Generic | Standard": 57,
+      "Elbow - Threaded - MI - Class 150 | Standard": 31,
+      "Cross - Threaded - MI - Class 150 | Standard": 25,
+      "Cap - Threaded - MI - Class 150 | Standard": 20,
+      "Tee - Threaded - MI - Class 150 | Standard": 9,
+      "M_Branch Connection - Threaded - Generic | Standard": 3,
+      "Coupling - Generic1 | Standard": 1
+    },
+    "Sprinklers": {
+      "SPK_UPRIGHT_UPRIGHT_FIRE WET_N | SPRINKLER K FACTOR 160_UPRIGHT": 137,
+      "SPK_UPRIGHT_UPRIGHT_FIRE WET_N1 | SPRINKLER K FACTOR 115_UPRIGHT": 110,
+      "RV-360D NOZZLE | LOW LEVEL 25mm": 31
+    },
+    "Pipe Accessories": {
+      "M_Butterfly Valve - 50-300 mm | 100 mm": 5,
+      "mh_PA_DB VALVE | @F_PA_DB VALVE": 4,
+      "M_Ball Valve - 50-150 mm | 100 mm": 3,
+      "M_Gate Valve - 50-300 mm | 150 mm": 3,
+      "mh_PA_PPA_GATE_VALVE_N | Standard": 2,
+      "mh_PA_Flow Detector - Switch | Standard": 2,
+      "VKV Flow Control Valve Model J-2 | Deluge valve - Conventional Trim (Vertical) 4\"": 2,
+      "M_Ball Valve - 50-150 mm | 50 mm": 2,
+      "Foam system CCV Valve | CCV Concentrate cntrol valve": 2,
+      "mh_PA_Victaulic-FP-FireLock Alarm Check Valve Series 751 | Standard": 1,
+      "safety valve | safety valve": 1,
+      "M_Y Strainer - 50-500 mm - Flanged | 100 mm": 1,
+      "VF Ratio Controller | 4\"x2\"": 1,
+      "mh_Pipe_AAV | mh_Pipe_AAV": 1
+    },
+    "Generic Models": {
+      "mh_Fire Pipe Cutout | mh_Fire Pipe Cutout": 5
+    },
+    "Plumbing Equipment": {
+      "FA_DPS Switch | FA_DPS Switch": 2
+    },
+    "Specialty Equipment": {
+      "20L pilot cylinder Bucket support | 20L pilot cylinder Bucket support": 2
+    },
+    "Structural Columns": {
+      "mu_Column_Triangle_v1 | @A_柱_450x600mm": 1
+    }
+  },
+  "11.2 SPRINKLER SYSTEM": {
+    "Pipes": {
+      "Pipe Types | mh_@F_Pipe_MS_Tee": 10534,
+      "Pipe Types | mh_@F_GSS_Pipe_MS_Tee": 24,
+      "Pipe Types | mh_@F_Pipe_MS_Tap": 20
+    },
+    "Mechanical Equipment": {
+      "leg support pipe | with base plate": 1794,
+      "PC-05 | PC-05": 1786,
+      "Beam Clamp | 88.9mm": 752,
+      "FSA 01-40NB | FSA 01-40NB": 511,
+      "FSA 01-100NB | FSA 01-100NB": 283,
+      "mh_MEC_CO2 FIRE EXTINGUSIER WITH CABIN | @F_MEC_CO2 FIRE EXTINGUSIER WITH CABIN": 264,
+      "FSA 01-50NB | FSA 01-50NB": 116,
+      "FSA 01-25NB | FSA 01-25NB": 17,
+      "mh_MEC_140 Ltr Cyclinder | @F_MEC_140 Ltr Cyc - Viking": 16,
+      "mh_MEC_CABINET_FIRE HOSE REEL_Top&Side Connection | @F_MEC_FIRE HOSE REEL (W1200*D450*H1500": 12,
+      "FSA 01-65NB | FSA 01-65NB": 11,
+      "mh_MEC_CA FIRE EXTINGUSIER WITH CABIN | @F_MEC_CA FIRE EXTINGUSIER WITH CABIN": 8,
+      "CONC.PAD | CONC.PAD": 4,
+      "mh_MEC_Pilot Cylinder 10L | @F_MEC_GAS Oxeo Cylinder 10L": 4,
+      "mh_Helix first V Pump | mh_Helix first V Pump": 4,
+      "Channel hingged 25--c-clamp - Copy | Hanger_100 mm": 2,
+      "washers_V1 | M16_FSA 03-7": 2,
+      "washers_V1 | M10": 2,
+      "hexagonal_nut_V1 | M16_FSA 03-7": 2,
+      "rods_V1 FSA 03-7 | M10": 2,
+      "C-CLAMP | 88.9mm": 2,
+      "mh_MEC_FIRE HOSE REEL CABINET 2 Nos | @F_MEC_FHC (W1200*H800*D450)": 1,
+      "mh_Mech eq Box | mh_Mech eq Box": 1,
+      "Pressure Relief Damper | PRD": 1
+    },
+    "Center line": {
+      "Center line | ": 5405
+    },
+    "Pipe Fittings": {
+      "Elbow - Threaded - MI - Class 150 | Standard": 1354,
+      "Tee Branch Reduced - Threaded - MS | Standard": 1129,
+      "Transition - Generic | Standard": 984,
+      "Elbow - Threaded - MI - Class 150 | @F_PF_Standard": 677,
+      "M_Transition - Generic | @F_PF_Standard": 426,
+      "Tee Branch Reduced - Threaded - MS | @F_PF_Standard": 243,
+      "M_Coupling - Generic | Standard": 240,
+      "Elbow - Welded - Generic | Standard": 182,
+      "Cross - Welded - Generic | Standard": 90,
+      "Cap - Threaded - MI - Class 150 | Standard": 52,
+      "mh_PF_Flange -Slip-on | @D_PF_Standard": 18,
+      "M_Branch Connection - Threaded - Generic | Standard": 6,
+      "Tee - Threaded - MI - Class 150 | @F_PF_Standard": 2,
+      "Cap - Threaded - MI - Class 150 | @F_PF_@F_PF_Standard": 1,
+      "Elbow - Welded - Generic | @F_PF_Standard": 1
+    },
+    "Center Line": {
+      "Center Line | ": 5289
+    },
+    "Sprinklers": {
+      "mh_SPK_UPRIGHT_UPRIGHT_FIRE WET_N | @F_Sprinkler_HEAD_UPRIGHT_FIRE WET RAISED FLOOR": 598,
+      "mh_SPK_PENDENT_N | @F_Sprinkler_K FACTOR 115_PENDENT": 342,
+      "SPK_PENDENT_N | SPRINKLER K FACTOR 115_PENDENT": 299,
+      "SPK_UPRIGHT_UPRIGHT_FIRE WET_N2 | SPRINKER K FACTOR 115_UPRIGHT": 126,
+      "SPK_UPRIGHT_UPRIGHT_FIRE WET_N | SPRINKLER K FACTOR 115_UPRIGHT": 96,
+      "SPK_UPRIGHT_UPRIGHT_FIRE WET_N | SPRINKLER K FACTOR 160_UPRIGHT": 25,
+      "SPK_PENDENT_N | SPRINKLER K FACTOR 160_PENDENT 2": 6,
+      "RV-360D NOZZLE | @F_Nozzle_LOW LEVEL 20mm": 2
+    },
+    "Flex Pipes": {
+      "Flex Pipe Round | mh_@F_Pipe_Flex - Round": 342,
+      "Flex Pipe Round | mh_@F_SS_Flex Pipe - Round": 303
+    },
+    "Pipe Accessories": {
+      "M_Butterfly Valve - 50-300 mm | 100 mm": 11,
+      "mh_PA_PPA_GATE_VALVE_N | @F_PA_Zone Control Valve": 3,
+      "mh_PA_Ball Valve - 15-150 mm-GA | @F_PA_25 mm": 3,
+      "mh_PA_Ball Valve - 50-150 mm | @F_PA_50 mm": 3,
+      "mh_PA_VKV Wet Valve Model E-1 and F-1 | @F_PA_VKV Wet Valve Model E-1 and F-1": 2,
+      "mh_PA_Flow Detector - Switch | Standard": 2,
+      "M_Butterfly Valve - 50-300 mm | 150 mm": 2,
+      "mh_Pipe_AAV | mh_Pipe_AAV": 2,
+      "mh_PA_DV valve 25mm | DV valve 50mm": 1,
+      "mh_PA_safety valve | safety valve": 1
+    },
+    "Structural Columns": {
+      "mu_Column_Triangle_v1 | @A_柱_450x600mm": 1
+    }
+  },
+  "10.1 Non-CR Elect.": {
+    "Mechanical Equipment": {
+      "washers_V1 | M12": 3854,
+      "hexagonal_nut_V1 | M12": 3854,
+      "Fixotec_Support-channels_FXT-Protection-caps_V2 | 41x41": 2076,
+      "support-channel_V7 | 41x41_2.5_HDG": 2032,
+      "rods_V1 | M12": 942,
+      "Fixotec_Accessories_hexagonal_nut_V1 | M12": 942,
+      "Fixotec_Accessories_hexagonal_washers_V1 | M12": 936,
+      "Fixotec_Support-channels_FXT-support-channel_V7_2 | 41x41_2.5_GAL": 886,
+      "Hilti_INS_connector_MT-C-LL | MT-C-LL1": 572,
+      "Hilti_INS_baseconnector_MT-B-T | MT-B-T": 154,
+      "channel_V7 | 41x41_2.5_HDG": 84,
+      "grider-cleats_V1 | 38/24_GAL": 44,
+      "Cleats_V1 | 38/40_A4": 16,
+      "support-channel_V1 | 41x41_2.5_HDG": 12,
+      "Fixotec_Accessories_hexagonal_washers_V2 | M12": 6,
+      "channel_V1 | 41x41_2.5_HDG": 6
+    },
+    "Lighting Fixtures": {
+      "mh_LGHT_BayLight_Normal | mh_LGHT_BayLight_120W": 312,
+      "mh_LGHT_LinearLight_Suspended | mh_LGHT_LinearLight_Suspended": 164,
+      "MH_LGHT_SuspendedLight | mh_LGHT_SuspendedLight": 127,
+      "Lighting_Emergency&Security_Zemper_Spazio-Sign | Default - please load Revit Family Type Catalog": 66,
+      "MH_LGHT_TubeLight | mh_LGHT_TubeLight_40W": 36,
+      "Lighting_Emergency&Security_Zemper_Spazio-Sign_ES | Default - please load Revit Family Type catalog": 21,
+      "Pole | 71257 BROT LED DARK GREY POLE 10W 3000K H1800 PORTABLE": 18,
+      "Lighting_Emergency-and-Security_Daisalux_IKUS2211_S-A-TCA_EN | Ikus2211-S P (220-230V 50/60Hz, 110-127V 50/60Hz (110-127V))": 9,
+      "Lighting_Emergency-and-Security_Daisalux_IKUS2211_S-A-TCA_EN | Ikus2211-S 2P A/TCA (220-230V 50/60Hz, 110-127V 50/60Hz (110-127V))": 9,
+      "mh_LGHT_BayLight_Normal1 | mh_LGHT_BayLight_150W": 8,
+      "mh_LGHT_BayLight_Emergency | mh_LGHT_BayLight_150W": 4,
+      "Lighting_Emergency_RAB-Lighting_Exit-Sign_EXIT34 | EXIT34 - G": 2
+    },
+    "Cable Trays": {
+      "Cable Tray with Fittings | Ladder Tray": 486,
+      "Cable Tray with Fittings | mh_@E_Ladder Cable Tray": 63,
+      "Cable Tray with Fittings | mh_RCWY_Ceiling": 24,
+      "Cable Tray with Fittings | mh_RCWY_Ceiling 100x50": 3
+    },
+    "Cable Tray Fittings": {
+      "MH_Ladder Vertical Outside Bend | Standard": 144,
+      "MH_Ladder_Rack-Fitting-Chalfant-Horizontal_Bend_90 | Standard": 86,
+      "MH_Ladder Vertical Inside Bend | Standard": 65,
+      "MH_Cable_Bus_Trough_Vertical_Outside_Bend_CH_I | Solid Bottom Trough - Aluminum (AL)": 17,
+      "MH_Cable_Bus_Trough_Vertical_Inside_Bend_CH_I | Solid Bottom Trough - Aluminum (AL)": 17,
+      "Ladder Vertical Outside Bend | mh_@E_Fitting": 16,
+      "Ladder Horizontal Bend | mh_@E_Fitting": 16,
+      "MH_Ladder Horizontal Tee | 300mm Radius": 16,
+      "Ladder Vertical Inside Bend | mh_@E_Fitting": 12,
+      "MH_Ladder Reducer | Standard": 8,
+      "MH_Cable_Bus_Trough_Horizontal_Bend_CH_I | Solid Bottom Trough - Aluminum (AL)": 7,
+      "MH_Cable_Bus_Trough_Horizontal_Tee_CH_I | Solid Bottom Trough - Aluminum (AL)": 2
+    },
+    "Electrical Equipment": {
+      "mh_LCS | SDS-1-F26-R3-xx-P1-xx-xx-PM4": 126,
+      "MH_ GF POWER PANEL | VFD MAU 6": 4,
+      "Disconnect Switches | 480V - Non-Fusible 60A": 4,
+      "mh_SSBF | BATTERY-200kva ups": 4,
+      "MH_ GF POWER PANEL | MSI1-CUB-1-C2CB-415RPDB-002": 3,
+      "MH_ GF POWER PANEL | 4 NOS. OF VFD PANEL FOR WWTP": 3,
+      "Disconnect Switches | 240V - Fusible 30A": 3,
+      "MH_ GF POWER PANEL | MSI1-CUB-1-C3CB-FAC-415SSB-502": 2,
+      "MH_ GF POWER PANEL | VSD AMMONIA FAN-1": 2,
+      "MH_ GF POWER PANEL | VSD AMMONIA FAN-2": 2,
+      "MH_ GF POWER PANEL | VSD AMMONIA FAN-3": 2,
+      "MH_ GF POWER PANEL | VSD SOLVENT PRIMARY FAN-3": 2,
+      "MH_ GF POWER PANEL | MSI1-CUB-1M-C4CA-415RPDB-502-4": 2,
+      "MH_ GF POWER PANEL | ELVDB": 2,
+      "MH_ GF POWER PANEL | VFD MAU 7": 2,
+      "MH_ GF POWER PANEL | EF 13": 2,
+      "MH_ GF POWER PANEL | EF 14": 2,
+      "MH_ GF POWER PANEL | VFD MAU 9": 2,
+      "MH_ADMIN GF POWER PANEL | MSI1-CUB-1M-C4CC-FAC-415PDB-001": 2,
+      "MH_ADMIN GF POWER PANEL | MCC": 2,
+      "MH_SUBLDB | LDB DISTRIBUTION BOARD-502": 2,
+      "MH_SUB UPSDB | ELDB-415-602": 2,
+      "MH_ GF POWER PANEL | MSI1-CUB-1-C3CC-CTRL-415UPSDB-401": 1,
+      "MH_ GF POWER PANEL | MSI1-CUB-1-C4CB-RTU-415-013": 1,
+      "MH_ GF POWER PANEL | MSI1-CUB-1-C4CD-CTRL-415UPS-004": 1,
+      "MH_ GF POWER PANEL | SOLVENT SYSTEM CONTROL PANEL-2": 1,
+      "MH_ GF POWER PANEL | VSD ACID SCRUBBER FAN-3": 1,
+      "MH_ GF POWER PANEL | VSD ACID SCRUBBER FAN-1": 1,
+      "MH_ GF POWER PANEL | VSD ACID SCRUBBER FAN-2": 1,
+      "MH_ GF POWER PANEL | PROPOSED VENDOR CONTROL PANEL WWTP": 1,
+      "MH_ GF POWER PANEL | WWTP VENDOR PANEL": 1,
+      "MH_ GF POWER PANEL | UPW VENDOR PANEL": 1,
+      "MH_ GF POWER PANEL | PROPOSED VENDOR CONTROL PANEL UPW": 1,
+      "MH_ GF POWER PANEL | VSD SOLVENT PRIMARY FAN-2": 1,
+      "MH_ GF POWER PANEL | MSI1-CUB-1-C3CC-ELDB-415-601": 1,
+      "MH_ GF POWER PANEL | MSI1-CUB-1-C3CD-LDB-415-502-1": 1,
+      "MH_ GF POWER PANEL | MSI1-CUB-1-C4CB-415RPDB-502-3": 1,
+      "MH_ GF POWER PANEL | MSI1-CUB-1-C3CC-415UPSAUXP-001": 1,
+      "MH_ GF POWER PANEL | MSI1-CUB-1-C3CC-415AUXP-001": 1,
+      "MH_ GF POWER PANEL | MSI1-CUB-1-C4CA-415RPDB-502-5": 1,
+      "transformer with duct | transformer with duct": 1
+    },
+    "Lighting Devices": {
+      "415V 3∅ 32A 5PIN AND 230V 1∅ 16A 3PIN COMBINED INDUSTRIAL SOCKET OUTLET | 415V 3∅ 32A 5PIN AND 230V 1∅ 16A 3PIN COMBINED INDUSTRIAL SOCKET OUTLET": 4
+    },
+    "Structural Framing": {
+      "SYS Steelwork Framing Channels | SM520_C100x50x5x7.5mm": 2,
+      "SYS Steelwork Framing Channels | SM520_C150x75x9x12.5mm": 2
+    },
+    "Generic Models": {
+      "P9013_Post_Base | P9013 EG": 3
+    },
+    "Electrical Fixtures": {
+      "MH_MH_1 Nos Socket raw power 2 | 3 NOS UNIVERSAL TYPE SOCKET WITH 16A SWITCH": 2
+    },
+    "Structural Columns": {
+      "mu_Column_Triangle_v1 | @A_柱_450x600mm": 1
+    }
+  },
+  "10.2 CR Elect.": {
+    "Mechanical Equipment": {
+      "washers_V1 | M12": 1684,
+      "hexagonal_nut_V1 | M12": 1684,
+      "support-channel_V7 | 41x41_2.5_HDG": 842,
+      "Fixotec_Support-channels_FXT-Protection-caps_V2 | 41x41": 842,
+      "rods_V1 | M12": 436,
+      "Fixotec_Accessories_hexagonal_washers_V1 | M12": 436,
+      "Fixotec_Accessories_hexagonal_nut_V1 | M12": 436,
+      "800A canopy-01 | 800A canopy-01": 121,
+      "800A canopy-front end | 800A canopy-front end": 112,
+      "Fixotec_Support-channels_FXT-support-channel_V7_2 | 41x41_2.5_GAL": 84,
+      "Hilti_INS_connector_MT-C-LL | MT-C-LL1": 48,
+      "Hilti_INS_baseconnector_MT-B-T | MT-B-T": 18
+    },
+    "Lighting Fixtures": {
+      "TEARDROP LIGHT green | Standart": 1722,
+      "TEARDROP LIGHT blue | Standart": 1484,
+      "MH_LGHT_TubeLight | mh_LGHT_TubeLight_40W": 120,
+      "MH_LGHT_SuspendedLight | mh_LGHT_SuspendedLight": 74,
+      "mh_LGHT_BayLight_Normal | mh_LGHT_BayLight_120W": 24
+    },
+    "Electrical Equipment": {
+      "TAP OF BOX | TAP OF BOX": 226,
+      "mh_LCS | SDS-1-F26-R3-xx-P1-xx-xx-PM4": 54,
+      "Disconnect Switches | 230 V - Non-Fusible 30 A": 15,
+      "mh_PanelStand | 1455Lx900Wx1200H 2": 7,
+      "mh_@E_XMFR | mh_@E_XMFR 630 kVA 2": 4,
+      "MH_415 UPS | UPS 011": 4,
+      "mh_SSBF | BATTERY-200kva ups": 4,
+      "MH_ VFD | VSD ACID SCRUBBER FAN-1": 4,
+      "mh_Equipment_Grating1 | mezz level grating 8": 3,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | ELV": 2,
+      "mh_Equipment_Grating1 | mezz level grating 9": 2,
+      "MH_415 UPS | 175kva ups": 2,
+      "MH_415 UPS | 125kva ups": 2,
+      "MH_415 UPS | MSI1-FAB-1-F17FX-TF0.433-0.215KV-002": 2,
+      "MH_415 UPS | MSI1-FAB-1-F17FX-TF0.433-0.215KV-001": 2,
+      "mh_SSBF | BATTERY-175kva ups": 2,
+      "mh_SSBF | BATTERY-125kva ups": 2,
+      "PROPOSED FOR NORMAL SUPPLY | mh_SSB": 2,
+      "PROPOSED FOR NORMAL SUPPLY | PROPOSED FOR EMERGENCY SUPPLY": 2,
+      "MH_ VFD | MSI1-FAB-1-F15FX-MAU-415VSD-005": 2,
+      "MH_ VFD | MSI1-FAB-1-F16FX-MAU-415VSD-007": 2,
+      "MH_ VFD | MSI1-FAB-1-F16FX-MAU-415VSD-008": 2,
+      "MH_ VFD | MSI1-FAB-1-F16FX-MAU-415VSD-006": 2,
+      "MH_ VFD | MSI1-FAB-1-F14FX-EXF-415VSD-006": 2,
+      "MH_ VFD | MSI1-FAB-1-F14FX-EXF-415VSD-007": 2,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | MSI1-FAB-1-F17FW-415LDB-241": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | MSI1-FAB-1-F17FW-415ELDB-131": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | MSI1-FAB-1-F15FY-GAS-415PDB-001": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | MSI1-FAB-1-F13FW-PRO-480SSB-001": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | MSI1-FAB-1-F16FW-7AB-208PP-001": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | MSI1-FAB-1-F17FW-7AB-208PP-002": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | MSI1-FAB-1-F13FW-PRO-480SSB-002": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | MSI1-FAB-1-F13FW-7AB-230PP-001": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | MSI1-FAB-1-F14FW-7AB-208PDB-003": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | PROPOSED VENDOR PANEL GAS ROOM": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | MSI1-FAB-1-F20FW-7AB-208PDB-002": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | MSI1-FAB-1-F19FW-7AB-208PP-003": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | FFU NORMAL PANAL": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | FFU EMR PANAL": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | TUM 480V ICOG-80": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | TUM 480V ICOG-78": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | TUM 480V ICOG-77": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | TUM 480V ICOG-79": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | MSI1-FAB-1-F17FW--CR-415ELDB-133": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | MSI1-FAB-1-F17FW--CR-415LDB-242": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | MSI1-FAB-1-F17FX-PRO-415UPSDB-011": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | MSI1-FAB-1-F17FW-415LDB-243": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | MSI1-FAB-1-F17FW--CR-415LDB-132": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | PROPOSED RPDB": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | MSI1-FAB-1-F15FX-415AUXP-001": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | MSI1-FAB-1-F15FX-415 UPSAUXP-002": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | PDB-001": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | MSI1-FAB-1-F13FW-PRO-480SSB-003": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | MSI1-FAB-1-F14FW-7AB-208PDB-001": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | PROPOSED VENDOR PANELHPCDA & XCDA": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | CONTROL PANEL LIFTING STATION -1": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | MSI1-FAB-1-F15FX-CTRL-415UPSDB-012": 1,
+      "MH_ADMIN EMG POWER PANEL  GROUND FLOOR | MSI1-FAB-1-F15FX-RTU-415-014": 1,
+      "mh_Equipment_Grating1 | mezz level grating 10": 1
+    },
+    "Cable Trays": {
+      "Cable Tray with Fittings | Ladder Tray": 191,
+      "Cable Tray without Fittings | Default": 12
+    },
+    "Cable Tray Fittings": {
+      "MH_Ladder Horizontal Tee | 300mm Radius": 47,
+      "Busway SE Canalis ILine II - Sx - Straight Riser | Aluminium 4P 0800 A": 44,
+      "MH_Ladder_Rack-Fitting-Chalfant-Horizontal_Bend_90 | Standard": 35,
+      "MH_Ladder Vertical Outside Bend | Standard": 31,
+      "MH_Ladder Reducer | Standard": 20,
+      "MH_Ladder Vertical Inside Bend | Standard": 18
+    },
+    "Ducts": {
+      "Rectangular Duct | F1-1L-BDS-BIN-208, 2000A BUSDUCT": 48,
+      "Rectangular Duct | 80A": 24,
+      "Rectangular Duct | 78A": 16,
+      "Rectangular Duct | 77A": 14,
+      "Rectangular Duct | 79A": 10
+    },
+    "Specialty Equipment": {
+      "MH_Bus Duct Support | MH_Bus Duct Support": 106
+    },
+    "Duct Fittings": {
+      "Rectangular Square Bend - Slip Joint | Standard": 23,
+      "Rectangular Medium Radius Bend - Flanged | Standard": 10,
+      "Rectangular Concentric Taper - Flanged | Standard": 1,
+      "Rectangular Square Tee - Flanged | Standard": 1
+    },
+    "Generic Models": {
+      "P9013_Post_Base | P9013 GR": 2
+    },
+    "Structural Columns": {
+      "mu_Column_Triangle_v1 | @A_柱_450x600mm": 1
+    }
+  },
+  "9.5 FMCS": {
+    "Mechanical Equipment": {
+      "Conduit support PC-05 | CONDUIT WALL MOUNT": 1922,
+      "washers_V1 | M12": 3868,
+      "hexagonal_nut_V1 | M12": 3868,
+      "Fixotec_Support-channels_FXT-Protection-caps_V2 | 41x41": 310,
+      "support-channel_V7 | 41x41_2.5_HDG": 1934,
+      "rods_V1 | M12": 1292,
+      "Fixotec_Accessories_hexagonal_washers_V1 | M12": 1292,
+      "Fixotec_Accessories_hexagonal_nut_V1 | M12": 1292,
+      "channel_V7 | 41x41_2.5_HDG": 1908,
+      "grider-cleats_V1 | 38/24_GAL": 1908,
+      "hexagonal_nut_V1 | M16_FSA 03-7": 248,
+      "Channel hingged 50--c-clamp | CONDUIT BEAM HANGER": 148,
+      "washers_V2 | M16_FSA 03-7 2": 148,
+      "washers_V2 | M10": 148,
+      "rods_V1 FSA 03-7 | M10": 198,
+      "M10 NUT For INST Hexagonal | M10 NUT HEXA FOR INST": 792,
+      "M10 NUT For INST Hexagonal | M6": 546,
+      "M10 BOLT For INST Hexagonal | M6": 546,
+      "M10 THREDED ROD For INST Hexagonal | M6": 546,
+      "TYPE A FAMILY_CSA__FOR 200 MM CABLE TRAY FINAL Without Clamp | TYPE A FAMILY_CSA__FOR 200 MM CABLE TRAY FINAL Without Clamp": 54,
+      "M10 Washer For INST Hexagonal1 | M10 Washer For INST Hexa": 53,
+      "C-CLAMP | 88.9mm": 41,
+      "TYPE A FAMILY_CSA__FOR 200 MM CABLE TRAY With Clamp | CSA 01-D": 26,
+      "88.9mm ELVSUPPORTS 1 | 88.9mm ELVSUPPORTS": 13,
+      "support-channel_V7for elv1 | 41x41_2.0_GAL 2": 2058,
+      "PC-05 | CONDUIT S-WALL MOUNTED": 706,
+      "Fixotec_Support-channels_FXT-Protection-caps_V1 | 41x41": 686,
+      "M10 Washer For INST Hexagonal | M10 Washer For INST Hexa": 466,
+      "TYPE A FAMILY_CSA__FOR 200 MM CABLE TRAY With Clamp | CSA 01-D (300 MM CABLE TRAY)": 394,
+      "tc_@T_TRAY_Cable Tray Support | CSA 03-1": 343,
+      "88.9mm ELVSUPPORTS 2 | 88.9mm ELVSUPPORTS": 233,
+      "Beam Clamp1 | 88.9mm 2": 131,
+      "FSA 01-100NB | CONDUIT S BEAM": 128,
+      "Mechanical Equipment 1 | CSA 01-D1 (100 MM CABLE TRAY)": 72,
+      "washers_V1 | M16_FSA 03-7": 50,
+      "washers_V1 | M10": 50,
+      "Channel hingged | CONDUIT S SLAB": 50,
+      "M10 BOLT For INST Hexagonal | M10 NUT HEXA FOR INST": 26,
+      "M10 Washer For INST Hexagonal1 | M10 Washer For INST Hexa 2": 26,
+      "grider-cleats_V2 | 38/40_GAL": 21,
+      "M10 THREDED ROD For INST Hexagonal | M10": 13,
+      "M10 BOLT For INST Hexagonal | M10": 13,
+      "ZONE BOX BEAM CLAMP | 88.9mm": 13,
+      "grider-cleats_V2 | 38/40_GAL 2": 4,
+      "washers_V2 | M12 2": 4,
+      "hexagonal_nut_V2 | M12 2": 4,
+      "support-channel_V1 | 41x41_2.5_HDG 2": 2,
+      "Fixotec_Support-channels_FXT-Protection-caps_V1 | 41x41 2": 2,
+      "Fixotec_Accessories_hexagonal_washers_V2 | M12 2": 2,
+      "Fixotec_Accessories_hexagonal_nut_V2 | M12 2": 2
+    },
+    "Center line": {
+      "Center line | ": 3161
+    },
+    "Conduits": {
+      "Conduit without Fittings | mh_Conduit_GI_6.2mm": 816,
+      "Conduit without Fittings | Default": 156,
+      "Conduit without Fittings | mh_Conduit_GI_": 465,
+      "Conduit without Fittings | Electrical Metallic Tubing (EMT) -10 mm": 337
+    },
+    "Conduit Fittings": {
+      "M_Conduit Corner Coupling Capped - Set Screw - Die Cast Zinc | Standard": 1106,
+      "Conduit Elbow - without Fittings1 | Electrical Metallic Tubing Ceiling (EMT)": 5,
+      "E_Conduit Elbow - with Fittings - RMC | Standard": 3,
+      "tc_Conduit Elbow - GI | 25mm": 2,
+      "M_Conduit Elbow - without Fittings - EMT | Standard": 271
+    },
+    "Cable Trays": {
+      "Cable Tray with Fittings | Default": 254,
+      "Cable Tray with Fittings | tc_TRAY_Ceiling 300x50": 161,
+      "Cable Tray with Fittings | 100x50 PERFORATED CABLE TRAY": 132,
+      "Cable Tray with Fittings | tc_TRAY_Ceiling 100x50": 99,
+      "Cable Tray with Fittings | tc_TRAY_Ceiling 600x50": 96,
+      "Cable Tray with Fittings | SIGNAL CABLE TRAY 100x50 PERFORATED": 93,
+      "Cable Tray with Fittings | SIGNAL CABLE TRAY 300x50 PERFORATED": 65,
+      "Cable Tray with Fittings | tc_TRAY_False Floor 100x50 2": 59,
+      "Cable Tray with Fittings | CONTROL CABLE TRAY SONEPAR": 54,
+      "Cable Tray with Fittings | SIGNAL CABLE TRAY SONEPAR": 34,
+      "Cable Tray with Fittings | SIGNAL CABLE TRAY 50x50 PERFORATED": 23,
+      "Cable Tray with Fittings | CONTROL CABLE TRAY 300x50 PERFORATED": 17,
+      "Cable Tray with Fittings | 300x50 PERFORATED CABLE TRAY": 6,
+      "Cable Tray with Fittings | CONTROL CABLE TRAY 100x50 PERFORATED": 5,
+      "Cable Tray with Fittings | NETWORK CABLE TRAY 50x50 PERFORATED": 3,
+      "Cable Tray with Fittings | NETWORK CABLE TRAY SONEPAR": 3,
+      "Cable Tray with Fittings | ETHERNET CABLE TRAY 50x50 PERFORATED 3": 2,
+      "Cable Tray with Fittings | POWER CABLE TRAY50x50 PERFORATED 2": 2,
+      "Cable Tray with Fittings | 600x100 PERFORATED CABLE TRAY": 1,
+      "Cable Tray with Fittings | 50x50 PERFORATED CABLE TRAY JCI": 1,
+      "Cable Tray with Fittings | ETHERNET CABLE TRAY 100x50 PERFORATED": 1,
+      "Cable Tray with Fittings | Channel Cable Tray": 1
+    },
+    "Cable Tray Fittings": {
+      "M_Channel Vertical Outside Bend | Standard": 54,
+      "M_Channel Horizontal Bend | Standard": 48,
+      "M_Channel Vertical Inside Bend | Standard": 46,
+      "M_Channel Vertical Outside Bend1 | Standard": 12,
+      "M_Channel Vertical Inside Bend1 | Standard": 8,
+      "Cable_Bus_Trough_Horizontal_Bend_CH_I | Solid Bottom Trough - Aluminum (AL)": 173,
+      "Cable_Bus_Trough_Horizontal_Tee_CH_I | Solid Bottom Trough - Aluminum (AL)": 94,
+      "Cable_Bus_Trough_Vertical_Inside_Bend_CH_I | Solid Bottom Trough - Aluminum (AL)": 162,
+      "Cable Tray Horizontal Tee1 | Standard 2": 6,
+      "M_Channel Horizontal Tee1 | 100mm Radius": 1,
+      "Cable_Bus_Trough_Vertical_Outside_Bend_CH_I | Solid Bottom Trough - Aluminum (AL)": 199,
+      "Cable_Bus_Trough_Reducer_CH_I | Solid Bottom Trough - Aluminum (AL)": 17,
+      "Cable Tray Horizontal Tee1 | Standard": 15,
+      "Cable_Tray-Fitting-Chalfant-Series_5-Vertical_Inside_Bend | Standard": 10,
+      "Cable_Tray-Fitting-Chalfant-Series_5-Vertical_Outside_Bend | Standard": 9,
+      "Channel Vertical Outside Bend | Standard": 7,
+      "M_Channel Vertical Inside Bend 25 RADIUS | Standard": 6,
+      "M_Channel Vertical Outside Bend 45  RADIUS | Standard": 6,
+      "Cable Tray Horizontal Tee | Standard": 5,
+      "Channel Vertical Inside Bend | Standard": 4,
+      "Channel Horizontal Bend | Standard": 4,
+      "Cable_Bus_Trough_Horizontal_Cross_CH_I | Solid Bottom Trough - Aluminum (AL)": 3,
+      "Cable Tray Reducer1 | Standard": 1
+    },
+    "Specialty Equipment": {
+      "E-108E_Break Glass Unit | BGU": 45,
+      "DEB-33SS_Door Contact1 | DOOR CONTACT": 37,
+      "mh_O2_SENSOR | mh_O2_SENSOR": 21
+    },
+    "Generic Models": {
+      "TTRH SENSOR | TTRH SENSOR": 35,
+      "Flasher cum sounder | Flasher cum sounder": 36,
+      "SENSEPOINT XCD GAS DETECTOR FOR 112 (CATALYTIC TYPE) | SENSEPOINT XCD GAS DETECTOR FOR 112 (CATALYTIC TYPE)": 15,
+      "MANIFOLD 2 VALVE BLOCK & BLEED | MANIFOLD 2 VALVE BLOCK & BLEED": 56,
+      "DIAPHRAGM TYPE_PG | PG BOURDAN TUBE TYPE": 29,
+      "Diffrential pressure transmitter | Diffrential pressure transmitter": 12,
+      "mh_uvir - ultraviolet uv and infrared ir sensor | UVIR - ULTRAVIOLET (UV) AND INFRARED (IR)": 4,
+      "DIAPHRAGM TYPE_PG | PT": 2,
+      "Generic Models 2 | Generic Models 1": 1,
+      "Generic Models 3 | Generic Models 1": 1,
+      "Generic Models 1 | Generic Models 1": 1,
+      "Generic Models 4 | Generic Models 1": 1,
+      "Stand_JCI_02 | P1001 - 24\" Column Loading": 91,
+      "DIAPHRAGM TYPE_PG | DIAPHRAGM TYPE_PT": 15,
+      "DIAPHRAGM TYPE_PG | CG BELLOW TYPE": 6,
+      "DIAPHRAGM TYPE_PG | DIAPHRAGM TYPE_TG1": 3,
+      "DIAPHRAGM TYPE_PG | DIAPHRAGM TYPE_TT": 1
+    },
+    "Furniture": {
+      "mh_FURN_Chair | @A_FURN_540x1015mm": 45,
+      "mh_FURN_Table TYP3 | @A_FURN_750x1200x1000mm": 10,
+      "mh_FURN_Table TYP3 | @A_FURN_750x2000x800mm": 2,
+      "mh_FURN_Table TYP3 | @A_FURN_750x1300x1000mm": 2
+    },
+    "Pipe Fittings": {
+      "MH_Transition - Generic | @M_PF_Standard": 23,
+      "mh_PF_Elbow - Welded - Generic | @M_PF_Standard": 10,
+      "M_Transition - Generic | Standard": 1,
+      "M_Tee Reducing Vent | Standard": 1,
+      "1.Sampling Hole | 1.Sampling Hole": 504,
+      "Elbow - Plain - PVC-C | Standard": 351
+    },
+    "Pipes": {
+      "Pipe Types | mh_@M_Pipe_SS304": 30,
+      "Pipe Types | GALVANIZED IRON": 2
+    },
+    "Electrical Fixtures": {
+      "DEB-33SS_Electromechanical Lock | ELECTROMECHANICAL LOCK_SINGLE LEAF DOOR": 28,
+      "ZONE BOX_12U_600x650x613_ FAB | 12U POD": 22,
+      "TC@SUPPORT CHANNEL-SCH-4 | CSA-01-A01 (CHANNEL)": 78,
+      "TC@SUPPORT CHANNEL-SCH-4 | CSA-01-A02 (SUPPORT TO CSA-01-A01)": 27,
+      "mh_Cable tray  Support 31 P | CSA-01-A1 (ZONE BOX SUPPORT)": 20,
+      "TC@SUPPORT CHANNEL-SCH-4 | CSA-01-A1 (ZONE BOX CHANNEL)": 20,
+      "mh_OBP-SOCLE GH_R24 WITH NUT BOLT 1 | CSA-01-E (WALL MOUNTED)": 11,
+      "DEB-33SS_Electromechanical Lock | Electromechanical Lock_Double Leaf Door": 6,
+      "DEB-33SS_Electromechanical Lock | DEB-33SS_Electromechanical Lock": 2,
+      "SONEPAR_OBP-SOCLE GH_R24 WITH_MULTIPLE_NUT BOLT  | SOCLE GH - GAC SONEPAR": 1
+    },
+    "Pipe Accessories": {
+      "mh_PA_Ball Valve - 50-150 mm | @M_PA_15 mm": 56,
+      "Pressure Gauge | 100mm Dial": 1,
+      "Ball Valve | 20 mm": 1,
+      "TEMPERATURE CUM HUMIDITY SENSOR.N H | TEMPERATURE CUM HUMIDITY SENSOR.N H": 26,
+      "Temperature Cum Humidity Transmeter | Temperature Cum Humidity Transmeter": 14,
+      "STANCHION STAND-1500mm For Sencer | STANCHION STAND-1500mm For Sencer": 7
+    },
+    "Structural Columns": {
+      "mu_Column_Triangle_v1 | @A_柱_450x600mm": 1
+    },
+    "Flex Pipes": {
+      "Flex Pipe Round | Flex - Cable Pipe": 3
+    }
+  },
+  "9.2 FAS": {
+    "Fire Alarm Devices": {
+      "Horn-Strobe_Genesis-G1 Series | HS - HOOTER CUM STROBE": 36,
+      "Fire_Alarm-Intelligent_Detector-EDWARDS_Multi_Detectors | MULTI DETECTOR": 44,
+      "OSID DETECTOR | OISD DETECTOR TRANSMITTER( ODT )": 32,
+      "OISD DETECTOR RECIVER( ODR ) | OISD DETECTOR RECIVER( ODR )": 16,
+      "Monitor Modules_SIGA-CC1 | MONITOR MODULES": 8,
+      "Horn-Strobe_Genesis-G1 Series | Horn-strobes G1AVRF": 8,
+      "JCI_Zettler_DuctProbewith4B-C4InchContinuity _DPK6 | SD - SMOKE DETECTOR FOR AHU": 16,
+      "Signal Modules_SIGA-CC1-SM | Dual Input, Signal Module": 6,
+      "Manual pull point-SIGA-270_JCI | MCP - MANUAL CALL POINT": 6,
+      "mu_FALM_TelephoneJack | TELEPHONE JACK": 4,
+      "FA_PANEL_Fire-Products_Protection_EDWARDS-EST4_3-CAB21B-box-with-4-CAB24DL-door | FIRE ALARM PANEL": 3,
+      "Signal Modules_SIGA-CC1-SM | Single Input, Signal Module": 2,
+      "Signal Modules_SIGA-CC1-SM.rfa ashu | Single Input, Signal Module": 2,
+      "Isolator Modules | Single Input, Signal Module": 2,
+      "CRM_SIGA-CC2 | Single Input, Signal Module": 2,
+      "Monitor Modules_SIGA-CC2 | Single Input, Signal Module": 186,
+      "Horn-Strobe_Genesis-G1 Series1 | Horn-strobes G1AVRF": 4,
+      "Monitor Modules_SIGA-CC2 | Single Input, Signal Module 2": 4,
+      "Signal Modules_SIGA-CC1 | Fault Isolator Module": 2,
+      "Signal Modules_SIGA-CC1 | Signal Input, Signal Module": 2,
+      "Manual Pull Stations-SIGA-270_JCI1 | One Stage, English Markings": 1
+    }
+  },
+  "9.3 CCTV": {
+    "Security Devices": {
+      "Security_Camera-Outdoor_Dome-Hanwha-QNV-Fixed_Focal_mm.rfa 111 - Updated | SCCTV - FIX DOME TYPE CAMERA": 93,
+      "DEB-33SS_Card Reader | CARD READER": 34,
+      "Camouflage LD-96T indoor sirenblue strobelight - Buzzer | BUZZER": 16,
+      "DEB-33SS_Buzzer | BUZZER": 1
+    }
+  },
+  "9.4 PA": {
+    "Communication Devices": {
+      "mh_WirelessDevice1 | WALL MOUNTED WIFI (CATALYST 9136 SERIES)": 46,
+      "Communication_Bosch_Cabinet_Loudspeaker_Premium_Sound_(Metal) | BOX SPEAKER": 30,
+      "Communication_Bosch_Horn_Loundspeaker_(Circular)1 | HORN SPEAKER": 20,
+      "Solar_MONITOR 32 LED1 | HIKVISION_ 32” Monitor": 10,
+      "mh_WirelessDevice1 | CATALYST 9136 SERIES": 60,
+      "Communication_Bosch_Horn_Loundspeaker_(Circular)1 | HORN LOUDSPEAKER": 38,
+      "Communication_Bosch_Cabinet_Loudspeaker_Premium_Sound_(Metal)2 | BOX SPEAKER": 27
+    }
+  },
+  "9.6 IT": {
+    "Data Devices": {
+      "tc_@T_COMM_Data Outlet Face Plate | 2 Port_Floor mounted": 61,
+      "tc_@T_COMM_Data Outlet Face Plate box  | 2 Port_Floor mounted": 4,
+      "tc_@T_COMM_Data Outlet Face Plate1 | 2 Port_Floor mounted": 74,
+      "5.1_PDU | 5.1_PDU": 60,
+      "tc_@T_COMM_Data Outlet Face Plate box 1 | 2 Port_Floor mounted 2": 28,
+      "Rack with Cable Manager1 | Rack with Cable Manager 2": 15,
+      "Rack with Cable Manager1 | Rack with Cable Manager": 15
+    }
+  },
+  "9.1 ACS": {
+    "Electrical Equipment": {
+      "RIO Panel | RIO Panel": 16,
+      "CONS. _ PLC PANEL | CONS. / PLC PANEL": 2,
+      "DCP Panel | DCP Panel": 1,
+      "DCP Panel1 | DCP Panel": 1,
+      "DCP Panel2 | DCP Panel": 1,
+      "mh_HSSD1 | mh_HSSD 2": 44,
+      "mh_HSSD1 | mh_HSSD": 36,
+      "PSU1 | PSU": 20,
+      "NETWORK PANEL -600MM | NETWORK PANEL -600 MM": 1
+    }
+  },
+  "2.1 Civil Works": {
+    "Signage": {
+      "walkway with right turn prohibition_ | walkway with right turn prohibition_": 5,
+      "No standing signage | No standing signage": 5,
+      "signage board_WF13_REVISED | signage board_WF13_REVISED": 4,
+      "HEIGHT LIMITit.dwg | HEIGHT LIMITit.dwg": 4,
+      "signage board_WF38 EXIST | signage board_WF38 EXIST": 3,
+      "strip | strip": 1,
+      "black strip | black strip": 1,
+      "strip1 | strip": 1,
+      "black strip1 | black strip": 1,
+      "strip2 | strip": 1,
+      "black strip2 | black strip": 1,
+      "strip3 | strip": 1,
+      "black strip3 | black strip": 1,
+      "strip4 | strip": 1,
+      "black strip4 | black strip": 1,
+      "strip5 | strip": 1,
+      "black strip5 | black strip": 1,
+      "strip6 | strip": 1,
+      "black strip6 | black strip": 1,
+      "strip8 | strip": 1,
+      "black strip7 | black strip": 1,
+      "strip9 | strip": 1,
+      "black strip8 | black strip": 1,
+      "strip10 | strip": 1,
+      "black strip9 | black strip": 1,
+      "strip11 | strip": 1,
+      "black strip10 | black strip": 1,
+      "strip12 | strip": 1,
+      "black strip11 | black strip": 1,
+      "strip13 | strip": 1,
+      "black strip12 | black strip": 1,
+      "strip7 | strip": 1,
+      "black strip13 | black strip": 1,
+      "strip14 | strip": 1,
+      "black strip14 | black strip": 1,
+      "strip15 | strip": 1,
+      "black strip15 | black strip": 1,
+      "strip16 | strip": 1,
+      "black strip16 | black strip": 1,
+      "strip17 | strip": 1,
+      "black strip17 | black strip": 1,
+      "strip18 | strip": 1,
+      "black strip18 | black strip": 1,
+      "strip19 | strip": 1,
+      "black strip19 | black strip": 1,
+      "strip20 | strip": 1,
+      "black strip20 | black strip": 1,
+      "strip21 | strip": 1,
+      "black strip21 | black strip": 1,
+      "strip22 | strip": 1,
+      "black strip22 | black strip": 1,
+      "strip23 | strip": 1,
+      "black strip23 | black strip": 1,
+      "strip24 | strip": 1,
+      "black strip24 | black strip": 1,
+      "strip25 | strip": 1,
+      "black strip25 | black strip": 1,
+      "strip26 | strip": 1,
+      "black strip26 | black strip": 1,
+      "strip27 | strip": 1,
+      "black strip27 | black strip": 1,
+      "strip28 | strip": 1,
+      "black strip28 | black strip": 1,
+      "strip29 | strip": 1,
+      "black strip29 | black strip": 1,
+      "strip30 | strip": 1,
+      "black strip30 | black strip": 1,
+      "strip31 | strip": 1,
+      "black strip31 | black strip": 1,
+      "strip32 | strip": 1,
+      "black strip32 | black strip": 1,
+      "strip33 | strip": 1,
+      "black strip33 | black strip": 1,
+      "strip34 | strip": 1,
+      "black strip34 | black strip": 1,
+      "strip35 | strip": 1,
+      "black strip35 | black strip": 1,
+      "strip36 | strip": 1,
+      "black strip36 | black strip": 1,
+      "strip37 | strip": 1,
+      "black strip37 | black strip": 1,
+      "strip38 | strip": 1,
+      "black strip38 | black strip": 1
+    },
+    "Site": {
+      "Tubular Cone | Tubular Cone": 51,
+      "ROAD BAY MARKING1 | ROAD BAY MARKING": 1
+    },
+    "Structural Connections": {
+      "Strap | MSTC40": 24
+    },
+    "Structural Foundations": {
+      "mh_LGHT_StreetLight | mh_LGHT_StreetLight_9-STR PEDESTAL": 16,
+      "M_Footing-Rectangular | mu_@S_FUDN_F1_2250x2250x400mm": 2
+    },
+    "Parking": {
+      "Road stud | Road stud": 12
+    },
+    "Railings": {
+      "Railing | ROAD CENTER MAEKING": 6,
+      "Railing | mh_@A_KERB": 1
+    },
+    "Structural Columns": {
+      "Square Hollow Sections-Column | SHS300x300x12": 2,
+      "M_Concrete-Rectangular-Column2 | P1_600x600mm": 2,
+      "mu_Column_Triangle_v1 | @A_柱_450x600mm": 1
+    },
+    "Generic Models": {
+      "Model Text | 400mm Arial Narrow": 4
+    },
+    "Floors": {
+      "Floor | dummy floor 2": 1
+    },
+    "Structural Framing": {
+      "HSS-Hollow Structural Section | HSS30X30X10": 1
+    }
+  },
+  "6.2 Exhaust Equipment": {
+    "3D Solid": {
+      "3D Solid | ": 1347
+    },
+    "MTEXT": {
+      "MTEXT | ": 353
+    },
+    "Text": {
+      "Text | ": 169
+    },
+    "SURFACE": {
+      "SURFACE | ": 25
+    },
+    "ACPPCONNECTOR": {
+      "ACPPCONNECTOR | ": 21
+    },
+    "ACPPPIPE": {
+      "ACPPPIPE | ": 17
+    },
+    "子圖元": {
+      "子圖元 | ": 16
+    },
+    "ACPPPIPEINLINEASSET": {
+      "ACPPPIPEINLINEASSET | ": 15
+    },
+    "Line": {
+      "Line | ": 4
+    },
+    "SPLINE": {
+      "SPLINE | ": 3
+    },
+    "Point Set": {
+      "Point Set | ": 3
+    },
+    "ACPPEQUIPMENT": {
+      "ACPPEQUIPMENT | ": 1
+    },
+    "Mechanical Equipment": {
+      "channel_V7 | 41x41_2.5_HDG": 566,
+      "Fixotec_Support-channels_FXT-Protection-caps_V2 | 41x41": 566,
+      "washers_V1 | M12": 421,
+      "hexagonal_nut_V1_01 | M12": 421,
+      "rods_V1 | M12": 355,
+      "Fixotec_Accessories_hexagonal_nut_V1 | M12": 299,
+      "Fixotec_Accessories_hexagonal_washers_V1 | M12": 299,
+      "grider-cleats_V1 | 38/24_GAL": 240,
+      "support-channel_FSA 03-7 | 41x41_2.5_HDG": 124,
+      "washers_V2 | M10 2": 112,
+      "Fixotec_Accessories_hexagonal_nut_V1 | M10 FSA03-7": 112,
+      "DSA-11_600 | DSA-11_600": 94,
+      "DSA-11_900 | DSA-11_900": 77,
+      "BS-11 | FSA 06-100": 62,
+      "DSA-11-B_700 | DSA-11-B_700": 56,
+      "DSA-11_250 | DSA-11_250": 31,
+      "DSA-13_1300 | DSA-13_1300": 25,
+      "DSA-11_700 | DSA-11_700": 24,
+      "DSA-13_Round Duct_1200 | DSA-13_Round Duct_1200": 8,
+      "DSA-02-02_Round Duct_Single Rod _400 | DSA-02-02_Round Duct_Single Rod _400": 7
+    },
+    "Ducts": {
+      "Round Duct | mh_@M_Duct_GI_Tap": 1088
+    },
+    "Center line": {
+      "Center line | ": 1067
+    },
+    "Pipes": {
+      "Pipe Types | mh_@M_Pipe_SS304": 602,
+      "Pipe Types | mh_@M_Pipe_UPVC_Sch40": 42
+    },
+    "Duct Fittings": {
+      "MH_M_Round Tee | Standard": 227,
+      "MH_M_Round Elbow | 1 D": 68,
+      "MH_M_Round Endcap | @M_DF_Standard": 25,
+      "MH_M_Round Transition - Angle | 45 Degree": 4
+    },
+    "Center Line": {
+      "Center Line | ": 322
+    },
+    "Pipe Accessories": {
+      "mh_PA_FES_MEP_BOLTS_91_PA_03 | @M_PA_M 16 x 120": 156,
+      "mh_PA_Ball Valve - 50-150 mm | @M_PA_40 mm": 39,
+      "mh_PA_Plumbing_Joints_Astralpool-Fluidra_SIGHT-GLASS-UP-54-SF-2017-PA-00_INT | @M_PA_02387-UP.54.SF SIGHT GLASS DN40": 39,
+      "mh_PA_Ball Valve - 50-150 mm | @M_PA_15 mm": 26
+    },
+    "Duct Accessories": {
+      "mh_DA_Air Volume Control Damper - Round | @M_DA_Standard": 240
+    },
+    "Pipe Fittings": {
+      "mh_PF_Elbow - Welded - Generic1 | @M_PF_Standard": 132,
+      "MH_Transition - Generic | @M_PF_Standard": 26,
+      "Cap - Threaded - MI - Class 150 | Standard": 25,
+      "mh_PF_Elbow - Welded - Generic | @M_PF_Standard": 9,
+      "MH_M_Ell Vent - PVC - Sch 40 - DWV | Standard": 7
+    },
+    "Generic Models": {
+      "MANIFOLD 2 VALVE BLOCK & BLEED | MANIFOLD 2 VALVE BLOCK & BLEED": 26,
+      "DIAPHRAGM TYPE_PG | DIAPHRAGM TYPE_PG": 26
+    },
+    "Structural Columns": {
+      "mu_Column_Triangle_v1 | @A_柱_450x600mm": 1
+    }
+  },
+  "8 Waste Water": {
+    "ACPPCONNECTOR": {
+      "ACPPCONNECTOR | ": 2026
+    },
+    "ACPPSTRUCTUREBEAM": {
+      "ACPPSTRUCTUREBEAM | ": 1709
+    },
+    "ACPPPIPEINLINEASSET": {
+      "ACPPPIPEINLINEASSET | ": 1488
+    },
+    "ACPPSUPPORT": {
+      "ACPPSUPPORT | ": 1434
+    },
+    "ACPPPIPE": {
+      "ACPPPIPE | ": 1318
+    },
+    "ACPPSTRUCTUREPLATE": {
+      "ACPPSTRUCTUREPLATE | ": 770
+    },
+    "3D Solid": {
+      "3D Solid | ": 231
+    },
+    "子圖元": {
+      "子圖元 | ": 188
+    },
+    "Line": {
+      "Line | ": 1
+    },
+    "Point": {
+      "Point | ": 1
+    }
+  },
+  "7.1 Utility_CDA": {
+    "ACPPCONNECTOR": {
+      "ACPPCONNECTOR | ": 1438
+    },
+    "ACPPPIPEINLINEASSET": {
+      "ACPPPIPEINLINEASSET | ": 957
+    },
+    "ACPPPIPE": {
+      "ACPPPIPE | ": 798
+    },
+    "ACPPSUPPORT": {
+      "ACPPSUPPORT | ": 721
+    },
+    "ACPPSTRUCTUREBEAM": {
+      "ACPPSTRUCTUREBEAM | ": 618
+    },
+    "子圖元": {
+      "子圖元 | ": 236
+    },
+    "3D Solid": {
+      "3D Solid | ": 158
+    },
+    "ACPPSTRUCTUREPLATE": {
+      "ACPPSTRUCTUREPLATE | ": 81
+    },
+    "Point Set": {
+      "Point Set | ": 1
+    },
+    "Point": {
+      "Point | ": 1
+    }
+  },
+  "12. Gas": {
+    "ACPPCONNECTOR": {
+      "ACPPCONNECTOR | ": 2677
+    },
+    "ACPPPIPEINLINEASSET": {
+      "ACPPPIPEINLINEASSET | ": 2068
+    },
+    "ACPPSUPPORT": {
+      "ACPPSUPPORT | ": 1851
+    },
+    "ACPPPIPE": {
+      "ACPPPIPE | ": 1532
+    },
+    "ACPPSTRUCTUREBEAM": {
+      "ACPPSTRUCTUREBEAM | ": 187
+    },
+    "3D Solid": {
+      "3D Solid | ": 94
+    },
+    "MTEXT": {
+      "MTEXT | ": 29
+    },
+    "子圖元": {
+      "子圖元 | ": 22
+    },
+    "Line Set": {
+      "Line Set | ": 2
+    }
+  },
+  "6.1 Exhaust Ducting": {
+    "Mechanical Equipment": {
+      "support-channel_FSA 03-7 | 41x41_2.5_HDG": 264,
+      "washers_V1 | M12": 214,
+      "hexagonal_nut_V1_01 | M12": 214,
+      "rods_V1 | M12": 182,
+      "Fixotec_Accessories_hexagonal_washers_V1 | M12": 182,
+      "Fixotec_Accessories_hexagonal_nut_V1 | M12": 182,
+      "BS-11 | FSA 06-100": 132,
+      "channel_V7 | 41x41_2.5_HDG": 98,
+      "grider-cleats_V1 | 38/24_GAL": 98,
+      "Fixotec_Support-channels_FXT-Protection-caps_V2 | 41x41": 98,
+      "hexagonal_nut_V1 | M16_FSA 03-7": 60,
+      "DSA-02-02_Round Duct_Single Rod _250 | DSA-02-02_Round Duct_Single Rod _250": 34,
+      "SD-02-11(Pipe NB=250) | SD-02-11(Pipe NB=250)": 34,
+      "DSA-02-02_Round Duct_Single Rod _700 | DSA-02-02_Round Duct_Single Rod _700": 32,
+      "washers_V1 | M16_FSA 03-7": 30,
+      "washers_V1 | M10": 30,
+      "DSA-02-02_Round Duct_Single Rod _400 | DSA-02-02_Round Duct_Single Rod _400": 30,
+      "FSA 04-001 | FSA 04-100 NB": 22,
+      "DSA-11_900 | DSA-11_900": 19,
+      "DSA-13_1300 | DSA-13_1300": 16,
+      "DSA-02-02_Round Duct_Single Rod _500 | DSA-02-02_Round Duct_Single Rod _500": 16,
+      "DSA-02-02_Round Duct_Single Rod _450 | DSA-02-02_Round Duct_Single Rod _450": 15,
+      "MH_mh_MEQ_AHU,FFU & VEX Pedestal | @M_MEQ_EXHAUST WET-22910X2080X100": 9,
+      "mh_MEQ_WET EXHAUST with flexible connectors.RFA | @M_MEQ_WET EXHAUST": 9,
+      "FSA 04-001 | FSA 04-50 NB": 8,
+      "SD-02-11(Duct NB=150) | SD-02-11(Duct NB=150)": 7,
+      "DSA-02-02_Round Duct_Single Rod _200 | DSA-02-02_Round Duct_Single Rod _200": 4,
+      "AMMONIA SCRUBBER | AMMONIA SCRUBBER": 3,
+      "ACID SCRUBBER | ACID SCRUBBER": 3,
+      "Mechanical Equipment 7 | Mechanical Equipment 1": 1,
+      "Mechanical Equipment 8 | Mechanical Equipment 1": 1
+    },
+    "Pipes": {
+      "Pipe Types | mh_@M_Pipe_SS304": 928,
+      "Pipe Types | PVC ASTM D-1785 SCH-40": 358,
+      "Pipe Types | GALVANIZED IRON": 46
+    },
+    "Center line": {
+      "Center line | ": 1130
+    },
+    "Ducts": {
+      "Round Duct | mh_@M_Duct_GI_Tap": 836,
+      "Rectangular Duct | mh_@M_Duct_GI_Tap": 78,
+      "Round Duct | mh_@M_Duct_GI_Tee": 4,
+      "Rectangular Duct | mh_@M_Duct_GI_Tee": 2
+    },
+    "Center Line": {
+      "Center Line | ": 666
+    },
+    "Pipe Fittings": {
+      "mh_PF_Elbow - Welded - Generic1 | @M_PF_Standard": 91,
+      "mh_PF_Bend - PVC - Sch 40 - DWV | @M_PF_Standard": 83,
+      "mh_PF_Elbow - Welded - Generic | @M_PF_Standard": 54,
+      "MH_Transition - Generic | @M_PF_Standard": 52,
+      "MH_Elbow - PVC - Sch 40 | @M_PF_Standard": 47,
+      "M_Tee Reducing Vent | Standard": 41,
+      "MH_Tee Reducing 2 | Standard": 21,
+      "Cap - Threaded - MI - Class 150 | Standard": 13,
+      "M_Elbow | Standard": 11,
+      "MH_Coupling Reducing | Standard": 7,
+      "MH_M_Tee - Generic | @M_PF_Standard": 4,
+      "MH_Elbow - Generic | @M_PF_Standard": 4,
+      "Coupling - PVC - Sch 40 - DWV | Standard": 2,
+      "MH_Tee Sanitary - PVC - Sch 40 - DWV | Standard": 1,
+      "MH_M_Transition - Generic | Standard": 1,
+      "MH_Cap - Generic1 | Standard": 1
+    },
+    "Duct Fittings": {
+      "MH_M_Round Tee | @M_DF_Standard": 88,
+      "MH_M_Round Elbow | @D_DF_1 D": 53,
+      "MH_M_Round Elbow | 1 D": 52,
+      "MH_M_Round Endcap | @D_DF_Standard": 43,
+      "MH_M_Rectangular Tap - Beveled | @D_DF_Standard": 31,
+      "MH_M_Round Tee | Standard": 28,
+      "MH_M_Round Endcap | @M_DF_Standard": 5,
+      "MH_M_Round Endcap | Standard": 3,
+      "MH_M_Round Transition - Angle | @D_DF_45 Degree": 3,
+      "MH_M_Round Elbow | @M_DF_1 D": 2
+    },
+    "Pipe Accessories": {
+      "mh_PA_FES_MEP_BOLTS_91_PA_03 | @M_PA_M 16 x 120": 76,
+      "mh_PA_Ball Valve - 50-150 mm | @M_PA_15 mm": 60,
+      "mh_PA_Ball Valve - 50-150 mm | @M_PA_40 mm": 44,
+      "mh_PA_Plumbing_Joints_Astralpool-Fluidra_SIGHT-GLASS-UP-54-SF-2017-PA-00_INT | @M_PA_02387-UP.54.SF SIGHT GLASS DN40": 19,
+      "Ball Valve | 50 mm": 17,
+      "Ball Valve | 40 mm": 9,
+      "Gate Valve - 50-150 mm - Flanged | 50 mm": 3,
+      "Gate Valve - 50-150 mm - Flanged | 100 mm": 1,
+      "Gate Valve - 50-150 mm - Flanged | 80 mm": 1
+    },
+    "Duct Accessories": {
+      "mh_DA_Air Volume Control Damper - Round | @M_DA_Standard": 147,
+      "M_Canvass - Rectangular | CVAS": 9
+    },
+    "Generic Models": {
+      "MANIFOLD 2 VALVE BLOCK & BLEED | MANIFOLD 2 VALVE BLOCK & BLEED": 48,
+      "DIAPHRAGM TYPE_PG | DIAPHRAGM TYPE_PG": 48,
+      "10 m stack | 10 m stack": 27,
+      "Family2 | Family2": 9,
+      "Model Text | 25mm Arial": 8,
+      "Model Text | 600mm Arial": 1,
+      "Generic Models 2 | Generic Models 2": 1,
+      "Generic Models 3 | Generic Models 2": 1,
+      "Generic Models 6 | Generic Models 2": 1
+    },
+    "Plates": {
+      "Plates | ": 83
+    },
+    "Air Terminals": {
+      "mh_AT_Exhaust Air Grille | @M_AT_650 X 250": 64
+    },
+    "Lines": {
+      "Lines | ": 42
+    },
+    "Pipe Insulations": {
+      "Pipe Insulation | Fiberglass": 11
+    },
+    "Floors": {
+      "Floor | Generic 100 mm": 2,
+      "Floors 1 | Floors 1": 1,
+      "Floors 2 | Floors 1": 1,
+      "Floors 3 | Floors 1": 1,
+      "Floors 7 | Floors 1": 1,
+      "Floors 8 | Floors 1": 1,
+      "Floors 9 | Floors 1": 1
+    },
+    "Walls": {
+      "Basic Wall | Generic - 200mm": 4
+    },
+    "Structural Columns": {
+      "mu_Column_Triangle_v1 | @A_柱_450x600mm": 2
+    }
+  }
+}

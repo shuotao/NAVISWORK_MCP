@@ -1196,6 +1196,35 @@ namespace NavisworksMCP.Core
             }
         }
 
+        /// <summary>
+        /// 從 ModelItem 讀取 Element.Category/Family/Type，找到就寫入 ref 參數
+        /// </summary>
+        private void ReadElementProps(ModelItem item, ref string category, ref string family, ref string type)
+        {
+            foreach (PropertyCategory cat in item.PropertyCategories)
+            {
+                if (cat.DisplayName != "Element") continue;
+                foreach (DataProperty prop in cat.Properties)
+                {
+                    try
+                    {
+                        var val = prop.Value?.IsDisplayString == true
+                            ? prop.Value.ToDisplayString()
+                            : prop.Value?.ToString();
+                        if (string.IsNullOrEmpty(val)) continue;
+                        switch (prop.DisplayName)
+                        {
+                            case "Category": if (string.IsNullOrEmpty(category)) category = val; break;
+                            case "Family": if (string.IsNullOrEmpty(family)) family = val; break;
+                            case "Type": if (string.IsNullOrEmpty(type)) type = val; break;
+                        }
+                    }
+                    catch { }
+                }
+                break;
+            }
+        }
+
         private string GetItemPath(ModelItem item)
         {
             if (item == null) return "";
@@ -1287,28 +1316,22 @@ namespace NavisworksMCP.Core
                 if (!item.HasGeometry) continue;
                 totalGeometry++;
 
-                // 讀取 Element.Category, Element.Family, Element.Type
+                // 讀取 Element.Category, Family, Type — 從自身或祖先節點
                 string elemCategory = null, elemFamily = null, elemType = null;
-                foreach (PropertyCategory cat in item.PropertyCategories)
+                ReadElementProps(item, ref elemCategory, ref elemFamily, ref elemType);
+
+                // 幾何節點通常沒有 Element 屬性，往上找祖先（最多 5 層）
+                if (string.IsNullOrEmpty(elemCategory))
                 {
-                    if (cat.DisplayName != "Element") continue;
-                    foreach (DataProperty prop in cat.Properties)
+                    var ancestor = item.Parent;
+                    int depth = 0;
+                    while (ancestor != null && depth < 5)
                     {
-                        try
-                        {
-                            var val = prop.Value?.IsDisplayString == true
-                                ? prop.Value.ToDisplayString()
-                                : prop.Value?.ToString();
-                            switch (prop.DisplayName)
-                            {
-                                case "Category": elemCategory = val; break;
-                                case "Family": elemFamily = val; break;
-                                case "Type": elemType = val; break;
-                            }
-                        }
-                        catch { }
+                        ReadElementProps(ancestor, ref elemCategory, ref elemFamily, ref elemType);
+                        if (!string.IsNullOrEmpty(elemCategory)) break;
+                        ancestor = ancestor.Parent;
+                        depth++;
                     }
-                    break;
                 }
 
                 if (string.IsNullOrEmpty(elemCategory)) elemCategory = item.ClassDisplayName ?? "(unknown)";
