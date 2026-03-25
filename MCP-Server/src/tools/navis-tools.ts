@@ -414,6 +414,44 @@ export function getNavisTools(): ToolDefinition[] {
         required: ["name"],
       },
     },
+    {
+      name: "hide_all_except",
+      description:
+        "隱藏所有項目，僅顯示指定的子樹節點。用於隔離特定系統或 NWC 檔案的視覺化。",
+      inputSchema: {
+        type: "object",
+        properties: {
+          name: {
+            type: "string",
+            description: "要顯示的單一節點名稱",
+          },
+          names: {
+            type: "array",
+            items: { type: "string" },
+            description: "要顯示的多個節點名稱",
+          },
+        },
+      },
+    },
+    {
+      name: "save_viewpoint",
+      description:
+        "儲存當前視圖狀態（相機位置 + 隱藏/顯示狀態）為 Saved Viewpoint",
+      inputSchema: {
+        type: "object",
+        properties: {
+          name: {
+            type: "string",
+            description: "視點名稱",
+          },
+          folder: {
+            type: "string",
+            description: "資料夾名稱（可選，會自動建立）",
+          },
+        },
+        required: ["name"],
+      },
+    },
   ];
 }
 

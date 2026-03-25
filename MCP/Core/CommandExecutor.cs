@@ -98,6 +98,18 @@ namespace NavisworksMCP.Core
                     case "unhide_all":
                         result = UnhideAll();
                         break;
+                    case "hide_all_except":
+                        result = HideAllExcept(request.Parameters);
+                        break;
+                    case "isolate_selection":
+                        result = IsolateSelection();
+                        break;
+                    case "isolate_by_property":
+                        result = IsolateByProperty(request.Parameters);
+                        break;
+                    case "save_viewpoint":
+                        result = SaveViewpoint(request.Parameters);
+                        break;
                     // ─── 新增：篩選與資料抽取工具 ───
                     case "get_selection_set_items":
                         result = GetSelectionSetItems(request.Parameters);
@@ -687,6 +699,224 @@ namespace NavisworksMCP.Core
                 _doc.Models.SetHidden(model.RootItem.Descendants, false);
             }
             return new { message = "已取消隱藏所有項目" };
+        }
+
+        /// <summary>
+        /// 隱藏所有項目，只顯示指定子樹節點
+        /// 高效實現：找到共同父節點，只在同層級切換隱藏/顯示
+        /// 參數: name (要顯示的節點名稱), names (多個節點名稱陣列)
+        /// </summary>
+        private object HideAllExcept(Dictionary<string, object> parameters)
+        {
+            var showNames = new List<string>();
+            if (parameters.ContainsKey("name"))
+                showNames.Add(parameters["name"]?.ToString());
+            if (parameters.ContainsKey("names"))
+            {
+                var namesObj = parameters["names"];
+                if (namesObj is Newtonsoft.Json.Linq.JArray jArr)
+                    showNames.AddRange(jArr.Select(x => x.ToString()));
+            }
+
+            if (!showNames.Any())
+                throw new ArgumentException("需要 name 或 names 參數");
+
+            // 找到所有要顯示的節點
+            var showNodes = new List<ModelItem>();
+            foreach (var n in showNames)
+            {
+                var node = FindNodeByName(n, exact: true) ?? FindNodeByName(n, exact: false);
+                if (node != null) showNodes.Add(node);
+            }
+
+            if (!showNodes.Any())
+                throw new Exception($"找不到任何指定節點");
+
+            try
+            {
+                // 高效策略：找到目標節點的父節點，隱藏父節點下所有兄弟，只顯示目標
+                var parent = showNodes[0].Parent;
+                if (parent != null)
+                {
+                    // 收集同層級的兄弟節點（不遍歷後代）
+                    var siblings = new List<ModelItem>();
+                    foreach (ModelItem child in parent.Children)
+                        siblings.Add(child);
+
+                    _doc.Models.SetHidden(siblings, true);
+                    _doc.Models.SetHidden(showNodes, false);
+
+                    // 確保祖先鏈可見
+                    var ancestor = parent;
+                    while (ancestor != null)
+                    {
+                        _doc.Models.SetHidden(new List<ModelItem> { ancestor }, false);
+                        ancestor = ancestor.Parent;
+                    }
+                }
+                else
+                {
+                    // 根節點情況
+                    var allRoots = new List<ModelItem>();
+                    foreach (Model model in _doc.Models)
+                    {
+                        if (model.RootItem != null)
+                            allRoots.Add(model.RootItem);
+                    }
+                    _doc.Models.SetHidden(allRoots, true);
+                    _doc.Models.SetHidden(showNodes, false);
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.Error("HideAllExcept failed", ex);
+                throw new Exception($"隱藏操作失敗: {ex.Message}");
+            }
+
+            return new
+            {
+                message = $"已隱藏同層級項目，僅顯示 {showNodes.Count} 個節點",
+                shownNodes = showNodes.Select(n => n.DisplayName).ToList()
+            };
+        }
+
+        /// <summary>
+        /// 隱藏所有，只顯示當前選擇的項目
+        /// </summary>
+        private object IsolateSelection()
+        {
+            var selected = _doc.CurrentSelection.SelectedItems;
+            if (selected.Count() == 0)
+                throw new Exception("請先選擇項目");
+
+            try
+            {
+                // 隱藏所有模型的根項目
+                foreach (Model model in _doc.Models)
+                {
+                    if (model.RootItem != null)
+                        _doc.Models.SetHidden(model.RootItem.Children, true);
+                }
+
+                // 顯示選中的項目
+                _doc.Models.SetHidden(selected, false);
+
+                // 確保祖先鏈可見
+                var ancestors = new HashSet<ModelItem>();
+                foreach (ModelItem item in selected)
+                {
+                    var ancestor = item.Parent;
+                    while (ancestor != null)
+                    {
+                        if (!ancestors.Add(ancestor)) break; // 已處理過
+                        ancestor = ancestor.Parent;
+                    }
+                }
+                if (ancestors.Count > 0)
+                    _doc.Models.SetHidden(ancestors.ToList(), false);
+
+                return new { message = $"已隔離顯示 {selected.Count()} 個選中項目", isolatedCount = selected.Count() };
+            }
+            catch (Exception ex)
+            {
+                Logger.Error("IsolateSelection failed", ex);
+                throw new Exception($"隔離操作失敗: {ex.Message}");
+            }
+        }
+
+        /// <summary>
+        /// 搜尋指定屬性值的項目，隱藏其他所有
+        /// 參數: category, property, value (搜尋條件)
+        /// </summary>
+        private object IsolateByProperty(Dictionary<string, object> parameters)
+        {
+            var categoryName = parameters.ContainsKey("category") ? parameters["category"]?.ToString() : null;
+            var propertyName = parameters.ContainsKey("property") ? parameters["property"]?.ToString() : null;
+            var value = parameters.ContainsKey("value") ? parameters["value"]?.ToString() : null;
+
+            if (string.IsNullOrEmpty(categoryName) || string.IsNullOrEmpty(propertyName) || string.IsNullOrEmpty(value))
+                throw new ArgumentException("需要 category, property, value 參數");
+
+            try
+            {
+                var search = new Search();
+                search.Selection.SelectAll();
+                search.SearchConditions.Add(
+                    SearchCondition.HasPropertyByDisplayName(categoryName, propertyName)
+                        .EqualValue(VariantData.FromDisplayString(value)));
+
+                var found = search.FindAll(_doc, false);
+                int foundCount = found.Count();
+
+                if (foundCount == 0)
+                    throw new Exception($"找不到 {categoryName}.{propertyName} = {value} 的項目");
+
+                // 隱藏所有根項目
+                foreach (Model model in _doc.Models)
+                {
+                    if (model.RootItem != null)
+                        _doc.Models.SetHidden(model.RootItem.Children, true);
+                }
+
+                // 顯示找到的項目
+                _doc.Models.SetHidden(found, false);
+
+                // 確保祖先鏈可見
+                var ancestors = new HashSet<ModelItem>();
+                foreach (ModelItem item in found)
+                {
+                    var ancestor = item.Parent;
+                    while (ancestor != null)
+                    {
+                        if (!ancestors.Add(ancestor)) break;
+                        ancestor = ancestor.Parent;
+                    }
+                }
+                if (ancestors.Count > 0)
+                    _doc.Models.SetHidden(ancestors.ToList(), false);
+
+                // 同時選擇這些項目
+                _doc.CurrentSelection.CopyFrom(found);
+
+                return new
+                {
+                    message = $"已隔離 {foundCount} 個 {propertyName}={value} 的項目",
+                    isolatedCount = foundCount,
+                    property = $"{categoryName}.{propertyName}",
+                    value
+                };
+            }
+            catch (Exception ex) when (!(ex is ArgumentException))
+            {
+                Logger.Error("IsolateByProperty failed", ex);
+                throw new Exception($"隔離操作失敗: {ex.Message}");
+            }
+        }
+
+        /// <summary>
+        /// 儲存當前視圖為 Saved Viewpoint（安全版，相容 NW 2025）
+        /// 參數: name (視點名稱)
+        /// </summary>
+        private object SaveViewpoint(Dictionary<string, object> parameters)
+        {
+            var name = parameters.ContainsKey("name") ? parameters["name"]?.ToString() : null;
+            if (string.IsNullOrEmpty(name))
+                throw new ArgumentException("需要 name 參數");
+
+            try
+            {
+                var currentViewpoint = _doc.CurrentViewpoint.CreateCopy();
+                var savedVp = new SavedViewpoint(currentViewpoint);
+                savedVp.DisplayName = name;
+                _doc.SavedViewpoints.AddCopy(savedVp);
+
+                return new { message = $"已儲存視點: {name}", viewpointName = name };
+            }
+            catch (Exception ex)
+            {
+                Logger.Error("SaveViewpoint failed", ex);
+                throw new Exception($"儲存視點失敗: {ex.Message}");
+            }
         }
 
         #endregion
