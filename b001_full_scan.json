@@ -1985,62 +1985,30 @@
       "Point | ": 1
     }
   },
-  "7.1 Utility_CDA": {
-    "ACPPCONNECTOR": {
-      "ACPPCONNECTOR | ": 1438
-    },
-    "ACPPPIPEINLINEASSET": {
-      "ACPPPIPEINLINEASSET | ": 957
-    },
-    "ACPPPIPE": {
-      "ACPPPIPE | ": 798
-    },
-    "ACPPSUPPORT": {
-      "ACPPSUPPORT | ": 721
-    },
-    "ACPPSTRUCTUREBEAM": {
-      "ACPPSTRUCTUREBEAM | ": 618
-    },
-    "子圖元": {
-      "子圖元 | ": 236
-    },
-    "3D Solid": {
-      "3D Solid | ": 158
-    },
-    "ACPPSTRUCTUREPLATE": {
-      "ACPPSTRUCTUREPLATE | ": 81
-    },
-    "Point Set": {
-      "Point Set | ": 1
-    },
-    "Point": {
-      "Point | ": 1
-    }
-  },
   "12. Gas": {
     "ACPPCONNECTOR": {
-      "ACPPCONNECTOR | ": 2677
+      "ACPPCONNECTOR | ": 2755
     },
     "ACPPPIPEINLINEASSET": {
-      "ACPPPIPEINLINEASSET | ": 2068
+      "ACPPPIPEINLINEASSET | ": 2110
     },
     "ACPPSUPPORT": {
-      "ACPPSUPPORT | ": 1851
+      "ACPPSUPPORT | ": 1975
     },
     "ACPPPIPE": {
-      "ACPPPIPE | ": 1532
+      "ACPPPIPE | ": 1572
     },
     "ACPPSTRUCTUREBEAM": {
-      "ACPPSTRUCTUREBEAM | ": 187
+      "ACPPSTRUCTUREBEAM | ": 224
     },
     "3D Solid": {
-      "3D Solid | ": 94
+      "3D Solid | ": 201
     },
     "MTEXT": {
       "MTEXT | ": 29
     },
     "子圖元": {
-      "子圖元 | ": 22
+      "子圖元 | ": 24
     },
     "Line Set": {
       "Line Set | ": 2
@@ -2179,6 +2147,110 @@
     },
     "Structural Columns": {
       "mu_Column_Triangle_v1 | @A_柱_450x600mm": 2
+    }
+  },
+  "7.1 Utility_CDA": {
+    "ACPPCONNECTOR": {
+      "ACPPCONNECTOR | ": 276
+    },
+    "ACPPPIPEINLINEASSET": {
+      "ACPPPIPEINLINEASSET | ": 154
+    },
+    "ACPPPIPE": {
+      "ACPPPIPE | ": 148
+    },
+    "ACPPSUPPORT": {
+      "ACPPSUPPORT | ": 71
+    },
+    "子圖元": {
+      "子圖元 | ": 28
+    },
+    "ACPPSTRUCTUREBEAM": {
+      "ACPPSTRUCTUREBEAM | ": 12
+    },
+    "ACPPSTRUCTUREPLATE": {
+      "ACPPSTRUCTUREPLATE | ": 6
+    },
+    "Point Set": {
+      "Point Set | ": 1
+    }
+  },
+  "7.2 Utility_HPCDA": {
+    "ACPPCONNECTOR": {
+      "ACPPCONNECTOR | ": 281
+    },
+    "ACPPPIPEINLINEASSET": {
+      "ACPPPIPEINLINEASSET | ": 229
+    },
+    "ACPPPIPE": {
+      "ACPPPIPE | ": 159
+    },
+    "子圖元": {
+      "子圖元 | ": 100
+    },
+    "ACPPSUPPORT": {
+      "ACPPSUPPORT | ": 87
+    },
+    "ACPPSTRUCTUREBEAM": {
+      "ACPPSTRUCTUREBEAM | ": 62
+    },
+    "ACPPSTRUCTUREPLATE": {
+      "ACPPSTRUCTUREPLATE | ": 16
+    },
+    "Point": {
+      "Point | ": 1
+    }
+  },
+  "7.3 PV": {
+    "ACPPCONNECTOR": {
+      "ACPPCONNECTOR | ": 310
+    },
+    "ACPPPIPEINLINEASSET": {
+      "ACPPPIPEINLINEASSET | ": 206
+    },
+    "ACPPPIPE": {
+      "ACPPPIPE | ": 180
+    },
+    "ACPPSUPPORT": {
+      "ACPPSUPPORT | ": 169
+    },
+    "ACPPSTRUCTUREBEAM": {
+      "ACPPSTRUCTUREBEAM | ": 83
+    },
+    "3D Solid": {
+      "3D Solid | ": 34
+    },
+    "子圖元": {
+      "子圖元 | ": 28
+    },
+    "ACPPSTRUCTUREPLATE": {
+      "ACPPSTRUCTUREPLATE | ": 18
+    }
+  },
+  "7.5 ICA+SW": {
+    "ACPPCONNECTOR": {
+      "ACPPCONNECTOR | ": 493
+    },
+    "ACPPSTRUCTUREBEAM": {
+      "ACPPSTRUCTUREBEAM | ": 424
+    },
+    "ACPPPIPEINLINEASSET": {
+      "ACPPPIPEINLINEASSET | ": 326
+    },
+    "ACPPPIPE": {
+      "ACPPPIPE | ": 271
+    },
+    "ACPPSUPPORT": {
+      "ACPPSUPPORT | ": 270
+    },
+    "子圖元": {
+      "子圖元 | ": 78
+    },
+    "ACPPSTRUCTUREPLATE": {
+      "ACPPSTRUCTUREPLATE | ": 41
+    },
+    "3D Solid": {
+      "3D Solid | ": 17
     }
   }
 }

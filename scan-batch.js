@@ -24,7 +24,12 @@ var allNwc = [
   'DE_MSI_001_ALL_B001_N_GASS.nwd',
   'DE_MSI_001_CUB_B001_M_EGEX.nwc',
   'DE_MSI_001_FAB_B001_M_EGEX.nwc',
-  'DE_MSI_001_ALL_D_INAP.nwd',
+  // ALL_D_INAP split by DWG sub-files
+  '7A_CDA.dwg',
+  '7A_HPCDA.dwg',
+  '7A_PV.dwg',
+  '7A_ICA.dwg',
+  '7A_NG.dwg',
 ];
 
 var nwcToBQ = {
@@ -39,7 +44,12 @@ var nwcToBQ = {
   'SIT_C_CIVIL': '2.1 Civil Works', 'ALL_M_EQPM': '6.2 Exhaust Equipment',
   'ALL_D_PRWT': '8 Waste Water', 'ALL_N_GASS': '12. Gas',
   'CUB_M_EGEX': '6.1 Exhaust Ducting', 'FAB_M_EGEX': '6.2 Exhaust Equipment',
-  'ALL_D_INAP': '7.1 Utility_CDA',
+  // ALL_D_INAP DWG sub-files
+  '7A_CDA': '7.1 Utility_CDA',
+  '7A_HPCDA': '7.2 Utility_HPCDA',
+  '7A_PV': '7.3 PV',
+  '7A_ICA': '7.5 ICA+SW',
+  '7A_NG': '12. Gas',
 };
 
 var instSubMap = {
@@ -74,7 +84,7 @@ function scanNext() {
 ws.on('message', function (data) {
   var r = JSON.parse(data.toString());
   var nwc = nwcFiles[idx];
-  var key = nwc.replace('DE_MSI_001_', '').replace('_B001_', '_').replace('.nwc', '').replace('.nwd', '');
+  var key = nwc.replace('DE_MSI_001_', '').replace('_B001_', '_').replace('.nwc', '').replace('.nwd', '').replace('.dwg', '');
   var baseBQ = nwcToBQ[key] || 'UNMAPPED:' + key;
   var isInst = (key === 'CUB_I_INST' || key === 'FAB_I_INST');
 
