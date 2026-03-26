@@ -110,6 +110,12 @@ namespace NavisworksMCP.Core
                     case "save_viewpoint":
                         result = SaveViewpoint(request.Parameters);
                         break;
+                    case "create_search_set":
+                        result = CreateSearchSet(request.Parameters);
+                        break;
+                    case "set_view_top":
+                        result = SetViewTop();
+                        break;
                     // ─── 新增：篩選與資料抽取工具 ───
                     case "get_selection_set_items":
                         result = GetSelectionSetItems(request.Parameters);
@@ -791,11 +797,35 @@ namespace NavisworksMCP.Core
 
             try
             {
-                // 隱藏所有模型的根項目
-                foreach (Model model in _doc.Models)
+                // 找到選中項目所在的 NWC/NWD 層級（L2），只隱藏同層兄弟
+                // 這比隱藏整個模型快非常多
+                var nwcParents = new HashSet<ModelItem>();
+                foreach (ModelItem item in selected)
                 {
-                    if (model.RootItem != null)
-                        _doc.Models.SetHidden(model.RootItem.Children, true);
+                    // 往上找到 NWC/NWD 層級的節點
+                    var current = item;
+                    ModelItem nwcNode = null;
+                    while (current != null)
+                    {
+                        var dn = current.DisplayName ?? "";
+                        if (dn.EndsWith(".nwc") || dn.EndsWith(".nwd") || dn.EndsWith(".rvt"))
+                        {
+                            nwcNode = current;
+                            break;
+                        }
+                        current = current.Parent;
+                    }
+                    if (nwcNode?.Parent != null)
+                        nwcParents.Add(nwcNode.Parent);
+                }
+
+                // 隱藏每個 NWC 父節點下的所有子節點
+                foreach (var parent in nwcParents)
+                {
+                    var children = new List<ModelItem>();
+                    foreach (ModelItem child in parent.Children)
+                        children.Add(child);
+                    _doc.Models.SetHidden(children, true);
                 }
 
                 // 顯示選中的項目
@@ -808,7 +838,7 @@ namespace NavisworksMCP.Core
                     var ancestor = item.Parent;
                     while (ancestor != null)
                     {
-                        if (!ancestors.Add(ancestor)) break; // 已處理過
+                        if (!ancestors.Add(ancestor)) break;
                         ancestor = ancestor.Parent;
                     }
                 }
@@ -890,6 +920,124 @@ namespace NavisworksMCP.Core
             {
                 Logger.Error("IsolateByProperty failed", ex);
                 throw new Exception($"隔離操作失敗: {ex.Message}");
+            }
+        }
+
+        /// <summary>
+        /// 建立 Search Set（搜尋集），不執行隱藏操作，只儲存搜尋條件
+        /// 參數: name (搜尋集名稱), category, property, value (搜尋條件), folder (資料夾名稱，可選)
+        /// </summary>
+        private object CreateSearchSet(Dictionary<string, object> parameters)
+        {
+            var name = parameters.ContainsKey("name") ? parameters["name"]?.ToString() : null;
+            var categoryName = parameters.ContainsKey("category") ? parameters["category"]?.ToString() : null;
+            var propertyName = parameters.ContainsKey("property") ? parameters["property"]?.ToString() : null;
+            var value = parameters.ContainsKey("value") ? parameters["value"]?.ToString() : null;
+            var folderName = parameters.ContainsKey("folder") ? parameters["folder"]?.ToString() : null;
+
+            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(categoryName) ||
+                string.IsNullOrEmpty(propertyName) || string.IsNullOrEmpty(value))
+                throw new ArgumentException("需要 name, category, property, value 參數");
+
+            try
+            {
+                // 建立搜尋條件
+                var search = new Search();
+                search.Selection.SelectAll();
+                search.SearchConditions.Add(
+                    SearchCondition.HasPropertyByDisplayName(categoryName, propertyName)
+                        .EqualValue(VariantData.FromDisplayString(value)));
+
+                // 建立 SelectionSet（搜尋型）
+                var selSet = new SelectionSet(search);
+                selSet.DisplayName = name;
+
+                // 如果指定資料夾，先找或建立
+                if (!string.IsNullOrEmpty(folderName))
+                {
+                    // 找現有資料夾
+                    FolderItem targetFolder = null;
+                    foreach (SavedItem item in _doc.SelectionSets.Value)
+                    {
+                        if (item is FolderItem fi && fi.DisplayName == folderName)
+                        {
+                            targetFolder = fi;
+                            break;
+                        }
+                    }
+
+                    if (targetFolder == null)
+                    {
+                        // 建立資料夾
+                        var newFolder = new FolderItem();
+                        newFolder.DisplayName = folderName;
+                        _doc.SelectionSets.AddCopy(newFolder);
+
+                        // 重新找到它
+                        foreach (SavedItem item in _doc.SelectionSets.Value)
+                        {
+                            if (item is FolderItem fi && fi.DisplayName == folderName)
+                            {
+                                targetFolder = fi;
+                                break;
+                            }
+                        }
+                    }
+
+                    if (targetFolder != null)
+                    {
+                        _doc.SelectionSets.InsertCopy(targetFolder, targetFolder.Children.Count(), selSet);
+                    }
+                    else
+                    {
+                        _doc.SelectionSets.AddCopy(selSet);
+                    }
+                }
+                else
+                {
+                    _doc.SelectionSets.AddCopy(selSet);
+                }
+
+                return new { message = $"已建立搜尋集: {name}", searchSetName = name, folder = folderName };
+            }
+            catch (Exception ex)
+            {
+                Logger.Error("CreateSearchSet failed", ex);
+                throw new Exception($"建立搜尋集失敗: {ex.Message}");
+            }
+        }
+
+        /// <summary>
+        /// 設定視圖為俯視圖（Top View / Plan View）
+        /// </summary>
+        private object SetViewTop()
+        {
+            try
+            {
+                var vp = _doc.CurrentViewpoint.CreateCopy();
+
+                // Top view: 從上往下看
+                // Position 設在模型上方，Look direction 往下 (0, 0, -1)，Up 朝 Y (0, 1, 0)
+                var rotation = new Rotation3D(
+                    new UnitVector3D(1, 0, 0),  // X axis
+                    -Math.PI / 2                 // 旋轉 -90 度 → 從上往下看
+                );
+                vp.Rotation = rotation;
+
+                // 設為正交投影（平面圖）
+                vp.Projection = ViewpointProjection.Orthographic;
+
+                _doc.CurrentViewpoint.CopyFrom(vp);
+
+                // Zoom to fit
+                _doc.ActiveView.FocusOnCurrentSelection();
+
+                return new { message = "已切換到俯視圖 (Top View)", projection = "Orthographic" };
+            }
+            catch (Exception ex)
+            {
+                Logger.Error("SetViewTop failed", ex);
+                throw new Exception($"設定俯視圖失敗: {ex.Message}");
             }
         }
 

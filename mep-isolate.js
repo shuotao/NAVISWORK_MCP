@@ -1,6 +1,8 @@
 /**
- * MEP System Isolation: for each system, hide siblings + save viewpoint
- * Uses optimized hide_all_except (sibling-level toggle, no descendant iteration)
+ * MEP System Isolation v4:
+ * 1. Create Search Sets for each system (safe, no hide/show)
+ * 2. For each system: select → set top view → save viewpoint
+ * No isolate_selection — just save viewpoint with top view camera angle
  */
 const WebSocket = require('ws');
 const ws = new WebSocket('ws://localhost:2233/');
@@ -10,81 +12,104 @@ function send(cmd, params, id) {
 }
 
 var systems = [
-  { show: ['DE_MSI_001_CUB_B001_M_DUCT.nwc'], name: 'HVAC - Non-CR (CUB)' },
-  { show: ['DE_MSI_001_FAB_B001_M_DUCT.nwc'], name: 'HVAC - CR (FAB)' },
-  { show: ['DE_MSI_001_CUB_B001_M_DUCT.nwc', 'DE_MSI_001_FAB_B001_M_DUCT.nwc'], name: 'HVAC - All' },
-  { show: ['DE_MSI_001_CUB_B001_M_CHWT.nwc'], name: 'PCW - Non-CR (CUB)' },
-  { show: ['DE_MSI_001_FAB_B001_M_CHWT.nwc'], name: 'PCW - CR (FAB)' },
-  { show: ['DE_MSI_001_CUB_B001_M_CHWT.nwc', 'DE_MSI_001_FAB_B001_M_CHWT.nwc'], name: 'PCW - All' },
-  { show: ['DE_MSI_001_CUB_B001_P_PLUM.nwc', 'DE_MSI_001_FAB_B001_P_PLUM.nwc'], name: 'Plumbing (PHE)' },
-  { show: ['DE_MSI_001_CUB_B001_F_FPRT.nwc'], name: 'Fire - Hydrant (CUB)' },
-  { show: ['DE_MSI_001_FAB_B001_F_FPRT.nwc'], name: 'Fire - Sprinkler (FAB)' },
-  { show: ['DE_MSI_001_CUB_B001_F_FPRT.nwc', 'DE_MSI_001_FAB_B001_F_FPRT.nwc'], name: 'Fire Protection - All' },
-  { show: ['DE_MSI_001_CUB_B001_E_ELEC.nwc'], name: 'Electrical - Non-CR (CUB)' },
-  { show: ['DE_MSI_001_FAB_B001_E_ELEC.nwc'], name: 'Electrical - CR (FAB)' },
-  { show: ['DE_MSI_001_CUB_B001_E_ELEC.nwc', 'DE_MSI_001_FAB_B001_E_ELEC.nwc'], name: 'Electrical - All' },
-  { show: ['DE_MSI_001_CUB_B001_I_INST.nwc', 'DE_MSI_001_FAB_B001_I_INST.nwc'], name: 'ELV / FMCS' },
-  { show: ['DE_MSI_001_CUB_B001_M_EGEX.nwc'], name: 'Exhaust Ducting (CUB)' },
-  { show: ['DE_MSI_001_FAB_B001_M_EGEX.nwc'], name: 'Exhaust Equipment (FAB)' },
-  { show: ['DE_MSI_001_CUB_B001_M_EGEX.nwc', 'DE_MSI_001_FAB_B001_M_EGEX.nwc', 'DE_MSI_001_ALL_B001_M_EQPM.nwd'], name: 'Exhaust - All' },
-  { show: ['DE_MSI_001_ALL_B001_D_PRWT.nwd'], name: 'Waste Water' },
-  { show: ['DE_MSI_001_ALL_B001_N_GASS.nwd'], name: 'Gas Piping' },
-  { show: ['DE_MSI_001_ALL_D_INAP.nwd'], name: 'Utility (CDA/HPCDA/PV/ICA)' },
+  { abbr: 'SAN', name: 'Sanitary (SAN)' },
+  { abbr: 'AE', name: 'Acid Exhaust (AE)' },
+  { abbr: 'CHWR', name: 'Chilled Water Return (CHWR)' },
+  { abbr: 'OA', name: 'Outside Air (OA)' },
+  { abbr: 'ACID EXHAUST', name: 'Acid Exhaust (Full)' },
+  { abbr: 'DCW', name: 'Domestic Cold Water (DCW)' },
+  { abbr: 'CHWS', name: 'Chilled Water Supply (CHWS)' },
+  { abbr: 'CWR', name: 'Cold Water Return (CWR)' },
+  { abbr: 'CWS', name: 'Cold Water Supply (CWS)' },
+  { abbr: 'HWS', name: 'Hot Water Supply (HWS)' },
+  { abbr: 'MA', name: 'Make Up Air (MA)' },
+  { abbr: 'RA', name: 'Return Air (RA)' },
+  { abbr: 'PCWR', name: 'PCW Return (PCWR)' },
+  { abbr: 'PCWS', name: 'PCW Supply (PCWS)' },
+  { abbr: 'HWR', name: 'Hot Water Return (HWR)' },
+  { abbr: 'EA', name: 'Exhaust Air (EA)' },
+  { abbr: 'SA', name: 'Supply Air (SA)' },
+  { abbr: 'CDA', name: 'CDA Utility' },
 ];
 
 var FOLDER = 'MEP Systems';
 var idx = 0;
 var step = '';
+var phase = 'search_sets'; // Phase 1: search sets, Phase 2: viewpoints
 
 ws.on('open', function () {
-  console.log('Creating ' + systems.length + ' MEP system viewpoints...\n');
-  step = 'unhide_init';
-  send('unhide_all', {}, 'init');
+  console.log('=== Phase 1: Creating ' + systems.length + ' Search Sets ===\n');
+  nextSearchSet();
 });
+
+// ─── Phase 1: Create Search Sets ───
+function nextSearchSet() {
+  if (idx >= systems.length) {
+    console.log('\n=== Phase 2: Creating viewpoints (Top View) ===\n');
+    idx = 0;
+    phase = 'viewpoints';
+    nextViewpoint();
+    return;
+  }
+  var sys = systems[idx];
+  process.stdout.write('[' + (idx + 1) + '/' + systems.length + '] ' + sys.name.padEnd(35));
+  step = 'create_ss';
+  send('create_search_set', {
+    name: sys.name,
+    category: 'Element',
+    property: 'System Abbreviation',
+    value: sys.abbr,
+    folder: FOLDER
+  }, 'ss');
+}
+
+// ─── Phase 2: Select + Top View + Save Viewpoint ───
+function nextViewpoint() {
+  if (idx >= systems.length) {
+    console.log('\nDone! ' + systems.length + ' search sets + viewpoints created in "' + FOLDER + '".');
+    ws.close();
+    process.exit(0);
+    return;
+  }
+  var sys = systems[idx];
+  process.stdout.write('[' + (idx + 1) + '/' + systems.length + '] ' + sys.name.padEnd(35));
+  step = 'vp_select';
+  send('select_items_by_search', {
+    category: 'Element', property: 'System Abbreviation', value: sys.abbr
+  }, 'vpsel');
+}
 
 ws.on('message', function (data) {
   var r = JSON.parse(data.toString());
 
-  if (step === 'unhide_init') {
-    nextSystem();
-  } else if (step === 'hide') {
-    if (!r.Success) {
-      console.log('HIDE ERR: ' + (r.Error || '').substring(0, 50));
-      idx++; nextSystem(); return;
+  // Phase 1: Search Sets
+  if (phase === 'search_sets') {
+    if (step === 'create_ss') {
+      console.log(r.Success ? 'OK' : 'ERR: ' + (r.Error || '').substring(0, 50));
+      idx++;
+      setTimeout(nextSearchSet, 500);
     }
-    // Select first shown NWC for zoom
-    step = 'select';
-    send('select_subtree', { name: systems[idx].show[0] }, 'sel');
-  } else if (step === 'select') {
-    step = 'zoom';
+    return;
+  }
+
+  // Phase 2: Viewpoints
+  if (step === 'vp_select') {
+    var count = r.Data ? r.Data.foundCount : 0;
+    process.stdout.write(count + ' → ');
+    step = 'vp_top';
+    send('set_view_top', {}, 'top');
+  } else if (step === 'vp_top') {
+    step = 'vp_zoom';
     send('zoom_to_selection', {}, 'zoom');
-  } else if (step === 'zoom') {
-    step = 'save';
-    send('save_viewpoint', { name: systems[idx].name, folder: FOLDER }, 'save');
-  } else if (step === 'save') {
-    console.log(r.Success ? 'OK' : 'ERR: ' + (r.Error || '').substring(0, 50));
-    idx++; nextSystem();
-  } else if (step === 'final') {
-    console.log('\nDone! ' + systems.length + ' viewpoints in "' + FOLDER + '" folder.');
-    ws.close(); process.exit(0);
+  } else if (step === 'vp_zoom') {
+    step = 'vp_save';
+    send('save_viewpoint', { name: systems[idx].name + ' (Top)' }, 'save');
+  } else if (step === 'vp_save') {
+    console.log(r.Success ? 'SAVED' : 'ERR: ' + (r.Error || '').substring(0, 40));
+    idx++;
+    setTimeout(nextViewpoint, 2000);
   }
 });
 
-function nextSystem() {
-  if (idx >= systems.length) {
-    step = 'final';
-    send('unhide_all', {}, 'final');
-    return;
-  }
-  var sys = systems[idx];
-  process.stdout.write('[' + (idx + 1) + '/' + systems.length + '] ' + sys.name.padEnd(35) + ' ');
-  step = 'hide';
-  if (sys.show.length === 1) {
-    send('hide_all_except', { name: sys.show[0] }, 'hide');
-  } else {
-    send('hide_all_except', { names: sys.show }, 'hide');
-  }
-}
-
-ws.on('error', function (e) { console.log('ERROR:', e.message); process.exit(1); });
-setTimeout(function () { console.log('TIMEOUT at ' + idx); process.exit(1); }, 600000);
+ws.on('error', function (e) { console.log('\nERROR:', e.message); process.exit(1); });
+setTimeout(function () { console.log('\nTIMEOUT at ' + idx); process.exit(1); }, 600000);
